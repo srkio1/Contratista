@@ -2,7 +2,7 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contratista.PerfilServicio">
-    <ContentPage Title="Perfil">
+    <ContentPage Title="Perfil1">
         <ScrollView>
             <StackLayout Padding="5, 0, 5, 15">
                 <Frame VerticalOptions="Fill" CornerRadius="20" HasShadow="True" BackgroundColor="White">
