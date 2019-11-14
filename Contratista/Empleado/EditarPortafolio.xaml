@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.EditarPortafolio">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout HeightRequest="100">
+                    <Label x:Name="txtTitulo"
+                           VerticalOptions="CenterAndExpand" 
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="Black"
+                           FontAttributes="Bold"
+                           FontSize="Large"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="200" Orientation="Horizontal">
+                    <Image x:Name="img_1" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="btnImg1" HorizontalOptions="EndAndExpand" VerticalOptions="Start" BackgroundColor="Red" Clicked="BtnImg1_Clicked"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="200" Orientation="Horizontal">
+                    <Image x:Name="img_2" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="btnImg2" HorizontalOptions="EndAndExpand" VerticalOptions="Start" BackgroundColor="Red"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="200" Orientation="Horizontal">
+                    <Image x:Name="img_3" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="btnImg3" HorizontalOptions="EndAndExpand" VerticalOptions="Start" BackgroundColor="Red" Clicked="BtnImg3_Clicked"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="200" Orientation="Horizontal">
+                    <Image x:Name="img_4" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="btnImg4" HorizontalOptions="EndAndExpand" VerticalOptions="Start" BackgroundColor="Red" Clicked="BtnImg4_Clicked"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="200" Orientation="Horizontal">
+                    <Image x:Name="img_5" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="btnImg5" HorizontalOptions="EndAndExpand" VerticalOptions="Start" BackgroundColor="Red" Clicked="BtnImg5_Clicked"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="200" Orientation="Horizontal">
+                    <Image x:Name="img_6" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="btnImg6" HorizontalOptions="EndAndExpand" VerticalOptions="Start" BackgroundColor="Red" Clicked="BtnImg6_Clicked"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Black" HeightRequest="200" Orientation="Horizontal">
+                    <Image x:Name="img_7" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="btnImg7" HorizontalOptions="EndAndExpand" VerticalOptions="Start" BackgroundColor="Red" Clicked="BtnImg7_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

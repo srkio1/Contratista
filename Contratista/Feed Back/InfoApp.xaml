@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Feed_Back.InfoApp"
+             BackgroundColor="#172de2">
+    <ContentPage.Content>
+        <StackLayout>            
+            <Editor Text="Esta aplicacion esta diriga a las personas con la necesidad de control de su invetario y todo lo acorde a sus ingresos
+                    y egresos, os dara la facilidad de poder llevar un control completo y dedicado a evitar la perdida tanto monetaria como de informacion"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    IsReadOnly="True"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

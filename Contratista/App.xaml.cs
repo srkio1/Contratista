@@ -11,9 +11,10 @@ namespace Contratista
     {
         public App()
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTU5NjYxQDMxMzcyZTMzMmUzMFpacTFIMDFDTmw1TWhBL1haUy9FNS81Q0wyVjZjQ29lTDZvRFByTUp2WTg9");
             InitializeComponent();
 
-            MainPage = new Contratista.MainPage();
+            MainPage = new NavigationPage(new Index());
         }
 
         protected override void OnStart()
