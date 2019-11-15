@@ -13,7 +13,7 @@
                     <ViewCell >
                         <Frame CornerRadius="5"
                                HasShadow="True"
-                               Margin="5,5,5,5">
+                               Margin="5">
 
                             <!--<StackLayout Padding="5" BackgroundColor="White">-->
                             <Grid Padding="5" BackgroundColor="White">

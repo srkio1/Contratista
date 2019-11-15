@@ -92,7 +92,7 @@ namespace Contratista
                                 }
                                 else
                                 {
-                                    ;
+                                    cargando.IsVisible = false; ;
                                 }
                             }
 
@@ -106,10 +106,11 @@ namespace Contratista
                                                                                     item3.telefono, item3.email, item3.rubro, item3.estado, item3.prioridad, item3.nit,
                                                                                     item3.calificacion, item3.foto, item3.descripcion, item3.curriculum));
                                     cargando.IsVisible = false;
+
                                 }
                                 else
                                 {
-                                    ;
+                                   cargando.IsVisible=false ;
                                 }
                             }
 
@@ -127,7 +128,7 @@ namespace Contratista
                                 }
                                 else
                                 {
-                                    ;
+                                    cargando.IsVisible = false; ;
                                 }
                             }
 
@@ -144,7 +145,7 @@ namespace Contratista
                                 }
                                 else
                                 {
-                                    ;
+                                    cargando.IsVisible = false; ;
                                 }
                             }
 
@@ -161,13 +162,14 @@ namespace Contratista
                                 }
                                 else
                                 {
-                                    ;
+                                    cargando.IsVisible = false; ;
                                 }
                             }
                         }
                         else
                         {
                             await DisplayAlert("", "Contrasena incorrecta", "OK");
+                            cargando.IsVisible = false;
                         }
                     }
                 }

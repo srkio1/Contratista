@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.AgregarPromoMaterial">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout >
+                <Label Text="Nombre: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                <Entry x:Name="nombreEntry" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                <Picker Title="estado" x:Name="estado" SelectedIndexChanged="Estado_SelectedIndexChanged" >
+                    
+                    <Picker.Items>
+                        <x:String>Activo</x:String>
+                        <x:String>Inactivo</x:String>
+                    </Picker.Items>
+                </Picker>
+                <StackLayout>
+                    <Label Text="Estado" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Entry x:Name="estadoentry" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Imagen 1: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                <StackLayout>
+                    <Image x:Name="imagen1Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                    <Label x:Name="nombreimg1" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout>
+                    <Button x:Name="agregarImg1" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg1_Clicked"/>
+                    <Button x:Name="Guardar" Text="Guardar Promocion" HeightRequest="50" VerticalOptions="Center" Clicked="Guardar_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

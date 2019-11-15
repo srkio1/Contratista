@@ -68,7 +68,7 @@
                 </StackLayout>
                 <StackLayout x:Name="stkListaPortafolio" BackgroundColor="WhiteSmoke">
                     <ListView x:Name="listPortafolios" RowHeight="50"
-                              ItemTapped="ListPortafolios_ItemTapped"  BackgroundColor="Transparent"
+                              ItemTapped="ListPortafolios_ItemTapped"  BackgroundColor="WhiteSmoke"
                               SeparatorVisibility="None"
                               HasUnevenRows="True"
                               >
@@ -77,7 +77,7 @@
                                 <ViewCell>
                                     <Frame CornerRadius="5"
                                HasShadow="True"
-                               Margin="0,0,0,8">
+                               Margin="5">
                                         <Label Text="{Binding nombre}"
                                           TextColor="Black" FontAttributes="Bold"/>
                                     </Frame>

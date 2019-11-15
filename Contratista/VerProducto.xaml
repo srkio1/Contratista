@@ -10,7 +10,7 @@
                     <Label x:Name="TituloTxt" FontSize="Large" HorizontalTextAlignment="Center"/>
                 </StackLayout>
                 <StackLayout>
-                    <syncfusion:SfRotator x:Name="rotator">
+                    <syncfusion:SfRotator x:Name="rotator" >
                         <syncfusion:SfRotator.ItemTemplate>
                             <DataTemplate>
                                 <Image  Source="{Binding Image}"/>

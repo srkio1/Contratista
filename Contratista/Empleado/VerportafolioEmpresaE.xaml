@@ -5,9 +5,9 @@
              x:Class="Contratista.Empleado.VerportafolioEmpresaE">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout Padding="5" >
                 <StackLayout>
-                    <Label x:Name="TituloTxt" FontSize="Large" Text="casadegoku"/>
+                    <Label x:Name="TituloTxt" FontSize="Large"  HorizontalTextAlignment="Center" TextColor="White"/>
                 </StackLayout>
                 <StackLayout>
                     <syncfusion:SfRotator x:Name="rotator">
@@ -23,7 +23,7 @@
                     </syncfusion:SfRotator>
                 </StackLayout>
                 <StackLayout>
-                    <Label x:Name="DescripcionTxt" FontSize="Medium" Text="casa de goku ubicada plan3000"/>
+                    <Label x:Name="DescripcionTxt" FontSize="Medium" TextColor="White" HorizontalTextAlignment="Center" />
                 </StackLayout>
             </StackLayout>
         </ScrollView>
