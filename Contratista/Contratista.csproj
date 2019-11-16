@@ -60,6 +60,9 @@
     <EmbeddedResource Update="Empleado\AgregarPromoServicio.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Empleado\ModificarEmpresa.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Index.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

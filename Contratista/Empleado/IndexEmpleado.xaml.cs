@@ -47,5 +47,10 @@ namespace Contratista.Empleado
         {
             Navigation.PushAsync(new TrabajoEmpleado());
         }
+
+        private void Button_Clicked_3(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.ModificarEmpresa">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center">
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="Nombre: " FontSize="Medium" TextColor="Black" FontAttributes="Bold"  WidthRequest="150"/>
+               
+                <Entry x:Name="nombreEntry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="Telefono: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                <Entry x:Name="telefonoentry" HorizontalOptions="FillAndExpand" FontSize="Medium"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="Email: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                <Entry x:Name="emailentry" FontSize="Medium" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+           
+            
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="Descripcion: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                <Entry x:Name="descripcionentry" FontSize="Medium" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="NIT: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                <Entry x:Name="nitentry" FontSize="Medium" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="guardar" Text="Guardar" Clicked="Guardar_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

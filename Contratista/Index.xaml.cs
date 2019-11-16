@@ -155,9 +155,9 @@ namespace Contratista
                             {
                                 if (usuarioEntry.Text == item6.usuario)
                                 {
-                                    await Navigation.PushAsync(new IndexEmpresa(item6.id_empresa, item6.nombre, item6.telefono, item6.email,
-                                                                                  item6.rubro, item6.prioridad, item6.calificacion, item6.foto, item6.descripcion,
-                                                                                  item6.nit));
+                                    await Navigation.PushAsync(new IndexEmpresa(item6.id_empresa, item6.nombre, item6.telefono, item6.email, item6.direccion,
+                                        item6.ubicacion_lat, item6.ubicacion_long, item6.foto, item6.nit,
+                                        item6.rubro, item6.calificacion, item6.prioridad,   item6.descripcion, item6.fundaempresa, item6.usuario, item6.contrasena ));
                                     cargando.IsVisible = false;
                                 }
                                 else
