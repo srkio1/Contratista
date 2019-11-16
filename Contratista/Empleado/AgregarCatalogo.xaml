@@ -6,7 +6,7 @@
         <ScrollView>
             <StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Nombre: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Label Text="Nombre1: " HorizontalOptions="Start" VerticalOptions="Center"/>
                     <Entry x:Name="nombreEntry" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
