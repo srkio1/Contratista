@@ -1,7 +1,4 @@
-﻿using Contratista.Datos;
-using Newtonsoft.Json;
-using Plugin.Media;
-using Plugin.Media.Abstractions;
+﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +6,9 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
+using Contratista.Datos;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,18 +16,18 @@ using Xamarin.Forms.Xaml;
 namespace Contratista.Empleado
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AgregarPromoMaterial : ContentPage
+	public partial class AgregarPromoServicio : ContentPage
 	{
         private MediaFile _mediaFile;
         private string ruta;
-        private int IdMaterial;
-        private string Nombre_material;
-        public AgregarPromoMaterial ( int id_material , string nombre_material)
-		{
-            Nombre_material = nombre_material;
-            IdMaterial = id_material;
-			InitializeComponent ();
-		}
+        private int IdServicio;
+        private string Nombre;
+        public AgregarPromoServicio(int id_servicio, string nombre)
+        {
+            Nombre = nombre;
+            IdServicio = id_servicio;
+            InitializeComponent();
+        }
 
         private async void AgregarImg1_Clicked(object sender, EventArgs e)
         {
@@ -47,7 +47,7 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Nombre_material + IdMaterial + "_1.jpg"
+                            Name = Nombre + IdServicio + "_1.jpg"
                         });
 
                         if (_mediaFile == null)
@@ -57,8 +57,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile.GetStream();
                         });
-                        ruta = "/api_contratistas/images/" + Nombre_material + IdMaterial + "_1.jpg";
-                        nombreimg1.Text = Nombre_material + IdMaterial + "_1.jpg";
+                        ruta = "/api_contratistas/images/" + Nombre + IdServicio + "_1.jpg";
+                        nombreimg1.Text = Nombre + IdServicio + "_1.jpg";
                     }
                     catch (Exception err)
                     {
@@ -109,18 +109,19 @@ namespace Contratista.Empleado
                 var result = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content);
 
 
-                Promocion_material promocion_Material = new Promocion_material()
+                Promocion_servicios promocion_Servicios = new Promocion_servicios()
                 {
-                    nombre = nombreEntry.Text,
+                    
+                    nombre = nombreEntry.Text
                     imagen = ruta,
                     estado = estadopick,
                     descripcion = descripcionEntry.Text,
 
-                    id_material = IdMaterial
+                    id_servicio = IdServicio
                 };
-                var json = JsonConvert.SerializeObject(promocion_Material);
+                var json = JsonConvert.SerializeObject(promocion_Servicios);
                 var content1 = new StringContent(json, Encoding.UTF8, "application/json");
-                var result1 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/promociones/agregarPromocionMaterial.php", content1);
+                var result1 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/promociones/agregarPromoServicio.php", content1);
 
                 if (result1.StatusCode == HttpStatusCode.OK)
                 {

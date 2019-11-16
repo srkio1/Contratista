@@ -18,6 +18,7 @@ namespace Contratista.Empleado
 	public partial class IndexServicio : TabbedPage
 	{
         int idServicio = 0;
+        string Nombre;
         ObservableCollection<Catalogo> catalogos = new ObservableCollection<Catalogo>();
         public ObservableCollection<Catalogo> Catalogos { get { return catalogos; } }
         public IndexServicio(int id_servicio, string nombre, int telefono, string email, string rubro, string estado, int prioridad, decimal calificacion, string foto,
@@ -25,6 +26,7 @@ namespace Contratista.Empleado
         {
             InitializeComponent();
             idServicio = id_servicio;
+            Nombre = nombre;
             txtNombre.Text = nombre;
             txtTelefono.Text = telefono.ToString();
             txtEmail.Text = email;
@@ -81,6 +83,11 @@ namespace Contratista.Empleado
         private void Button_Clicked(object sender, EventArgs e)
         {
 
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarPromoServicio( idServicio , Nombre));
         }
     }
 }

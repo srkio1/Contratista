@@ -94,7 +94,7 @@
             <StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Label Text="MIS PROMOCIONES" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Start"/>
-                    <Button Text="AGREGAR" HorizontalOptions="EndAndExpand" VerticalOptions="Start"/>
+                    <Button Text="AGREGAR" HorizontalOptions="EndAndExpand" VerticalOptions="Start" Clicked="Button_Clicked_1"/>
                 </StackLayout>
                 <StackLayout>
                     <Label Text="Promocion activa" HorizontalOptions="Start"/>
