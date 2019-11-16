@@ -100,10 +100,12 @@
                     <Label Text="Promocion activa" HorizontalOptions="Start"/>
                     <BoxView HeightRequest="1" Color="Black"/>
                     <Image Source="promo_img.jpg" HorizontalOptions="Start" Aspect="AspectFit"/>
+                    <StackLayout x:Name="stkPromoActiva"/>
                 </StackLayout>
                 <StackLayout>
                     <Label Text="Otras promociones" HorizontalOptions="Start"/>
                     <BoxView HeightRequest="1" Color="Black"/>
+                    <StackLayout x:Name="stkPromoInactiva"/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

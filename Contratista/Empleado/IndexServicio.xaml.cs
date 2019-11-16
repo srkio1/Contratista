@@ -37,6 +37,7 @@ namespace Contratista.Empleado
             txtDescripcion.Text = descripcion;
             img_perfil.Source = "http://dmrbolivia.online" + foto;
             GetCatalogo();
+            GetPromo();
         }
 
         private async void ListPortafolios_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -88,6 +89,84 @@ namespace Contratista.Empleado
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AgregarPromoServicio( idServicio , Nombre));
+        }
+        private async void GetPromo()
+        {
+            try
+            {
+                HttpClient client = new HttpClient();
+                var response = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/promociones/listaPromocionServicio.php");
+                var listpromo = JsonConvert.DeserializeObject<List<Promocion_servicios>>(response);
+
+                foreach (var item in listpromo.Distinct())
+                {
+                    if (item.id_servicio == idServicio)
+                    {
+                        StackLayout stk1 = new StackLayout();
+                        stkPromoActiva.Children.Add(stk1);
+
+                        Label txtNombre = new Label();
+                        txtNombre.Text = item.nombre;
+                        txtNombre.TextColor = Color.Black;
+                        txtNombre.FontSize = 30;
+                        stk1.Children.Add(txtNombre);
+
+                        Image img = new Image();
+                        img.Source = "http://dmrbolivia.online" + item.imagen;
+                        img.HeightRequest = 200;
+                        img.Aspect = Aspect.AspectFit;
+                        img.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                        stk1.Children.Add(img);
+
+                        Label txtDesc = new Label();
+                        txtDesc.Text = item.descripcion;
+                        txtDesc.FontSize = 15;
+                        txtDesc.TextColor = Color.Black;
+                        stk1.Children.Add(txtDesc);
+
+                        BoxView bv = new BoxView();
+                        bv.HeightRequest = 5;
+                        bv.Color = Color.Gray;
+                    }
+                }
+
+                var response2 = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/promociones/listaPromocionServicioInactiva.php");
+                var listpromo2 = JsonConvert.DeserializeObject<List<Promocion_servicios>>(response2);
+
+                foreach (var item in listpromo2.Distinct())
+                {
+                    if (item.id_servicio == idServicio)
+                    {
+                        StackLayout stk2 = new StackLayout();
+                        stkPromoInactiva.Children.Add(stk2);
+
+                        Label txtNombre = new Label();
+                        txtNombre.Text = item.nombre;
+                        txtNombre.TextColor = Color.Black;
+                        txtNombre.FontSize = 20;
+                        stk2.Children.Add(txtNombre);
+
+                        Image img = new Image();
+                        img.Source = "http://dmrbolivia.online" + item.imagen;
+                        img.HeightRequest = 200;
+                        img.Aspect = Aspect.AspectFit;
+                        img.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                        stk2.Children.Add(img);
+
+                        Label txtDesc = new Label();
+                        txtDesc.Text = item.descripcion;
+                        txtDesc.FontSize = 15;
+                        txtDesc.TextColor = Color.Black;
+                        stk2.Children.Add(txtDesc);
+                    }
+                }
+            }
+
+            catch (Exception erro)
+            {
+                Console.Write("EEERRROOOORRR= " + erro);
+            }
+
         }
     }
 }

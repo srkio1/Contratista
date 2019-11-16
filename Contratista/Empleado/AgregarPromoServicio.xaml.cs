@@ -1,4 +1,6 @@
 ﻿using Newtonsoft.Json;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,27 +8,34 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Plugin.Media;
-using Plugin.Media.Abstractions;
 using Contratista.Datos;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AgregarPromoServicio : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AgregarPromoServicio : ContentPage
+    {
         private MediaFile _mediaFile;
         private string ruta;
         private int IdServicio;
-        private string Nombre;
-        public AgregarPromoServicio(int id_servicio, string nombre)
+        private string Nombre_Servicio;
+        public AgregarPromoServicio(int id_servicio, string nombre_servicio)
         {
-            Nombre = nombre;
             IdServicio = id_servicio;
+            Nombre_Servicio = nombre_servicio;
             InitializeComponent();
+        }
+
+        private void Estado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var picker = (Picker)sender;
+            int selectIndex = picker.SelectedIndex;
+            if (selectIndex != -1)
+            {
+                estadopick = picker.Items[selectIndex];
+            }
         }
 
         private async void AgregarImg1_Clicked(object sender, EventArgs e)
@@ -47,7 +56,7 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Nombre + IdServicio + "_1.jpg"
+                            Name = Nombre_Servicio + IdServicio + "_1.jpg"
                         });
 
                         if (_mediaFile == null)
@@ -57,8 +66,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile.GetStream();
                         });
-                        ruta = "/api_contratistas/images/" + Nombre + IdServicio + "_1.jpg";
-                        nombreimg1.Text = Nombre + IdServicio + "_1.jpg";
+                        ruta = "/api_contratistas/images/" + Nombre_Servicio + IdServicio + "_1.jpg";
+                        nombreimg1.Text = Nombre_Servicio + IdServicio + "_1.jpg";
                     }
                     catch (Exception err)
                     {
@@ -111,8 +120,7 @@ namespace Contratista.Empleado
 
                 Promocion_servicios promocion_Servicios = new Promocion_servicios()
                 {
-                    
-                    nombre = nombreEntry.Text
+                    nombre = nombreEntry.Text,
                     imagen = ruta,
                     estado = estadopick,
                     descripcion = descripcionEntry.Text,
@@ -139,16 +147,8 @@ namespace Contratista.Empleado
             {
                 await DisplayAlert("ERROR", err.ToString(), "OK");
             }
+
         }
         private string estadopick;
-        private void Estado_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var picker = (Picker)sender;
-            int selectIndex = picker.SelectedIndex;
-            if (selectIndex != -1)
-            {
-                estadopick = picker.Items[selectIndex];
-            }
-        }
     }
 }

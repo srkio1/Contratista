@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Contratista.Empleado.AgregarPromoServicio"
-             Title="Agregar Promocion">
+             x:Class="Contratista.Empleado.AgregarPromoServicio">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout>
-                
-                <Label Text="Nombre: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                <Label Text="Nombre" HorizontalOptions="Start" VerticalOptions="Center"/>
                 <Entry x:Name="nombreEntry" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
-                <Picker Title="estado" x:Name="estado" SelectedIndexChanged="Estado_SelectedIndexChanged" >
-
+                <Picker Title="estado" x:Name="estado" SelectedIndexChanged="Estado_SelectedIndexChanged">
                     <Picker.Items>
-                        <x:String>Activo</x:String>
-                        <x:String>Inactivo</x:String>
+                        <x:String>Activa
+                        </x:String>
+                        <x:String>Inactiva
+                        </x:String>
+
                     </Picker.Items>
                 </Picker>
                 <StackLayout>
@@ -21,7 +21,7 @@
                     <Entry x:Name="descripcionEntry" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
                 </StackLayout>
             </StackLayout>
-            <StackLayout Orientation="Horizontal">
+            <StackLayout>
                 <Label Text="Imagen 1: " HorizontalOptions="Start" VerticalOptions="Center"/>
                 <StackLayout>
                     <Image x:Name="imagen1Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
