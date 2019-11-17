@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.SubirFoto">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="AGREGAR IMAGENES"
+                    HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="txtID"/>
+                <Button x:Name="btnCamara" Text="SACAR FOTO" HorizontalOptions="CenterAndExpand" Clicked="BtnCamara_Clicked"/>
+                <Button x:Name="btnGaleria" Text="ELEGIR DE GALERIA" HorizontalOptions="CenterAndExpand" Clicked="BtnGaleria_Clicked"/>
+                <Image x:Name="subir_img" HeightRequest="300" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Button x:Name="btnGuardar" Text="Guardar" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Clicked="BtnGuardar_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Index"
+            xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+            BarBackgroundColor="Black"
+            BarTextColor="White"
+            NavigationPage.HasNavigationBar="False">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="CATEGORIASs" Icon="ic_action_developer_board.png">
+        <ScrollView>
+            <StackLayout BackgroundColor="#000000">
+                <StackLayout HorizontalOptions="Fill" HeightRequest="60" BackgroundColor="Black">
+                    <Label Text="SELECCIONA UNA CATEGORIA" FontSize="Large" VerticalOptions="CenterAndExpand" TextColor="White"  HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" Padding="0,0,0,5">
+                    <SearchBar x:Name="buscador" Placeholder="Buscar..." VerticalOptions="Center" HorizontalOptions="CenterAndExpand" BackgroundColor="White"/>
+                </StackLayout>
+                <Grid  BackgroundColor="White" ColumnSpacing="1" RowSpacing="1" VerticalOptions="FillAndExpand" Padding="1,1,1,1" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0" Grid.Column="0" Margin="1" BackgroundColor="#FFC500" x:Name="stkContratista"
+                        BindingContext="{x:Reference stkContratista}"
+                                 HeightRequest="{Binding Path=Width}">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIalbanil"
+                                     Source="icon_contratistas"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                     Aspect="Fill"
+                                     Clicked="BtnIalbanil_Clicked"/>
+                        <Label Text="CONTRATISTAS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIpintor"
+                                     Source="icon_profesional"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     Aspect="Fill"
+                                     CornerRadius="10"/>
+                        <Label Text="PROFESIONALES" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIplomero"
+                                     Source="icon_servicios"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"/>
+                        <Label Text="SERVICIOS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIcarpintero"
+                                     Source="icon_material"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"/>
+                        <Label Text="MATERIAL" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIcontratista"
+                                     Source="icon_empresas"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"/>
+                        <Label Text="EMPRESAS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>                    
+                        <StackLayout Grid.Row="2" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"/>
+                            </StackLayout.GestureRecognizers>
+                            <ImageButton x:Name="btnInfo"
+                                     Source="icon_info"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"/>
+                            <Label Text="INFO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        </StackLayout>
+                    
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="FAVORITOS" Icon="ic_action_favorite_border.png">
+        <ScrollView>
+            <StackLayout BackgroundColor="#FFC500">
+                <StackLayout HorizontalOptions="Fill" HeightRequest="80" BackgroundColor="Black">
+                    <Label Text="FAVORITOS" FontSize="Large" VerticalOptions="CenterAndExpand" TextColor="White" HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Padding="5, 5, 5, 5" BackgroundColor="White">
+                    <BoxView HeightRequest="1" Color="Black"/>
+                    <Label Text="Albañil" FontSize="Large" TextColor="Black" FontAttributes="Bold"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Juan Soliz Ayala" FontSize="Large" TextColor="Black"/>
+                        <Image Source="icon_star" HorizontalOptions="EndAndExpand" VerticalOptions="Center" HeightRequest="15" WidthRequest="15"/>
+                        <Label Text="4.7" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="End " VerticalOptions="Center" TextColor="Black"/>
+                    </StackLayout>
+                    <Label Text="Albañil para refacciones generales en interior o exterior" FontSize="Medium"/>
+                    <BoxView HeightRequest="1" Color="Black"/>
+                </StackLayout>
+                <StackLayout Padding="5, 5, 5, 5" BackgroundColor="White">
+                    <BoxView HeightRequest="1" Color="Black"/>
+                    <Label Text="Plomero" FontSize="Large" TextColor="Black" FontAttributes="Bold"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Jose Luis Perez Rojas" FontSize="Large" TextColor="Black"/>
+                        <Image Source="icon_star" HorizontalOptions="EndAndExpand" VerticalOptions="Center" HeightRequest="15" WidthRequest="15"/>
+                        <Label Text="4.7" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="End " VerticalOptions="Center" TextColor="Black"/>
+                    </StackLayout>
+                    <Label Text="Albañil para refacciones generales en interior o exterior" FontSize="Medium"/>
+                    <BoxView HeightRequest="1" Color="Black"/>
+                </StackLayout>
+                <StackLayout Padding="5, 5, 5, 5" BackgroundColor="White">
+                    <BoxView HeightRequest="1" Color="Black"/>
+                    <Label Text="Electricista" FontSize="Large" TextColor="Black" FontAttributes="Bold"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Carlos Antelo Figueroa" FontSize="Large" TextColor="Black"/>
+                        <Image Source="icon_star" HorizontalOptions="EndAndExpand" VerticalOptions="Center" HeightRequest="15" WidthRequest="15"/>
+                        <Label Text="4.7" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="End " VerticalOptions="Center" TextColor="Black"/>
+                    </StackLayout>
+                    <Label Text="Albañil para refacciones generales en interior o exterior" FontSize="Medium"/>
+                    <BoxView HeightRequest="1" Color="Black"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <!--<ContentPage Title="PERFIL" Icon="ic_action_person_outline.png">
+        <ScrollView>
+            <StackLayout BackgroundColor="#FFC500">
+                <StackLayout HorizontalOptions="Fill" HeightRequest="80" BackgroundColor="Black">
+                    <Label Text="PERFIL" FontSize="Large" VerticalOptions="CenterAndExpand" TextColor="White" HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="#FFC500">
+                    <Frame CornerRadius="20" VerticalOptions="Fill"  BackgroundColor="White" Padding="10, 0, 10, 15">
+                        <StackLayout HeightRequest="270" Padding="0,20,0,0">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Nombre: " FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="Marcelo Medina Moreira" FontSize="Large" TextColor="Black"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Telefono: " FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="70852648" FontSize="Large" TextColor="Black"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Direccion 1: " FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="Calle A #123" FontSize="Large" TextColor="Black"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Direccion 2: " FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="Calle B #456" FontSize="Large" TextColor="Black"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Correo: " FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="MmM@gmail.com" FontSize="Large" TextColor="Black"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Trabajos solicitados: " FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="6" FontSize="Large" TextColor="Black"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand" Padding="5,5,5,5">
+                    <Button Text="CONTACTANOS" Clicked="Button_Clicked" HorizontalOptions="FillAndExpand" VerticalOptions="End" BorderColor="Black" BorderWidth="1" BackgroundColor="#A4A4A4"/>
+                    <Button Text="CERRAR SESION" HorizontalOptions="FillAndExpand" VerticalOptions="End" BorderColor="Black" BorderWidth="1" BackgroundColor="#A4A4A4"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>-->
+    <ContentPage Title="INICIAR SESION" BackgroundImage="backlogin.jpg">
+        <ScrollView>
+            <StackLayout VerticalOptions="Center">
+                <StackLayout Orientation="Vertical" >
+                    <Entry x:Name="usuarioEntry" Placeholder="Usuario" WidthRequest="300" HorizontalOptions="Center"/>
+                    <Entry x:Name="contrasenaEntry" Placeholder="Contraseña" WidthRequest="300" HorizontalOptions="Center"/>
+                </StackLayout>
+                <busyindicator:SfBusyIndicator
+                    
+                        AnimationType="DoubleCircle"
+                        HorizontalOptions="Center"
+                        IsVisible="False"
+                        Title="Cargando"
+                        ViewBoxWidth="80"
+                        ViewBoxHeight="80"
+                        x:Name="cargando"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                    <Button x:Name="btnIngresar" Text="Ingresar" WidthRequest="120" HorizontalOptions="Center" Clicked="BtnIngresar_Clicked"
+                            />
+                    <Button x:Name="btnContactarSoporte" Text="Olvide mi contrasena" WidthRequest="120" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

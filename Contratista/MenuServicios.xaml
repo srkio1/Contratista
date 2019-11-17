@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.MenuServicios"
+             Title="Servicios">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#000000" VerticalOptions="FillAndExpand">
+                <Grid x:Name="mainGrid" BackgroundColor="White" ColumnSpacing="1" VerticalOptions="FillAndExpand" RowSpacing="1" Padding="1,1,1,1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0" Grid.Column="0" Margin="1" BackgroundColor="#053e5d" x:Name="stk_maquinaria" 
+                                 BindingContext="{x:Reference stk_maquinaria}"
+                                 HeightRequest="{Binding Path=Width}">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnMaquinaria"
+                                         Source="icon_maquinaria"
+                                         HorizontalOptions="CenterAndExpand"
+                                         VerticalOptions="CenterAndExpand"
+                                         Aspect="AspectFill"
+                                         CornerRadius="10"
+                                         Clicked="BtnMaquinaria_Clicked"/>
+                        </StackLayout>
+                        <Label Text="ALQUILER DE MAQUINARIA" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1" Margin="1" BackgroundColor="#053e5d">
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                            </StackLayout.GestureRecognizers>
+                            <ImageButton x:Name="btnEquipos"
+                                     Source="icon_equipo"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnEquipos_Clicked"/>
+                        </StackLayout>
+                        <Label Text="ALQUILER DE EQUIPOS" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="0" Margin="1" BackgroundColor="#053e5d">
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                            </StackLayout.GestureRecognizers>
+                            <ImageButton x:Name="btnHerramienta"
+                                     Source="icon_herramienta"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnHerramienta_Clicked"/>
+                        </StackLayout>
+                        <Label Text="ALQUILER DE HERRAMIENTAS" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="1" Margin="1" BackgroundColor="#053e5d">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnTrasnporte"
+                                     Source="icon_transporte"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnTrasnporte_Clicked"/>
+                        </StackLayout>
+                        <Label Text="TRANSPORTE" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="0" Margin="1" BackgroundColor="#053e5d">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnVehiculos"
+                                     Source="icon_vehiculo"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnVehiculos_Clicked"/>
+                        </StackLayout>
+                        <Label Text="ALQUILER DE VEHICULOS" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="1" Margin="1" BackgroundColor="#053e5d">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnMantenimiento"
+                                     Source="icon_mantenimiento"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnMantenimiento_Clicked"/>
+                        </StackLayout>
+                        <Label Text="MANTENIMIENTO" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.PerfilServicio">
+    <ContentPage Title="Perfil1">
+        <ScrollView>
+            <StackLayout Padding="5, 0, 5, 15">
+                <Frame VerticalOptions="Fill" CornerRadius="20" HasShadow="True" BackgroundColor="White">
+                    <StackLayout>
+                        <Label x:Name="nombretxt" FontSize="30" FontAttributes="Bold" TextColor="Black"/>
+                        <Label x:Name="rubrotxt" FontAttributes="Bold" TextColor="Black"/>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label x:Name="califtxt" FontSize="20" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                            <Image Source="icon_star" HeightRequest="20" WidthRequest="20" VerticalOptions="Center" BackgroundColor="White"/>
+                            <Button Text="Calificar" HorizontalOptions="End"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="Black"/>
+                        <Image x:Name="imgPerfil" Aspect="AspectFit" HorizontalOptions="Center" HeightRequest="300"/>
+                        <BoxView HeightRequest="1" Color="Black"/>
+                        <Label x:Name="txtdescripcion" TextColor="Black" FontSize="Medium" VerticalOptions="CenterAndExpand"/>
+                        <BoxView HeightRequest="1" Color="Black"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Email: " FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" TextColor="Black"/>
+                            <Label x:Name="txtEmail" FontSize="Medium" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Telefono" TextColor="Black" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center"/>
+                            <Label x:Name="txtTelefono" TextColor="Black" FontSize="Medium" VerticalOptions="Center"/>
+                            <StackLayout>
+                                <ImageButton Source="icon_whatsapp.png" VerticalOptions="Center" HorizontalOptions="End" Clicked="ImageButton_Clicked_1"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <ImageButton Source="icon_llamar.png" VerticalOptions="Center" Clicked="ImageButton_Clicked"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout>
+                            <BoxView HeightRequest="1" Color="Black"/>
+                            <StackLayout>
+                                <Label Text="Direccion" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label x:Name="txtDireccion" TextColor="Black" FontSize="Medium"/>
+                            </StackLayout>
+                            <Button x:Name="btnIrDireccion" Text="VER EN EL MAPA" BackgroundColor="Black" TextColor="White" Clicked="BtnIrDireccion_Clicked"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage x:Name="contportafolio" 
+        Title="Catalogo">
+        <ScrollView>
+            <StackLayout BackgroundColor="LightGray">
+                <StackLayout Padding="5,10,5,10" VerticalOptions="End">
+                    <Label Text="CATALOGO" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"/>
+                </StackLayout>
+                <ListView x:Name="listacatalogo"  ItemTapped="Listacatalogo_ItemTapped"
+                  RowHeight="50" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="Transparent">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame CornerRadius="5" HasShadow="True" Margin="5,5,5,5">
+                                    <StackLayout BackgroundColor="White" Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="icon_portafolio" VerticalOptions="Center"/>
+                                            <Label Text="{Binding nombre}" HorizontalTextAlignment="Center" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Promociones">
+        <ScrollView>
+            <StackLayout>
+                <StackLayout>
+                    <StackLayout x:Name="stkPromoActiva" Padding="5,5,5,0" BackgroundColor="White"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>
