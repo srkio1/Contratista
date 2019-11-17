@@ -60,7 +60,7 @@ namespace Contratista.Empleado
             nombreentry.Text = Nombre_servicio;
             telefonoentry.Text = Telefono.ToString();
             emailentry.Text = Email;
-            estadoentry.Text = Estado;
+            
             descripcionentry.Text = Descripcion;
             nitentry.Text = Nit.ToString();
 

@@ -15,18 +15,51 @@ namespace Contratista.Empleado
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class IndexMaterial : TabbedPage
 	{
-        private int idMaterial;
-        private string nombre_material;
+        private int IdMaterial;
+        private string Nombre_material;
+        private int Telefono;
+        private string Email;
+        private string Direccion;
+        private string Ubicacion_lat;
+        private string Ubicacion_long;
+        private string Foto;        
+        private int Nit;
+        private string Rubro;
+        private decimal Calififacion;
+        private int Prioridad;
+        private string Descripcion;
+        private string Usuario;
+        private string Contrasena;
+
+       
         ObservableCollection<Productos> producto = new ObservableCollection<Productos>();
         public ObservableCollection<Productos> productos { get { return producto; } }
-        public IndexMaterial(int id_material, string nombre, int telefono, string email, string rubro, int prioridad, decimal calificacion, string foto, string descripcion,
-                            int nit)
+        public IndexMaterial(int id_material, string nombre, int telefono, string email, string direccion, string ubicacion_lat, string ubicacion_long,
+             string foto, int nit , string rubro, decimal calificacion, int prioridad,  string descripcion, string usuario, string contrasena
+                            )
         {
             InitializeComponent();
+
+            IdMaterial = id_material;
+            Nombre_material = nombre;
+            Telefono = telefono;
+            Email = email;
+            Direccion = direccion;
+            Ubicacion_lat = ubicacion_lat;
+            Ubicacion_long = ubicacion_long;
+            Foto = foto;          
+            Nit = nit;
+            Rubro = rubro;
+            Calififacion = calificacion;
+            Prioridad = prioridad;
+            Descripcion = descripcion;
+            Usuario = usuario;
+            Contrasena = contrasena;
+
             GetInfo();
             GetPromo();
-            nombre_material = nombre;
-            idMaterial = id_material;
+            Nombre_material = nombre;
+            IdMaterial = id_material;
             txtNombre.Text = nombre;
             txtTelefono.Text = telefono.ToString();
             txtEmail.Text = email;
@@ -58,7 +91,7 @@ namespace Contratista.Empleado
 
                 foreach (var item in product.Distinct())
                 {
-                    if (item.id_material == idMaterial)
+                    if (item.id_material == IdMaterial)
                     {
                         productos.Add(new Productos
                         {
@@ -88,7 +121,7 @@ namespace Contratista.Empleado
 
                 foreach (var item in listpromo.Distinct())
                 {
-                    if (item.id_material == idMaterial)
+                    if (item.id_material == IdMaterial)
                     {
                         StackLayout stk1 = new StackLayout();
                         stkPromoActiva.Children.Add(stk1);
@@ -123,7 +156,7 @@ namespace Contratista.Empleado
 
                 foreach (var item in listpromo2.Distinct())
                 {
-                    if (item.id_material == idMaterial)
+                    if (item.id_material == IdMaterial)
                     {
                         StackLayout stk2 = new StackLayout();
                         stkPromoInactiva.Children.Add(stk2);
@@ -159,7 +192,13 @@ namespace Contratista.Empleado
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AgregarPromoMaterial( idMaterial , nombre_material));
+            Navigation.PushAsync(new AgregarPromoMaterial( IdMaterial , Nombre_material));
+        }
+
+        private void Modificar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ModificarMaterial(IdMaterial, Nombre_material, Telefono, Email, Direccion, Ubicacion_lat, Ubicacion_long, Foto,
+                          Nit, Rubro, Calififacion, Prioridad, Descripcion, Usuario, Contrasena));
         }
     }
 }

@@ -138,9 +138,10 @@ namespace Contratista
                             {
                                 if (usuarioEntry.Text == item5.usuario)
                                 {
-                                    await Navigation.PushAsync(new IndexMaterial(item5.id_material, item5.nombre, item5.telefono, item5.email,
-                                                                                  item5.rubro, item5.prioridad, item5.calificacion, item5.foto, item5.descripcion,
-                                                                                  item5.nit));
+                                    await Navigation.PushAsync(new IndexMaterial(item5.id_material, item5.nombre, item5.telefono, item5.email, item5.direccion,
+                                        item5.ubicacion_lat, item5.ubicacion_long, item5.foto, item5.nit, item5.rubro, item5.calificacion,
+                                                                                   item5.prioridad,   item5.descripcion, item5.usuario , item5.contrasena
+                                                                                  ));
                                     cargando.IsVisible = false;
                                 }
                                 else

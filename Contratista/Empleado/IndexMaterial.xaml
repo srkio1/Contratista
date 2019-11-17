@@ -38,7 +38,7 @@
                         <Label x:Name="txtNit" FontSize="Medium" TextColor="Black"/>
                     </StackLayout>
                     <StackLayout>
-                        <Button Text="Modificar informacion"/>
+                        <Button Text="Modificar informacion" x:Name="modificar" Clicked="Modificar_Clicked"/>
                     </StackLayout>
                     <StackLayout Padding="5, 20, 5, 10" VerticalOptions="End">
                         <Label Text="Tienes alguna consulta o sugerencia?" TextColor="Black" HorizontalOptions="Center"/>

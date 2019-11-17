@@ -4,7 +4,32 @@
              x:Class="Contratista.Empleado.ModificarMaterial">
     <ContentPage.Content>
         <StackLayout>
-            
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="Nombre: " FontSize="Medium" TextColor="Black" FontAttributes="Bold"  WidthRequest="150"/>
+                <Entry x:Name="nombreentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="Telefono: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                <Entry x:Name="telefonoentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="Email: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                <Entry x:Name="emailentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+           
+
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="Descripcion: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                <Entry x:Name="descripcionentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                <Label Text="NIT: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                <Entry x:Name="nitentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="GuardarModificado" Text="Guardar" CornerRadius="5" Clicked="GuardarModificado_Clicked"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
