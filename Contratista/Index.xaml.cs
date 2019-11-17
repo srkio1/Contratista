@@ -103,8 +103,9 @@ namespace Contratista
                                 if (usuarioEntry.Text == item3.usuario)
                                 {
                                     await Navigation.PushAsync(new IndexProfesional(item3.id_profesional, item3.nombre, item3.apellido_paterno, item3.apellido_materno,
-                                                                                    item3.telefono, item3.email, item3.rubro, item3.estado, item3.prioridad, item3.nit,
-                                                                                    item3.calificacion, item3.foto, item3.descripcion, item3.curriculum));
+                                                                                    item3.telefono, item3.email, item3.direccion, item3.foto,item3.cedula_identidad, item3.rubro,
+                                                                                    item3.calificacion, item3.estado, item3.prioridad, item3.descripcion, item3.nit,
+                                                                                       item3.curriculum ,item3.usuario , item3.contrasena));
                                     cargando.IsVisible = false;
 
                                 }

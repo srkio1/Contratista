@@ -15,16 +15,54 @@ namespace Contratista.Empleado
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class IndexProfesional : TabbedPage
 	{
-        private int idProfesional;
-        private string nombre_profesionales;
+        private int IdProfesional;
+        private string Nombre_Profesional;
+        private string Apellido_paterno;
+        private string Apellido_materno;
+        private int Telefono;
+        private string Email;
+        private string Direccion;       
+        private string Foto;
+        private string Cedula_identidad;
+        private string Rubro;
+        private decimal Calificacion;
+        private string Estado;
+        private int Prioridad;
+        private string Descripcion;
+        private int Nit;
+        private string Curriculum;
+        private string Usuario;
+        private string Contrasena;
+       
         ObservableCollection<Portafolio_profesional> portafolio_Profesionals = new ObservableCollection<Portafolio_profesional>();
         public ObservableCollection<Portafolio_profesional> Portafolios { get { return portafolio_Profesionals; } }
-        public IndexProfesional(int id_profesional, string nombre, string apellido_paterno, string apellido_materno, int telefono, string email, string rubro, string estado,
-                                 int prioridad, int nit, decimal calificacion, string foto, string descripcion, string curriculum)
+        public IndexProfesional(int id_profesional, string nombre, string apellido_paterno, string apellido_materno, int telefono, string email,
+                              string direccion, string foto, string cedula_identidad,  string rubro, decimal calificacion, string estado,
+                                 int prioridad, string descripcion, int nit, string curriculum , string usuario, string contrasena)
         {
             InitializeComponent();
-            idProfesional = id_profesional;
-            nombre_profesionales = nombre;
+
+            IdProfesional = id_profesional;
+            Nombre_Profesional = nombre;
+            Apellido_paterno = apellido_paterno;
+            Apellido_materno = Apellido_materno;
+            Telefono = telefono;
+            Email = email;
+            Direccion = direccion;           
+            Foto = foto;
+            Cedula_identidad = cedula_identidad;
+            Rubro = rubro;
+            Calificacion =  calificacion;
+            Estado = estado;
+            Prioridad = prioridad;
+            Descripcion = descripcion;
+            Nit = nit;
+            Curriculum = curriculum;            
+            Usuario = usuario;
+            Contrasena = contrasena;
+
+            IdProfesional = id_profesional;
+            Nombre_Profesional = nombre;
             txtNombre.Text = nombre + " " + apellido_paterno + " " + apellido_materno;
             txtTelefono.Text = telefono.ToString();
             txtEmail.Text = email;
@@ -49,7 +87,7 @@ namespace Contratista.Empleado
 
                 foreach (var item in portafolios.Distinct())
                 {
-                    if (item.id_profesional == idProfesional)
+                    if (item.id_profesional == IdProfesional)
                     {
                         portafolio_Profesionals.Add(new Portafolio_profesional
                         {
@@ -87,7 +125,13 @@ namespace Contratista.Empleado
 
         protected void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AgregarPortafolio(idProfesional, nombre_profesionales));
+            Navigation.PushAsync(new AgregarPortafolio(IdProfesional, Nombre_Profesional));
+        }
+
+        private void Modificar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ModificarProfesional(IdProfesional, Nombre_Profesional, Apellido_paterno, Apellido_materno, Telefono, Email, Direccion,  Foto,
+                        Cedula_identidad, Rubro, Calificacion, Estado, Prioridad, Descripcion, Nit, Curriculum, Usuario , Contrasena));
         }
     }
 }

@@ -47,7 +47,7 @@
                         <Button Text="Ver" VerticalOptions="Center"/>
                     </StackLayout>
                     <StackLayout>
-                        <Button Text="Modificar informacion"/>
+                        <Button Text="Modificar informacion" x:Name="Modificar" Clicked="Modificar_Clicked" CornerRadius="5"/>
                     </StackLayout>
                     <StackLayout Padding="5, 20, 5, 10" VerticalOptions="EndAndExpand">
                         <Label Text="Tienes alguna consulta o sugerencia?" TextColor="Black" HorizontalOptions="Center"/>
