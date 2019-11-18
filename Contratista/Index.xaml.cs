@@ -181,5 +181,16 @@ namespace Contratista
                 await DisplayAlert("Error", erro.ToString(), "OK");
             }
         }
+
+        private void Vercontrasena_Pressed(object sender, EventArgs e)
+        {
+            contrasenaEntry.IsPassword = false;
+
+        }
+
+        private void Vercontrasena_Focused(object sender, FocusEventArgs e)
+        {
+            
+        }
     }
 }

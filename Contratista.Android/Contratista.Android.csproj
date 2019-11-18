@@ -233,7 +233,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon_empresas.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\vercontrasena.png" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\xml\file_paths.xml" />
   </ItemGroup>

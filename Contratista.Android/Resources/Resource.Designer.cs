@@ -6062,26 +6062,26 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f020072
 			public const int avd_hide_password = 2130837618;
 			
-			// aapt resource value: 0x7f020188
-			public const int avd_hide_password_1 = 2130837896;
-			
 			// aapt resource value: 0x7f020189
-			public const int avd_hide_password_2 = 2130837897;
+			public const int avd_hide_password_1 = 2130837897;
 			
 			// aapt resource value: 0x7f02018a
-			public const int avd_hide_password_3 = 2130837898;
+			public const int avd_hide_password_2 = 2130837898;
+			
+			// aapt resource value: 0x7f02018b
+			public const int avd_hide_password_3 = 2130837899;
 			
 			// aapt resource value: 0x7f020073
 			public const int avd_show_password = 2130837619;
 			
-			// aapt resource value: 0x7f02018b
-			public const int avd_show_password_1 = 2130837899;
-			
 			// aapt resource value: 0x7f02018c
-			public const int avd_show_password_2 = 2130837900;
+			public const int avd_show_password_1 = 2130837900;
 			
 			// aapt resource value: 0x7f02018d
-			public const int avd_show_password_3 = 2130837901;
+			public const int avd_show_password_2 = 2130837901;
+			
+			// aapt resource value: 0x7f02018e
+			public const int avd_show_password_3 = 2130837902;
 			
 			// aapt resource value: 0x7f020074
 			public const int backlogin = 2130837620;
@@ -6893,11 +6893,11 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f020181
 			public const int notification_icon_background = 2130837889;
 			
-			// aapt resource value: 0x7f020186
-			public const int notification_template_icon_bg = 2130837894;
-			
 			// aapt resource value: 0x7f020187
-			public const int notification_template_icon_low_bg = 2130837895;
+			public const int notification_template_icon_bg = 2130837895;
+			
+			// aapt resource value: 0x7f020188
+			public const int notification_template_icon_low_bg = 2130837896;
 			
 			// aapt resource value: 0x7f020182
 			public const int notification_tile_bg = 2130837890;
@@ -6910,6 +6910,9 @@ namespace Contratista.Android
 			
 			// aapt resource value: 0x7f020185
 			public const int tooltip_frame_light = 2130837893;
+			
+			// aapt resource value: 0x7f020186
+			public const int vercontrasena = 2130837894;
 			
 			static Drawable()
 			{
