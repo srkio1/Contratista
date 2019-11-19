@@ -97,6 +97,3170 @@ namespace Contratista.Android
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement;
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight;
 			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_fade_in = global::Contratista.Android.Resource.Animation.abc_fade_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_fade_out = global::Contratista.Android.Resource.Animation.abc_fade_out;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Contratista.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_popup_enter = global::Contratista.Android.Resource.Animation.abc_popup_enter;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_popup_exit = global::Contratista.Android.Resource.Animation.abc_popup_exit;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Contratista.Android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_in_bottom = global::Contratista.Android.Resource.Animation.abc_slide_in_bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_in_top = global::Contratista.Android.Resource.Animation.abc_slide_in_top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_out_bottom = global::Contratista.Android.Resource.Animation.abc_slide_out_bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_out_top = global::Contratista.Android.Resource.Animation.abc_slide_out_top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_tooltip_enter = global::Contratista.Android.Resource.Animation.abc_tooltip_enter;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_tooltip_exit = global::Contratista.Android.Resource.Animation.abc_tooltip_exit;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Contratista.Android.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Contratista.Android.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_snackbar_in = global::Contratista.Android.Resource.Animation.design_snackbar_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_snackbar_out = global::Contratista.Android.Resource.Animation.design_snackbar_out;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.EnterFromLeft = global::Contratista.Android.Resource.Animation.EnterFromLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.EnterFromRight = global::Contratista.Android.Resource.Animation.EnterFromRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.ExitToLeft = global::Contratista.Android.Resource.Animation.ExitToLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.ExitToRight = global::Contratista.Android.Resource.Animation.ExitToRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.design_appbar_state_list_animator = global::Contratista.Android.Resource.Animator.design_appbar_state_list_animator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.design_fab_hide_motion_spec = global::Contratista.Android.Resource.Animator.design_fab_hide_motion_spec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.design_fab_show_motion_spec = global::Contratista.Android.Resource.Animator.design_fab_show_motion_spec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::Contratista.Android.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Contratista.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::Contratista.Android.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::Contratista.Android.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::Contratista.Android.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Contratista.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Contratista.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarDivider = global::Contratista.Android.Resource.Attribute.actionBarDivider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarItemBackground = global::Contratista.Android.Resource.Attribute.actionBarItemBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarPopupTheme = global::Contratista.Android.Resource.Attribute.actionBarPopupTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarSize = global::Contratista.Android.Resource.Attribute.actionBarSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarSplitStyle = global::Contratista.Android.Resource.Attribute.actionBarSplitStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarStyle = global::Contratista.Android.Resource.Attribute.actionBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabBarStyle = global::Contratista.Android.Resource.Attribute.actionBarTabBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabStyle = global::Contratista.Android.Resource.Attribute.actionBarTabStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabTextStyle = global::Contratista.Android.Resource.Attribute.actionBarTabTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTheme = global::Contratista.Android.Resource.Attribute.actionBarTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarWidgetTheme = global::Contratista.Android.Resource.Attribute.actionBarWidgetTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionButtonStyle = global::Contratista.Android.Resource.Attribute.actionButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionDropDownStyle = global::Contratista.Android.Resource.Attribute.actionDropDownStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionLayout = global::Contratista.Android.Resource.Attribute.actionLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionMenuTextAppearance = global::Contratista.Android.Resource.Attribute.actionMenuTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionMenuTextColor = global::Contratista.Android.Resource.Attribute.actionMenuTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeBackground = global::Contratista.Android.Resource.Attribute.actionModeBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Contratista.Android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCloseDrawable = global::Contratista.Android.Resource.Attribute.actionModeCloseDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCopyDrawable = global::Contratista.Android.Resource.Attribute.actionModeCopyDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCutDrawable = global::Contratista.Android.Resource.Attribute.actionModeCutDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeFindDrawable = global::Contratista.Android.Resource.Attribute.actionModeFindDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModePasteDrawable = global::Contratista.Android.Resource.Attribute.actionModePasteDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Contratista.Android.Resource.Attribute.actionModePopupWindowStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Contratista.Android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeShareDrawable = global::Contratista.Android.Resource.Attribute.actionModeShareDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeSplitBackground = global::Contratista.Android.Resource.Attribute.actionModeSplitBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeStyle = global::Contratista.Android.Resource.Attribute.actionModeStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Contratista.Android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Contratista.Android.Resource.Attribute.actionOverflowButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Contratista.Android.Resource.Attribute.actionOverflowMenuStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionProviderClass = global::Contratista.Android.Resource.Attribute.actionProviderClass;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionViewClass = global::Contratista.Android.Resource.Attribute.actionViewClass;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.activityChooserViewStyle = global::Contratista.Android.Resource.Attribute.activityChooserViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Contratista.Android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogCenterButtons = global::Contratista.Android.Resource.Attribute.alertDialogCenterButtons;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogStyle = global::Contratista.Android.Resource.Attribute.alertDialogStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogTheme = global::Contratista.Android.Resource.Attribute.alertDialogTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.allowStacking = global::Contratista.Android.Resource.Attribute.allowStacking;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alpha = global::Contratista.Android.Resource.Attribute.alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alphabeticModifiers = global::Contratista.Android.Resource.Attribute.alphabeticModifiers;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.arrowHeadLength = global::Contratista.Android.Resource.Attribute.arrowHeadLength;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.arrowShaftLength = global::Contratista.Android.Resource.Attribute.arrowShaftLength;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Contratista.Android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizeMaxTextSize = global::Contratista.Android.Resource.Attribute.autoSizeMaxTextSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizeMinTextSize = global::Contratista.Android.Resource.Attribute.autoSizeMinTextSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizePresetSizes = global::Contratista.Android.Resource.Attribute.autoSizePresetSizes;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizeStepGranularity = global::Contratista.Android.Resource.Attribute.autoSizeStepGranularity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizeTextType = global::Contratista.Android.Resource.Attribute.autoSizeTextType;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.background = global::Contratista.Android.Resource.Attribute.background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundSplit = global::Contratista.Android.Resource.Attribute.backgroundSplit;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundStacked = global::Contratista.Android.Resource.Attribute.backgroundStacked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundTint = global::Contratista.Android.Resource.Attribute.backgroundTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundTintMode = global::Contratista.Android.Resource.Attribute.backgroundTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.barLength = global::Contratista.Android.Resource.Attribute.barLength;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_autoHide = global::Contratista.Android.Resource.Attribute.behavior_autoHide;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_fitToContents = global::Contratista.Android.Resource.Attribute.behavior_fitToContents;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_hideable = global::Contratista.Android.Resource.Attribute.behavior_hideable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_overlapTop = global::Contratista.Android.Resource.Attribute.behavior_overlapTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_peekHeight = global::Contratista.Android.Resource.Attribute.behavior_peekHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_skipCollapsed = global::Contratista.Android.Resource.Attribute.behavior_skipCollapsed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.borderWidth = global::Contratista.Android.Resource.Attribute.borderWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.borderlessButtonStyle = global::Contratista.Android.Resource.Attribute.borderlessButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomAppBarStyle = global::Contratista.Android.Resource.Attribute.bottomAppBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomNavigationStyle = global::Contratista.Android.Resource.Attribute.bottomNavigationStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Contratista.Android.Resource.Attribute.bottomSheetDialogTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomSheetStyle = global::Contratista.Android.Resource.Attribute.bottomSheetStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxBackgroundColor = global::Contratista.Android.Resource.Attribute.boxBackgroundColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxBackgroundMode = global::Contratista.Android.Resource.Attribute.boxBackgroundMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::Contratista.Android.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::Contratista.Android.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::Contratista.Android.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::Contratista.Android.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::Contratista.Android.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxStrokeColor = global::Contratista.Android.Resource.Attribute.boxStrokeColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxStrokeWidth = global::Contratista.Android.Resource.Attribute.boxStrokeWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorAnimationTypes = global::Contratista.Android.Resource.Attribute.busyIndicatorAnimationTypes;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorIsBusy = global::Contratista.Android.Resource.Attribute.busyIndicatorIsBusy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorSecondaryColor = global::Contratista.Android.Resource.Attribute.busyIndicatorSecondaryColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTextColor = global::Contratista.Android.Resource.Attribute.busyIndicatorTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTextSize = global::Contratista.Android.Resource.Attribute.busyIndicatorTextSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTitle = global::Contratista.Android.Resource.Attribute.busyIndicatorTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTitlePlacement = global::Contratista.Android.Resource.Attribute.busyIndicatorTitlePlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorViewBoxHeight = global::Contratista.Android.Resource.Attribute.busyIndicatorViewBoxHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorViewBoxWidth = global::Contratista.Android.Resource.Attribute.busyIndicatorViewBoxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarButtonStyle = global::Contratista.Android.Resource.Attribute.buttonBarButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Contratista.Android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Contratista.Android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Contratista.Android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarStyle = global::Contratista.Android.Resource.Attribute.buttonBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonGravity = global::Contratista.Android.Resource.Attribute.buttonGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonIconDimen = global::Contratista.Android.Resource.Attribute.buttonIconDimen;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonPanelSideLayout = global::Contratista.Android.Resource.Attribute.buttonPanelSideLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonStyle = global::Contratista.Android.Resource.Attribute.buttonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonStyleSmall = global::Contratista.Android.Resource.Attribute.buttonStyleSmall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonTint = global::Contratista.Android.Resource.Attribute.buttonTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonTintMode = global::Contratista.Android.Resource.Attribute.buttonTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardBackgroundColor = global::Contratista.Android.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardCornerRadius = global::Contratista.Android.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardElevation = global::Contratista.Android.Resource.Attribute.cardElevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardMaxElevation = global::Contratista.Android.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Contratista.Android.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardUseCompatPadding = global::Contratista.Android.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardViewStyle = global::Contratista.Android.Resource.Attribute.cardViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkboxStyle = global::Contratista.Android.Resource.Attribute.checkboxStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedChip = global::Contratista.Android.Resource.Attribute.checkedChip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedIcon = global::Contratista.Android.Resource.Attribute.checkedIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedIconEnabled = global::Contratista.Android.Resource.Attribute.checkedIconEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedIconVisible = global::Contratista.Android.Resource.Attribute.checkedIconVisible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedTextViewStyle = global::Contratista.Android.Resource.Attribute.checkedTextViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipBackgroundColor = global::Contratista.Android.Resource.Attribute.chipBackgroundColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipCornerRadius = global::Contratista.Android.Resource.Attribute.chipCornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipEndPadding = global::Contratista.Android.Resource.Attribute.chipEndPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipGroupStyle = global::Contratista.Android.Resource.Attribute.chipGroupStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIcon = global::Contratista.Android.Resource.Attribute.chipIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIconEnabled = global::Contratista.Android.Resource.Attribute.chipIconEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIconSize = global::Contratista.Android.Resource.Attribute.chipIconSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIconTint = global::Contratista.Android.Resource.Attribute.chipIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIconVisible = global::Contratista.Android.Resource.Attribute.chipIconVisible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipMinHeight = global::Contratista.Android.Resource.Attribute.chipMinHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipSpacing = global::Contratista.Android.Resource.Attribute.chipSpacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipSpacingHorizontal = global::Contratista.Android.Resource.Attribute.chipSpacingHorizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipSpacingVertical = global::Contratista.Android.Resource.Attribute.chipSpacingVertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStandaloneStyle = global::Contratista.Android.Resource.Attribute.chipStandaloneStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStartPadding = global::Contratista.Android.Resource.Attribute.chipStartPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStrokeColor = global::Contratista.Android.Resource.Attribute.chipStrokeColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStrokeWidth = global::Contratista.Android.Resource.Attribute.chipStrokeWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStyle = global::Contratista.Android.Resource.Attribute.chipStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIcon = global::Contratista.Android.Resource.Attribute.closeIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconEnabled = global::Contratista.Android.Resource.Attribute.closeIconEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconEndPadding = global::Contratista.Android.Resource.Attribute.closeIconEndPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconSize = global::Contratista.Android.Resource.Attribute.closeIconSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconStartPadding = global::Contratista.Android.Resource.Attribute.closeIconStartPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconTint = global::Contratista.Android.Resource.Attribute.closeIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconVisible = global::Contratista.Android.Resource.Attribute.closeIconVisible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeItemLayout = global::Contratista.Android.Resource.Attribute.closeItemLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapseContentDescription = global::Contratista.Android.Resource.Attribute.collapseContentDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapseIcon = global::Contratista.Android.Resource.Attribute.collapseIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapsedTitleGravity = global::Contratista.Android.Resource.Attribute.collapsedTitleGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Contratista.Android.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.color = global::Contratista.Android.Resource.Attribute.color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorAccent = global::Contratista.Android.Resource.Attribute.colorAccent;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorBackgroundFloating = global::Contratista.Android.Resource.Attribute.colorBackgroundFloating;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorButtonNormal = global::Contratista.Android.Resource.Attribute.colorButtonNormal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlActivated = global::Contratista.Android.Resource.Attribute.colorControlActivated;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlHighlight = global::Contratista.Android.Resource.Attribute.colorControlHighlight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlNormal = global::Contratista.Android.Resource.Attribute.colorControlNormal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorError = global::Contratista.Android.Resource.Attribute.colorError;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorPrimary = global::Contratista.Android.Resource.Attribute.colorPrimary;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorPrimaryDark = global::Contratista.Android.Resource.Attribute.colorPrimaryDark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorSecondary = global::Contratista.Android.Resource.Attribute.colorSecondary;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Contratista.Android.Resource.Attribute.colorSwitchThumbNormal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.commitIcon = global::Contratista.Android.Resource.Attribute.commitIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentDescription = global::Contratista.Android.Resource.Attribute.contentDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetEnd = global::Contratista.Android.Resource.Attribute.contentInsetEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetEndWithActions = global::Contratista.Android.Resource.Attribute.contentInsetEndWithActions;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetLeft = global::Contratista.Android.Resource.Attribute.contentInsetLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetRight = global::Contratista.Android.Resource.Attribute.contentInsetRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetStart = global::Contratista.Android.Resource.Attribute.contentInsetStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::Contratista.Android.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPadding = global::Contratista.Android.Resource.Attribute.contentPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingBottom = global::Contratista.Android.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingLeft = global::Contratista.Android.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingRight = global::Contratista.Android.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingTop = global::Contratista.Android.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentScrim = global::Contratista.Android.Resource.Attribute.contentScrim;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.controlBackground = global::Contratista.Android.Resource.Attribute.controlBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.coordinatorLayoutStyle = global::Contratista.Android.Resource.Attribute.coordinatorLayoutStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cornerRadius = global::Contratista.Android.Resource.Attribute.cornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterEnabled = global::Contratista.Android.Resource.Attribute.counterEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterMaxLength = global::Contratista.Android.Resource.Attribute.counterMaxLength;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Contratista.Android.Resource.Attribute.counterOverflowTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterTextAppearance = global::Contratista.Android.Resource.Attribute.counterTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.customNavigationLayout = global::Contratista.Android.Resource.Attribute.customNavigationLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.defaultQueryHint = global::Contratista.Android.Resource.Attribute.defaultQueryHint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dialogCornerRadius = global::Contratista.Android.Resource.Attribute.dialogCornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dialogPreferredPadding = global::Contratista.Android.Resource.Attribute.dialogPreferredPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dialogTheme = global::Contratista.Android.Resource.Attribute.dialogTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.displayOptions = global::Contratista.Android.Resource.Attribute.displayOptions;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.divider = global::Contratista.Android.Resource.Attribute.divider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerHorizontal = global::Contratista.Android.Resource.Attribute.dividerHorizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerPadding = global::Contratista.Android.Resource.Attribute.dividerPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerVertical = global::Contratista.Android.Resource.Attribute.dividerVertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.drawableSize = global::Contratista.Android.Resource.Attribute.drawableSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.drawerArrowStyle = global::Contratista.Android.Resource.Attribute.drawerArrowStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dropDownListViewStyle = global::Contratista.Android.Resource.Attribute.dropDownListViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Contratista.Android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextBackground = global::Contratista.Android.Resource.Attribute.editTextBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextColor = global::Contratista.Android.Resource.Attribute.editTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextStyle = global::Contratista.Android.Resource.Attribute.editTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.elevation = global::Contratista.Android.Resource.Attribute.elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.enforceMaterialTheme = global::Contratista.Android.Resource.Attribute.enforceMaterialTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.enforceTextAppearance = global::Contratista.Android.Resource.Attribute.enforceTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.errorEnabled = global::Contratista.Android.Resource.Attribute.errorEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.errorTextAppearance = global::Contratista.Android.Resource.Attribute.errorTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Contratista.Android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expanded = global::Contratista.Android.Resource.Attribute.expanded;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleGravity = global::Contratista.Android.Resource.Attribute.expandedTitleGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMargin = global::Contratista.Android.Resource.Attribute.expandedTitleMargin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Contratista.Android.Resource.Attribute.expandedTitleMarginBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Contratista.Android.Resource.Attribute.expandedTitleMarginEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginStart = global::Contratista.Android.Resource.Attribute.expandedTitleMarginStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginTop = global::Contratista.Android.Resource.Attribute.expandedTitleMarginTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Contratista.Android.Resource.Attribute.expandedTitleTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::Contratista.Android.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabAlignmentMode = global::Contratista.Android.Resource.Attribute.fabAlignmentMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabCradleMargin = global::Contratista.Android.Resource.Attribute.fabCradleMargin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::Contratista.Android.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabCradleVerticalOffset = global::Contratista.Android.Resource.Attribute.fabCradleVerticalOffset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabCustomSize = global::Contratista.Android.Resource.Attribute.fabCustomSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabSize = global::Contratista.Android.Resource.Attribute.fabSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollEnabled = global::Contratista.Android.Resource.Attribute.fastScrollEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Contratista.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Contratista.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Contratista.Android.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Contratista.Android.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.firstBaselineToTopHeight = global::Contratista.Android.Resource.Attribute.firstBaselineToTopHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.floatingActionButtonStyle = global::Contratista.Android.Resource.Attribute.floatingActionButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.font = global::Contratista.Android.Resource.Attribute.font;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontFamily = global::Contratista.Android.Resource.Attribute.fontFamily;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderAuthority = global::Contratista.Android.Resource.Attribute.fontProviderAuthority;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderCerts = global::Contratista.Android.Resource.Attribute.fontProviderCerts;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderFetchStrategy = global::Contratista.Android.Resource.Attribute.fontProviderFetchStrategy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderFetchTimeout = global::Contratista.Android.Resource.Attribute.fontProviderFetchTimeout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderPackage = global::Contratista.Android.Resource.Attribute.fontProviderPackage;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderQuery = global::Contratista.Android.Resource.Attribute.fontProviderQuery;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontStyle = global::Contratista.Android.Resource.Attribute.fontStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontVariationSettings = global::Contratista.Android.Resource.Attribute.fontVariationSettings;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontWeight = global::Contratista.Android.Resource.Attribute.fontWeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.foregroundInsidePadding = global::Contratista.Android.Resource.Attribute.foregroundInsidePadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.gapBetweenBars = global::Contratista.Android.Resource.Attribute.gapBetweenBars;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.goIcon = global::Contratista.Android.Resource.Attribute.goIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.headerLayout = global::Contratista.Android.Resource.Attribute.headerLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.height = global::Contratista.Android.Resource.Attribute.height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.helperText = global::Contratista.Android.Resource.Attribute.helperText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.helperTextEnabled = global::Contratista.Android.Resource.Attribute.helperTextEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.helperTextTextAppearance = global::Contratista.Android.Resource.Attribute.helperTextTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hideMotionSpec = global::Contratista.Android.Resource.Attribute.hideMotionSpec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hideOnContentScroll = global::Contratista.Android.Resource.Attribute.hideOnContentScroll;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hideOnScroll = global::Contratista.Android.Resource.Attribute.hideOnScroll;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintAnimationEnabled = global::Contratista.Android.Resource.Attribute.hintAnimationEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintEnabled = global::Contratista.Android.Resource.Attribute.hintEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintTextAppearance = global::Contratista.Android.Resource.Attribute.hintTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.homeAsUpIndicator = global::Contratista.Android.Resource.Attribute.homeAsUpIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.homeLayout = global::Contratista.Android.Resource.Attribute.homeLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::Contratista.Android.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.icon = global::Contratista.Android.Resource.Attribute.icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconEndPadding = global::Contratista.Android.Resource.Attribute.iconEndPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconGravity = global::Contratista.Android.Resource.Attribute.iconGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconPadding = global::Contratista.Android.Resource.Attribute.iconPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconSize = global::Contratista.Android.Resource.Attribute.iconSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconStartPadding = global::Contratista.Android.Resource.Attribute.iconStartPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconTint = global::Contratista.Android.Resource.Attribute.iconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconTintMode = global::Contratista.Android.Resource.Attribute.iconTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconifiedByDefault = global::Contratista.Android.Resource.Attribute.iconifiedByDefault;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.imageButtonStyle = global::Contratista.Android.Resource.Attribute.imageButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.indeterminateProgressStyle = global::Contratista.Android.Resource.Attribute.indeterminateProgressStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.initialActivityCount = global::Contratista.Android.Resource.Attribute.initialActivityCount;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.insetForeground = global::Contratista.Android.Resource.Attribute.insetForeground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.isLightTheme = global::Contratista.Android.Resource.Attribute.isLightTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemBackground = global::Contratista.Android.Resource.Attribute.itemBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemHorizontalPadding = global::Contratista.Android.Resource.Attribute.itemHorizontalPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::Contratista.Android.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemIconPadding = global::Contratista.Android.Resource.Attribute.itemIconPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemIconSize = global::Contratista.Android.Resource.Attribute.itemIconSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemIconTint = global::Contratista.Android.Resource.Attribute.itemIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemPadding = global::Contratista.Android.Resource.Attribute.itemPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemSpacing = global::Contratista.Android.Resource.Attribute.itemSpacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextAppearance = global::Contratista.Android.Resource.Attribute.itemTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextAppearanceActive = global::Contratista.Android.Resource.Attribute.itemTextAppearanceActive;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextAppearanceInactive = global::Contratista.Android.Resource.Attribute.itemTextAppearanceInactive;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextColor = global::Contratista.Android.Resource.Attribute.itemTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.keylines = global::Contratista.Android.Resource.Attribute.keylines;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.labelVisibilityMode = global::Contratista.Android.Resource.Attribute.labelVisibilityMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::Contratista.Android.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout = global::Contratista.Android.Resource.Attribute.layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layoutManager = global::Contratista.Android.Resource.Attribute.layoutManager;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_anchor = global::Contratista.Android.Resource.Attribute.layout_anchor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_anchorGravity = global::Contratista.Android.Resource.Attribute.layout_anchorGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_behavior = global::Contratista.Android.Resource.Attribute.layout_behavior;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_collapseMode = global::Contratista.Android.Resource.Attribute.layout_collapseMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Contratista.Android.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::Contratista.Android.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_insetEdge = global::Contratista.Android.Resource.Attribute.layout_insetEdge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_keyline = global::Contratista.Android.Resource.Attribute.layout_keyline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_scrollFlags = global::Contratista.Android.Resource.Attribute.layout_scrollFlags;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_scrollInterpolator = global::Contratista.Android.Resource.Attribute.layout_scrollInterpolator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.liftOnScroll = global::Contratista.Android.Resource.Attribute.liftOnScroll;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.lineHeight = global::Contratista.Android.Resource.Attribute.lineHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.lineSpacing = global::Contratista.Android.Resource.Attribute.lineSpacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Contratista.Android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listDividerAlertDialog = global::Contratista.Android.Resource.Attribute.listDividerAlertDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listItemLayout = global::Contratista.Android.Resource.Attribute.listItemLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listLayout = global::Contratista.Android.Resource.Attribute.listLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listMenuViewStyle = global::Contratista.Android.Resource.Attribute.listMenuViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPopupWindowStyle = global::Contratista.Android.Resource.Attribute.listPopupWindowStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeight = global::Contratista.Android.Resource.Attribute.listPreferredItemHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Contratista.Android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Contratista.Android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Contratista.Android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Contratista.Android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.logo = global::Contratista.Android.Resource.Attribute.logo;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.logoDescription = global::Contratista.Android.Resource.Attribute.logoDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.materialButtonStyle = global::Contratista.Android.Resource.Attribute.materialButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.materialCardViewStyle = global::Contratista.Android.Resource.Attribute.materialCardViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.maxActionInlineWidth = global::Contratista.Android.Resource.Attribute.maxActionInlineWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.maxButtonHeight = global::Contratista.Android.Resource.Attribute.maxButtonHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.maxImageSize = global::Contratista.Android.Resource.Attribute.maxImageSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.measureWithLargestChild = global::Contratista.Android.Resource.Attribute.measureWithLargestChild;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Contratista.Android.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::Contratista.Android.Resource.Attribute.mediaRouteButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteButtonTint = global::Contratista.Android.Resource.Attribute.mediaRouteButtonTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::Contratista.Android.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::Contratista.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Contratista.Android.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::Contratista.Android.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::Contratista.Android.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Contratista.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Contratista.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteStopDrawable = global::Contratista.Android.Resource.Attribute.mediaRouteStopDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteTheme = global::Contratista.Android.Resource.Attribute.mediaRouteTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::Contratista.Android.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.menu = global::Contratista.Android.Resource.Attribute.menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.multiChoiceItemLayout = global::Contratista.Android.Resource.Attribute.multiChoiceItemLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationContentDescription = global::Contratista.Android.Resource.Attribute.navigationContentDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationIcon = global::Contratista.Android.Resource.Attribute.navigationIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationMode = global::Contratista.Android.Resource.Attribute.navigationMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationViewStyle = global::Contratista.Android.Resource.Attribute.navigationViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.numericModifiers = global::Contratista.Android.Resource.Attribute.numericModifiers;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.overlapAnchor = global::Contratista.Android.Resource.Attribute.overlapAnchor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingBottomNoButtons = global::Contratista.Android.Resource.Attribute.paddingBottomNoButtons;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingEnd = global::Contratista.Android.Resource.Attribute.paddingEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingStart = global::Contratista.Android.Resource.Attribute.paddingStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingTopNoTitle = global::Contratista.Android.Resource.Attribute.paddingTopNoTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelBackground = global::Contratista.Android.Resource.Attribute.panelBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelMenuListTheme = global::Contratista.Android.Resource.Attribute.panelMenuListTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelMenuListWidth = global::Contratista.Android.Resource.Attribute.panelMenuListWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleContentDescription = global::Contratista.Android.Resource.Attribute.passwordToggleContentDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleDrawable = global::Contratista.Android.Resource.Attribute.passwordToggleDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleEnabled = global::Contratista.Android.Resource.Attribute.passwordToggleEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleTint = global::Contratista.Android.Resource.Attribute.passwordToggleTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleTintMode = global::Contratista.Android.Resource.Attribute.passwordToggleTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupMenuStyle = global::Contratista.Android.Resource.Attribute.popupMenuStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupTheme = global::Contratista.Android.Resource.Attribute.popupTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupWindowStyle = global::Contratista.Android.Resource.Attribute.popupWindowStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.preserveIconSpacing = global::Contratista.Android.Resource.Attribute.preserveIconSpacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.pressedTranslationZ = global::Contratista.Android.Resource.Attribute.pressedTranslationZ;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.progressBarPadding = global::Contratista.Android.Resource.Attribute.progressBarPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.progressBarStyle = global::Contratista.Android.Resource.Attribute.progressBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.queryBackground = global::Contratista.Android.Resource.Attribute.queryBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.queryHint = global::Contratista.Android.Resource.Attribute.queryHint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.radioButtonStyle = global::Contratista.Android.Resource.Attribute.radioButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderDirectionReversed = global::Contratista.Android.Resource.Attribute.rangeSliderDirectionReversed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderEndValue = global::Contratista.Android.Resource.Attribute.rangeSliderEndValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderKnobColor = global::Contratista.Android.Resource.Attribute.rangeSliderKnobColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderMaximum = global::Contratista.Android.Resource.Attribute.rangeSliderMaximum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderMinimum = global::Contratista.Android.Resource.Attribute.rangeSliderMinimum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderOrientation = global::Contratista.Android.Resource.Attribute.rangeSliderOrientation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderShowRange = global::Contratista.Android.Resource.Attribute.rangeSliderShowRange;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderShowValueLabel = global::Contratista.Android.Resource.Attribute.rangeSliderShowValueLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderStartValue = global::Contratista.Android.Resource.Attribute.rangeSliderStartValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderThumbSize = global::Contratista.Android.Resource.Attribute.rangeSliderThumbSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTickPlacement = global::Contratista.Android.Resource.Attribute.rangeSliderTickPlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTrackColor = global::Contratista.Android.Resource.Attribute.rangeSliderTrackColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTrackSelectionColor = global::Contratista.Android.Resource.Attribute.rangeSliderTrackSelectionColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderValue = global::Contratista.Android.Resource.Attribute.rangeSliderValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderValuePlacement = global::Contratista.Android.Resource.Attribute.rangeSliderValuePlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyle = global::Contratista.Android.Resource.Attribute.ratingBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Contratista.Android.Resource.Attribute.ratingBarStyleIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyleSmall = global::Contratista.Android.Resource.Attribute.ratingBarStyleSmall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.reverseLayout = global::Contratista.Android.Resource.Attribute.reverseLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rippleColor = global::Contratista.Android.Resource.Attribute.rippleColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.scrimAnimationDuration = global::Contratista.Android.Resource.Attribute.scrimAnimationDuration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.scrimBackground = global::Contratista.Android.Resource.Attribute.scrimBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::Contratista.Android.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchHintIcon = global::Contratista.Android.Resource.Attribute.searchHintIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchIcon = global::Contratista.Android.Resource.Attribute.searchIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchViewStyle = global::Contratista.Android.Resource.Attribute.searchViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.seekBarStyle = global::Contratista.Android.Resource.Attribute.seekBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.selectableItemBackground = global::Contratista.Android.Resource.Attribute.selectableItemBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Contratista.Android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showAsAction = global::Contratista.Android.Resource.Attribute.showAsAction;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showDividers = global::Contratista.Android.Resource.Attribute.showDividers;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showMotionSpec = global::Contratista.Android.Resource.Attribute.showMotionSpec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showText = global::Contratista.Android.Resource.Attribute.showText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showTitle = global::Contratista.Android.Resource.Attribute.showTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.singleChoiceItemLayout = global::Contratista.Android.Resource.Attribute.singleChoiceItemLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.singleLine = global::Contratista.Android.Resource.Attribute.singleLine;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.singleSelection = global::Contratista.Android.Resource.Attribute.singleSelection;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.snackbarButtonStyle = global::Contratista.Android.Resource.Attribute.snackbarButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.snackbarStyle = global::Contratista.Android.Resource.Attribute.snackbarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spanCount = global::Contratista.Android.Resource.Attribute.spanCount;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinBars = global::Contratista.Android.Resource.Attribute.spinBars;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Contratista.Android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinnerStyle = global::Contratista.Android.Resource.Attribute.spinnerStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.splitTrack = global::Contratista.Android.Resource.Attribute.splitTrack;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.srcCompat = global::Contratista.Android.Resource.Attribute.srcCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.stackFromEnd = global::Contratista.Android.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_above_anchor = global::Contratista.Android.Resource.Attribute.state_above_anchor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_collapsed = global::Contratista.Android.Resource.Attribute.state_collapsed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_collapsible = global::Contratista.Android.Resource.Attribute.state_collapsible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_liftable = global::Contratista.Android.Resource.Attribute.state_liftable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_lifted = global::Contratista.Android.Resource.Attribute.state_lifted;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.statusBarBackground = global::Contratista.Android.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.statusBarScrim = global::Contratista.Android.Resource.Attribute.statusBarScrim;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.strokeColor = global::Contratista.Android.Resource.Attribute.strokeColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.strokeWidth = global::Contratista.Android.Resource.Attribute.strokeWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subMenuArrow = global::Contratista.Android.Resource.Attribute.subMenuArrow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.submitBackground = global::Contratista.Android.Resource.Attribute.submitBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitle = global::Contratista.Android.Resource.Attribute.subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextAppearance = global::Contratista.Android.Resource.Attribute.subtitleTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextColor = global::Contratista.Android.Resource.Attribute.subtitleTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextStyle = global::Contratista.Android.Resource.Attribute.subtitleTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.suggestionRowLayout = global::Contratista.Android.Resource.Attribute.suggestionRowLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchMinWidth = global::Contratista.Android.Resource.Attribute.switchMinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchPadding = global::Contratista.Android.Resource.Attribute.switchPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchStyle = global::Contratista.Android.Resource.Attribute.switchStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchTextAppearance = global::Contratista.Android.Resource.Attribute.switchTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabBackground = global::Contratista.Android.Resource.Attribute.tabBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabContentStart = global::Contratista.Android.Resource.Attribute.tabContentStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabGravity = global::Contratista.Android.Resource.Attribute.tabGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIconTint = global::Contratista.Android.Resource.Attribute.tabIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIconTintMode = global::Contratista.Android.Resource.Attribute.tabIconTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicator = global::Contratista.Android.Resource.Attribute.tabIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::Contratista.Android.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorColor = global::Contratista.Android.Resource.Attribute.tabIndicatorColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorFullWidth = global::Contratista.Android.Resource.Attribute.tabIndicatorFullWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorGravity = global::Contratista.Android.Resource.Attribute.tabIndicatorGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorHeight = global::Contratista.Android.Resource.Attribute.tabIndicatorHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabInlineLabel = global::Contratista.Android.Resource.Attribute.tabInlineLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMaxWidth = global::Contratista.Android.Resource.Attribute.tabMaxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMinWidth = global::Contratista.Android.Resource.Attribute.tabMinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMode = global::Contratista.Android.Resource.Attribute.tabMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPadding = global::Contratista.Android.Resource.Attribute.tabPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingBottom = global::Contratista.Android.Resource.Attribute.tabPaddingBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingEnd = global::Contratista.Android.Resource.Attribute.tabPaddingEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingStart = global::Contratista.Android.Resource.Attribute.tabPaddingStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingTop = global::Contratista.Android.Resource.Attribute.tabPaddingTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabRippleColor = global::Contratista.Android.Resource.Attribute.tabRippleColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabSelectedTextColor = global::Contratista.Android.Resource.Attribute.tabSelectedTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabStyle = global::Contratista.Android.Resource.Attribute.tabStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabTextAppearance = global::Contratista.Android.Resource.Attribute.tabTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabTextColor = global::Contratista.Android.Resource.Attribute.tabTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabUnboundedRipple = global::Contratista.Android.Resource.Attribute.tabUnboundedRipple;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAllCaps = global::Contratista.Android.Resource.Attribute.textAllCaps;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceBody1 = global::Contratista.Android.Resource.Attribute.textAppearanceBody1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceBody2 = global::Contratista.Android.Resource.Attribute.textAppearanceBody2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceButton = global::Contratista.Android.Resource.Attribute.textAppearanceButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceCaption = global::Contratista.Android.Resource.Attribute.textAppearanceCaption;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline1 = global::Contratista.Android.Resource.Attribute.textAppearanceHeadline1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline2 = global::Contratista.Android.Resource.Attribute.textAppearanceHeadline2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline3 = global::Contratista.Android.Resource.Attribute.textAppearanceHeadline3;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline4 = global::Contratista.Android.Resource.Attribute.textAppearanceHeadline4;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline5 = global::Contratista.Android.Resource.Attribute.textAppearanceHeadline5;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline6 = global::Contratista.Android.Resource.Attribute.textAppearanceHeadline6;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Contratista.Android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceListItem = global::Contratista.Android.Resource.Attribute.textAppearanceListItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::Contratista.Android.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Contratista.Android.Resource.Attribute.textAppearanceListItemSmall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceOverline = global::Contratista.Android.Resource.Attribute.textAppearanceOverline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::Contratista.Android.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Contratista.Android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Contratista.Android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Contratista.Android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::Contratista.Android.Resource.Attribute.textAppearanceSubtitle1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::Contratista.Android.Resource.Attribute.textAppearanceSubtitle2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Contratista.Android.Resource.Attribute.textColorAlertDialogListItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textColorSearchUrl = global::Contratista.Android.Resource.Attribute.textColorSearchUrl;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textEndPadding = global::Contratista.Android.Resource.Attribute.textEndPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textInputStyle = global::Contratista.Android.Resource.Attribute.textInputStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textStartPadding = global::Contratista.Android.Resource.Attribute.textStartPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.theme = global::Contratista.Android.Resource.Attribute.theme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thickness = global::Contratista.Android.Resource.Attribute.thickness;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thumbTextPadding = global::Contratista.Android.Resource.Attribute.thumbTextPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thumbTint = global::Contratista.Android.Resource.Attribute.thumbTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thumbTintMode = global::Contratista.Android.Resource.Attribute.thumbTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tickMark = global::Contratista.Android.Resource.Attribute.tickMark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tickMarkTint = global::Contratista.Android.Resource.Attribute.tickMarkTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tickMarkTintMode = global::Contratista.Android.Resource.Attribute.tickMarkTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tint = global::Contratista.Android.Resource.Attribute.tint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tintMode = global::Contratista.Android.Resource.Attribute.tintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.title = global::Contratista.Android.Resource.Attribute.title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleEnabled = global::Contratista.Android.Resource.Attribute.titleEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMargin = global::Contratista.Android.Resource.Attribute.titleMargin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginBottom = global::Contratista.Android.Resource.Attribute.titleMarginBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginEnd = global::Contratista.Android.Resource.Attribute.titleMarginEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginStart = global::Contratista.Android.Resource.Attribute.titleMarginStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginTop = global::Contratista.Android.Resource.Attribute.titleMarginTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMargins = global::Contratista.Android.Resource.Attribute.titleMargins;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextAppearance = global::Contratista.Android.Resource.Attribute.titleTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextColor = global::Contratista.Android.Resource.Attribute.titleTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextStyle = global::Contratista.Android.Resource.Attribute.titleTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarId = global::Contratista.Android.Resource.Attribute.toolbarId;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Contratista.Android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarStyle = global::Contratista.Android.Resource.Attribute.toolbarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tooltipForegroundColor = global::Contratista.Android.Resource.Attribute.tooltipForegroundColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tooltipFrameBackground = global::Contratista.Android.Resource.Attribute.tooltipFrameBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tooltipText = global::Contratista.Android.Resource.Attribute.tooltipText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.track = global::Contratista.Android.Resource.Attribute.track;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.trackTint = global::Contratista.Android.Resource.Attribute.trackTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.trackTintMode = global::Contratista.Android.Resource.Attribute.trackTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ttcIndex = global::Contratista.Android.Resource.Attribute.ttcIndex;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.useCompatPadding = global::Contratista.Android.Resource.Attribute.useCompatPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.viewInflaterClass = global::Contratista.Android.Resource.Attribute.viewInflaterClass;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.voiceIcon = global::Contratista.Android.Resource.Attribute.voiceIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionBar = global::Contratista.Android.Resource.Attribute.windowActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionBarOverlay = global::Contratista.Android.Resource.Attribute.windowActionBarOverlay;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionModeOverlay = global::Contratista.Android.Resource.Attribute.windowActionModeOverlay;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedHeightMajor = global::Contratista.Android.Resource.Attribute.windowFixedHeightMajor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedHeightMinor = global::Contratista.Android.Resource.Attribute.windowFixedHeightMinor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedWidthMajor = global::Contratista.Android.Resource.Attribute.windowFixedWidthMajor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedWidthMinor = global::Contratista.Android.Resource.Attribute.windowFixedWidthMinor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowMinWidthMajor = global::Contratista.Android.Resource.Attribute.windowMinWidthMajor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowMinWidthMinor = global::Contratista.Android.Resource.Attribute.windowMinWidthMinor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowNoTitle = global::Contratista.Android.Resource.Attribute.windowNoTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Contratista.Android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Contratista.Android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Contratista.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Contratista.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Contratista.Android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Contratista.Android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::Contratista.Android.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_btn_colored_text_material = global::Contratista.Android.Resource.Color.abc_btn_colored_text_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_color_highlight_material = global::Contratista.Android.Resource.Color.abc_color_highlight_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::Contratista.Android.Resource.Color.abc_hint_foreground_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_hint_foreground_material_light = global::Contratista.Android.Resource.Color.abc_hint_foreground_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_input_method_navigation_guard = global::Contratista.Android.Resource.Color.abc_input_method_navigation_guard;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Contratista.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Contratista.Android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_material_dark = global::Contratista.Android.Resource.Color.abc_primary_text_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_material_light = global::Contratista.Android.Resource.Color.abc_primary_text_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text = global::Contratista.Android.Resource.Color.abc_search_url_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_normal = global::Contratista.Android.Resource.Color.abc_search_url_text_normal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_pressed = global::Contratista.Android.Resource.Color.abc_search_url_text_pressed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_selected = global::Contratista.Android.Resource.Color.abc_search_url_text_selected;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_secondary_text_material_dark = global::Contratista.Android.Resource.Color.abc_secondary_text_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_secondary_text_material_light = global::Contratista.Android.Resource.Color.abc_secondary_text_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_btn_checkable = global::Contratista.Android.Resource.Color.abc_tint_btn_checkable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_default = global::Contratista.Android.Resource.Color.abc_tint_default;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_edittext = global::Contratista.Android.Resource.Color.abc_tint_edittext;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_seek_thumb = global::Contratista.Android.Resource.Color.abc_tint_seek_thumb;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_spinner = global::Contratista.Android.Resource.Color.abc_tint_spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_switch_track = global::Contratista.Android.Resource.Color.abc_tint_switch_track;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.accent_material_dark = global::Contratista.Android.Resource.Color.accent_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.accent_material_light = global::Contratista.Android.Resource.Color.accent_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_floating_material_dark = global::Contratista.Android.Resource.Color.background_floating_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_floating_material_light = global::Contratista.Android.Resource.Color.background_floating_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_material_dark = global::Contratista.Android.Resource.Color.background_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_material_light = global::Contratista.Android.Resource.Color.background_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Contratista.Android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Contratista.Android.Resource.Color.bright_foreground_disabled_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Contratista.Android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Contratista.Android.Resource.Color.bright_foreground_inverse_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_material_dark = global::Contratista.Android.Resource.Color.bright_foreground_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_material_light = global::Contratista.Android.Resource.Color.bright_foreground_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.browser_actions_bg_grey = global::Contratista.Android.Resource.Color.browser_actions_bg_grey;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.browser_actions_divider_color = global::Contratista.Android.Resource.Color.browser_actions_divider_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.browser_actions_text_color = global::Contratista.Android.Resource.Color.browser_actions_text_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.browser_actions_title_color = global::Contratista.Android.Resource.Color.browser_actions_title_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.button_material_dark = global::Contratista.Android.Resource.Color.button_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.button_material_light = global::Contratista.Android.Resource.Color.button_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_dark_background = global::Contratista.Android.Resource.Color.cardview_dark_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_light_background = global::Contratista.Android.Resource.Color.cardview_light_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_shadow_end_color = global::Contratista.Android.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_shadow_start_color = global::Contratista.Android.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::Contratista.Android.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_default_color_primary = global::Contratista.Android.Resource.Color.design_default_color_primary;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_default_color_primary_dark = global::Contratista.Android.Resource.Color.design_default_color_primary_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_error = global::Contratista.Android.Resource.Color.design_error;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_end_color = global::Contratista.Android.Resource.Color.design_fab_shadow_end_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_mid_color = global::Contratista.Android.Resource.Color.design_fab_shadow_mid_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_start_color = global::Contratista.Android.Resource.Color.design_fab_shadow_start_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Contratista.Android.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Contratista.Android.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Contratista.Android.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Contratista.Android.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_snackbar_background_color = global::Contratista.Android.Resource.Color.design_snackbar_background_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_tint_password_toggle = global::Contratista.Android.Resource.Color.design_tint_password_toggle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Contratista.Android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Contratista.Android.Resource.Color.dim_foreground_disabled_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_material_dark = global::Contratista.Android.Resource.Color.dim_foreground_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_material_light = global::Contratista.Android.Resource.Color.dim_foreground_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.error_color_material_dark = global::Contratista.Android.Resource.Color.error_color_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.error_color_material_light = global::Contratista.Android.Resource.Color.error_color_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.foreground_material_dark = global::Contratista.Android.Resource.Color.foreground_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.foreground_material_light = global::Contratista.Android.Resource.Color.foreground_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.highlighted_text_material_dark = global::Contratista.Android.Resource.Color.highlighted_text_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.highlighted_text_material_light = global::Contratista.Android.Resource.Color.highlighted_text_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_800 = global::Contratista.Android.Resource.Color.material_blue_grey_800;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_900 = global::Contratista.Android.Resource.Color.material_blue_grey_900;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_950 = global::Contratista.Android.Resource.Color.material_blue_grey_950;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_deep_teal_200 = global::Contratista.Android.Resource.Color.material_deep_teal_200;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_deep_teal_500 = global::Contratista.Android.Resource.Color.material_deep_teal_500;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_100 = global::Contratista.Android.Resource.Color.material_grey_100;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_300 = global::Contratista.Android.Resource.Color.material_grey_300;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_50 = global::Contratista.Android.Resource.Color.material_grey_50;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_600 = global::Contratista.Android.Resource.Color.material_grey_600;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_800 = global::Contratista.Android.Resource.Color.material_grey_800;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_850 = global::Contratista.Android.Resource.Color.material_grey_850;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_900 = global::Contratista.Android.Resource.Color.material_grey_900;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Contratista.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::Contratista.Android.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::Contratista.Android.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::Contratista.Android.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_ripple_color = global::Contratista.Android.Resource.Color.mtrl_btn_ripple_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::Contratista.Android.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Contratista.Android.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::Contratista.Android.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_text_color_selector = global::Contratista.Android.Resource.Color.mtrl_btn_text_color_selector;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::Contratista.Android.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_chip_background_color = global::Contratista.Android.Resource.Color.mtrl_chip_background_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::Contratista.Android.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_chip_ripple_color = global::Contratista.Android.Resource.Color.mtrl_chip_ripple_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_chip_text_color = global::Contratista.Android.Resource.Color.mtrl_chip_text_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_fab_ripple_color = global::Contratista.Android.Resource.Color.mtrl_fab_ripple_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_scrim_color = global::Contratista.Android.Resource.Color.mtrl_scrim_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::Contratista.Android.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::Contratista.Android.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Contratista.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Contratista.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_ripple_color = global::Contratista.Android.Resource.Color.mtrl_tabs_ripple_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::Contratista.Android.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Contratista.Android.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_textinput_disabled_color = global::Contratista.Android.Resource.Color.mtrl_textinput_disabled_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Contratista.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Contratista.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.notification_action_color_filter = global::Contratista.Android.Resource.Color.notification_action_color_filter;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.notification_icon_bg_color = global::Contratista.Android.Resource.Color.notification_icon_bg_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.notification_material_background_media_default_color = global::Contratista.Android.Resource.Color.notification_material_background_media_default_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_dark_material_dark = global::Contratista.Android.Resource.Color.primary_dark_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_dark_material_light = global::Contratista.Android.Resource.Color.primary_dark_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_material_dark = global::Contratista.Android.Resource.Color.primary_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_material_light = global::Contratista.Android.Resource.Color.primary_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_default_material_dark = global::Contratista.Android.Resource.Color.primary_text_default_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_default_material_light = global::Contratista.Android.Resource.Color.primary_text_default_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_disabled_material_dark = global::Contratista.Android.Resource.Color.primary_text_disabled_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_disabled_material_light = global::Contratista.Android.Resource.Color.primary_text_disabled_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.ripple_material_dark = global::Contratista.Android.Resource.Color.ripple_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.ripple_material_light = global::Contratista.Android.Resource.Color.ripple_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_default_material_dark = global::Contratista.Android.Resource.Color.secondary_text_default_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_default_material_light = global::Contratista.Android.Resource.Color.secondary_text_default_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Contratista.Android.Resource.Color.secondary_text_disabled_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_disabled_material_light = global::Contratista.Android.Resource.Color.secondary_text_disabled_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Contratista.Android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Contratista.Android.Resource.Color.switch_thumb_disabled_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_material_dark = global::Contratista.Android.Resource.Color.switch_thumb_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_material_light = global::Contratista.Android.Resource.Color.switch_thumb_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Contratista.Android.Resource.Color.switch_thumb_normal_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_normal_material_light = global::Contratista.Android.Resource.Color.switch_thumb_normal_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.tooltip_background_dark = global::Contratista.Android.Resource.Color.tooltip_background_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.tooltip_background_light = global::Contratista.Android.Resource.Color.tooltip_background_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Contratista.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Contratista.Android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Contratista.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Contratista.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Contratista.Android.Resource.Dimension.abc_action_button_min_height_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Contratista.Android.Resource.Dimension.abc_action_button_min_width_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Contratista.Android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Contratista.Android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::Contratista.Android.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Contratista.Android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Contratista.Android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Contratista.Android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Contratista.Android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Contratista.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Contratista.Android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_corner_material = global::Contratista.Android.Resource.Dimension.abc_control_corner_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_inset_material = global::Contratista.Android.Resource.Dimension.abc_control_inset_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_padding_material = global::Contratista.Android.Resource.Dimension.abc_control_padding_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::Contratista.Android.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Contratista.Android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Contratista.Android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Contratista.Android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Contratista.Android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Contratista.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Contratista.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Contratista.Android.Resource.Dimension.abc_dialog_min_width_major;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Contratista.Android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_padding_material = global::Contratista.Android.Resource.Dimension.abc_dialog_padding_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Contratista.Android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::Contratista.Android.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Contratista.Android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Contratista.Android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Contratista.Android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Contratista.Android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Contratista.Android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Contratista.Android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Contratista.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Contratista.Android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_floating_window_z = global::Contratista.Android.Resource.Dimension.abc_floating_window_z;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Contratista.Android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Contratista.Android.Resource.Dimension.abc_panel_menu_list_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::Contratista.Android.Resource.Dimension.abc_progress_bar_height_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::Contratista.Android.Resource.Dimension.abc_search_view_preferred_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Contratista.Android.Resource.Dimension.abc_search_view_preferred_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Contratista.Android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Contratista.Android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Contratista.Android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_switch_padding = global::Contratista.Android.Resource.Dimension.abc_switch_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Contratista.Android.Resource.Dimension.abc_text_size_body_1_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Contratista.Android.Resource.Dimension.abc_text_size_body_2_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_button_material = global::Contratista.Android.Resource.Dimension.abc_text_size_button_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_caption_material = global::Contratista.Android.Resource.Dimension.abc_text_size_caption_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Contratista.Android.Resource.Dimension.abc_text_size_display_1_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Contratista.Android.Resource.Dimension.abc_text_size_display_2_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Contratista.Android.Resource.Dimension.abc_text_size_display_3_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Contratista.Android.Resource.Dimension.abc_text_size_display_4_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_headline_material = global::Contratista.Android.Resource.Dimension.abc_text_size_headline_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_large_material = global::Contratista.Android.Resource.Dimension.abc_text_size_large_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_medium_material = global::Contratista.Android.Resource.Dimension.abc_text_size_medium_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::Contratista.Android.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_menu_material = global::Contratista.Android.Resource.Dimension.abc_text_size_menu_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_small_material = global::Contratista.Android.Resource.Dimension.abc_text_size_small_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Contratista.Android.Resource.Dimension.abc_text_size_subhead_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Contratista.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_title_material = global::Contratista.Android.Resource.Dimension.abc_text_size_title_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Contratista.Android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::Contratista.Android.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::Contratista.Android.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Contratista.Android.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_default_elevation = global::Contratista.Android.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_default_radius = global::Contratista.Android.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::Contratista.Android.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::Contratista.Android.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::Contratista.Android.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::Contratista.Android.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_control_corner_material = global::Contratista.Android.Resource.Dimension.compat_control_corner_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::Contratista.Android.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::Contratista.Android.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_appbar_elevation = global::Contratista.Android.Resource.Dimension.design_appbar_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_height = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_margin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::Contratista.Android.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Contratista.Android.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Contratista.Android.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_border_width = global::Contratista.Android.Resource.Dimension.design_fab_border_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_elevation = global::Contratista.Android.Resource.Dimension.design_fab_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_image_size = global::Contratista.Android.Resource.Dimension.design_fab_image_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_size_mini = global::Contratista.Android.Resource.Dimension.design_fab_size_mini;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_size_normal = global::Contratista.Android.Resource.Dimension.design_fab_size_normal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Contratista.Android.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Contratista.Android.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_elevation = global::Contratista.Android.Resource.Dimension.design_navigation_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_icon_padding = global::Contratista.Android.Resource.Dimension.design_navigation_icon_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_icon_size = global::Contratista.Android.Resource.Dimension.design_navigation_icon_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::Contratista.Android.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::Contratista.Android.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_max_width = global::Contratista.Android.Resource.Dimension.design_navigation_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Contratista.Android.Resource.Dimension.design_navigation_padding_bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Contratista.Android.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Contratista.Android.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Contratista.Android.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_elevation = global::Contratista.Android.Resource.Dimension.design_snackbar_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Contratista.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_max_width = global::Contratista.Android.Resource.Dimension.design_snackbar_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_min_width = global::Contratista.Android.Resource.Dimension.design_snackbar_min_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Contratista.Android.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Contratista.Android.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Contratista.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_text_size = global::Contratista.Android.Resource.Dimension.design_snackbar_text_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_max_width = global::Contratista.Android.Resource.Dimension.design_tab_max_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Contratista.Android.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_text_size = global::Contratista.Android.Resource.Dimension.design_tab_text_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_text_size_2line = global::Contratista.Android.Resource.Dimension.design_tab_text_size_2line;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::Contratista.Android.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Contratista.Android.Resource.Dimension.disabled_alpha_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.disabled_alpha_material_light = global::Contratista.Android.Resource.Dimension.disabled_alpha_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.fastscroll_default_thickness = global::Contratista.Android.Resource.Dimension.fastscroll_default_thickness;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.fastscroll_margin = global::Contratista.Android.Resource.Dimension.fastscroll_margin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.fastscroll_minimum_range = global::Contratista.Android.Resource.Dimension.fastscroll_minimum_range;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Contratista.Android.Resource.Dimension.highlight_alpha_material_colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Contratista.Android.Resource.Dimension.highlight_alpha_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_light = global::Contratista.Android.Resource.Dimension.highlight_alpha_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.hint_alpha_material_dark = global::Contratista.Android.Resource.Dimension.hint_alpha_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.hint_alpha_material_light = global::Contratista.Android.Resource.Dimension.hint_alpha_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::Contratista.Android.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::Contratista.Android.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Contratista.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Contratista.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Contratista.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.label_font_size = global::Contratista.Android.Resource.Dimension.label_font_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Contratista.Android.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Contratista.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Contratista.Android.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Contratista.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::Contratista.Android.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::Contratista.Android.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Contratista.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Contratista.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Contratista.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Contratista.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::Contratista.Android.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::Contratista.Android.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Contratista.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::Contratista.Android.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::Contratista.Android.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_elevation = global::Contratista.Android.Resource.Dimension.mtrl_btn_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_focused_z = global::Contratista.Android.Resource.Dimension.mtrl_btn_focused_z;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::Contratista.Android.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Contratista.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::Contratista.Android.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_inset = global::Contratista.Android.Resource.Dimension.mtrl_btn_inset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::Contratista.Android.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::Contratista.Android.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_padding_left = global::Contratista.Android.Resource.Dimension.mtrl_btn_padding_left;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_padding_right = global::Contratista.Android.Resource.Dimension.mtrl_btn_padding_right;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_padding_top = global::Contratista.Android.Resource.Dimension.mtrl_btn_padding_top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::Contratista.Android.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::Contratista.Android.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Contratista.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Contratista.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Contratista.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_text_size = global::Contratista.Android.Resource.Dimension.mtrl_btn_text_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_z = global::Contratista.Android.Resource.Dimension.mtrl_btn_z;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_card_elevation = global::Contratista.Android.Resource.Dimension.mtrl_card_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_card_spacing = global::Contratista.Android.Resource.Dimension.mtrl_card_spacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Contratista.Android.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_chip_text_size = global::Contratista.Android.Resource.Dimension.mtrl_chip_text_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_fab_elevation = global::Contratista.Android.Resource.Dimension.mtrl_fab_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Contratista.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Contratista.Android.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_navigation_elevation = global::Contratista.Android.Resource.Dimension.mtrl_navigation_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Contratista.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Contratista.Android.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Contratista.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_snackbar_margin = global::Contratista.Android.Resource.Dimension.mtrl_snackbar_margin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Contratista.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Contratista.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Contratista.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Contratista.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::Contratista.Android.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Contratista.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Contratista.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Contratista.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::Contratista.Android.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_action_icon_size = global::Contratista.Android.Resource.Dimension.notification_action_icon_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_action_text_size = global::Contratista.Android.Resource.Dimension.notification_action_text_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_big_circle_margin = global::Contratista.Android.Resource.Dimension.notification_big_circle_margin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_content_margin_start = global::Contratista.Android.Resource.Dimension.notification_content_margin_start;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_large_icon_height = global::Contratista.Android.Resource.Dimension.notification_large_icon_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_large_icon_width = global::Contratista.Android.Resource.Dimension.notification_large_icon_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_main_column_padding_top = global::Contratista.Android.Resource.Dimension.notification_main_column_padding_top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_media_narrow_margin = global::Contratista.Android.Resource.Dimension.notification_media_narrow_margin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_right_icon_size = global::Contratista.Android.Resource.Dimension.notification_right_icon_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_right_side_padding_top = global::Contratista.Android.Resource.Dimension.notification_right_side_padding_top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::Contratista.Android.Resource.Dimension.notification_small_icon_background_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::Contratista.Android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_subtext_size = global::Contratista.Android.Resource.Dimension.notification_subtext_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_top_pad = global::Contratista.Android.Resource.Dimension.notification_top_pad;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_top_pad_large_text = global::Contratista.Android.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.subtitle_corner_radius = global::Contratista.Android.Resource.Dimension.subtitle_corner_radius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.subtitle_outline_width = global::Contratista.Android.Resource.Dimension.subtitle_outline_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.subtitle_shadow_offset = global::Contratista.Android.Resource.Dimension.subtitle_shadow_offset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.subtitle_shadow_radius = global::Contratista.Android.Resource.Dimension.subtitle_shadow_radius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.thumb_size = global::Contratista.Android.Resource.Dimension.thumb_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tick_size = global::Contratista.Android.Resource.Dimension.tick_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_bottom = global::Contratista.Android.Resource.Dimension.tool_bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_left = global::Contratista.Android.Resource.Dimension.tool_left;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_right = global::Contratista.Android.Resource.Dimension.tool_right;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_top = global::Contratista.Android.Resource.Dimension.tool_top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_corner_radius = global::Contratista.Android.Resource.Dimension.tooltip_corner_radius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Contratista.Android.Resource.Dimension.tooltip_horizontal_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_margin = global::Contratista.Android.Resource.Dimension.tooltip_margin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Contratista.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::Contratista.Android.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_textsize = global::Contratista.Android.Resource.Dimension.tooltip_textsize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_vertical_padding = global::Contratista.Android.Resource.Dimension.tooltip_vertical_padding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::Contratista.Android.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_y_offset_touch = global::Contratista.Android.Resource.Dimension.tooltip_y_offset_touch;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.track_size = global::Contratista.Android.Resource.Dimension.track_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Contratista.Android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_borderless_material = global::Contratista.Android.Resource.Drawable.abc_btn_borderless_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_material = global::Contratista.Android.Resource.Drawable.abc_btn_check_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Contratista.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Contratista.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_colored_material = global::Contratista.Android.Resource.Drawable.abc_btn_colored_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Contratista.Android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_material = global::Contratista.Android.Resource.Drawable.abc_btn_radio_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Contratista.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Contratista.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Contratista.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Contratista.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Contratista.Android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_top_material = global::Contratista.Android.Resource.Drawable.abc_cab_background_top_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_control_background_material = global::Contratista.Android.Resource.Drawable.abc_control_background_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_dialog_material_background = global::Contratista.Android.Resource.Drawable.abc_dialog_material_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_edit_text_material = global::Contratista.Android.Resource.Drawable.abc_edit_text_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::Contratista.Android.Resource.Drawable.abc_ic_ab_back_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Contratista.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_clear_material = global::Contratista.Android.Resource.Drawable.abc_ic_clear_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::Contratista.Android.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Contratista.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::Contratista.Android.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Contratista.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_search_api_material = global::Contratista.Android.Resource.Drawable.abc_ic_search_api_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Contratista.Android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Contratista.Android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::Contratista.Android.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Contratista.Android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Contratista.Android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::Contratista.Android.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::Contratista.Android.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Contratista.Android.Resource.Drawable.abc_item_background_holo_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_item_background_holo_light = global::Contratista.Android.Resource.Drawable.abc_item_background_holo_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_divider_material = global::Contratista.Android.Resource.Drawable.abc_list_divider_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_focused_holo = global::Contratista.Android.Resource.Drawable.abc_list_focused_holo;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Contratista.Android.Resource.Drawable.abc_list_longpressed_holo;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Contratista.Android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Contratista.Android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Contratista.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Contratista.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Contratista.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Contratista.Android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Contratista.Android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Contratista.Android.Resource.Drawable.abc_list_selector_holo_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Contratista.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Contratista.Android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Contratista.Android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_material = global::Contratista.Android.Resource.Drawable.abc_ratingbar_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Contratista.Android.Resource.Drawable.abc_ratingbar_small_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Contratista.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Contratista.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Contratista.Android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::Contratista.Android.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_seekbar_track_material = global::Contratista.Android.Resource.Drawable.abc_seekbar_track_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Contratista.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Contratista.Android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_switch_thumb_material = global::Contratista.Android.Resource.Drawable.abc_switch_thumb_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_tab_indicator_material = global::Contratista.Android.Resource.Drawable.abc_tab_indicator_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_cursor_material = global::Contratista.Android.Resource.Drawable.abc_text_cursor_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Contratista.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Contratista.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Contratista.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Contratista.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Contratista.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Contratista.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Contratista.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_material = global::Contratista.Android.Resource.Drawable.abc_textfield_search_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_vector_test = global::Contratista.Android.Resource.Drawable.abc_vector_test;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.AlertViewDialogBottomLine = global::Contratista.Android.Resource.Drawable.AlertViewDialogBottomLine;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_hide_password = global::Contratista.Android.Resource.Drawable.avd_hide_password;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_hide_password_1 = global::Contratista.Android.Resource.Drawable.avd_hide_password_1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_hide_password_2 = global::Contratista.Android.Resource.Drawable.avd_hide_password_2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_hide_password_3 = global::Contratista.Android.Resource.Drawable.avd_hide_password_3;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_show_password = global::Contratista.Android.Resource.Drawable.avd_show_password;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_show_password_1 = global::Contratista.Android.Resource.Drawable.avd_show_password_1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_show_password_2 = global::Contratista.Android.Resource.Drawable.avd_show_password_2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_show_password_3 = global::Contratista.Android.Resource.Drawable.avd_show_password_3;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.Bookmark = global::Contratista.Android.Resource.Drawable.Bookmark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.CheckableMaterialColor = global::Contratista.Android.Resource.Drawable.CheckableMaterialColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::Contratista.Android.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_fab_background = global::Contratista.Android.Resource.Drawable.design_fab_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_ic_visibility = global::Contratista.Android.Resource.Drawable.design_ic_visibility;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_ic_visibility_off = global::Contratista.Android.Resource.Drawable.design_ic_visibility_off;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_password_eye = global::Contratista.Android.Resource.Drawable.design_password_eye;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_snackbar_background = global::Contratista.Android.Resource.Drawable.design_snackbar_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.editTextPageCount = global::Contratista.Android.Resource.Drawable.editTextPageCount;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox = global::Contratista.Android.Resource.Drawable.FormFieldCheckbox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox_Checked = global::Contratista.Android.Resource.Drawable.FormFieldCheckbox_Checked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox_UnChecked = global::Contratista.Android.Resource.Drawable.FormFieldCheckbox_UnChecked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.formfieldradiobuttonstyle = global::Contratista.Android.Resource.Drawable.formfieldradiobuttonstyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.formfieldtextboxcursorcolor = global::Contratista.Android.Resource.Drawable.formfieldtextboxcursorcolor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_audiotrack_dark = global::Contratista.Android.Resource.Drawable.ic_audiotrack_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_audiotrack_light = global::Contratista.Android.Resource.Drawable.ic_audiotrack_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_dialog_close_dark = global::Contratista.Android.Resource.Drawable.ic_dialog_close_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_dialog_close_light = global::Contratista.Android.Resource.Drawable.ic_dialog_close_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_00 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_00;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_01 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_01;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_02 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_02;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_03 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_03;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_04 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_04;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_05 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_05;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_06 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_06;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_07 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_07;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_08 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_08;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_09 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_09;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_10 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_10;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_11 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_11;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_12 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_12;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_13 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_13;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_14 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_14;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_15 = global::Contratista.Android.Resource.Drawable.ic_group_collapse_15;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_00 = global::Contratista.Android.Resource.Drawable.ic_group_expand_00;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_01 = global::Contratista.Android.Resource.Drawable.ic_group_expand_01;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_02 = global::Contratista.Android.Resource.Drawable.ic_group_expand_02;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_03 = global::Contratista.Android.Resource.Drawable.ic_group_expand_03;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_04 = global::Contratista.Android.Resource.Drawable.ic_group_expand_04;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_05 = global::Contratista.Android.Resource.Drawable.ic_group_expand_05;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_06 = global::Contratista.Android.Resource.Drawable.ic_group_expand_06;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_07 = global::Contratista.Android.Resource.Drawable.ic_group_expand_07;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_08 = global::Contratista.Android.Resource.Drawable.ic_group_expand_08;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_09 = global::Contratista.Android.Resource.Drawable.ic_group_expand_09;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_10 = global::Contratista.Android.Resource.Drawable.ic_group_expand_10;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_11 = global::Contratista.Android.Resource.Drawable.ic_group_expand_11;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_12 = global::Contratista.Android.Resource.Drawable.ic_group_expand_12;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_13 = global::Contratista.Android.Resource.Drawable.ic_group_expand_13;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_14 = global::Contratista.Android.Resource.Drawable.ic_group_expand_14;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_15 = global::Contratista.Android.Resource.Drawable.ic_group_expand_15;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_pause_dark = global::Contratista.Android.Resource.Drawable.ic_media_pause_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_pause_light = global::Contratista.Android.Resource.Drawable.ic_media_pause_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_play_dark = global::Contratista.Android.Resource.Drawable.ic_media_play_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_play_light = global::Contratista.Android.Resource.Drawable.ic_media_play_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_stop_dark = global::Contratista.Android.Resource.Drawable.ic_media_stop_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_stop_light = global::Contratista.Android.Resource.Drawable.ic_media_stop_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::Contratista.Android.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::Contratista.Android.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_grey = global::Contratista.Android.Resource.Drawable.ic_mr_button_grey;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::Contratista.Android.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Contratista.Android.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::Contratista.Android.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::Contratista.Android.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::Contratista.Android.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::Contratista.Android.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::Contratista.Android.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::Contratista.Android.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_tv_light = global::Contratista.Android.Resource.Drawable.ic_vol_type_tv_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.input_layout_drop_down_icon = global::Contratista.Android.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::Contratista.Android.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::Contratista.Android.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.More = global::Contratista.Android.Resource.Drawable.More;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_connected_dark = global::Contratista.Android.Resource.Drawable.mr_button_connected_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_connected_light = global::Contratista.Android.Resource.Drawable.mr_button_connected_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_connecting_dark = global::Contratista.Android.Resource.Drawable.mr_button_connecting_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_connecting_light = global::Contratista.Android.Resource.Drawable.mr_button_connecting_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_dark = global::Contratista.Android.Resource.Drawable.mr_button_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_light = global::Contratista.Android.Resource.Drawable.mr_button_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_dialog_close_dark = global::Contratista.Android.Resource.Drawable.mr_dialog_close_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_dialog_close_light = global::Contratista.Android.Resource.Drawable.mr_dialog_close_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::Contratista.Android.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::Contratista.Android.Resource.Drawable.mr_dialog_material_background_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_group_collapse = global::Contratista.Android.Resource.Drawable.mr_group_collapse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_group_expand = global::Contratista.Android.Resource.Drawable.mr_group_expand;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_pause_dark = global::Contratista.Android.Resource.Drawable.mr_media_pause_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_pause_light = global::Contratista.Android.Resource.Drawable.mr_media_pause_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_play_dark = global::Contratista.Android.Resource.Drawable.mr_media_play_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_play_light = global::Contratista.Android.Resource.Drawable.mr_media_play_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_stop_dark = global::Contratista.Android.Resource.Drawable.mr_media_stop_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_stop_light = global::Contratista.Android.Resource.Drawable.mr_media_stop_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::Contratista.Android.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::Contratista.Android.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mtrl_snackbar_background = global::Contratista.Android.Resource.Drawable.mtrl_snackbar_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::Contratista.Android.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.navigation_empty_icon = global::Contratista.Android.Resource.Drawable.navigation_empty_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_action_background = global::Contratista.Android.Resource.Drawable.notification_action_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg = global::Contratista.Android.Resource.Drawable.notification_bg;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_low = global::Contratista.Android.Resource.Drawable.notification_bg_low;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_low_normal = global::Contratista.Android.Resource.Drawable.notification_bg_low_normal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_low_pressed = global::Contratista.Android.Resource.Drawable.notification_bg_low_pressed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_normal = global::Contratista.Android.Resource.Drawable.notification_bg_normal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::Contratista.Android.Resource.Drawable.notification_bg_normal_pressed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_icon_background = global::Contratista.Android.Resource.Drawable.notification_icon_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_template_icon_bg = global::Contratista.Android.Resource.Drawable.notification_template_icon_bg;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::Contratista.Android.Resource.Drawable.notification_template_icon_low_bg;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_tile_bg = global::Contratista.Android.Resource.Drawable.notification_tile_bg;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::Contratista.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.Search = global::Contratista.Android.Resource.Drawable.Search;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.sfprogressbar_determinate_linear = global::Contratista.Android.Resource.Drawable.sfprogressbar_determinate_linear;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.sfprogressbar_indeterminate_circular = global::Contratista.Android.Resource.Drawable.sfprogressbar_indeterminate_circular;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.sfprogressbar_indeterminate_linear = global::Contratista.Android.Resource.Drawable.sfprogressbar_indeterminate_linear;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.SignaturepadRoundedCorners = global::Contratista.Android.Resource.Drawable.SignaturepadRoundedCorners;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.tooltip_frame_dark = global::Contratista.Android.Resource.Drawable.tooltip_frame_dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.tooltip_frame_light = global::Contratista.Android.Resource.Drawable.tooltip_frame_light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.SignaturePadBottomCorner = global::Contratista.Android.Resource.Drawable.SignaturePadBottomCorner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.SignaturePadTopCorner = global::Contratista.Android.Resource.Drawable.SignaturePadTopCorner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ALT = global::Contratista.Android.Resource.Id.ALT;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.CTRL = global::Contratista.Android.Resource.Id.CTRL;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.FUNCTION = global::Contratista.Android.Resource.Id.FUNCTION;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.META = global::Contratista.Android.Resource.Id.META;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.SHIFT = global::Contratista.Android.Resource.Id.SHIFT;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.SYM = global::Contratista.Android.Resource.Id.SYM;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action0 = global::Contratista.Android.Resource.Id.action0;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar = global::Contratista.Android.Resource.Id.action_bar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_activity_content = global::Contratista.Android.Resource.Id.action_bar_activity_content;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_container = global::Contratista.Android.Resource.Id.action_bar_container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_root = global::Contratista.Android.Resource.Id.action_bar_root;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_spinner = global::Contratista.Android.Resource.Id.action_bar_spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_subtitle = global::Contratista.Android.Resource.Id.action_bar_subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_title = global::Contratista.Android.Resource.Id.action_bar_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_container = global::Contratista.Android.Resource.Id.action_container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_context_bar = global::Contratista.Android.Resource.Id.action_context_bar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_divider = global::Contratista.Android.Resource.Id.action_divider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_image = global::Contratista.Android.Resource.Id.action_image;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_menu_divider = global::Contratista.Android.Resource.Id.action_menu_divider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_menu_presenter = global::Contratista.Android.Resource.Id.action_menu_presenter;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_bar = global::Contratista.Android.Resource.Id.action_mode_bar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_bar_stub = global::Contratista.Android.Resource.Id.action_mode_bar_stub;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_close_button = global::Contratista.Android.Resource.Id.action_mode_close_button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_text = global::Contratista.Android.Resource.Id.action_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.actions = global::Contratista.Android.Resource.Id.actions;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.activity_chooser_view_content = global::Contratista.Android.Resource.Id.activity_chooser_view_content;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.add = global::Contratista.Android.Resource.Id.add;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.alertTitle = global::Contratista.Android.Resource.Id.alertTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.all = global::Contratista.Android.Resource.Id.all;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.always = global::Contratista.Android.Resource.Id.always;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.async = global::Contratista.Android.Resource.Id.async;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.auto = global::Contratista.Android.Resource.Id.auto;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ball = global::Contratista.Android.Resource.Id.ball;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.battery = global::Contratista.Android.Resource.Id.battery;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.beginning = global::Contratista.Android.Resource.Id.beginning;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.blocking = global::Contratista.Android.Resource.Id.blocking;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottom = global::Contratista.Android.Resource.Id.bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomBar = global::Contratista.Android.Resource.Id.bottomBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomRight = global::Contratista.Android.Resource.Id.bottomRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomtab_navarea = global::Contratista.Android.Resource.Id.bottomtab_navarea;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomtab_tabbar = global::Contratista.Android.Resource.Id.bottomtab_tabbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.box = global::Contratista.Android.Resource.Id.box;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_header_text = global::Contratista.Android.Resource.Id.browser_actions_header_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_menu_item_icon = global::Contratista.Android.Resource.Id.browser_actions_menu_item_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_menu_item_text = global::Contratista.Android.Resource.Id.browser_actions_menu_item_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_menu_items = global::Contratista.Android.Resource.Id.browser_actions_menu_items;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_menu_view = global::Contratista.Android.Resource.Id.browser_actions_menu_view;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.buttonPanel = global::Contratista.Android.Resource.Id.buttonPanel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.cancelButton = global::Contratista.Android.Resource.Id.cancelButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.cancel_action = global::Contratista.Android.Resource.Id.cancel_action;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center = global::Contratista.Android.Resource.Id.center;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center_horizontal = global::Contratista.Android.Resource.Id.center_horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center_vertical = global::Contratista.Android.Resource.Id.center_vertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.checkbox = global::Contratista.Android.Resource.Id.checkbox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@checked = global::Contratista.Android.Resource.Id.@checked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.chronometer = global::Contratista.Android.Resource.Id.chronometer;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clearButton = global::Contratista.Android.Resource.Id.clearButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clip_horizontal = global::Contratista.Android.Resource.Id.clip_horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clip_vertical = global::Contratista.Android.Resource.Id.clip_vertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.collapseActionView = global::Contratista.Android.Resource.Id.collapseActionView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.container = global::Contratista.Android.Resource.Id.container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.content = global::Contratista.Android.Resource.Id.content;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.contentPanel = global::Contratista.Android.Resource.Id.contentPanel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.coordinator = global::Contratista.Android.Resource.Id.coordinator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.custom = global::Contratista.Android.Resource.Id.custom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.customPanel = global::Contratista.Android.Resource.Id.customPanel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.decor_content_parent = global::Contratista.Android.Resource.Id.decor_content_parent;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.default_activity_button = global::Contratista.Android.Resource.Id.default_activity_button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_bottom_sheet = global::Contratista.Android.Resource.Id.design_bottom_sheet;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_action_area = global::Contratista.Android.Resource.Id.design_menu_item_action_area;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_action_area_stub = global::Contratista.Android.Resource.Id.design_menu_item_action_area_stub;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_text = global::Contratista.Android.Resource.Id.design_menu_item_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_navigation_view = global::Contratista.Android.Resource.Id.design_navigation_view;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.disableHome = global::Contratista.Android.Resource.Id.disableHome;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.doneButton = global::Contratista.Android.Resource.Id.doneButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.doubleCircle = global::Contratista.Android.Resource.Id.doubleCircle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ecg = global::Contratista.Android.Resource.Id.ecg;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.edit_query = global::Contratista.Android.Resource.Id.edit_query;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.end = global::Contratista.Android.Resource.Id.end;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.end_padder = global::Contratista.Android.Resource.Id.end_padder;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.enterAlways = global::Contratista.Android.Resource.Id.enterAlways;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.enterAlwaysCollapsed = global::Contratista.Android.Resource.Id.enterAlwaysCollapsed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.exitUntilCollapsed = global::Contratista.Android.Resource.Id.exitUntilCollapsed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.expand_activities_button = global::Contratista.Android.Resource.Id.expand_activities_button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.expanded_menu = global::Contratista.Android.Resource.Id.expanded_menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill = global::Contratista.Android.Resource.Id.fill;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill_horizontal = global::Contratista.Android.Resource.Id.fill_horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill_vertical = global::Contratista.Android.Resource.Id.fill_vertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.filled = global::Contratista.Android.Resource.Id.filled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@fixed = global::Contratista.Android.Resource.Id.@fixed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.flyoutcontent_appbar = global::Contratista.Android.Resource.Id.flyoutcontent_appbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.flyoutcontent_recycler = global::Contratista.Android.Resource.Id.flyoutcontent_recycler;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.forever = global::Contratista.Android.Resource.Id.forever;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formCheckBoxButton = global::Contratista.Android.Resource.Id.formCheckBoxButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formContentButton = global::Contratista.Android.Resource.Id.formContentButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formListLayout = global::Contratista.Android.Resource.Id.formListLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formRadioButton = global::Contratista.Android.Resource.Id.formRadioButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formTextButton = global::Contratista.Android.Resource.Id.formTextButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formfieldButton = global::Contratista.Android.Resource.Id.formfieldButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.gearBox = global::Contratista.Android.Resource.Id.gearBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ghost_view = global::Contratista.Android.Resource.Id.ghost_view;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.globe = global::Contratista.Android.Resource.Id.globe;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.group_divider = global::Contratista.Android.Resource.Id.group_divider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.home = global::Contratista.Android.Resource.Id.home;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.homeAsUp = global::Contratista.Android.Resource.Id.homeAsUp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.horizontal = global::Contratista.Android.Resource.Id.horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.horizontalPulsingBox = global::Contratista.Android.Resource.Id.horizontalPulsingBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.icon = global::Contratista.Android.Resource.Id.icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.icon_group = global::Contratista.Android.Resource.Id.icon_group;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ifRoom = global::Contratista.Android.Resource.Id.ifRoom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.image = global::Contratista.Android.Resource.Id.image;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.info = global::Contratista.Android.Resource.Id.info;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.inline = global::Contratista.Android.Resource.Id.inline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.italic = global::Contratista.Android.Resource.Id.italic;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Contratista.Android.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.labeled = global::Contratista.Android.Resource.Id.labeled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.largeLabel = global::Contratista.Android.Resource.Id.largeLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.left = global::Contratista.Android.Resource.Id.left;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.line1 = global::Contratista.Android.Resource.Id.line1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.line3 = global::Contratista.Android.Resource.Id.line3;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.listMode = global::Contratista.Android.Resource.Id.listMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.list_item = global::Contratista.Android.Resource.Id.list_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.main_appbar = global::Contratista.Android.Resource.Id.main_appbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.main_scrollview = global::Contratista.Android.Resource.Id.main_scrollview;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.main_tablayout = global::Contratista.Android.Resource.Id.main_tablayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.main_toolbar = global::Contratista.Android.Resource.Id.main_toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.masked = global::Contratista.Android.Resource.Id.masked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.media_actions = global::Contratista.Android.Resource.Id.media_actions;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.message = global::Contratista.Android.Resource.Id.message;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.middle = global::Contratista.Android.Resource.Id.middle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mini = global::Contratista.Android.Resource.Id.mini;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.movieTimer = global::Contratista.Android.Resource.Id.movieTimer;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_art = global::Contratista.Android.Resource.Id.mr_art;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_checkbox = global::Contratista.Android.Resource.Id.mr_cast_checkbox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_close_button = global::Contratista.Android.Resource.Id.mr_cast_close_button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_group_icon = global::Contratista.Android.Resource.Id.mr_cast_group_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_group_name = global::Contratista.Android.Resource.Id.mr_cast_group_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_list = global::Contratista.Android.Resource.Id.mr_cast_list;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_meta = global::Contratista.Android.Resource.Id.mr_cast_meta;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_meta_art = global::Contratista.Android.Resource.Id.mr_cast_meta_art;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_meta_subtitle = global::Contratista.Android.Resource.Id.mr_cast_meta_subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_meta_title = global::Contratista.Android.Resource.Id.mr_cast_meta_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_route_icon = global::Contratista.Android.Resource.Id.mr_cast_route_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_route_name = global::Contratista.Android.Resource.Id.mr_cast_route_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_stop_button = global::Contratista.Android.Resource.Id.mr_cast_stop_button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_volume_layout = global::Contratista.Android.Resource.Id.mr_cast_volume_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_volume_slider = global::Contratista.Android.Resource.Id.mr_cast_volume_slider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_list = global::Contratista.Android.Resource.Id.mr_chooser_list;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_route_desc = global::Contratista.Android.Resource.Id.mr_chooser_route_desc;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_route_icon = global::Contratista.Android.Resource.Id.mr_chooser_route_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_route_name = global::Contratista.Android.Resource.Id.mr_chooser_route_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_title = global::Contratista.Android.Resource.Id.mr_chooser_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_close = global::Contratista.Android.Resource.Id.mr_close;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_divider = global::Contratista.Android.Resource.Id.mr_control_divider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_playback_ctrl = global::Contratista.Android.Resource.Id.mr_control_playback_ctrl;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_subtitle = global::Contratista.Android.Resource.Id.mr_control_subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_title = global::Contratista.Android.Resource.Id.mr_control_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_title_container = global::Contratista.Android.Resource.Id.mr_control_title_container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_custom_control = global::Contratista.Android.Resource.Id.mr_custom_control;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_default_control = global::Contratista.Android.Resource.Id.mr_default_control;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_dialog_area = global::Contratista.Android.Resource.Id.mr_dialog_area;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_dialog_header_name = global::Contratista.Android.Resource.Id.mr_dialog_header_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_expandable_area = global::Contratista.Android.Resource.Id.mr_expandable_area;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_group_expand_collapse = global::Contratista.Android.Resource.Id.mr_group_expand_collapse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_group_volume_route_name = global::Contratista.Android.Resource.Id.mr_group_volume_route_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_group_volume_slider = global::Contratista.Android.Resource.Id.mr_group_volume_slider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_media_main_control = global::Contratista.Android.Resource.Id.mr_media_main_control;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_name = global::Contratista.Android.Resource.Id.mr_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_picker_close_button = global::Contratista.Android.Resource.Id.mr_picker_close_button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_picker_list = global::Contratista.Android.Resource.Id.mr_picker_list;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_picker_route_icon = global::Contratista.Android.Resource.Id.mr_picker_route_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_picker_route_name = global::Contratista.Android.Resource.Id.mr_picker_route_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_playback_control = global::Contratista.Android.Resource.Id.mr_playback_control;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_title_bar = global::Contratista.Android.Resource.Id.mr_title_bar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_volume_control = global::Contratista.Android.Resource.Id.mr_volume_control;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_volume_group_list = global::Contratista.Android.Resource.Id.mr_volume_group_list;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_volume_item_icon = global::Contratista.Android.Resource.Id.mr_volume_item_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_volume_slider = global::Contratista.Android.Resource.Id.mr_volume_slider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mtrl_child_content_container = global::Contratista.Android.Resource.Id.mtrl_child_content_container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::Contratista.Android.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.multiply = global::Contratista.Android.Resource.Id.multiply;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.navigation_header_container = global::Contratista.Android.Resource.Id.navigation_header_container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.never = global::Contratista.Android.Resource.Id.never;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.none = global::Contratista.Android.Resource.Id.none;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.normal = global::Contratista.Android.Resource.Id.normal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.notification_background = global::Contratista.Android.Resource.Id.notification_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.notification_main_column = global::Contratista.Android.Resource.Id.notification_main_column;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.notification_main_column_container = global::Contratista.Android.Resource.Id.notification_main_column_container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.outline = global::Contratista.Android.Resource.Id.outline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.outside = global::Contratista.Android.Resource.Id.outside;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.parallax = global::Contratista.Android.Resource.Id.parallax;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.parentPanel = global::Contratista.Android.Resource.Id.parentPanel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.parent_matrix = global::Contratista.Android.Resource.Id.parent_matrix;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.pin = global::Contratista.Android.Resource.Id.pin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.print = global::Contratista.Android.Resource.Id.print;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.progress_circular = global::Contratista.Android.Resource.Id.progress_circular;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.progress_horizontal = global::Contratista.Android.Resource.Id.progress_horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.radio = global::Contratista.Android.Resource.Id.radio;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.rectangle = global::Contratista.Android.Resource.Id.rectangle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.right = global::Contratista.Android.Resource.Id.right;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.right_icon = global::Contratista.Android.Resource.Id.right_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.right_side = global::Contratista.Android.Resource.Id.right_side;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.rollingBall = global::Contratista.Android.Resource.Id.rollingBall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.save_image_matrix = global::Contratista.Android.Resource.Id.save_image_matrix;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.save_non_transition_alpha = global::Contratista.Android.Resource.Id.save_non_transition_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.save_scale_type = global::Contratista.Android.Resource.Id.save_scale_type;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.screen = global::Contratista.Android.Resource.Id.screen;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scroll = global::Contratista.Android.Resource.Id.scroll;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollIndicatorDown = global::Contratista.Android.Resource.Id.scrollIndicatorDown;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollIndicatorUp = global::Contratista.Android.Resource.Id.scrollIndicatorUp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollView = global::Contratista.Android.Resource.Id.scrollView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollable = global::Contratista.Android.Resource.Id.scrollable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_badge = global::Contratista.Android.Resource.Id.search_badge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_bar = global::Contratista.Android.Resource.Id.search_bar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_button = global::Contratista.Android.Resource.Id.search_button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_close_btn = global::Contratista.Android.Resource.Id.search_close_btn;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_edit_frame = global::Contratista.Android.Resource.Id.search_edit_frame;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_go_btn = global::Contratista.Android.Resource.Id.search_go_btn;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_mag_icon = global::Contratista.Android.Resource.Id.search_mag_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_plate = global::Contratista.Android.Resource.Id.search_plate;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_src_text = global::Contratista.Android.Resource.Id.search_src_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_voice_btn = global::Contratista.Android.Resource.Id.search_voice_btn;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.select_dialog_listview = global::Contratista.Android.Resource.Id.select_dialog_listview;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.selected = global::Contratista.Android.Resource.Id.selected;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.sfprogressbar_progress = global::Contratista.Android.Resource.Id.sfprogressbar_progress;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.sfprogressbar_secondary_progress = global::Contratista.Android.Resource.Id.sfprogressbar_secondary_progress;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.sfprogressbar_track = global::Contratista.Android.Resource.Id.sfprogressbar_track;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.shellcontent_appbar = global::Contratista.Android.Resource.Id.shellcontent_appbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.shellcontent_scrollview = global::Contratista.Android.Resource.Id.shellcontent_scrollview;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.shellcontent_toolbar = global::Contratista.Android.Resource.Id.shellcontent_toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.shortcut = global::Contratista.Android.Resource.Id.shortcut;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showCustom = global::Contratista.Android.Resource.Id.showCustom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showHome = global::Contratista.Android.Resource.Id.showHome;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showTitle = global::Contratista.Android.Resource.Id.showTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signatureLabel = global::Contratista.Android.Resource.Id.signatureLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signaturePadContainer = global::Contratista.Android.Resource.Id.signaturePadContainer;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signatureviewlayout = global::Contratista.Android.Resource.Id.signatureviewlayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.singleCircle = global::Contratista.Android.Resource.Id.singleCircle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.slicedCircle = global::Contratista.Android.Resource.Id.slicedCircle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.smallLabel = global::Contratista.Android.Resource.Id.smallLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snackbar_action = global::Contratista.Android.Resource.Id.snackbar_action;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snackbar_text = global::Contratista.Android.Resource.Id.snackbar_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snap = global::Contratista.Android.Resource.Id.snap;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snapMargins = global::Contratista.Android.Resource.Id.snapMargins;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.spacer = global::Contratista.Android.Resource.Id.spacer;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.split_action_bar = global::Contratista.Android.Resource.Id.split_action_bar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_atop = global::Contratista.Android.Resource.Id.src_atop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_in = global::Contratista.Android.Resource.Id.src_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_over = global::Contratista.Android.Resource.Id.src_over;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.start = global::Contratista.Android.Resource.Id.start;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.status_bar_latest_event_content = global::Contratista.Android.Resource.Id.status_bar_latest_event_content;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.stretch = global::Contratista.Android.Resource.Id.stretch;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.submenuarrow = global::Contratista.Android.Resource.Id.submenuarrow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.submit_area = global::Contratista.Android.Resource.Id.submit_area;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tabMode = global::Contratista.Android.Resource.Id.tabMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tag_transition_group = global::Contratista.Android.Resource.Id.tag_transition_group;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tag_unhandled_key_event_manager = global::Contratista.Android.Resource.Id.tag_unhandled_key_event_manager;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tag_unhandled_key_listeners = global::Contratista.Android.Resource.Id.tag_unhandled_key_listeners;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.text = global::Contratista.Android.Resource.Id.text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.text2 = global::Contratista.Android.Resource.Id.text2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textSpacerNoButtons = global::Contratista.Android.Resource.Id.textSpacerNoButtons;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textSpacerNoTitle = global::Contratista.Android.Resource.Id.textSpacerNoTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textStart = global::Contratista.Android.Resource.Id.textStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.text_input_password_toggle = global::Contratista.Android.Resource.Id.text_input_password_toggle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textinput_counter = global::Contratista.Android.Resource.Id.textinput_counter;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textinput_error = global::Contratista.Android.Resource.Id.textinput_error;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textinput_helper_text = global::Contratista.Android.Resource.Id.textinput_helper_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.time = global::Contratista.Android.Resource.Id.time;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.title = global::Contratista.Android.Resource.Id.title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.titleDividerNoCustom = global::Contratista.Android.Resource.Id.titleDividerNoCustom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.title_template = global::Contratista.Android.Resource.Id.title_template;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.top = global::Contratista.Android.Resource.Id.top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topBar = global::Contratista.Android.Resource.Id.topBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topLeft = global::Contratista.Android.Resource.Id.topLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topPanel = global::Contratista.Android.Resource.Id.topPanel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.touch_outside = global::Contratista.Android.Resource.Id.touch_outside;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_current_scene = global::Contratista.Android.Resource.Id.transition_current_scene;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_layout_save = global::Contratista.Android.Resource.Id.transition_layout_save;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_position = global::Contratista.Android.Resource.Id.transition_position;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_scene_layoutid_cache = global::Contratista.Android.Resource.Id.transition_scene_layoutid_cache;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_transform = global::Contratista.Android.Resource.Id.transition_transform;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@unchecked = global::Contratista.Android.Resource.Id.@unchecked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.uniform = global::Contratista.Android.Resource.Id.uniform;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.unlabeled = global::Contratista.Android.Resource.Id.unlabeled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.up = global::Contratista.Android.Resource.Id.up;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.useLogo = global::Contratista.Android.Resource.Id.useLogo;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.vertical = global::Contratista.Android.Resource.Id.vertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.view_offset_helper = global::Contratista.Android.Resource.Id.view_offset_helper;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.visible = global::Contratista.Android.Resource.Id.visible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.volume_item_container = global::Contratista.Android.Resource.Id.volume_item_container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.withText = global::Contratista.Android.Resource.Id.withText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.wrap_content = global::Contratista.Android.Resource.Id.wrap_content;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.zoomingTarget = global::Contratista.Android.Resource.Id.zoomingTarget;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Contratista.Android.Resource.Integer.abc_config_activityDefaultDur;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.abc_config_activityShortDur = global::Contratista.Android.Resource.Integer.abc_config_activityShortDur;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::Contratista.Android.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Contratista.Android.Resource.Integer.bottom_sheet_slide_duration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.cancel_button_image_alpha = global::Contratista.Android.Resource.Integer.cancel_button_image_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.config_tooltipAnimTime = global::Contratista.Android.Resource.Integer.config_tooltipAnimTime;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Contratista.Android.Resource.Integer.design_snackbar_text_max_lines;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Contratista.Android.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.hide_password_duration = global::Contratista.Android.Resource.Integer.hide_password_duration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Contratista.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Contratista.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Contratista.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mr_update_routes_delay_ms = global::Contratista.Android.Resource.Integer.mr_update_routes_delay_ms;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::Contratista.Android.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::Contratista.Android.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mtrl_chip_anim_duration = global::Contratista.Android.Resource.Integer.mtrl_chip_anim_duration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Contratista.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.show_password_duration = global::Contratista.Android.Resource.Integer.show_password_duration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Contratista.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::Contratista.Android.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::Contratista.Android.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::Contratista.Android.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::Contratista.Android.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mtrl_linear = global::Contratista.Android.Resource.Interpolator.mtrl_linear;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::Contratista.Android.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_bar_title_item = global::Contratista.Android.Resource.Layout.abc_action_bar_title_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_bar_up_container = global::Contratista.Android.Resource.Layout.abc_action_bar_up_container;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_menu_item_layout = global::Contratista.Android.Resource.Layout.abc_action_menu_item_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_menu_layout = global::Contratista.Android.Resource.Layout.abc_action_menu_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_mode_bar = global::Contratista.Android.Resource.Layout.abc_action_mode_bar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Contratista.Android.Resource.Layout.abc_action_mode_close_item_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_activity_chooser_view = global::Contratista.Android.Resource.Layout.abc_activity_chooser_view;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Contratista.Android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Contratista.Android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_alert_dialog_material = global::Contratista.Android.Resource.Layout.abc_alert_dialog_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::Contratista.Android.Resource.Layout.abc_alert_dialog_title_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::Contratista.Android.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_dialog_title_material = global::Contratista.Android.Resource.Layout.abc_dialog_title_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_expanded_menu_layout = global::Contratista.Android.Resource.Layout.abc_expanded_menu_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Contratista.Android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_icon = global::Contratista.Android.Resource.Layout.abc_list_menu_item_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_layout = global::Contratista.Android.Resource.Layout.abc_list_menu_item_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_radio = global::Contratista.Android.Resource.Layout.abc_list_menu_item_radio;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::Contratista.Android.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Contratista.Android.Resource.Layout.abc_popup_menu_item_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_content_include = global::Contratista.Android.Resource.Layout.abc_screen_content_include;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_simple = global::Contratista.Android.Resource.Layout.abc_screen_simple;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Contratista.Android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_toolbar = global::Contratista.Android.Resource.Layout.abc_screen_toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Contratista.Android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_search_view = global::Contratista.Android.Resource.Layout.abc_search_view;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_select_dialog_material = global::Contratista.Android.Resource.Layout.abc_select_dialog_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_tooltip = global::Contratista.Android.Resource.Layout.abc_tooltip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.BottomTabLayout = global::Contratista.Android.Resource.Layout.BottomTabLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.browser_actions_context_menu_page = global::Contratista.Android.Resource.Layout.browser_actions_context_menu_page;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.browser_actions_context_menu_row = global::Contratista.Android.Resource.Layout.browser_actions_context_menu_row;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_bottom_navigation_item = global::Contratista.Android.Resource.Layout.design_bottom_navigation_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Contratista.Android.Resource.Layout.design_bottom_sheet_dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_snackbar = global::Contratista.Android.Resource.Layout.design_layout_snackbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_snackbar_include = global::Contratista.Android.Resource.Layout.design_layout_snackbar_include;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_tab_icon = global::Contratista.Android.Resource.Layout.design_layout_tab_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_tab_text = global::Contratista.Android.Resource.Layout.design_layout_tab_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_menu_item_action_area = global::Contratista.Android.Resource.Layout.design_menu_item_action_area;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item = global::Contratista.Android.Resource.Layout.design_navigation_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_header = global::Contratista.Android.Resource.Layout.design_navigation_item_header;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_separator = global::Contratista.Android.Resource.Layout.design_navigation_item_separator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_subheader = global::Contratista.Android.Resource.Layout.design_navigation_item_subheader;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_menu = global::Contratista.Android.Resource.Layout.design_navigation_menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_menu_item = global::Contratista.Android.Resource.Layout.design_navigation_menu_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_text_input_password_icon = global::Contratista.Android.Resource.Layout.design_text_input_password_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.dialogListViewRow = global::Contratista.Android.Resource.Layout.dialogListViewRow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.FlyoutContent = global::Contratista.Android.Resource.Layout.FlyoutContent;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.formfieldButtonLayout = global::Contratista.Android.Resource.Layout.formfieldButtonLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.listViewRow = global::Contratista.Android.Resource.Layout.listViewRow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_dialog = global::Contratista.Android.Resource.Layout.mr_cast_dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_group_item = global::Contratista.Android.Resource.Layout.mr_cast_group_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_group_volume_item = global::Contratista.Android.Resource.Layout.mr_cast_group_volume_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_media_metadata = global::Contratista.Android.Resource.Layout.mr_cast_media_metadata;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_route_item = global::Contratista.Android.Resource.Layout.mr_cast_route_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_chooser_dialog = global::Contratista.Android.Resource.Layout.mr_chooser_dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_chooser_list_item = global::Contratista.Android.Resource.Layout.mr_chooser_list_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::Contratista.Android.Resource.Layout.mr_controller_material_dialog_b;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_controller_volume_item = global::Contratista.Android.Resource.Layout.mr_controller_volume_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_dialog_header_item = global::Contratista.Android.Resource.Layout.mr_dialog_header_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_picker_dialog = global::Contratista.Android.Resource.Layout.mr_picker_dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_picker_route_item = global::Contratista.Android.Resource.Layout.mr_picker_route_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_playback_control = global::Contratista.Android.Resource.Layout.mr_playback_control;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_volume_control = global::Contratista.Android.Resource.Layout.mr_volume_control;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mtrl_layout_snackbar = global::Contratista.Android.Resource.Layout.mtrl_layout_snackbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::Contratista.Android.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_action = global::Contratista.Android.Resource.Layout.notification_action;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_action_tombstone = global::Contratista.Android.Resource.Layout.notification_action_tombstone;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_media_action = global::Contratista.Android.Resource.Layout.notification_media_action;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_media_cancel_action = global::Contratista.Android.Resource.Layout.notification_media_cancel_action;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media = global::Contratista.Android.Resource.Layout.notification_template_big_media;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media_custom = global::Contratista.Android.Resource.Layout.notification_template_big_media_custom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media_narrow = global::Contratista.Android.Resource.Layout.notification_template_big_media_narrow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::Contratista.Android.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_custom_big = global::Contratista.Android.Resource.Layout.notification_template_custom_big;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_icon_group = global::Contratista.Android.Resource.Layout.notification_template_icon_group;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_lines_media = global::Contratista.Android.Resource.Layout.notification_template_lines_media;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_media = global::Contratista.Android.Resource.Layout.notification_template_media;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_media_custom = global::Contratista.Android.Resource.Layout.notification_template_media_custom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_part_chronometer = global::Contratista.Android.Resource.Layout.notification_template_part_chronometer;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_part_time = global::Contratista.Android.Resource.Layout.notification_template_part_time;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.RootLayout = global::Contratista.Android.Resource.Layout.RootLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_item_material = global::Contratista.Android.Resource.Layout.select_dialog_item_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_multichoice_material = global::Contratista.Android.Resource.Layout.select_dialog_multichoice_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Contratista.Android.Resource.Layout.select_dialog_singlechoice_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.ShellContent = global::Contratista.Android.Resource.Layout.ShellContent;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.signaturepadlayout = global::Contratista.Android.Resource.Layout.signaturepadlayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Contratista.Android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerCancel = global::Contratista.Android.Resource.String.SfPdfViewerCancel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerCopy = global::Contratista.Android.Resource.String.SfPdfViewerCopy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHighlight = global::Contratista.Android.Resource.String.SfPdfViewerHighlight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkMessage = global::Contratista.Android.Resource.String.SfPdfViewerHyperlinkMessage;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkMessageTitle = global::Contratista.Android.Resource.String.SfPdfViewerHyperlinkMessageTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkOpen = global::Contratista.Android.Resource.String.SfPdfViewerHyperlinkOpen;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerStrikethrough = global::Contratista.Android.Resource.String.SfPdfViewerStrikethrough;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerUnderline = global::Contratista.Android.Resource.String.SfPdfViewerUnderline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_bar_home_description = global::Contratista.Android.Resource.String.abc_action_bar_home_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_bar_up_description = global::Contratista.Android.Resource.String.abc_action_bar_up_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_menu_overflow_description = global::Contratista.Android.Resource.String.abc_action_menu_overflow_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_mode_done = global::Contratista.Android.Resource.String.abc_action_mode_done;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Contratista.Android.Resource.String.abc_activity_chooser_view_see_all;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_activitychooserview_choose_application = global::Contratista.Android.Resource.String.abc_activitychooserview_choose_application;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_capital_off = global::Contratista.Android.Resource.String.abc_capital_off;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_capital_on = global::Contratista.Android.Resource.String.abc_capital_on;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_body_1_material = global::Contratista.Android.Resource.String.abc_font_family_body_1_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_body_2_material = global::Contratista.Android.Resource.String.abc_font_family_body_2_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_button_material = global::Contratista.Android.Resource.String.abc_font_family_button_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_caption_material = global::Contratista.Android.Resource.String.abc_font_family_caption_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_display_1_material = global::Contratista.Android.Resource.String.abc_font_family_display_1_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_display_2_material = global::Contratista.Android.Resource.String.abc_font_family_display_2_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_display_3_material = global::Contratista.Android.Resource.String.abc_font_family_display_3_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_display_4_material = global::Contratista.Android.Resource.String.abc_font_family_display_4_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_headline_material = global::Contratista.Android.Resource.String.abc_font_family_headline_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_menu_material = global::Contratista.Android.Resource.String.abc_font_family_menu_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_subhead_material = global::Contratista.Android.Resource.String.abc_font_family_subhead_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_title_material = global::Contratista.Android.Resource.String.abc_font_family_title_material;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_alt_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_alt_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_delete_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_delete_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_enter_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_enter_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_function_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_function_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_meta_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_meta_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_shift_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_shift_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_space_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_space_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_sym_shortcut_label = global::Contratista.Android.Resource.String.abc_menu_sym_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_prepend_shortcut_label = global::Contratista.Android.Resource.String.abc_prepend_shortcut_label;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_search_hint = global::Contratista.Android.Resource.String.abc_search_hint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_clear = global::Contratista.Android.Resource.String.abc_searchview_description_clear;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_query = global::Contratista.Android.Resource.String.abc_searchview_description_query;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_search = global::Contratista.Android.Resource.String.abc_searchview_description_search;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_submit = global::Contratista.Android.Resource.String.abc_searchview_description_submit;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_voice = global::Contratista.Android.Resource.String.abc_searchview_description_voice;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_shareactionprovider_share_with = global::Contratista.Android.Resource.String.abc_shareactionprovider_share_with;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Contratista.Android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_toolbar_collapse_description = global::Contratista.Android.Resource.String.abc_toolbar_collapse_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.appbar_scrolling_view_behavior = global::Contratista.Android.Resource.String.appbar_scrolling_view_behavior;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.bottom_sheet_behavior = global::Contratista.Android.Resource.String.bottom_sheet_behavior;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.character_counter_content_description = global::Contratista.Android.Resource.String.character_counter_content_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.character_counter_pattern = global::Contratista.Android.Resource.String.character_counter_pattern;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.fab_transformation_scrim_behavior = global::Contratista.Android.Resource.String.fab_transformation_scrim_behavior;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.fab_transformation_sheet_behavior = global::Contratista.Android.Resource.String.fab_transformation_sheet_behavior;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::Contratista.Android.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.library_name = global::Contratista.Android.Resource.String.library_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_button_content_description = global::Contratista.Android.Resource.String.mr_button_content_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_cast_button_connected = global::Contratista.Android.Resource.String.mr_cast_button_connected;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_cast_button_connecting = global::Contratista.Android.Resource.String.mr_cast_button_connecting;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_cast_button_disconnected = global::Contratista.Android.Resource.String.mr_cast_button_disconnected;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_cast_dialog_title_view_placeholder = global::Contratista.Android.Resource.String.mr_cast_dialog_title_view_placeholder;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_chooser_searching = global::Contratista.Android.Resource.String.mr_chooser_searching;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_chooser_title = global::Contratista.Android.Resource.String.mr_chooser_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_album_art = global::Contratista.Android.Resource.String.mr_controller_album_art;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_casting_screen = global::Contratista.Android.Resource.String.mr_controller_casting_screen;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_close_description = global::Contratista.Android.Resource.String.mr_controller_close_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_collapse_group = global::Contratista.Android.Resource.String.mr_controller_collapse_group;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_disconnect = global::Contratista.Android.Resource.String.mr_controller_disconnect;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_expand_group = global::Contratista.Android.Resource.String.mr_controller_expand_group;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_no_info_available = global::Contratista.Android.Resource.String.mr_controller_no_info_available;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_no_media_selected = global::Contratista.Android.Resource.String.mr_controller_no_media_selected;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_pause = global::Contratista.Android.Resource.String.mr_controller_pause;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_play = global::Contratista.Android.Resource.String.mr_controller_play;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_stop = global::Contratista.Android.Resource.String.mr_controller_stop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_stop_casting = global::Contratista.Android.Resource.String.mr_controller_stop_casting;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_volume_slider = global::Contratista.Android.Resource.String.mr_controller_volume_slider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_dialog_device_header = global::Contratista.Android.Resource.String.mr_dialog_device_header;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_dialog_route_header = global::Contratista.Android.Resource.String.mr_dialog_route_header;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_system_route_name = global::Contratista.Android.Resource.String.mr_system_route_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_user_route_category_name = global::Contratista.Android.Resource.String.mr_user_route_category_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::Contratista.Android.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.password_toggle_content_description = global::Contratista.Android.Resource.String.password_toggle_content_description;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.path_password_eye = global::Contratista.Android.Resource.String.path_password_eye;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.path_password_eye_mask_strike_through = global::Contratista.Android.Resource.String.path_password_eye_mask_strike_through;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.path_password_eye_mask_visible = global::Contratista.Android.Resource.String.path_password_eye_mask_visible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.path_password_strike_through = global::Contratista.Android.Resource.String.path_password_strike_through;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.search_menu_title = global::Contratista.Android.Resource.String.search_menu_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_annotationsbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_annotationsbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_annotationsbutton = global::Contratista.Android.Resource.String.sfpdfviewer_annotationsbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_arrowbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_arrowbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_arrowbutton = global::Contratista.Android.Resource.String.sfpdfviewer_arrowbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_backbutton = global::Contratista.Android.Resource.String.sfpdfviewer_backbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_blackcolorbutton = global::Contratista.Android.Resource.String.sfpdfviewer_blackcolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_bookmarksbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksbutton = global::Contratista.Android.Resource.String.sfpdfviewer_bookmarksbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksclosebutton = global::Contratista.Android.Resource.String.sfpdfviewer_bookmarksclosebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cancel = global::Contratista.Android.Resource.String.sfpdfviewer_cancel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cancelsearchbutton = global::Contratista.Android.Resource.String.sfpdfviewer_cancelsearchbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_clearsearchbutton = global::Contratista.Android.Resource.String.sfpdfviewer_clearsearchbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_colorbutton = global::Contratista.Android.Resource.String.sfpdfviewer_colorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_continuouspagebutton = global::Contratista.Android.Resource.String.sfpdfviewer_continuouspagebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cyancolorbutton = global::Contratista.Android.Resource.String.sfpdfviewer_cyancolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_deletebutton = global::Contratista.Android.Resource.String.sfpdfviewer_deletebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_done = global::Contratista.Android.Resource.String.sfpdfviewer_done;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_ellipsebackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_ellipsebackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_ellipsebutton = global::Contratista.Android.Resource.String.sfpdfviewer_ellipsebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_fontsizebutton = global::Contratista.Android.Resource.String.sfpdfviewer_fontsizebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_freetextbutton = global::Contratista.Android.Resource.String.sfpdfviewer_freetextbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_greencolorbutton = global::Contratista.Android.Resource.String.sfpdfviewer_greencolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_highlightbutton = global::Contratista.Android.Resource.String.sfpdfviewer_highlightbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_highlighttextbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_highlighttextbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_hinttext = global::Contratista.Android.Resource.String.sfpdfviewer_hinttext;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_inkbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_inkbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_inkbutton = global::Contratista.Android.Resource.String.sfpdfviewer_inkbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_linebackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_linebackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_linebutton = global::Contratista.Android.Resource.String.sfpdfviewer_linebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_magentacolorbutton = global::Contratista.Android.Resource.String.sfpdfviewer_magentacolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_moreoptionsbutton = global::Contratista.Android.Resource.String.sfpdfviewer_moreoptionsbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_nextlevelbookmarksbutton = global::Contratista.Android.Resource.String.sfpdfviewer_nextlevelbookmarksbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_opacitybutton = global::Contratista.Android.Resource.String.sfpdfviewer_opacitybutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_pagedownbutton = global::Contratista.Android.Resource.String.sfpdfviewer_pagedownbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_pageupbutton = global::Contratista.Android.Resource.String.sfpdfviewer_pageupbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_polygonbutton = global::Contratista.Android.Resource.String.sfpdfviewer_polygonbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_previouslevelbookmarksbutton = global::Contratista.Android.Resource.String.sfpdfviewer_previouslevelbookmarksbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_rectanglebackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_rectanglebackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_rectanglebutton = global::Contratista.Android.Resource.String.sfpdfviewer_rectanglebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redcolorbutton = global::Contratista.Android.Resource.String.sfpdfviewer_redcolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redobutton = global::Contratista.Android.Resource.String.sfpdfviewer_redobutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redoinkbutton = global::Contratista.Android.Resource.String.sfpdfviewer_redoinkbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_savebutton = global::Contratista.Android.Resource.String.sfpdfviewer_savebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_searchbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbarplaceholdertext = global::Contratista.Android.Resource.String.sfpdfviewer_searchbarplaceholdertext;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbutton = global::Contratista.Android.Resource.String.sfpdfviewer_searchbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchnextbutton = global::Contratista.Android.Resource.String.sfpdfviewer_searchnextbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchpreviousbutton = global::Contratista.Android.Resource.String.sfpdfviewer_searchpreviousbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_shapesbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_shapesbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_shapesbutton = global::Contratista.Android.Resource.String.sfpdfviewer_shapesbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturebutton = global::Contratista.Android.Resource.String.sfpdfviewer_signaturebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_cancel = global::Contratista.Android.Resource.String.sfpdfviewer_signaturepad_cancel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_clear = global::Contratista.Android.Resource.String.sfpdfviewer_signaturepad_clear;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_done = global::Contratista.Android.Resource.String.sfpdfviewer_signaturepad_done;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_singlepagebutton = global::Contratista.Android.Resource.String.sfpdfviewer_singlepagebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_strikethroughbutton = global::Contratista.Android.Resource.String.sfpdfviewer_strikethroughbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_strikethroughtextbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_strikethroughtextbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_textbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textmarkupsbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_textmarkupsbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textmarkupsbutton = global::Contratista.Android.Resource.String.sfpdfviewer_textmarkupsbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessbutton = global::Contratista.Android.Resource.String.sfpdfviewer_thicknessbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessfivebutton = global::Contratista.Android.Resource.String.sfpdfviewer_thicknessfivebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessninebutton = global::Contratista.Android.Resource.String.sfpdfviewer_thicknessninebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessonebutton = global::Contratista.Android.Resource.String.sfpdfviewer_thicknessonebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknesssevenbutton = global::Contratista.Android.Resource.String.sfpdfviewer_thicknesssevenbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknesthreebutton = global::Contratista.Android.Resource.String.sfpdfviewer_thicknesthreebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_underlinebutton = global::Contratista.Android.Resource.String.sfpdfviewer_underlinebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_underlinetextbackbutton = global::Contratista.Android.Resource.String.sfpdfviewer_underlinetextbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_undobutton = global::Contratista.Android.Resource.String.sfpdfviewer_undobutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_undoinkbutton = global::Contratista.Android.Resource.String.sfpdfviewer_undoinkbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_viewmodebutton = global::Contratista.Android.Resource.String.sfpdfviewer_viewmodebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_yellowcolorbutton = global::Contratista.Android.Resource.String.sfpdfviewer_yellowcolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.status_bar_notification_info_overflow = global::Contratista.Android.Resource.String.status_bar_notification_info_overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.AlertDialog_AppCompat = global::Contratista.Android.Resource.Style.AlertDialog_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Contratista.Android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Animation_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Contratista.Android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::Contratista.Android.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Contratista.Android.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Contratista.Android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Contratista.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Contratista.Android.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_CardView = global::Contratista.Android.Resource.Style.Base_CardView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Contratista.Android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Contratista.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Contratista.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Contratista.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Contratista.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Contratista.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Contratista.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Contratista.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Contratista.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::Contratista.Android.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Contratista.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Contratista.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Contratista.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Contratista.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Contratista.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Contratista.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Contratista.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Contratista.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Contratista.Android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Contratista.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Contratista.Android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Contratista.Android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::Contratista.Android.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Contratista.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::Contratista.Android.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Contratista.Android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Contratista.Android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Contratista.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Contratista.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Contratista.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Contratista.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Contratista.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Contratista.Android.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Contratista.Android.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Contratista.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Contratista.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView = global::Contratista.Android.Resource.Style.CardView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView_Dark = global::Contratista.Android.Resource.Style.CardView_Dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView_Light = global::Contratista.Android.Resource.Style.CardView_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_AppCompat = global::Contratista.Android.Resource.Style.Platform_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_AppCompat_Light = global::Contratista.Android.Resource.Style.Platform_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_MaterialComponents = global::Contratista.Android.Resource.Style.Platform_MaterialComponents;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::Contratista.Android.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_MaterialComponents_Light = global::Contratista.Android.Resource.Style.Platform_MaterialComponents_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Contratista.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Contratista.Android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Contratista.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Contratista.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V21_AppCompat = global::Contratista.Android.Resource.Style.Platform_V21_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::Contratista.Android.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V25_AppCompat = global::Contratista.Android.Resource.Style.Platform_V25_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::Contratista.Android.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Contratista.Android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Contratista.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Contratista.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Contratista.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Contratista.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Contratista.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Contratista.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Contratista.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Counter = global::Contratista.Android.Resource.Style.TextAppearance_Design_Counter;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Contratista.Android.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Error = global::Contratista.Android.Resource.Style.TextAppearance_Design_Error;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_HelperText = global::Contratista.Android.Resource.Style.TextAppearance_Design_HelperText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Hint = global::Contratista.Android.Resource.Style.TextAppearance_Design_Hint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Contratista.Android.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Tab = global::Contratista.Android.Resource.Style.TextAppearance_Design_Tab;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Contratista.Android.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::Contratista.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::Contratista.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::Contratista.Android.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Contratista.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Contratista.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Contratista.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat = global::Contratista.Android.Resource.Style.Theme_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Contratista.Android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Contratista.Android.Resource.Style.Theme_AppCompat_DayNight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Contratista.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Contratista.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Contratista.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Contratista.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Contratista.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Contratista.Android.Resource.Style.Theme_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Contratista.Android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Contratista.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light = global::Contratista.Android.Resource.Style.Theme_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Contratista.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Contratista.Android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Contratista.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Contratista.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Contratista.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Contratista.Android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design = global::Contratista.Android.Resource.Style.Theme_Design;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Contratista.Android.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light = global::Contratista.Android.Resource.Style.Theme_Design_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Contratista.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Contratista.Android.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_NoActionBar = global::Contratista.Android.Resource.Style.Theme_Design_NoActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents = global::Contratista.Android.Resource.Style.Theme_MaterialComponents;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Contratista.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MediaRouter = global::Contratista.Android.Resource.Style.Theme_MediaRouter;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MediaRouter_Light = global::Contratista.Android.Resource.Style.Theme_MediaRouter_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Contratista.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Contratista.Android.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Contratista.Android.Resource.Style.ThemeOverlay_AppCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Contratista.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Contratista.Android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Contratista.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Contratista.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Contratista.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Contratista.Android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Contratista.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::Contratista.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::Contratista.Android.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Contratista.Android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Contratista.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button = global::Contratista.Android.Resource.Style.Widget_AppCompat_Button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Contratista.Android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Contratista.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Contratista.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Contratista.Android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Contratista.Android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Contratista.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Contratista.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Contratista.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Contratista.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Contratista.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Contratista.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_EditText = global::Contratista.Android.Resource.Style.Widget_AppCompat_EditText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Contratista.Android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::Contratista.Android.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Contratista.Android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView = global::Contratista.Android.Resource.Style.Widget_AppCompat_ListView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Contratista.Android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Contratista.Android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Contratista.Android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Contratista.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Contratista.Android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Contratista.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Contratista.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Contratista.Android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Contratista.Android.Resource.Style.Widget_AppCompat_SearchView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Contratista.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Contratista.Android.Resource.Style.Widget_AppCompat_Spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Contratista.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Contratista.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Contratista.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Contratista.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Contratista.Android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Contratista.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::Contratista.Android.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::Contratista.Android.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Contratista.Android.Resource.Style.Widget_Design_AppBarLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::Contratista.Android.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Contratista.Android.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Contratista.Android.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Contratista.Android.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_NavigationView = global::Contratista.Android.Resource.Style.Widget_Design_NavigationView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Contratista.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_Snackbar = global::Contratista.Android.Resource.Style.Widget_Design_Snackbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_TabLayout = global::Contratista.Android.Resource.Style.Widget_Design_TabLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Contratista.Android.Resource.Style.Widget_Design_TextInputLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::Contratista.Android.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Contratista.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Contratista.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::Contratista.Android.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar = global::Contratista.Android.Resource.Styleable.ActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_background = global::Contratista.Android.Resource.Styleable.ActionBar_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Contratista.Android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Contratista.Android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Contratista.Android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Contratista.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Contratista.Android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Contratista.Android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Contratista.Android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Contratista.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Contratista.Android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_displayOptions = global::Contratista.Android.Resource.Styleable.ActionBar_displayOptions;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_divider = global::Contratista.Android.Resource.Styleable.ActionBar_divider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_elevation = global::Contratista.Android.Resource.Styleable.ActionBar_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_height = global::Contratista.Android.Resource.Styleable.ActionBar_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Contratista.Android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Contratista.Android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_homeLayout = global::Contratista.Android.Resource.Styleable.ActionBar_homeLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_icon = global::Contratista.Android.Resource.Styleable.ActionBar_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Contratista.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_itemPadding = global::Contratista.Android.Resource.Styleable.ActionBar_itemPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_logo = global::Contratista.Android.Resource.Styleable.ActionBar_logo;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_navigationMode = global::Contratista.Android.Resource.Styleable.ActionBar_navigationMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_popupTheme = global::Contratista.Android.Resource.Styleable.ActionBar_popupTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Contratista.Android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Contratista.Android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_subtitle = global::Contratista.Android.Resource.Styleable.ActionBar_subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Contratista.Android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_title = global::Contratista.Android.Resource.Styleable.ActionBar_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Contratista.Android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBarLayout = global::Contratista.Android.Resource.Styleable.ActionBarLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Contratista.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuItemView = global::Contratista.Android.Resource.Styleable.ActionMenuItemView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Contratista.Android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuView = global::Contratista.Android.Resource.Styleable.ActionMenuView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode = global::Contratista.Android.Resource.Styleable.ActionMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_background = global::Contratista.Android.Resource.Styleable.ActionMode_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Contratista.Android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Contratista.Android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_height = global::Contratista.Android.Resource.Styleable.ActionMode_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Contratista.Android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Contratista.Android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView = global::Contratista.Android.Resource.Styleable.ActivityChooserView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Contratista.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Contratista.Android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog = global::Contratista.Android.Resource.Styleable.AlertDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_android_layout = global::Contratista.Android.Resource.Styleable.AlertDialog_android_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::Contratista.Android.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Contratista.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Contratista.Android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_listLayout = global::Contratista.Android.Resource.Styleable.AlertDialog_listLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Contratista.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_showTitle = global::Contratista.Android.Resource.Styleable.AlertDialog_showTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Contratista.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Contratista.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout = global::Contratista.Android.Resource.Styleable.AppBarLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_android_background = global::Contratista.Android.Resource.Styleable.AppBarLayout_android_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Contratista.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Contratista.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_elevation = global::Contratista.Android.Resource.Styleable.AppBarLayout_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_expanded = global::Contratista.Android.Resource.Styleable.AppBarLayout_expanded;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::Contratista.Android.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates = global::Contratista.Android.Resource.Styleable.AppBarLayoutStates;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Contratista.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Contratista.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Contratista.Android.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Contratista.Android.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_Layout = global::Contratista.Android.Resource.Styleable.AppBarLayout_Layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Contratista.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Contratista.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView = global::Contratista.Android.Resource.Styleable.AppCompatImageView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Contratista.Android.Resource.Styleable.AppCompatImageView_android_src;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Contratista.Android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_tint = global::Contratista.Android.Resource.Styleable.AppCompatImageView_tint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::Contratista.Android.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar = global::Contratista.Android.Resource.Styleable.AppCompatSeekBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Contratista.Android.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::Contratista.Android.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Contratista.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Contratista.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper = global::Contratista.Android.Resource.Styleable.AppCompatTextHelper;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Contratista.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Contratista.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Contratista.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Contratista.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Contratista.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Contratista.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Contratista.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView = global::Contratista.Android.Resource.Styleable.AppCompatTextView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Contratista.Android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Contratista.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Contratista.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Contratista.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Contratista.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Contratista.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Contratista.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::Contratista.Android.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Contratista.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::Contratista.Android.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Contratista.Android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme = global::Contratista.Android.Resource.Styleable.AppCompatTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Contratista.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Contratista.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Contratista.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Contratista.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorError = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorError;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Contratista.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Contratista.Android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Contratista.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Contratista.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Contratista.Android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Contratista.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Contratista.Android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Contratista.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Contratista.Android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Contratista.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Contratista.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Contratista.Android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Contratista.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Contratista.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Contratista.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Contratista.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Contratista.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Contratista.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Contratista.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Contratista.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Contratista.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Contratista.Android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar = global::Contratista.Android.Resource.Styleable.BottomAppBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::Contratista.Android.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Contratista.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Contratista.Android.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Contratista.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Contratista.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::Contratista.Android.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView = global::Contratista.Android.Resource.Styleable.BottomNavigationView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_elevation = global::Contratista.Android.Resource.Styleable.BottomNavigationView_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::Contratista.Android.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Contratista.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::Contratista.Android.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::Contratista.Android.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Contratista.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Contratista.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::Contratista.Android.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Contratista.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_menu = global::Contratista.Android.Resource.Styleable.BottomNavigationView_menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::Contratista.Android.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Contratista.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Contratista.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Contratista.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Contratista.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ButtonBarLayout = global::Contratista.Android.Resource.Styleable.ButtonBarLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Contratista.Android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView = global::Contratista.Android.Resource.Styleable.CardView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_android_minHeight = global::Contratista.Android.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_android_minWidth = global::Contratista.Android.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Contratista.Android.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Contratista.Android.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardElevation = global::Contratista.Android.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Contratista.Android.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Contratista.Android.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Contratista.Android.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPadding = global::Contratista.Android.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Contratista.Android.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Contratista.Android.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Contratista.Android.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Contratista.Android.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip = global::Contratista.Android.Resource.Styleable.Chip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_checkable = global::Contratista.Android.Resource.Styleable.Chip_android_checkable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_ellipsize = global::Contratista.Android.Resource.Styleable.Chip_android_ellipsize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_maxWidth = global::Contratista.Android.Resource.Styleable.Chip_android_maxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_text = global::Contratista.Android.Resource.Styleable.Chip_android_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_textAppearance = global::Contratista.Android.Resource.Styleable.Chip_android_textAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_checkedIcon = global::Contratista.Android.Resource.Styleable.Chip_checkedIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::Contratista.Android.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_checkedIconVisible = global::Contratista.Android.Resource.Styleable.Chip_checkedIconVisible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::Contratista.Android.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipCornerRadius = global::Contratista.Android.Resource.Styleable.Chip_chipCornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipEndPadding = global::Contratista.Android.Resource.Styleable.Chip_chipEndPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIcon = global::Contratista.Android.Resource.Styleable.Chip_chipIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIconEnabled = global::Contratista.Android.Resource.Styleable.Chip_chipIconEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIconSize = global::Contratista.Android.Resource.Styleable.Chip_chipIconSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIconTint = global::Contratista.Android.Resource.Styleable.Chip_chipIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIconVisible = global::Contratista.Android.Resource.Styleable.Chip_chipIconVisible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipMinHeight = global::Contratista.Android.Resource.Styleable.Chip_chipMinHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipStartPadding = global::Contratista.Android.Resource.Styleable.Chip_chipStartPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipStrokeColor = global::Contratista.Android.Resource.Styleable.Chip_chipStrokeColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::Contratista.Android.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIcon = global::Contratista.Android.Resource.Styleable.Chip_closeIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconEnabled = global::Contratista.Android.Resource.Styleable.Chip_closeIconEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::Contratista.Android.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconSize = global::Contratista.Android.Resource.Styleable.Chip_closeIconSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::Contratista.Android.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconTint = global::Contratista.Android.Resource.Styleable.Chip_closeIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconVisible = global::Contratista.Android.Resource.Styleable.Chip_closeIconVisible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_hideMotionSpec = global::Contratista.Android.Resource.Styleable.Chip_hideMotionSpec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_iconEndPadding = global::Contratista.Android.Resource.Styleable.Chip_iconEndPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_iconStartPadding = global::Contratista.Android.Resource.Styleable.Chip_iconStartPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_rippleColor = global::Contratista.Android.Resource.Styleable.Chip_rippleColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_showMotionSpec = global::Contratista.Android.Resource.Styleable.Chip_showMotionSpec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_textEndPadding = global::Contratista.Android.Resource.Styleable.Chip_textEndPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_textStartPadding = global::Contratista.Android.Resource.Styleable.Chip_textStartPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup = global::Contratista.Android.Resource.Styleable.ChipGroup;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_checkedChip = global::Contratista.Android.Resource.Styleable.ChipGroup_checkedChip;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::Contratista.Android.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Contratista.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Contratista.Android.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_singleLine = global::Contratista.Android.Resource.Styleable.ChipGroup_singleLine;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_singleSelection = global::Contratista.Android.Resource.Styleable.ChipGroup_singleSelection;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Contratista.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ColorStateListItem = global::Contratista.Android.Resource.Styleable.ColorStateListItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::Contratista.Android.Resource.Styleable.ColorStateListItem_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::Contratista.Android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::Contratista.Android.Resource.Styleable.ColorStateListItem_android_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton = global::Contratista.Android.Resource.Styleable.CompoundButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_android_button = global::Contratista.Android.Resource.Styleable.CompoundButton_android_button;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Contratista.Android.Resource.Styleable.CompoundButton_buttonTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Contratista.Android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout = global::Contratista.Android.Resource.Styleable.CoordinatorLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Contratista.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme = global::Contratista.Android.Resource.Styleable.DesignTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Contratista.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Contratista.Android.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Contratista.Android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton = global::Contratista.Android.Resource.Styleable.FloatingActionButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Contratista.Android.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Contratista.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Contratista.Android.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Contratista.Android.Resource.Styleable.FloatingActionButton_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Contratista.Android.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Contratista.Android.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Contratista.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Contratista.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::Contratista.Android.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Contratista.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Contratista.Android.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Contratista.Android.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Contratista.Android.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Contratista.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Contratista.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FlowLayout = global::Contratista.Android.Resource.Styleable.FlowLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::Contratista.Android.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::Contratista.Android.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily = global::Contratista.Android.Resource.Styleable.FontFamily;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::Contratista.Android.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::Contratista.Android.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Contratista.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Contratista.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::Contratista.Android.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::Contratista.Android.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont = global::Contratista.Android.Resource.Styleable.FontFamilyFont;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_font = global::Contratista.Android.Resource.Styleable.FontFamilyFont_android_font;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Contratista.Android.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Contratista.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Contratista.Android.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Contratista.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_font = global::Contratista.Android.Resource.Styleable.FontFamilyFont_font;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::Contratista.Android.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Contratista.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::Contratista.Android.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::Contratista.Android.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout = global::Contratista.Android.Resource.Styleable.ForegroundLinearLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Contratista.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Contratista.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Contratista.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor = global::Contratista.Android.Resource.Styleable.GradientColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_centerColor = global::Contratista.Android.Resource.Styleable.GradientColor_android_centerColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_centerX = global::Contratista.Android.Resource.Styleable.GradientColor_android_centerX;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_centerY = global::Contratista.Android.Resource.Styleable.GradientColor_android_centerY;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_endColor = global::Contratista.Android.Resource.Styleable.GradientColor_android_endColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_endX = global::Contratista.Android.Resource.Styleable.GradientColor_android_endX;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_endY = global::Contratista.Android.Resource.Styleable.GradientColor_android_endY;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::Contratista.Android.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_startColor = global::Contratista.Android.Resource.Styleable.GradientColor_android_startColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_startX = global::Contratista.Android.Resource.Styleable.GradientColor_android_startX;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_startY = global::Contratista.Android.Resource.Styleable.GradientColor_android_startY;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_tileMode = global::Contratista.Android.Resource.Styleable.GradientColor_android_tileMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_type = global::Contratista.Android.Resource.Styleable.GradientColor_android_type;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColorItem = global::Contratista.Android.Resource.Styleable.GradientColorItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColorItem_android_color = global::Contratista.Android.Resource.Styleable.GradientColorItem_android_color;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColorItem_android_offset = global::Contratista.Android.Resource.Styleable.GradientColorItem_android_offset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Contratista.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow = global::Contratista.Android.Resource.Styleable.ListPopupWindow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Contratista.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Contratista.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton = global::Contratista.Android.Resource.Styleable.MaterialButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::Contratista.Android.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::Contratista.Android.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::Contratista.Android.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::Contratista.Android.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::Contratista.Android.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::Contratista.Android.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::Contratista.Android.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_icon = global::Contratista.Android.Resource.Styleable.MaterialButton_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconGravity = global::Contratista.Android.Resource.Styleable.MaterialButton_iconGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconPadding = global::Contratista.Android.Resource.Styleable.MaterialButton_iconPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconSize = global::Contratista.Android.Resource.Styleable.MaterialButton_iconSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconTint = global::Contratista.Android.Resource.Styleable.MaterialButton_iconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::Contratista.Android.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_rippleColor = global::Contratista.Android.Resource.Styleable.MaterialButton_rippleColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_strokeColor = global::Contratista.Android.Resource.Styleable.MaterialButton_strokeColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::Contratista.Android.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialCardView = global::Contratista.Android.Resource.Styleable.MaterialCardView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::Contratista.Android.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::Contratista.Android.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Contratista.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton = global::Contratista.Android.Resource.Styleable.MediaRouteButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::Contratista.Android.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::Contratista.Android.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Contratista.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::Contratista.Android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup = global::Contratista.Android.Resource.Styleable.MenuGroup;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Contratista.Android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Contratista.Android.Resource.Styleable.MenuGroup_android_enabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_id = global::Contratista.Android.Resource.Styleable.MenuGroup_android_id;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Contratista.Android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Contratista.Android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_visible = global::Contratista.Android.Resource.Styleable.MenuGroup_android_visible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem = global::Contratista.Android.Resource.Styleable.MenuItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionLayout = global::Contratista.Android.Resource.Styleable.MenuItem_actionLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Contratista.Android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Contratista.Android.Resource.Styleable.MenuItem_actionViewClass;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::Contratista.Android.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Contratista.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_checkable = global::Contratista.Android.Resource.Styleable.MenuItem_android_checkable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_checked = global::Contratista.Android.Resource.Styleable.MenuItem_android_checked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_enabled = global::Contratista.Android.Resource.Styleable.MenuItem_android_enabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_icon = global::Contratista.Android.Resource.Styleable.MenuItem_android_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_id = global::Contratista.Android.Resource.Styleable.MenuItem_android_id;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Contratista.Android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Contratista.Android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_onClick = global::Contratista.Android.Resource.Styleable.MenuItem_android_onClick;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Contratista.Android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_title = global::Contratista.Android.Resource.Styleable.MenuItem_android_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Contratista.Android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_visible = global::Contratista.Android.Resource.Styleable.MenuItem_android_visible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_contentDescription = global::Contratista.Android.Resource.Styleable.MenuItem_contentDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_iconTint = global::Contratista.Android.Resource.Styleable.MenuItem_iconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_iconTintMode = global::Contratista.Android.Resource.Styleable.MenuItem_iconTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_numericModifiers = global::Contratista.Android.Resource.Styleable.MenuItem_numericModifiers;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_showAsAction = global::Contratista.Android.Resource.Styleable.MenuItem_showAsAction;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_tooltipText = global::Contratista.Android.Resource.Styleable.MenuItem_tooltipText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView = global::Contratista.Android.Resource.Styleable.MenuView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Contratista.Android.Resource.Styleable.MenuView_android_headerBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Contratista.Android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Contratista.Android.Resource.Styleable.MenuView_android_itemBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Contratista.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Contratista.Android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Contratista.Android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Contratista.Android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Contratista.Android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::Contratista.Android.Resource.Styleable.MenuView_subMenuArrow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView = global::Contratista.Android.Resource.Styleable.NavigationView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_background = global::Contratista.Android.Resource.Styleable.NavigationView_android_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Contratista.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Contratista.Android.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_elevation = global::Contratista.Android.Resource.Styleable.NavigationView_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_headerLayout = global::Contratista.Android.Resource.Styleable.NavigationView_headerLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemBackground = global::Contratista.Android.Resource.Styleable.NavigationView_itemBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Contratista.Android.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::Contratista.Android.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Contratista.Android.Resource.Styleable.NavigationView_itemIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Contratista.Android.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Contratista.Android.Resource.Styleable.NavigationView_itemTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_menu = global::Contratista.Android.Resource.Styleable.NavigationView_menu;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow = global::Contratista.Android.Resource.Styleable.PopupWindow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Contratista.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Contratista.Android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Contratista.Android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Contratista.Android.Resource.Styleable.PopupWindowBackgroundState;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Contratista.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecycleListView = global::Contratista.Android.Resource.Styleable.RecycleListView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Contratista.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Contratista.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView = global::Contratista.Android.Resource.Styleable.RecyclerView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Contratista.Android.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Contratista.Android.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Contratista.Android.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Contratista.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Contratista.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Contratista.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Contratista.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Contratista.Android.Resource.Styleable.RecyclerView_layoutManager;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Contratista.Android.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_spanCount = global::Contratista.Android.Resource.Styleable.RecyclerView_spanCount;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Contratista.Android.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Contratista.Android.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Contratista.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::Contratista.Android.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Contratista.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView = global::Contratista.Android.Resource.Styleable.SearchView;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_focusable = global::Contratista.Android.Resource.Styleable.SearchView_android_focusable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Contratista.Android.Resource.Styleable.SearchView_android_imeOptions;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_inputType = global::Contratista.Android.Resource.Styleable.SearchView_android_inputType;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Contratista.Android.Resource.Styleable.SearchView_android_maxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_closeIcon = global::Contratista.Android.Resource.Styleable.SearchView_closeIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_commitIcon = global::Contratista.Android.Resource.Styleable.SearchView_commitIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Contratista.Android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_goIcon = global::Contratista.Android.Resource.Styleable.SearchView_goIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Contratista.Android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_layout = global::Contratista.Android.Resource.Styleable.SearchView_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_queryBackground = global::Contratista.Android.Resource.Styleable.SearchView_queryBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_queryHint = global::Contratista.Android.Resource.Styleable.SearchView_queryHint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Contratista.Android.Resource.Styleable.SearchView_searchHintIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_searchIcon = global::Contratista.Android.Resource.Styleable.SearchView_searchIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_submitBackground = global::Contratista.Android.Resource.Styleable.SearchView_submitBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Contratista.Android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_voiceIcon = global::Contratista.Android.Resource.Styleable.SearchView_voiceIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator = global::Contratista.Android.Resource.Styleable.SfBusyIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth = global::Contratista.Android.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider = global::Contratista.Android.Resource.Styleable.SfRangeSlider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderEndValue = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderEndValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMaximum = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderMaximum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMinimum = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderMinimum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderOrientation = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderOrientation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowRange = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderShowRange;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderStartValue = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderStartValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValue = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Snackbar = global::Contratista.Android.Resource.Styleable.Snackbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Contratista.Android.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::Contratista.Android.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout = global::Contratista.Android.Resource.Styleable.SnackbarLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Contratista.Android.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Contratista.Android.Resource.Styleable.SnackbarLayout_elevation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Contratista.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner = global::Contratista.Android.Resource.Styleable.Spinner;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Contratista.Android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_entries = global::Contratista.Android.Resource.Styleable.Spinner_android_entries;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Contratista.Android.Resource.Styleable.Spinner_android_popupBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_prompt = global::Contratista.Android.Resource.Styleable.Spinner_android_prompt;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_popupTheme = global::Contratista.Android.Resource.Styleable.Spinner_popupTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable = global::Contratista.Android.Resource.Styleable.StateListDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::Contratista.Android.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_dither = global::Contratista.Android.Resource.Styleable.StateListDrawable_android_dither;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Contratista.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Contratista.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::Contratista.Android.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_visible = global::Contratista.Android.Resource.Styleable.StateListDrawable_android_visible;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawableItem = global::Contratista.Android.Resource.Styleable.StateListDrawableItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::Contratista.Android.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat = global::Contratista.Android.Resource.Styleable.SwitchCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Contratista.Android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Contratista.Android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Contratista.Android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_showText = global::Contratista.Android.Resource.Styleable.SwitchCompat_showText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Contratista.Android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Contratista.Android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Contratista.Android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Contratista.Android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Contratista.Android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::Contratista.Android.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::Contratista.Android.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_track = global::Contratista.Android.Resource.Styleable.SwitchCompat_track;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::Contratista.Android.Resource.Styleable.SwitchCompat_trackTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::Contratista.Android.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem = global::Contratista.Android.Resource.Styleable.TabItem;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_icon = global::Contratista.Android.Resource.Styleable.TabItem_android_icon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_layout = global::Contratista.Android.Resource.Styleable.TabItem_android_layout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_text = global::Contratista.Android.Resource.Styleable.TabItem_android_text;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout = global::Contratista.Android.Resource.Styleable.TabLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabBackground = global::Contratista.Android.Resource.Styleable.TabLayout_tabBackground;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Contratista.Android.Resource.Styleable.TabLayout_tabContentStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabGravity = global::Contratista.Android.Resource.Styleable.TabLayout_tabGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIconTint = global::Contratista.Android.Resource.Styleable.TabLayout_tabIconTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::Contratista.Android.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicator = global::Contratista.Android.Resource.Styleable.TabLayout_tabIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Contratista.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Contratista.Android.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Contratista.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Contratista.Android.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Contratista.Android.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::Contratista.Android.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Contratista.Android.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Contratista.Android.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMode = global::Contratista.Android.Resource.Styleable.TabLayout_tabMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPadding = global::Contratista.Android.Resource.Styleable.TabLayout_tabPadding;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Contratista.Android.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Contratista.Android.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Contratista.Android.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Contratista.Android.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::Contratista.Android.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Contratista.Android.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Contratista.Android.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Contratista.Android.Resource.Styleable.TabLayout_tabTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Contratista.Android.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance = global::Contratista.Android.Resource.Styleable.TextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::Contratista.Android.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Contratista.Android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Contratista.Android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Contratista.Android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Contratista.Android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Contratista.Android.Resource.Styleable.TextAppearance_android_textColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::Contratista.Android.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::Contratista.Android.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Contratista.Android.Resource.Styleable.TextAppearance_android_textSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Contratista.Android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Contratista.Android.Resource.Styleable.TextAppearance_android_typeface;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_fontFamily = global::Contratista.Android.Resource.Styleable.TextAppearance_fontFamily;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Contratista.Android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout = global::Contratista.Android.Resource.Styleable.TextInputLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Contratista.Android.Resource.Styleable.TextInputLayout_android_hint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Contratista.Android.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Contratista.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Contratista.Android.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Contratista.Android.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Contratista.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Contratista.Android.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Contratista.Android.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Contratista.Android.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_helperText = global::Contratista.Android.Resource.Styleable.TextInputLayout_helperText;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Contratista.Android.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Contratista.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Contratista.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Contratista.Android.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Contratista.Android.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Contratista.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Contratista.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Contratista.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Contratista.Android.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Contratista.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ThemeEnforcement = global::Contratista.Android.Resource.Styleable.ThemeEnforcement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Contratista.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Contratista.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Contratista.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar = global::Contratista.Android.Resource.Styleable.Toolbar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_android_gravity = global::Contratista.Android.Resource.Styleable.Toolbar_android_gravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Contratista.Android.Resource.Styleable.Toolbar_android_minHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::Contratista.Android.Resource.Styleable.Toolbar_buttonGravity;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Contratista.Android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Contratista.Android.Resource.Styleable.Toolbar_collapseIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Contratista.Android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Contratista.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Contratista.Android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Contratista.Android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Contratista.Android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Contratista.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_logo = global::Contratista.Android.Resource.Styleable.Toolbar_logo;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_logoDescription = global::Contratista.Android.Resource.Styleable.Toolbar_logoDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Contratista.Android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Contratista.Android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Contratista.Android.Resource.Styleable.Toolbar_navigationIcon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_popupTheme = global::Contratista.Android.Resource.Styleable.Toolbar_popupTheme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitle = global::Contratista.Android.Resource.Styleable.Toolbar_subtitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Contratista.Android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Contratista.Android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_title = global::Contratista.Android.Resource.Styleable.Toolbar_title;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMargin = global::Contratista.Android.Resource.Styleable.Toolbar_titleMargin;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Contratista.Android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Contratista.Android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Contratista.Android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Contratista.Android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMargins = global::Contratista.Android.Resource.Styleable.Toolbar_titleMargins;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Contratista.Android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Contratista.Android.Resource.Styleable.Toolbar_titleTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View = global::Contratista.Android.Resource.Styleable.View;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_android_focusable = global::Contratista.Android.Resource.Styleable.View_android_focusable;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_android_theme = global::Contratista.Android.Resource.Styleable.View_android_theme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_paddingEnd = global::Contratista.Android.Resource.Styleable.View_paddingEnd;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_paddingStart = global::Contratista.Android.Resource.Styleable.View_paddingStart;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_theme = global::Contratista.Android.Resource.Styleable.View_theme;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper = global::Contratista.Android.Resource.Styleable.ViewBackgroundHelper;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Contratista.Android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Contratista.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Contratista.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat = global::Contratista.Android.Resource.Styleable.ViewStubCompat;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Contratista.Android.Resource.Styleable.ViewStubCompat_android_id;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Contratista.Android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Contratista.Android.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_determinate_linear = global::Contratista.Android.Resource.Drawable.sfprogressbar_determinate_linear;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_circular = global::Contratista.Android.Resource.Drawable.sfprogressbar_indeterminate_circular;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_linear = global::Contratista.Android.Resource.Drawable.sfprogressbar_indeterminate_linear;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_progress = global::Contratista.Android.Resource.Id.sfprogressbar_progress;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_secondary_progress = global::Contratista.Android.Resource.Id.sfprogressbar_secondary_progress;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_track = global::Contratista.Android.Resource.Id.sfprogressbar_track;
+			global::Syncfusion.XForms.Android.ProgressBar.Resource.String.library_name = global::Contratista.Android.Resource.String.library_name;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderDirectionReversed = global::Contratista.Android.Resource.Attribute.rangeSliderDirectionReversed;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderEndValue = global::Contratista.Android.Resource.Attribute.rangeSliderEndValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderKnobColor = global::Contratista.Android.Resource.Attribute.rangeSliderKnobColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderMaximum = global::Contratista.Android.Resource.Attribute.rangeSliderMaximum;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderMinimum = global::Contratista.Android.Resource.Attribute.rangeSliderMinimum;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderOrientation = global::Contratista.Android.Resource.Attribute.rangeSliderOrientation;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderShowRange = global::Contratista.Android.Resource.Attribute.rangeSliderShowRange;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderShowValueLabel = global::Contratista.Android.Resource.Attribute.rangeSliderShowValueLabel;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderStartValue = global::Contratista.Android.Resource.Attribute.rangeSliderStartValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderThumbSize = global::Contratista.Android.Resource.Attribute.rangeSliderThumbSize;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTickPlacement = global::Contratista.Android.Resource.Attribute.rangeSliderTickPlacement;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTrackColor = global::Contratista.Android.Resource.Attribute.rangeSliderTrackColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTrackSelectionColor = global::Contratista.Android.Resource.Attribute.rangeSliderTrackSelectionColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderValue = global::Contratista.Android.Resource.Attribute.rangeSliderValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderValuePlacement = global::Contratista.Android.Resource.Attribute.rangeSliderValuePlacement;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.label_font_size = global::Contratista.Android.Resource.Dimension.label_font_size;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.thumb_size = global::Contratista.Android.Resource.Dimension.thumb_size;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tick_size = global::Contratista.Android.Resource.Dimension.tick_size;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_bottom = global::Contratista.Android.Resource.Dimension.tool_bottom;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_left = global::Contratista.Android.Resource.Dimension.tool_left;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_right = global::Contratista.Android.Resource.Dimension.tool_right;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_top = global::Contratista.Android.Resource.Dimension.tool_top;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tooltip_textsize = global::Contratista.Android.Resource.Dimension.tooltip_textsize;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.track_size = global::Contratista.Android.Resource.Dimension.track_size;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.bottomRight = global::Contratista.Android.Resource.Id.bottomRight;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.horizontal = global::Contratista.Android.Resource.Id.horizontal;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.inline = global::Contratista.Android.Resource.Id.inline;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.none = global::Contratista.Android.Resource.Id.none;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.outside = global::Contratista.Android.Resource.Id.outside;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.topLeft = global::Contratista.Android.Resource.Id.topLeft;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.vertical = global::Contratista.Android.Resource.Id.vertical;
+			global::Com.Syncfusion.Sfrangeslider.Resource.String.library_name = global::Contratista.Android.Resource.String.library_name;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider = global::Contratista.Android.Resource.Styleable.SfRangeSlider;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderEndValue = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderEndValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderMaximum = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderMaximum;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderMinimum = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderMinimum;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderOrientation = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderOrientation;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderShowRange = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderShowRange;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderStartValue = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderStartValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderValue = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement = global::Contratista.Android.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement;
 			global::Com.Syncfusion.Rotator.Resource.Attribute.rotatorDotsBorderColor = global::Contratista.Android.Resource.Attribute.rotatorDotsBorderColor;
 			global::Com.Syncfusion.Rotator.Resource.Attribute.rotatorDotsPlacement = global::Contratista.Android.Resource.Attribute.rotatorDotsPlacement;
 			global::Com.Syncfusion.Rotator.Resource.Attribute.rotatorEnableAutoPlay = global::Contratista.Android.Resource.Attribute.rotatorEnableAutoPlay;
@@ -3244,32 +6408,32 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f0101d3
 			public const int boxStrokeWidth = 2130772435;
 			
-			// aapt resource value: 0x7f0101f9
-			public const int busyIndicatorAnimationTypes = 2130772473;
+			// aapt resource value: 0x7f010208
+			public const int busyIndicatorAnimationTypes = 2130772488;
 			
-			// aapt resource value: 0x7f010201
-			public const int busyIndicatorIsBusy = 2130772481;
+			// aapt resource value: 0x7f010210
+			public const int busyIndicatorIsBusy = 2130772496;
 			
-			// aapt resource value: 0x7f0101ff
-			public const int busyIndicatorSecondaryColor = 2130772479;
+			// aapt resource value: 0x7f01020e
+			public const int busyIndicatorSecondaryColor = 2130772494;
 			
-			// aapt resource value: 0x7f0101fa
-			public const int busyIndicatorTextColor = 2130772474;
+			// aapt resource value: 0x7f010209
+			public const int busyIndicatorTextColor = 2130772489;
 			
-			// aapt resource value: 0x7f0101fe
-			public const int busyIndicatorTextSize = 2130772478;
+			// aapt resource value: 0x7f01020d
+			public const int busyIndicatorTextSize = 2130772493;
 			
-			// aapt resource value: 0x7f0101fd
-			public const int busyIndicatorTitle = 2130772477;
+			// aapt resource value: 0x7f01020c
+			public const int busyIndicatorTitle = 2130772492;
 			
-			// aapt resource value: 0x7f010200
-			public const int busyIndicatorTitlePlacement = 2130772480;
+			// aapt resource value: 0x7f01020f
+			public const int busyIndicatorTitlePlacement = 2130772495;
 			
-			// aapt resource value: 0x7f0101fb
-			public const int busyIndicatorViewBoxHeight = 2130772475;
+			// aapt resource value: 0x7f01020a
+			public const int busyIndicatorViewBoxHeight = 2130772490;
 			
-			// aapt resource value: 0x7f0101fc
-			public const int busyIndicatorViewBoxWidth = 2130772476;
+			// aapt resource value: 0x7f01020b
+			public const int busyIndicatorViewBoxWidth = 2130772491;
 			
 			// aapt resource value: 0x7f01008e
 			public const int buttonBarButtonStyle = 2130772110;
@@ -4071,6 +7235,51 @@ namespace Contratista.Android
 			
 			// aapt resource value: 0x7f0100c6
 			public const int radioButtonStyle = 2130772166;
+			
+			// aapt resource value: 0x7f010200
+			public const int rangeSliderDirectionReversed = 2130772480;
+			
+			// aapt resource value: 0x7f010206
+			public const int rangeSliderEndValue = 2130772486;
+			
+			// aapt resource value: 0x7f0101f9
+			public const int rangeSliderKnobColor = 2130772473;
+			
+			// aapt resource value: 0x7f010204
+			public const int rangeSliderMaximum = 2130772484;
+			
+			// aapt resource value: 0x7f010203
+			public const int rangeSliderMinimum = 2130772483;
+			
+			// aapt resource value: 0x7f0101ff
+			public const int rangeSliderOrientation = 2130772479;
+			
+			// aapt resource value: 0x7f0101fd
+			public const int rangeSliderShowRange = 2130772477;
+			
+			// aapt resource value: 0x7f0101fc
+			public const int rangeSliderShowValueLabel = 2130772476;
+			
+			// aapt resource value: 0x7f010205
+			public const int rangeSliderStartValue = 2130772485;
+			
+			// aapt resource value: 0x7f010207
+			public const int rangeSliderThumbSize = 2130772487;
+			
+			// aapt resource value: 0x7f010201
+			public const int rangeSliderTickPlacement = 2130772481;
+			
+			// aapt resource value: 0x7f0101fa
+			public const int rangeSliderTrackColor = 2130772474;
+			
+			// aapt resource value: 0x7f0101fb
+			public const int rangeSliderTrackSelectionColor = 2130772475;
+			
+			// aapt resource value: 0x7f0101fe
+			public const int rangeSliderValue = 2130772478;
+			
+			// aapt resource value: 0x7f010202
+			public const int rangeSliderValuePlacement = 2130772482;
 			
 			// aapt resource value: 0x7f0100c7
 			public const int ratingBarStyle = 2130772167;
@@ -5455,6 +8664,9 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f080005
 			public const int item_touch_helper_swipe_escape_velocity = 2131230725;
 			
+			// aapt resource value: 0x7f0800e9
+			public const int label_font_size = 2131230953;
+			
 			// aapt resource value: 0x7f080006
 			public const int mr_controller_volume_group_list_item_height = 2131230726;
 			
@@ -5680,6 +8892,24 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f0800e8
 			public const int thumb_padding = 2131230952;
 			
+			// aapt resource value: 0x7f0800ea
+			public const int thumb_size = 2131230954;
+			
+			// aapt resource value: 0x7f0800ec
+			public const int tick_size = 2131230956;
+			
+			// aapt resource value: 0x7f0800ee
+			public const int tool_bottom = 2131230958;
+			
+			// aapt resource value: 0x7f0800ef
+			public const int tool_left = 2131230959;
+			
+			// aapt resource value: 0x7f0800f0
+			public const int tool_right = 2131230960;
+			
+			// aapt resource value: 0x7f0800ed
+			public const int tool_top = 2131230957;
+			
 			// aapt resource value: 0x7f080063
 			public const int tooltip_corner_radius = 2131230819;
 			
@@ -5695,6 +8925,9 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f080067
 			public const int tooltip_precise_anchor_threshold = 2131230823;
 			
+			// aapt resource value: 0x7f0800f1
+			public const int tooltip_textsize = 2131230961;
+			
 			// aapt resource value: 0x7f080068
 			public const int tooltip_vertical_padding = 2131230824;
 			
@@ -5703,6 +8936,9 @@ namespace Contratista.Android
 			
 			// aapt resource value: 0x7f08006a
 			public const int tooltip_y_offset_touch = 2131230826;
+			
+			// aapt resource value: 0x7f0800eb
+			public const int track_size = 2131230955;
 			
 			static Dimension()
 			{
@@ -5970,949 +9206,1006 @@ namespace Contratista.Android
 			public const int abc_vector_test = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int Avatar1 = 2130837588;
+			public const int AlertViewDialogBottomLine = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int Avatar10 = 2130837589;
+			public const int Annotation = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int Avatar11 = 2130837590;
+			public const int Avatar1 = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int Avatar12 = 2130837591;
+			public const int Avatar10 = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int Avatar13 = 2130837592;
+			public const int Avatar11 = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int Avatar14 = 2130837593;
+			public const int Avatar12 = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int Avatar15 = 2130837594;
+			public const int Avatar13 = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int Avatar16 = 2130837595;
+			public const int Avatar14 = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int Avatar17 = 2130837596;
+			public const int Avatar15 = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int Avatar18 = 2130837597;
+			public const int Avatar16 = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int Avatar19 = 2130837598;
+			public const int Avatar17 = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int Avatar2 = 2130837599;
+			public const int Avatar18 = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int Avatar20 = 2130837600;
+			public const int Avatar19 = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int Avatar21 = 2130837601;
+			public const int Avatar2 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int Avatar22 = 2130837602;
+			public const int Avatar20 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int Avatar23 = 2130837603;
+			public const int Avatar21 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int Avatar24 = 2130837604;
+			public const int Avatar22 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int Avatar25 = 2130837605;
+			public const int Avatar23 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int Avatar26 = 2130837606;
+			public const int Avatar24 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int Avatar27 = 2130837607;
+			public const int Avatar25 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int Avatar28 = 2130837608;
+			public const int Avatar26 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int Avatar29 = 2130837609;
+			public const int Avatar27 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int Avatar3 = 2130837610;
+			public const int Avatar28 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int Avatar30 = 2130837611;
+			public const int Avatar29 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int Avatar4 = 2130837612;
+			public const int Avatar3 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int Avatar5 = 2130837613;
+			public const int Avatar30 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int Avatar6 = 2130837614;
+			public const int Avatar4 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int Avatar7 = 2130837615;
+			public const int Avatar5 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int Avatar8 = 2130837616;
+			public const int Avatar6 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int Avatar9 = 2130837617;
+			public const int Avatar7 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int avd_hide_password = 2130837618;
-			
-			// aapt resource value: 0x7f020189
-			public const int avd_hide_password_1 = 2130837897;
-			
-			// aapt resource value: 0x7f02018a
-			public const int avd_hide_password_2 = 2130837898;
-			
-			// aapt resource value: 0x7f02018b
-			public const int avd_hide_password_3 = 2130837899;
+			public const int Avatar8 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int avd_show_password = 2130837619;
-			
-			// aapt resource value: 0x7f02018c
-			public const int avd_show_password_1 = 2130837900;
-			
-			// aapt resource value: 0x7f02018d
-			public const int avd_show_password_2 = 2130837901;
-			
-			// aapt resource value: 0x7f02018e
-			public const int avd_show_password_3 = 2130837902;
+			public const int Avatar9 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int backlogin = 2130837620;
+			public const int avd_hide_password = 2130837620;
+			
+			// aapt resource value: 0x7f02019c
+			public const int avd_hide_password_1 = 2130837916;
+			
+			// aapt resource value: 0x7f02019d
+			public const int avd_hide_password_2 = 2130837917;
+			
+			// aapt resource value: 0x7f02019e
+			public const int avd_hide_password_3 = 2130837918;
 			
 			// aapt resource value: 0x7f020075
-			public const int design_bottom_navigation_item_background = 2130837621;
+			public const int avd_show_password = 2130837621;
+			
+			// aapt resource value: 0x7f02019f
+			public const int avd_show_password_1 = 2130837919;
+			
+			// aapt resource value: 0x7f0201a0
+			public const int avd_show_password_2 = 2130837920;
+			
+			// aapt resource value: 0x7f0201a1
+			public const int avd_show_password_3 = 2130837921;
 			
 			// aapt resource value: 0x7f020076
-			public const int design_fab_background = 2130837622;
+			public const int backlogin = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int design_ic_visibility = 2130837623;
+			public const int Bookmark = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int design_ic_visibility_off = 2130837624;
+			public const int CheckableMaterialColor = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int design_password_eye = 2130837625;
+			public const int design_bottom_navigation_item_background = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int design_snackbar_background = 2130837626;
+			public const int design_fab_background = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_action_developer_board = 2130837627;
+			public const int design_ic_visibility = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_action_favorite_border = 2130837628;
+			public const int design_ic_visibility_off = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_action_person_outline = 2130837629;
+			public const int design_password_eye = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_audiotrack_dark = 2130837630;
+			public const int design_snackbar_background = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_audiotrack_light = 2130837631;
+			public const int editTextPageCount = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_dialog_close_dark = 2130837632;
+			public const int FormFieldCheckbox = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_dialog_close_light = 2130837633;
+			public const int FormFieldCheckbox_Checked = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_group_collapse_00 = 2130837634;
+			public const int FormFieldCheckbox_UnChecked = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_group_collapse_01 = 2130837635;
+			public const int formfieldradiobuttonstyle = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_group_collapse_02 = 2130837636;
+			public const int formfieldtextboxcursorcolor = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_group_collapse_03 = 2130837637;
+			public const int ic_action_developer_board = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_group_collapse_04 = 2130837638;
+			public const int ic_action_favorite_border = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_group_collapse_05 = 2130837639;
+			public const int ic_action_person_outline = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_group_collapse_06 = 2130837640;
+			public const int ic_audiotrack_dark = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_group_collapse_07 = 2130837641;
+			public const int ic_audiotrack_light = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_group_collapse_08 = 2130837642;
+			public const int ic_dialog_close_dark = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_group_collapse_09 = 2130837643;
+			public const int ic_dialog_close_light = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_group_collapse_10 = 2130837644;
+			public const int ic_group_collapse_00 = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_group_collapse_11 = 2130837645;
+			public const int ic_group_collapse_01 = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_group_collapse_12 = 2130837646;
+			public const int ic_group_collapse_02 = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_group_collapse_13 = 2130837647;
+			public const int ic_group_collapse_03 = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_group_collapse_14 = 2130837648;
+			public const int ic_group_collapse_04 = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_group_collapse_15 = 2130837649;
+			public const int ic_group_collapse_05 = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_group_expand_00 = 2130837650;
+			public const int ic_group_collapse_06 = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_group_expand_01 = 2130837651;
+			public const int ic_group_collapse_07 = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_group_expand_02 = 2130837652;
+			public const int ic_group_collapse_08 = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_group_expand_03 = 2130837653;
+			public const int ic_group_collapse_09 = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_group_expand_04 = 2130837654;
+			public const int ic_group_collapse_10 = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_group_expand_05 = 2130837655;
+			public const int ic_group_collapse_11 = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_group_expand_06 = 2130837656;
+			public const int ic_group_collapse_12 = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_group_expand_07 = 2130837657;
+			public const int ic_group_collapse_13 = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_group_expand_08 = 2130837658;
+			public const int ic_group_collapse_14 = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_group_expand_09 = 2130837659;
+			public const int ic_group_collapse_15 = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_group_expand_10 = 2130837660;
+			public const int ic_group_expand_00 = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_group_expand_11 = 2130837661;
+			public const int ic_group_expand_01 = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_group_expand_12 = 2130837662;
+			public const int ic_group_expand_02 = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_group_expand_13 = 2130837663;
+			public const int ic_group_expand_03 = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_group_expand_14 = 2130837664;
+			public const int ic_group_expand_04 = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_group_expand_15 = 2130837665;
+			public const int ic_group_expand_05 = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_media_pause_dark = 2130837666;
+			public const int ic_group_expand_06 = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_media_pause_light = 2130837667;
+			public const int ic_group_expand_07 = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_media_play_dark = 2130837668;
+			public const int ic_group_expand_08 = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_media_play_light = 2130837669;
+			public const int ic_group_expand_09 = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_media_stop_dark = 2130837670;
+			public const int ic_group_expand_10 = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_media_stop_light = 2130837671;
+			public const int ic_group_expand_11 = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_00_dark = 2130837672;
+			public const int ic_group_expand_12 = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_00_light = 2130837673;
+			public const int ic_group_expand_13 = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_01_dark = 2130837674;
+			public const int ic_group_expand_14 = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_01_light = 2130837675;
+			public const int ic_group_expand_15 = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_02_dark = 2130837676;
+			public const int ic_media_pause_dark = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_02_light = 2130837677;
+			public const int ic_media_pause_light = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_03_dark = 2130837678;
+			public const int ic_media_play_dark = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_03_light = 2130837679;
+			public const int ic_media_play_light = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_04_dark = 2130837680;
+			public const int ic_media_stop_dark = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_04_light = 2130837681;
+			public const int ic_media_stop_light = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_05_dark = 2130837682;
+			public const int ic_mr_button_connected_00_dark = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_05_light = 2130837683;
+			public const int ic_mr_button_connected_00_light = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_06_dark = 2130837684;
+			public const int ic_mr_button_connected_01_dark = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_06_light = 2130837685;
+			public const int ic_mr_button_connected_01_light = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_07_dark = 2130837686;
+			public const int ic_mr_button_connected_02_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_07_light = 2130837687;
+			public const int ic_mr_button_connected_02_light = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_08_dark = 2130837688;
+			public const int ic_mr_button_connected_03_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_08_light = 2130837689;
+			public const int ic_mr_button_connected_03_light = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_09_dark = 2130837690;
+			public const int ic_mr_button_connected_04_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_09_light = 2130837691;
+			public const int ic_mr_button_connected_04_light = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_10_dark = 2130837692;
+			public const int ic_mr_button_connected_05_dark = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_10_light = 2130837693;
+			public const int ic_mr_button_connected_05_light = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_11_dark = 2130837694;
+			public const int ic_mr_button_connected_06_dark = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_11_light = 2130837695;
+			public const int ic_mr_button_connected_06_light = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_12_dark = 2130837696;
+			public const int ic_mr_button_connected_07_dark = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_12_light = 2130837697;
+			public const int ic_mr_button_connected_07_light = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_13_dark = 2130837698;
+			public const int ic_mr_button_connected_08_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_13_light = 2130837699;
+			public const int ic_mr_button_connected_08_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connected_14_dark = 2130837700;
+			public const int ic_mr_button_connected_09_dark = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connected_14_light = 2130837701;
+			public const int ic_mr_button_connected_09_light = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connected_15_dark = 2130837702;
+			public const int ic_mr_button_connected_10_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connected_15_light = 2130837703;
+			public const int ic_mr_button_connected_10_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connected_16_dark = 2130837704;
+			public const int ic_mr_button_connected_11_dark = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connected_16_light = 2130837705;
+			public const int ic_mr_button_connected_11_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connected_17_dark = 2130837706;
+			public const int ic_mr_button_connected_12_dark = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connected_17_light = 2130837707;
+			public const int ic_mr_button_connected_12_light = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connected_18_dark = 2130837708;
+			public const int ic_mr_button_connected_13_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connected_18_light = 2130837709;
+			public const int ic_mr_button_connected_13_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connected_19_dark = 2130837710;
+			public const int ic_mr_button_connected_14_dark = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connected_19_light = 2130837711;
+			public const int ic_mr_button_connected_14_light = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connected_20_dark = 2130837712;
+			public const int ic_mr_button_connected_15_dark = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connected_20_light = 2130837713;
+			public const int ic_mr_button_connected_15_light = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connected_21_dark = 2130837714;
+			public const int ic_mr_button_connected_16_dark = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connected_21_light = 2130837715;
+			public const int ic_mr_button_connected_16_light = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connected_22_dark = 2130837716;
+			public const int ic_mr_button_connected_17_dark = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connected_22_light = 2130837717;
+			public const int ic_mr_button_connected_17_light = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connected_23_dark = 2130837718;
+			public const int ic_mr_button_connected_18_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connected_23_light = 2130837719;
+			public const int ic_mr_button_connected_18_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connected_24_dark = 2130837720;
+			public const int ic_mr_button_connected_19_dark = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connected_24_light = 2130837721;
+			public const int ic_mr_button_connected_19_light = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connected_25_dark = 2130837722;
+			public const int ic_mr_button_connected_20_dark = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connected_25_light = 2130837723;
+			public const int ic_mr_button_connected_20_light = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connected_26_dark = 2130837724;
+			public const int ic_mr_button_connected_21_dark = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connected_26_light = 2130837725;
+			public const int ic_mr_button_connected_21_light = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connected_27_dark = 2130837726;
+			public const int ic_mr_button_connected_22_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connected_27_light = 2130837727;
+			public const int ic_mr_button_connected_22_light = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connected_28_dark = 2130837728;
+			public const int ic_mr_button_connected_23_dark = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connected_28_light = 2130837729;
+			public const int ic_mr_button_connected_23_light = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connected_29_dark = 2130837730;
+			public const int ic_mr_button_connected_24_dark = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connected_29_light = 2130837731;
+			public const int ic_mr_button_connected_24_light = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connected_30_dark = 2130837732;
+			public const int ic_mr_button_connected_25_dark = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connected_30_light = 2130837733;
+			public const int ic_mr_button_connected_25_light = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_00_dark = 2130837734;
+			public const int ic_mr_button_connected_26_dark = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_00_light = 2130837735;
+			public const int ic_mr_button_connected_26_light = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_01_dark = 2130837736;
+			public const int ic_mr_button_connected_27_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_01_light = 2130837737;
+			public const int ic_mr_button_connected_27_light = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_02_dark = 2130837738;
+			public const int ic_mr_button_connected_28_dark = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_02_light = 2130837739;
+			public const int ic_mr_button_connected_28_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_03_dark = 2130837740;
+			public const int ic_mr_button_connected_29_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_03_light = 2130837741;
+			public const int ic_mr_button_connected_29_light = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_04_dark = 2130837742;
+			public const int ic_mr_button_connected_30_dark = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_04_light = 2130837743;
+			public const int ic_mr_button_connected_30_light = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_05_dark = 2130837744;
+			public const int ic_mr_button_connecting_00_dark = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_05_light = 2130837745;
+			public const int ic_mr_button_connecting_00_light = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_06_dark = 2130837746;
+			public const int ic_mr_button_connecting_01_dark = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_06_light = 2130837747;
+			public const int ic_mr_button_connecting_01_light = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_07_dark = 2130837748;
+			public const int ic_mr_button_connecting_02_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_07_light = 2130837749;
+			public const int ic_mr_button_connecting_02_light = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_08_dark = 2130837750;
+			public const int ic_mr_button_connecting_03_dark = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_08_light = 2130837751;
+			public const int ic_mr_button_connecting_03_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_09_dark = 2130837752;
+			public const int ic_mr_button_connecting_04_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_09_light = 2130837753;
+			public const int ic_mr_button_connecting_04_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_10_dark = 2130837754;
+			public const int ic_mr_button_connecting_05_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_10_light = 2130837755;
+			public const int ic_mr_button_connecting_05_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_11_dark = 2130837756;
+			public const int ic_mr_button_connecting_06_dark = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_11_light = 2130837757;
+			public const int ic_mr_button_connecting_06_light = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_12_dark = 2130837758;
+			public const int ic_mr_button_connecting_07_dark = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_12_light = 2130837759;
+			public const int ic_mr_button_connecting_07_light = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_13_dark = 2130837760;
+			public const int ic_mr_button_connecting_08_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_13_light = 2130837761;
+			public const int ic_mr_button_connecting_08_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_connecting_14_dark = 2130837762;
+			public const int ic_mr_button_connecting_09_dark = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_connecting_14_light = 2130837763;
+			public const int ic_mr_button_connecting_09_light = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_connecting_15_dark = 2130837764;
+			public const int ic_mr_button_connecting_10_dark = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_connecting_15_light = 2130837765;
+			public const int ic_mr_button_connecting_10_light = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_connecting_16_dark = 2130837766;
+			public const int ic_mr_button_connecting_11_dark = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mr_button_connecting_16_light = 2130837767;
+			public const int ic_mr_button_connecting_11_light = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mr_button_connecting_17_dark = 2130837768;
+			public const int ic_mr_button_connecting_12_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mr_button_connecting_17_light = 2130837769;
+			public const int ic_mr_button_connecting_12_light = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_mr_button_connecting_18_dark = 2130837770;
+			public const int ic_mr_button_connecting_13_dark = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_mr_button_connecting_18_light = 2130837771;
+			public const int ic_mr_button_connecting_13_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_mr_button_connecting_19_dark = 2130837772;
+			public const int ic_mr_button_connecting_14_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_mr_button_connecting_19_light = 2130837773;
+			public const int ic_mr_button_connecting_14_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_mr_button_connecting_20_dark = 2130837774;
+			public const int ic_mr_button_connecting_15_dark = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_mr_button_connecting_20_light = 2130837775;
+			public const int ic_mr_button_connecting_15_light = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int ic_mr_button_connecting_21_dark = 2130837776;
+			public const int ic_mr_button_connecting_16_dark = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int ic_mr_button_connecting_21_light = 2130837777;
+			public const int ic_mr_button_connecting_16_light = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int ic_mr_button_connecting_22_dark = 2130837778;
+			public const int ic_mr_button_connecting_17_dark = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int ic_mr_button_connecting_22_light = 2130837779;
+			public const int ic_mr_button_connecting_17_light = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int ic_mr_button_connecting_23_dark = 2130837780;
+			public const int ic_mr_button_connecting_18_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int ic_mr_button_connecting_23_light = 2130837781;
+			public const int ic_mr_button_connecting_18_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int ic_mr_button_connecting_24_dark = 2130837782;
+			public const int ic_mr_button_connecting_19_dark = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int ic_mr_button_connecting_24_light = 2130837783;
+			public const int ic_mr_button_connecting_19_light = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int ic_mr_button_connecting_25_dark = 2130837784;
+			public const int ic_mr_button_connecting_20_dark = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int ic_mr_button_connecting_25_light = 2130837785;
+			public const int ic_mr_button_connecting_20_light = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int ic_mr_button_connecting_26_dark = 2130837786;
+			public const int ic_mr_button_connecting_21_dark = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int ic_mr_button_connecting_26_light = 2130837787;
+			public const int ic_mr_button_connecting_21_light = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int ic_mr_button_connecting_27_dark = 2130837788;
+			public const int ic_mr_button_connecting_22_dark = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int ic_mr_button_connecting_27_light = 2130837789;
+			public const int ic_mr_button_connecting_22_light = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int ic_mr_button_connecting_28_dark = 2130837790;
+			public const int ic_mr_button_connecting_23_dark = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int ic_mr_button_connecting_28_light = 2130837791;
+			public const int ic_mr_button_connecting_23_light = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int ic_mr_button_connecting_29_dark = 2130837792;
+			public const int ic_mr_button_connecting_24_dark = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int ic_mr_button_connecting_29_light = 2130837793;
+			public const int ic_mr_button_connecting_24_light = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int ic_mr_button_connecting_30_dark = 2130837794;
+			public const int ic_mr_button_connecting_25_dark = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int ic_mr_button_connecting_30_light = 2130837795;
+			public const int ic_mr_button_connecting_25_light = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int ic_mr_button_disabled_dark = 2130837796;
+			public const int ic_mr_button_connecting_26_dark = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int ic_mr_button_disabled_light = 2130837797;
+			public const int ic_mr_button_connecting_26_light = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int ic_mr_button_disconnected_dark = 2130837798;
+			public const int ic_mr_button_connecting_27_dark = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int ic_mr_button_disconnected_light = 2130837799;
+			public const int ic_mr_button_connecting_27_light = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int ic_mr_button_grey = 2130837800;
+			public const int ic_mr_button_connecting_28_dark = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int ic_mtrl_chip_checked_black = 2130837801;
+			public const int ic_mr_button_connecting_28_light = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int ic_mtrl_chip_checked_circle = 2130837802;
+			public const int ic_mr_button_connecting_29_dark = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int ic_mtrl_chip_close_circle = 2130837803;
+			public const int ic_mr_button_connecting_29_light = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int ic_vol_type_speaker_dark = 2130837804;
+			public const int ic_mr_button_connecting_30_dark = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
-			public const int ic_vol_type_speaker_group_dark = 2130837805;
+			public const int ic_mr_button_connecting_30_light = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int ic_vol_type_speaker_group_light = 2130837806;
+			public const int ic_mr_button_disabled_dark = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int ic_vol_type_speaker_light = 2130837807;
+			public const int ic_mr_button_disabled_light = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int ic_vol_type_tv_dark = 2130837808;
+			public const int ic_mr_button_disconnected_dark = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int ic_vol_type_tv_light = 2130837809;
+			public const int ic_mr_button_disconnected_light = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int icon = 2130837810;
+			public const int ic_mr_button_grey = 2130837810;
 			
 			// aapt resource value: 0x7f020133
-			public const int icon_aire_acondicionado = 2130837811;
+			public const int ic_mtrl_chip_checked_black = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int icon_albanil = 2130837812;
+			public const int ic_mtrl_chip_checked_circle = 2130837812;
 			
 			// aapt resource value: 0x7f020135
-			public const int icon_aridos = 2130837813;
+			public const int ic_mtrl_chip_close_circle = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int icon_barraca = 2130837814;
+			public const int ic_vol_type_speaker_dark = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int icon_carpintero = 2130837815;
+			public const int ic_vol_type_speaker_group_dark = 2130837815;
 			
 			// aapt resource value: 0x7f020138
-			public const int icon_cemento = 2130837816;
+			public const int ic_vol_type_speaker_group_light = 2130837816;
 			
 			// aapt resource value: 0x7f020139
-			public const int icon_ceramica = 2130837817;
+			public const int ic_vol_type_speaker_light = 2130837817;
 			
 			// aapt resource value: 0x7f02013a
-			public const int icon_cerrajero = 2130837818;
+			public const int ic_vol_type_tv_dark = 2130837818;
 			
 			// aapt resource value: 0x7f02013b
-			public const int icon_constructora = 2130837819;
+			public const int ic_vol_type_tv_light = 2130837819;
 			
 			// aapt resource value: 0x7f02013c
-			public const int icon_contratistas = 2130837820;
+			public const int icon = 2130837820;
 			
 			// aapt resource value: 0x7f02013d
-			public const int icon_diseno = 2130837821;
+			public const int icon_aire_acondicionado = 2130837821;
 			
 			// aapt resource value: 0x7f02013e
-			public const int icon_electricista = 2130837822;
+			public const int icon_albanil = 2130837822;
 			
 			// aapt resource value: 0x7f02013f
-			public const int icon_empresas = 2130837823;
+			public const int icon_aridos = 2130837823;
 			
 			// aapt resource value: 0x7f020140
-			public const int icon_equipo = 2130837824;
+			public const int icon_barraca = 2130837824;
 			
 			// aapt resource value: 0x7f020141
-			public const int icon_ferreteria = 2130837825;
+			public const int icon_carpintero = 2130837825;
 			
 			// aapt resource value: 0x7f020142
-			public const int icon_herramienta = 2130837826;
+			public const int icon_cemento = 2130837826;
 			
 			// aapt resource value: 0x7f020143
-			public const int icon_info = 2130837827;
+			public const int icon_ceramica = 2130837827;
 			
 			// aapt resource value: 0x7f020144
-			public const int icon_iniciar_sesion = 2130837828;
+			public const int icon_cerrajero = 2130837828;
 			
 			// aapt resource value: 0x7f020145
-			public const int icon_jardinero = 2130837829;
+			public const int icon_constructora = 2130837829;
 			
 			// aapt resource value: 0x7f020146
-			public const int icon_ladrillo = 2130837830;
+			public const int icon_contratistas = 2130837830;
 			
 			// aapt resource value: 0x7f020147
-			public const int icon_llamar = 2130837831;
+			public const int icon_diseno = 2130837831;
 			
 			// aapt resource value: 0x7f020148
-			public const int icon_mantenimiento = 2130837832;
+			public const int icon_electricista = 2130837832;
 			
 			// aapt resource value: 0x7f020149
-			public const int icon_maquinaria = 2130837833;
+			public const int icon_empresas = 2130837833;
 			
 			// aapt resource value: 0x7f02014a
-			public const int icon_material = 2130837834;
+			public const int icon_equipo = 2130837834;
 			
 			// aapt resource value: 0x7f02014b
-			public const int icon_mod = 2130837835;
+			public const int icon_ferreteria = 2130837835;
 			
 			// aapt resource value: 0x7f02014c
-			public const int icon_mod1 = 2130837836;
+			public const int icon_herramienta = 2130837836;
 			
 			// aapt resource value: 0x7f02014d
-			public const int icon_mod2 = 2130837837;
+			public const int icon_info = 2130837837;
 			
 			// aapt resource value: 0x7f02014e
-			public const int icon_mod3 = 2130837838;
+			public const int icon_iniciar_sesion = 2130837838;
 			
 			// aapt resource value: 0x7f02014f
-			public const int icon_mod4 = 2130837839;
+			public const int icon_jardinero = 2130837839;
 			
 			// aapt resource value: 0x7f020150
-			public const int icon_mod5 = 2130837840;
+			public const int icon_ladrillo = 2130837840;
 			
 			// aapt resource value: 0x7f020151
-			public const int icon_mod6 = 2130837841;
+			public const int icon_llamar = 2130837841;
 			
 			// aapt resource value: 0x7f020152
-			public const int icon_mod7 = 2130837842;
+			public const int icon_mantenimiento = 2130837842;
 			
 			// aapt resource value: 0x7f020153
-			public const int icon_pintor = 2130837843;
+			public const int icon_maquinaria = 2130837843;
 			
 			// aapt resource value: 0x7f020154
-			public const int icon_plomero = 2130837844;
+			public const int icon_material = 2130837844;
 			
 			// aapt resource value: 0x7f020155
-			public const int icon_portafolio = 2130837845;
+			public const int icon_mod = 2130837845;
 			
 			// aapt resource value: 0x7f020156
-			public const int icon_profesional = 2130837846;
+			public const int icon_mod1 = 2130837846;
 			
 			// aapt resource value: 0x7f020157
-			public const int icon_servicios = 2130837847;
+			public const int icon_mod2 = 2130837847;
 			
 			// aapt resource value: 0x7f020158
-			public const int icon_soldador = 2130837848;
+			public const int icon_mod3 = 2130837848;
 			
 			// aapt resource value: 0x7f020159
-			public const int icon_star = 2130837849;
+			public const int icon_mod4 = 2130837849;
 			
 			// aapt resource value: 0x7f02015a
-			public const int icon_transporte = 2130837850;
+			public const int icon_mod5 = 2130837850;
 			
 			// aapt resource value: 0x7f02015b
-			public const int icon_vehiculo = 2130837851;
+			public const int icon_mod6 = 2130837851;
 			
 			// aapt resource value: 0x7f02015c
-			public const int icon_vidrieria = 2130837852;
+			public const int icon_mod7 = 2130837852;
 			
 			// aapt resource value: 0x7f02015d
-			public const int icon_vidriero = 2130837853;
+			public const int icon_pintor = 2130837853;
 			
 			// aapt resource value: 0x7f02015e
-			public const int icon_whatsapp = 2130837854;
+			public const int icon_plomero = 2130837854;
 			
 			// aapt resource value: 0x7f02015f
-			public const int iconoinicio = 2130837855;
+			public const int icon_portafolio = 2130837855;
 			
 			// aapt resource value: 0x7f020160
-			public const int input_layout_drop_down_icon = 2130837856;
+			public const int icon_profesional = 2130837856;
 			
 			// aapt resource value: 0x7f020161
-			public const int inputlayout_togglecollapseicon = 2130837857;
+			public const int icon_servicios = 2130837857;
 			
 			// aapt resource value: 0x7f020162
-			public const int inputlayout_togglevisibleicon = 2130837858;
+			public const int icon_soldador = 2130837858;
 			
 			// aapt resource value: 0x7f020163
-			public const int mr_button_connected_dark = 2130837859;
+			public const int icon_star = 2130837859;
 			
 			// aapt resource value: 0x7f020164
-			public const int mr_button_connected_light = 2130837860;
+			public const int icon_transporte = 2130837860;
 			
 			// aapt resource value: 0x7f020165
-			public const int mr_button_connecting_dark = 2130837861;
+			public const int icon_vehiculo = 2130837861;
 			
 			// aapt resource value: 0x7f020166
-			public const int mr_button_connecting_light = 2130837862;
+			public const int icon_vidrieria = 2130837862;
 			
 			// aapt resource value: 0x7f020167
-			public const int mr_button_dark = 2130837863;
+			public const int icon_vidriero = 2130837863;
 			
 			// aapt resource value: 0x7f020168
-			public const int mr_button_light = 2130837864;
+			public const int icon_whatsapp = 2130837864;
 			
 			// aapt resource value: 0x7f020169
-			public const int mr_dialog_close_dark = 2130837865;
+			public const int iconoinicio = 2130837865;
 			
 			// aapt resource value: 0x7f02016a
-			public const int mr_dialog_close_light = 2130837866;
+			public const int input_layout_drop_down_icon = 2130837866;
 			
 			// aapt resource value: 0x7f02016b
-			public const int mr_dialog_material_background_dark = 2130837867;
+			public const int inputlayout_togglecollapseicon = 2130837867;
 			
 			// aapt resource value: 0x7f02016c
-			public const int mr_dialog_material_background_light = 2130837868;
+			public const int inputlayout_togglevisibleicon = 2130837868;
 			
 			// aapt resource value: 0x7f02016d
-			public const int mr_group_collapse = 2130837869;
+			public const int More = 2130837869;
 			
 			// aapt resource value: 0x7f02016e
-			public const int mr_group_expand = 2130837870;
+			public const int mr_button_connected_dark = 2130837870;
 			
 			// aapt resource value: 0x7f02016f
-			public const int mr_media_pause_dark = 2130837871;
+			public const int mr_button_connected_light = 2130837871;
 			
 			// aapt resource value: 0x7f020170
-			public const int mr_media_pause_light = 2130837872;
+			public const int mr_button_connecting_dark = 2130837872;
 			
 			// aapt resource value: 0x7f020171
-			public const int mr_media_play_dark = 2130837873;
+			public const int mr_button_connecting_light = 2130837873;
 			
 			// aapt resource value: 0x7f020172
-			public const int mr_media_play_light = 2130837874;
+			public const int mr_button_dark = 2130837874;
 			
 			// aapt resource value: 0x7f020173
-			public const int mr_media_stop_dark = 2130837875;
+			public const int mr_button_light = 2130837875;
 			
 			// aapt resource value: 0x7f020174
-			public const int mr_media_stop_light = 2130837876;
+			public const int mr_dialog_close_dark = 2130837876;
 			
 			// aapt resource value: 0x7f020175
-			public const int mr_vol_type_audiotrack_dark = 2130837877;
+			public const int mr_dialog_close_light = 2130837877;
 			
 			// aapt resource value: 0x7f020176
-			public const int mr_vol_type_audiotrack_light = 2130837878;
+			public const int mr_dialog_material_background_dark = 2130837878;
 			
 			// aapt resource value: 0x7f020177
-			public const int mtrl_snackbar_background = 2130837879;
+			public const int mr_dialog_material_background_light = 2130837879;
 			
 			// aapt resource value: 0x7f020178
-			public const int mtrl_tabs_default_indicator = 2130837880;
+			public const int mr_group_collapse = 2130837880;
 			
 			// aapt resource value: 0x7f020179
-			public const int navigation_empty_icon = 2130837881;
+			public const int mr_group_expand = 2130837881;
 			
 			// aapt resource value: 0x7f02017a
-			public const int notification_action_background = 2130837882;
+			public const int mr_media_pause_dark = 2130837882;
 			
 			// aapt resource value: 0x7f02017b
-			public const int notification_bg = 2130837883;
+			public const int mr_media_pause_light = 2130837883;
 			
 			// aapt resource value: 0x7f02017c
-			public const int notification_bg_low = 2130837884;
+			public const int mr_media_play_dark = 2130837884;
 			
 			// aapt resource value: 0x7f02017d
-			public const int notification_bg_low_normal = 2130837885;
+			public const int mr_media_play_light = 2130837885;
 			
 			// aapt resource value: 0x7f02017e
-			public const int notification_bg_low_pressed = 2130837886;
+			public const int mr_media_stop_dark = 2130837886;
 			
 			// aapt resource value: 0x7f02017f
-			public const int notification_bg_normal = 2130837887;
+			public const int mr_media_stop_light = 2130837887;
 			
 			// aapt resource value: 0x7f020180
-			public const int notification_bg_normal_pressed = 2130837888;
+			public const int mr_vol_type_audiotrack_dark = 2130837888;
 			
 			// aapt resource value: 0x7f020181
-			public const int notification_icon_background = 2130837889;
-			
-			// aapt resource value: 0x7f020187
-			public const int notification_template_icon_bg = 2130837895;
-			
-			// aapt resource value: 0x7f020188
-			public const int notification_template_icon_low_bg = 2130837896;
+			public const int mr_vol_type_audiotrack_light = 2130837889;
 			
 			// aapt resource value: 0x7f020182
-			public const int notification_tile_bg = 2130837890;
+			public const int mtrl_snackbar_background = 2130837890;
 			
 			// aapt resource value: 0x7f020183
-			public const int notify_panel_notification_icon_bg = 2130837891;
+			public const int mtrl_tabs_default_indicator = 2130837891;
 			
 			// aapt resource value: 0x7f020184
-			public const int tooltip_frame_dark = 2130837892;
+			public const int navigation_empty_icon = 2130837892;
 			
 			// aapt resource value: 0x7f020185
-			public const int tooltip_frame_light = 2130837893;
+			public const int notification_action_background = 2130837893;
 			
 			// aapt resource value: 0x7f020186
-			public const int vercontrasena = 2130837894;
+			public const int notification_bg = 2130837894;
+			
+			// aapt resource value: 0x7f020187
+			public const int notification_bg_low = 2130837895;
+			
+			// aapt resource value: 0x7f020188
+			public const int notification_bg_low_normal = 2130837896;
+			
+			// aapt resource value: 0x7f020189
+			public const int notification_bg_low_pressed = 2130837897;
+			
+			// aapt resource value: 0x7f02018a
+			public const int notification_bg_normal = 2130837898;
+			
+			// aapt resource value: 0x7f02018b
+			public const int notification_bg_normal_pressed = 2130837899;
+			
+			// aapt resource value: 0x7f02018c
+			public const int notification_icon_background = 2130837900;
+			
+			// aapt resource value: 0x7f02019a
+			public const int notification_template_icon_bg = 2130837914;
+			
+			// aapt resource value: 0x7f02019b
+			public const int notification_template_icon_low_bg = 2130837915;
+			
+			// aapt resource value: 0x7f02018d
+			public const int notification_tile_bg = 2130837901;
+			
+			// aapt resource value: 0x7f02018e
+			public const int notify_panel_notification_icon_bg = 2130837902;
+			
+			// aapt resource value: 0x7f02018f
+			public const int Search = 2130837903;
+			
+			// aapt resource value: 0x7f020190
+			public const int sfprogressbar_determinate_linear = 2130837904;
+			
+			// aapt resource value: 0x7f020191
+			public const int sfprogressbar_indeterminate_circular = 2130837905;
+			
+			// aapt resource value: 0x7f020192
+			public const int sfprogressbar_indeterminate_linear = 2130837906;
+			
+			// aapt resource value: 0x7f020193
+			public const int SignaturePadBottomCorner = 2130837907;
+			
+			// aapt resource value: 0x7f020194
+			public const int SignaturepadRoundedCorners = 2130837908;
+			
+			// aapt resource value: 0x7f020195
+			public const int SignaturePadTopCorner = 2130837909;
+			
+			// aapt resource value: 0x7f020196
+			public const int tooltip_frame_dark = 2130837910;
+			
+			// aapt resource value: 0x7f020197
+			public const int tooltip_frame_light = 2130837911;
+			
+			// aapt resource value: 0x7f020198
+			public const int vercontrasena = 2130837912;
+			
+			// aapt resource value: 0x7f020199
+			public const int Viewmode = 2130837913;
 			
 			static Drawable()
 			{
@@ -6984,41 +10277,41 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09006d
 			public const int Vertical = 2131296365;
 			
-			// aapt resource value: 0x7f090100
-			public const int action0 = 2131296512;
+			// aapt resource value: 0x7f09010c
+			public const int action0 = 2131296524;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int action_bar = 2131296425;
+			// aapt resource value: 0x7f0900af
+			public const int action_bar = 2131296431;
 			
 			// aapt resource value: 0x7f090001
 			public const int action_bar_activity_content = 2131296257;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int action_bar_container = 2131296424;
+			// aapt resource value: 0x7f0900ae
+			public const int action_bar_container = 2131296430;
 			
-			// aapt resource value: 0x7f0900a4
-			public const int action_bar_root = 2131296420;
+			// aapt resource value: 0x7f0900aa
+			public const int action_bar_root = 2131296426;
 			
 			// aapt resource value: 0x7f090002
 			public const int action_bar_spinner = 2131296258;
 			
-			// aapt resource value: 0x7f090086
-			public const int action_bar_subtitle = 2131296390;
+			// aapt resource value: 0x7f09008c
+			public const int action_bar_subtitle = 2131296396;
 			
-			// aapt resource value: 0x7f090085
-			public const int action_bar_title = 2131296389;
+			// aapt resource value: 0x7f09008b
+			public const int action_bar_title = 2131296395;
 			
-			// aapt resource value: 0x7f0900fd
-			public const int action_container = 2131296509;
+			// aapt resource value: 0x7f090109
+			public const int action_container = 2131296521;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int action_context_bar = 2131296426;
+			// aapt resource value: 0x7f0900b0
+			public const int action_context_bar = 2131296432;
 			
-			// aapt resource value: 0x7f090104
-			public const int action_divider = 2131296516;
+			// aapt resource value: 0x7f090110
+			public const int action_divider = 2131296528;
 			
-			// aapt resource value: 0x7f0900fe
-			public const int action_image = 2131296510;
+			// aapt resource value: 0x7f09010a
+			public const int action_image = 2131296522;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -7026,29 +10319,29 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090004
 			public const int action_menu_presenter = 2131296260;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int action_mode_bar = 2131296422;
+			// aapt resource value: 0x7f0900ac
+			public const int action_mode_bar = 2131296428;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int action_mode_bar_stub = 2131296421;
+			// aapt resource value: 0x7f0900ab
+			public const int action_mode_bar_stub = 2131296427;
 			
-			// aapt resource value: 0x7f090087
-			public const int action_mode_close_button = 2131296391;
+			// aapt resource value: 0x7f09008d
+			public const int action_mode_close_button = 2131296397;
 			
-			// aapt resource value: 0x7f0900ff
-			public const int action_text = 2131296511;
+			// aapt resource value: 0x7f09010b
+			public const int action_text = 2131296523;
 			
-			// aapt resource value: 0x7f09010d
-			public const int actions = 2131296525;
+			// aapt resource value: 0x7f090119
+			public const int actions = 2131296537;
 			
-			// aapt resource value: 0x7f090088
-			public const int activity_chooser_view_content = 2131296392;
+			// aapt resource value: 0x7f09008e
+			public const int activity_chooser_view_content = 2131296398;
 			
 			// aapt resource value: 0x7f09002e
 			public const int add = 2131296302;
 			
-			// aapt resource value: 0x7f09009b
-			public const int alertTitle = 2131296411;
+			// aapt resource value: 0x7f0900a1
+			public const int alertTitle = 2131296417;
 			
 			// aapt resource value: 0x7f090064
 			public const int all = 2131296356;
@@ -7062,11 +10355,11 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09004d
 			public const int auto = 2131296333;
 			
-			// aapt resource value: 0x7f090076
-			public const int ball = 2131296374;
+			// aapt resource value: 0x7f09007c
+			public const int ball = 2131296380;
 			
-			// aapt resource value: 0x7f090077
-			public const int battery = 2131296375;
+			// aapt resource value: 0x7f09007d
+			public const int battery = 2131296381;
 			
 			// aapt resource value: 0x7f090036
 			public const int beginning = 2131296310;
@@ -7077,35 +10370,44 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090044
 			public const int bottom = 2131296324;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int bottomtab_navarea = 2131296441;
-			
-			// aapt resource value: 0x7f0900ba
-			public const int bottomtab_tabbar = 2131296442;
+			// aapt resource value: 0x7f090129
+			public const int bottomBar = 2131296553;
 			
 			// aapt resource value: 0x7f090078
-			public const int box = 2131296376;
-			
-			// aapt resource value: 0x7f0900bc
-			public const int browser_actions_header_text = 2131296444;
-			
-			// aapt resource value: 0x7f0900be
-			public const int browser_actions_menu_item_icon = 2131296446;
+			public const int bottomRight = 2131296376;
 			
 			// aapt resource value: 0x7f0900bf
-			public const int browser_actions_menu_item_text = 2131296447;
+			public const int bottomtab_navarea = 2131296447;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int browser_actions_menu_items = 2131296445;
+			// aapt resource value: 0x7f0900c0
+			public const int bottomtab_tabbar = 2131296448;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int browser_actions_menu_view = 2131296443;
+			// aapt resource value: 0x7f09007e
+			public const int box = 2131296382;
 			
-			// aapt resource value: 0x7f09008e
-			public const int buttonPanel = 2131296398;
+			// aapt resource value: 0x7f0900c2
+			public const int browser_actions_header_text = 2131296450;
 			
-			// aapt resource value: 0x7f090101
-			public const int cancel_action = 2131296513;
+			// aapt resource value: 0x7f0900c4
+			public const int browser_actions_menu_item_icon = 2131296452;
+			
+			// aapt resource value: 0x7f0900c5
+			public const int browser_actions_menu_item_text = 2131296453;
+			
+			// aapt resource value: 0x7f0900c3
+			public const int browser_actions_menu_items = 2131296451;
+			
+			// aapt resource value: 0x7f0900c1
+			public const int browser_actions_menu_view = 2131296449;
+			
+			// aapt resource value: 0x7f090094
+			public const int buttonPanel = 2131296404;
+			
+			// aapt resource value: 0x7f090125
+			public const int cancelButton = 2131296549;
+			
+			// aapt resource value: 0x7f09010d
+			public const int cancel_action = 2131296525;
 			
 			// aapt resource value: 0x7f09004c
 			public const int center = 2131296332;
@@ -7116,11 +10418,17 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090052
 			public const int center_vertical = 2131296338;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int checkbox = 2131296418;
+			// aapt resource value: 0x7f0900a8
+			public const int checkbox = 2131296424;
 			
-			// aapt resource value: 0x7f090109
-			public const int chronometer = 2131296521;
+			// aapt resource value: 0x7f09012f
+			public const int @checked = 2131296559;
+			
+			// aapt resource value: 0x7f090115
+			public const int chronometer = 2131296533;
+			
+			// aapt resource value: 0x7f09012a
+			public const int clearButton = 2131296554;
 			
 			// aapt resource value: 0x7f090061
 			public const int clip_horizontal = 2131296353;
@@ -7131,62 +10439,65 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090040
 			public const int collapseActionView = 2131296320;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int container = 2131296450;
+			// aapt resource value: 0x7f0900c8
+			public const int container = 2131296456;
 			
-			// aapt resource value: 0x7f09009e
-			public const int content = 2131296414;
-			
-			// aapt resource value: 0x7f090091
-			public const int contentPanel = 2131296401;
-			
-			// aapt resource value: 0x7f0900c3
-			public const int coordinator = 2131296451;
-			
-			// aapt resource value: 0x7f090098
-			public const int custom = 2131296408;
+			// aapt resource value: 0x7f0900a4
+			public const int content = 2131296420;
 			
 			// aapt resource value: 0x7f090097
-			public const int customPanel = 2131296407;
-			
-			// aapt resource value: 0x7f0900a7
-			public const int decor_content_parent = 2131296423;
-			
-			// aapt resource value: 0x7f09008b
-			public const int default_activity_button = 2131296395;
-			
-			// aapt resource value: 0x7f0900c5
-			public const int design_bottom_sheet = 2131296453;
-			
-			// aapt resource value: 0x7f0900ca
-			public const int design_menu_item_action_area = 2131296458;
+			public const int contentPanel = 2131296407;
 			
 			// aapt resource value: 0x7f0900c9
-			public const int design_menu_item_action_area_stub = 2131296457;
+			public const int coordinator = 2131296457;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int design_menu_item_text = 2131296456;
+			// aapt resource value: 0x7f09009e
+			public const int custom = 2131296414;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int design_navigation_view = 2131296455;
+			// aapt resource value: 0x7f09009d
+			public const int customPanel = 2131296413;
+			
+			// aapt resource value: 0x7f0900ad
+			public const int decor_content_parent = 2131296429;
+			
+			// aapt resource value: 0x7f090091
+			public const int default_activity_button = 2131296401;
+			
+			// aapt resource value: 0x7f0900cb
+			public const int design_bottom_sheet = 2131296459;
+			
+			// aapt resource value: 0x7f0900d0
+			public const int design_menu_item_action_area = 2131296464;
+			
+			// aapt resource value: 0x7f0900cf
+			public const int design_menu_item_action_area_stub = 2131296463;
+			
+			// aapt resource value: 0x7f0900ce
+			public const int design_menu_item_text = 2131296462;
+			
+			// aapt resource value: 0x7f0900cd
+			public const int design_navigation_view = 2131296461;
 			
 			// aapt resource value: 0x7f090027
 			public const int disableHome = 2131296295;
 			
-			// aapt resource value: 0x7f090079
-			public const int doubleCircle = 2131296377;
+			// aapt resource value: 0x7f090127
+			public const int doneButton = 2131296551;
 			
-			// aapt resource value: 0x7f09007a
-			public const int ecg = 2131296378;
+			// aapt resource value: 0x7f09007f
+			public const int doubleCircle = 2131296383;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int edit_query = 2131296427;
+			// aapt resource value: 0x7f090080
+			public const int ecg = 2131296384;
+			
+			// aapt resource value: 0x7f0900b1
+			public const int edit_query = 2131296433;
 			
 			// aapt resource value: 0x7f090037
 			public const int end = 2131296311;
 			
-			// aapt resource value: 0x7f09010f
-			public const int end_padder = 2131296527;
+			// aapt resource value: 0x7f09011b
+			public const int end_padder = 2131296539;
 			
 			// aapt resource value: 0x7f090046
 			public const int enterAlways = 2131296326;
@@ -7197,11 +10508,11 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090048
 			public const int exitUntilCollapsed = 2131296328;
 			
-			// aapt resource value: 0x7f090089
-			public const int expand_activities_button = 2131296393;
+			// aapt resource value: 0x7f09008f
+			public const int expand_activities_button = 2131296399;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int expanded_menu = 2131296417;
+			// aapt resource value: 0x7f0900a7
+			public const int expanded_menu = 2131296423;
 			
 			// aapt resource value: 0x7f09005e
 			public const int fill = 2131296350;
@@ -7218,26 +10529,44 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09005c
 			public const int @fixed = 2131296348;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int flyoutcontent_appbar = 2131296460;
+			// aapt resource value: 0x7f0900d5
+			public const int flyoutcontent_appbar = 2131296469;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int flyoutcontent_recycler = 2131296461;
+			// aapt resource value: 0x7f0900d6
+			public const int flyoutcontent_recycler = 2131296470;
 			
 			// aapt resource value: 0x7f090067
 			public const int forever = 2131296359;
 			
-			// aapt resource value: 0x7f09007b
-			public const int gearBox = 2131296379;
+			// aapt resource value: 0x7f0900d2
+			public const int formCheckBoxButton = 2131296466;
+			
+			// aapt resource value: 0x7f0900d9
+			public const int formContentButton = 2131296473;
+			
+			// aapt resource value: 0x7f0900d8
+			public const int formListLayout = 2131296472;
+			
+			// aapt resource value: 0x7f0900d4
+			public const int formRadioButton = 2131296468;
+			
+			// aapt resource value: 0x7f0900d3
+			public const int formTextButton = 2131296467;
+			
+			// aapt resource value: 0x7f0900d7
+			public const int formfieldButton = 2131296471;
+			
+			// aapt resource value: 0x7f090081
+			public const int gearBox = 2131296385;
 			
 			// aapt resource value: 0x7f09000a
 			public const int ghost_view = 2131296266;
 			
-			// aapt resource value: 0x7f09007c
-			public const int globe = 2131296380;
+			// aapt resource value: 0x7f090082
+			public const int globe = 2131296386;
 			
-			// aapt resource value: 0x7f09009d
-			public const int group_divider = 2131296413;
+			// aapt resource value: 0x7f0900a3
+			public const int group_divider = 2131296419;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
@@ -7245,23 +10574,29 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090028
 			public const int homeAsUp = 2131296296;
 			
-			// aapt resource value: 0x7f09007d
-			public const int horizontalPulsingBox = 2131296381;
+			// aapt resource value: 0x7f090076
+			public const int horizontal = 2131296374;
 			
-			// aapt resource value: 0x7f09008d
-			public const int icon = 2131296397;
+			// aapt resource value: 0x7f090083
+			public const int horizontalPulsingBox = 2131296387;
 			
-			// aapt resource value: 0x7f09010e
-			public const int icon_group = 2131296526;
+			// aapt resource value: 0x7f090093
+			public const int icon = 2131296403;
+			
+			// aapt resource value: 0x7f09011a
+			public const int icon_group = 2131296538;
 			
 			// aapt resource value: 0x7f090041
 			public const int ifRoom = 2131296321;
 			
-			// aapt resource value: 0x7f09008a
-			public const int image = 2131296394;
+			// aapt resource value: 0x7f090090
+			public const int image = 2131296400;
 			
-			// aapt resource value: 0x7f09010a
-			public const int info = 2131296522;
+			// aapt resource value: 0x7f090116
+			public const int info = 2131296534;
+			
+			// aapt resource value: 0x7f090079
+			public const int inline = 2131296377;
 			
 			// aapt resource value: 0x7f090068
 			public const int italic = 2131296360;
@@ -7272,8 +10607,8 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09004e
 			public const int labeled = 2131296334;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int largeLabel = 2131296449;
+			// aapt resource value: 0x7f0900c7
+			public const int largeLabel = 2131296455;
 			
 			// aapt resource value: 0x7f090054
 			public const int left = 2131296340;
@@ -7287,29 +10622,29 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090024
 			public const int listMode = 2131296292;
 			
-			// aapt resource value: 0x7f09008c
-			public const int list_item = 2131296396;
+			// aapt resource value: 0x7f090092
+			public const int list_item = 2131296402;
 			
-			// aapt resource value: 0x7f090110
-			public const int main_appbar = 2131296528;
+			// aapt resource value: 0x7f09011c
+			public const int main_appbar = 2131296540;
 			
-			// aapt resource value: 0x7f090113
-			public const int main_scrollview = 2131296531;
+			// aapt resource value: 0x7f09011f
+			public const int main_scrollview = 2131296543;
 			
-			// aapt resource value: 0x7f090112
-			public const int main_tablayout = 2131296530;
+			// aapt resource value: 0x7f09011e
+			public const int main_tablayout = 2131296542;
 			
-			// aapt resource value: 0x7f090111
-			public const int main_toolbar = 2131296529;
+			// aapt resource value: 0x7f09011d
+			public const int main_toolbar = 2131296541;
 			
-			// aapt resource value: 0x7f09011a
-			public const int masked = 2131296538;
+			// aapt resource value: 0x7f09012e
+			public const int masked = 2131296558;
 			
-			// aapt resource value: 0x7f090103
-			public const int media_actions = 2131296515;
+			// aapt resource value: 0x7f09010f
+			public const int media_actions = 2131296527;
 			
-			// aapt resource value: 0x7f0900b8
-			public const int message = 2131296440;
+			// aapt resource value: 0x7f0900be
+			public const int message = 2131296446;
 			
 			// aapt resource value: 0x7f090038
 			public const int middle = 2131296312;
@@ -7317,146 +10652,146 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090059
 			public const int mini = 2131296345;
 			
-			// aapt resource value: 0x7f09007e
-			public const int movieTimer = 2131296382;
-			
-			// aapt resource value: 0x7f0900ea
-			public const int mr_art = 2131296490;
-			
-			// aapt resource value: 0x7f0900db
-			public const int mr_cast_checkbox = 2131296475;
-			
-			// aapt resource value: 0x7f0900d4
-			public const int mr_cast_close_button = 2131296468;
-			
-			// aapt resource value: 0x7f0900cf
-			public const int mr_cast_group_icon = 2131296463;
-			
-			// aapt resource value: 0x7f0900d0
-			public const int mr_cast_group_name = 2131296464;
-			
-			// aapt resource value: 0x7f0900ce
-			public const int mr_cast_list = 2131296462;
-			
-			// aapt resource value: 0x7f0900d3
-			public const int mr_cast_meta = 2131296467;
-			
-			// aapt resource value: 0x7f0900d5
-			public const int mr_cast_meta_art = 2131296469;
-			
-			// aapt resource value: 0x7f0900d7
-			public const int mr_cast_meta_subtitle = 2131296471;
-			
-			// aapt resource value: 0x7f0900d6
-			public const int mr_cast_meta_title = 2131296470;
-			
-			// aapt resource value: 0x7f0900d9
-			public const int mr_cast_route_icon = 2131296473;
-			
-			// aapt resource value: 0x7f0900da
-			public const int mr_cast_route_name = 2131296474;
-			
-			// aapt resource value: 0x7f0900d8
-			public const int mr_cast_stop_button = 2131296472;
-			
-			// aapt resource value: 0x7f0900dc
-			public const int mr_cast_volume_layout = 2131296476;
-			
-			// aapt resource value: 0x7f0900dd
-			public const int mr_cast_volume_slider = 2131296477;
-			
-			// aapt resource value: 0x7f0900df
-			public const int mr_chooser_list = 2131296479;
-			
-			// aapt resource value: 0x7f0900e2
-			public const int mr_chooser_route_desc = 2131296482;
-			
-			// aapt resource value: 0x7f0900e0
-			public const int mr_chooser_route_icon = 2131296480;
-			
-			// aapt resource value: 0x7f0900e1
-			public const int mr_chooser_route_name = 2131296481;
-			
-			// aapt resource value: 0x7f0900de
-			public const int mr_chooser_title = 2131296478;
-			
-			// aapt resource value: 0x7f0900e7
-			public const int mr_close = 2131296487;
-			
-			// aapt resource value: 0x7f0900ed
-			public const int mr_control_divider = 2131296493;
-			
-			// aapt resource value: 0x7f0900f8
-			public const int mr_control_playback_ctrl = 2131296504;
-			
-			// aapt resource value: 0x7f0900fb
-			public const int mr_control_subtitle = 2131296507;
-			
-			// aapt resource value: 0x7f0900fa
-			public const int mr_control_title = 2131296506;
-			
-			// aapt resource value: 0x7f0900f9
-			public const int mr_control_title_container = 2131296505;
-			
-			// aapt resource value: 0x7f0900e8
-			public const int mr_custom_control = 2131296488;
-			
-			// aapt resource value: 0x7f0900e9
-			public const int mr_default_control = 2131296489;
-			
-			// aapt resource value: 0x7f0900e4
-			public const int mr_dialog_area = 2131296484;
-			
-			// aapt resource value: 0x7f0900f3
-			public const int mr_dialog_header_name = 2131296499;
-			
-			// aapt resource value: 0x7f0900e3
-			public const int mr_expandable_area = 2131296483;
-			
-			// aapt resource value: 0x7f0900fc
-			public const int mr_group_expand_collapse = 2131296508;
-			
-			// aapt resource value: 0x7f0900d1
-			public const int mr_group_volume_route_name = 2131296465;
-			
-			// aapt resource value: 0x7f0900d2
-			public const int mr_group_volume_slider = 2131296466;
-			
-			// aapt resource value: 0x7f0900eb
-			public const int mr_media_main_control = 2131296491;
-			
-			// aapt resource value: 0x7f0900e6
-			public const int mr_name = 2131296486;
-			
-			// aapt resource value: 0x7f0900f4
-			public const int mr_picker_close_button = 2131296500;
-			
-			// aapt resource value: 0x7f0900f5
-			public const int mr_picker_list = 2131296501;
+			// aapt resource value: 0x7f090084
+			public const int movieTimer = 2131296388;
 			
 			// aapt resource value: 0x7f0900f6
-			public const int mr_picker_route_icon = 2131296502;
+			public const int mr_art = 2131296502;
 			
-			// aapt resource value: 0x7f0900f7
-			public const int mr_picker_route_name = 2131296503;
+			// aapt resource value: 0x7f0900e7
+			public const int mr_cast_checkbox = 2131296487;
 			
-			// aapt resource value: 0x7f0900ec
-			public const int mr_playback_control = 2131296492;
+			// aapt resource value: 0x7f0900e0
+			public const int mr_cast_close_button = 2131296480;
+			
+			// aapt resource value: 0x7f0900db
+			public const int mr_cast_group_icon = 2131296475;
+			
+			// aapt resource value: 0x7f0900dc
+			public const int mr_cast_group_name = 2131296476;
+			
+			// aapt resource value: 0x7f0900da
+			public const int mr_cast_list = 2131296474;
+			
+			// aapt resource value: 0x7f0900df
+			public const int mr_cast_meta = 2131296479;
+			
+			// aapt resource value: 0x7f0900e1
+			public const int mr_cast_meta_art = 2131296481;
+			
+			// aapt resource value: 0x7f0900e3
+			public const int mr_cast_meta_subtitle = 2131296483;
+			
+			// aapt resource value: 0x7f0900e2
+			public const int mr_cast_meta_title = 2131296482;
 			
 			// aapt resource value: 0x7f0900e5
-			public const int mr_title_bar = 2131296485;
+			public const int mr_cast_route_icon = 2131296485;
+			
+			// aapt resource value: 0x7f0900e6
+			public const int mr_cast_route_name = 2131296486;
+			
+			// aapt resource value: 0x7f0900e4
+			public const int mr_cast_stop_button = 2131296484;
+			
+			// aapt resource value: 0x7f0900e8
+			public const int mr_cast_volume_layout = 2131296488;
+			
+			// aapt resource value: 0x7f0900e9
+			public const int mr_cast_volume_slider = 2131296489;
+			
+			// aapt resource value: 0x7f0900eb
+			public const int mr_chooser_list = 2131296491;
 			
 			// aapt resource value: 0x7f0900ee
-			public const int mr_volume_control = 2131296494;
+			public const int mr_chooser_route_desc = 2131296494;
+			
+			// aapt resource value: 0x7f0900ec
+			public const int mr_chooser_route_icon = 2131296492;
+			
+			// aapt resource value: 0x7f0900ed
+			public const int mr_chooser_route_name = 2131296493;
+			
+			// aapt resource value: 0x7f0900ea
+			public const int mr_chooser_title = 2131296490;
+			
+			// aapt resource value: 0x7f0900f3
+			public const int mr_close = 2131296499;
+			
+			// aapt resource value: 0x7f0900f9
+			public const int mr_control_divider = 2131296505;
+			
+			// aapt resource value: 0x7f090104
+			public const int mr_control_playback_ctrl = 2131296516;
+			
+			// aapt resource value: 0x7f090107
+			public const int mr_control_subtitle = 2131296519;
+			
+			// aapt resource value: 0x7f090106
+			public const int mr_control_title = 2131296518;
+			
+			// aapt resource value: 0x7f090105
+			public const int mr_control_title_container = 2131296517;
+			
+			// aapt resource value: 0x7f0900f4
+			public const int mr_custom_control = 2131296500;
+			
+			// aapt resource value: 0x7f0900f5
+			public const int mr_default_control = 2131296501;
+			
+			// aapt resource value: 0x7f0900f0
+			public const int mr_dialog_area = 2131296496;
+			
+			// aapt resource value: 0x7f0900ff
+			public const int mr_dialog_header_name = 2131296511;
 			
 			// aapt resource value: 0x7f0900ef
-			public const int mr_volume_group_list = 2131296495;
+			public const int mr_expandable_area = 2131296495;
 			
-			// aapt resource value: 0x7f0900f1
-			public const int mr_volume_item_icon = 2131296497;
+			// aapt resource value: 0x7f090108
+			public const int mr_group_expand_collapse = 2131296520;
+			
+			// aapt resource value: 0x7f0900dd
+			public const int mr_group_volume_route_name = 2131296477;
+			
+			// aapt resource value: 0x7f0900de
+			public const int mr_group_volume_slider = 2131296478;
+			
+			// aapt resource value: 0x7f0900f7
+			public const int mr_media_main_control = 2131296503;
 			
 			// aapt resource value: 0x7f0900f2
-			public const int mr_volume_slider = 2131296498;
+			public const int mr_name = 2131296498;
+			
+			// aapt resource value: 0x7f090100
+			public const int mr_picker_close_button = 2131296512;
+			
+			// aapt resource value: 0x7f090101
+			public const int mr_picker_list = 2131296513;
+			
+			// aapt resource value: 0x7f090102
+			public const int mr_picker_route_icon = 2131296514;
+			
+			// aapt resource value: 0x7f090103
+			public const int mr_picker_route_name = 2131296515;
+			
+			// aapt resource value: 0x7f0900f8
+			public const int mr_playback_control = 2131296504;
+			
+			// aapt resource value: 0x7f0900f1
+			public const int mr_title_bar = 2131296497;
+			
+			// aapt resource value: 0x7f0900fa
+			public const int mr_volume_control = 2131296506;
+			
+			// aapt resource value: 0x7f0900fb
+			public const int mr_volume_group_list = 2131296507;
+			
+			// aapt resource value: 0x7f0900fd
+			public const int mr_volume_item_icon = 2131296509;
+			
+			// aapt resource value: 0x7f0900fe
+			public const int mr_volume_slider = 2131296510;
 			
 			// aapt resource value: 0x7f090014
 			public const int mtrl_child_content_container = 2131296276;
@@ -7467,8 +10802,8 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09002f
 			public const int multiply = 2131296303;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int navigation_header_container = 2131296454;
+			// aapt resource value: 0x7f0900cc
+			public const int navigation_header_container = 2131296460;
 			
 			// aapt resource value: 0x7f090042
 			public const int never = 2131296322;
@@ -7479,23 +10814,26 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090025
 			public const int normal = 2131296293;
 			
-			// aapt resource value: 0x7f09010c
-			public const int notification_background = 2131296524;
+			// aapt resource value: 0x7f090118
+			public const int notification_background = 2131296536;
 			
-			// aapt resource value: 0x7f090106
-			public const int notification_main_column = 2131296518;
+			// aapt resource value: 0x7f090112
+			public const int notification_main_column = 2131296530;
 			
-			// aapt resource value: 0x7f090105
-			public const int notification_main_column_container = 2131296517;
+			// aapt resource value: 0x7f090111
+			public const int notification_main_column_container = 2131296529;
 			
 			// aapt resource value: 0x7f090060
 			public const int outline = 2131296352;
 			
+			// aapt resource value: 0x7f09007a
+			public const int outside = 2131296378;
+			
 			// aapt resource value: 0x7f090057
 			public const int parallax = 2131296343;
 			
-			// aapt resource value: 0x7f090090
-			public const int parentPanel = 2131296400;
+			// aapt resource value: 0x7f090096
+			public const int parentPanel = 2131296406;
 			
 			// aapt resource value: 0x7f09000b
 			public const int parent_matrix = 2131296267;
@@ -7503,8 +10841,8 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090058
 			public const int pin = 2131296344;
 			
-			// aapt resource value: 0x7f09007f
-			public const int print = 2131296383;
+			// aapt resource value: 0x7f090085
+			public const int print = 2131296389;
 			
 			// aapt resource value: 0x7f090006
 			public const int progress_circular = 2131296262;
@@ -7512,23 +10850,23 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090007
 			public const int progress_horizontal = 2131296263;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int radio = 2131296419;
+			// aapt resource value: 0x7f0900a9
+			public const int radio = 2131296425;
 			
-			// aapt resource value: 0x7f090080
-			public const int rectangle = 2131296384;
+			// aapt resource value: 0x7f090086
+			public const int rectangle = 2131296390;
 			
 			// aapt resource value: 0x7f090055
 			public const int right = 2131296341;
 			
-			// aapt resource value: 0x7f09010b
-			public const int right_icon = 2131296523;
+			// aapt resource value: 0x7f090117
+			public const int right_icon = 2131296535;
 			
-			// aapt resource value: 0x7f090107
-			public const int right_side = 2131296519;
+			// aapt resource value: 0x7f090113
+			public const int right_side = 2131296531;
 			
-			// aapt resource value: 0x7f090081
-			public const int rollingBall = 2131296385;
+			// aapt resource value: 0x7f090087
+			public const int rollingBall = 2131296391;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -7545,65 +10883,74 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090049
 			public const int scroll = 2131296329;
 			
-			// aapt resource value: 0x7f090096
-			public const int scrollIndicatorDown = 2131296406;
+			// aapt resource value: 0x7f09009c
+			public const int scrollIndicatorDown = 2131296412;
 			
-			// aapt resource value: 0x7f090092
-			public const int scrollIndicatorUp = 2131296402;
+			// aapt resource value: 0x7f090098
+			public const int scrollIndicatorUp = 2131296408;
 			
-			// aapt resource value: 0x7f090093
-			public const int scrollView = 2131296403;
+			// aapt resource value: 0x7f090099
+			public const int scrollView = 2131296409;
 			
 			// aapt resource value: 0x7f09005d
 			public const int scrollable = 2131296349;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int search_badge = 2131296429;
-			
-			// aapt resource value: 0x7f0900ac
-			public const int search_bar = 2131296428;
-			
-			// aapt resource value: 0x7f0900ae
-			public const int search_button = 2131296430;
-			
 			// aapt resource value: 0x7f0900b3
-			public const int search_close_btn = 2131296435;
-			
-			// aapt resource value: 0x7f0900af
-			public const int search_edit_frame = 2131296431;
-			
-			// aapt resource value: 0x7f0900b5
-			public const int search_go_btn = 2131296437;
-			
-			// aapt resource value: 0x7f0900b0
-			public const int search_mag_icon = 2131296432;
-			
-			// aapt resource value: 0x7f0900b1
-			public const int search_plate = 2131296433;
+			public const int search_badge = 2131296435;
 			
 			// aapt resource value: 0x7f0900b2
-			public const int search_src_text = 2131296434;
+			public const int search_bar = 2131296434;
+			
+			// aapt resource value: 0x7f0900b4
+			public const int search_button = 2131296436;
+			
+			// aapt resource value: 0x7f0900b9
+			public const int search_close_btn = 2131296441;
+			
+			// aapt resource value: 0x7f0900b5
+			public const int search_edit_frame = 2131296437;
+			
+			// aapt resource value: 0x7f0900bb
+			public const int search_go_btn = 2131296443;
 			
 			// aapt resource value: 0x7f0900b6
-			public const int search_voice_btn = 2131296438;
+			public const int search_mag_icon = 2131296438;
 			
 			// aapt resource value: 0x7f0900b7
-			public const int select_dialog_listview = 2131296439;
+			public const int search_plate = 2131296439;
+			
+			// aapt resource value: 0x7f0900b8
+			public const int search_src_text = 2131296440;
+			
+			// aapt resource value: 0x7f0900bc
+			public const int search_voice_btn = 2131296444;
+			
+			// aapt resource value: 0x7f0900bd
+			public const int select_dialog_listview = 2131296445;
 			
 			// aapt resource value: 0x7f09004f
 			public const int selected = 2131296335;
 			
-			// aapt resource value: 0x7f090114
-			public const int shellcontent_appbar = 2131296532;
+			// aapt resource value: 0x7f090133
+			public const int sfprogressbar_progress = 2131296563;
 			
-			// aapt resource value: 0x7f090116
-			public const int shellcontent_scrollview = 2131296534;
+			// aapt resource value: 0x7f090132
+			public const int sfprogressbar_secondary_progress = 2131296562;
 			
-			// aapt resource value: 0x7f090115
-			public const int shellcontent_toolbar = 2131296533;
+			// aapt resource value: 0x7f090131
+			public const int sfprogressbar_track = 2131296561;
 			
-			// aapt resource value: 0x7f09009f
-			public const int shortcut = 2131296415;
+			// aapt resource value: 0x7f090120
+			public const int shellcontent_appbar = 2131296544;
+			
+			// aapt resource value: 0x7f090122
+			public const int shellcontent_scrollview = 2131296546;
+			
+			// aapt resource value: 0x7f090121
+			public const int shellcontent_toolbar = 2131296545;
+			
+			// aapt resource value: 0x7f0900a5
+			public const int shortcut = 2131296421;
 			
 			// aapt resource value: 0x7f09002a
 			public const int showCustom = 2131296298;
@@ -7614,17 +10961,26 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09002c
 			public const int showTitle = 2131296300;
 			
-			// aapt resource value: 0x7f090082
-			public const int singleCircle = 2131296386;
+			// aapt resource value: 0x7f090126
+			public const int signatureLabel = 2131296550;
 			
-			// aapt resource value: 0x7f090083
-			public const int slicedCircle = 2131296387;
+			// aapt resource value: 0x7f090128
+			public const int signaturePadContainer = 2131296552;
 			
-			// aapt resource value: 0x7f090117
-			public const int sliding_tabs = 2131296535;
+			// aapt resource value: 0x7f090123
+			public const int signatureviewlayout = 2131296547;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int smallLabel = 2131296448;
+			// aapt resource value: 0x7f090088
+			public const int singleCircle = 2131296392;
+			
+			// aapt resource value: 0x7f090089
+			public const int slicedCircle = 2131296393;
+			
+			// aapt resource value: 0x7f09012b
+			public const int sliding_tabs = 2131296555;
+			
+			// aapt resource value: 0x7f0900c6
+			public const int smallLabel = 2131296454;
 			
 			// aapt resource value: 0x7f090016
 			public const int snackbar_action = 2131296278;
@@ -7638,8 +10994,8 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09004b
 			public const int snapMargins = 2131296331;
 			
-			// aapt resource value: 0x7f09008f
-			public const int spacer = 2131296399;
+			// aapt resource value: 0x7f090095
+			public const int spacer = 2131296405;
 			
 			// aapt resource value: 0x7f090008
 			public const int split_action_bar = 2131296264;
@@ -7656,17 +11012,17 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090056
 			public const int start = 2131296342;
 			
-			// aapt resource value: 0x7f090102
-			public const int status_bar_latest_event_content = 2131296514;
+			// aapt resource value: 0x7f09010e
+			public const int status_bar_latest_event_content = 2131296526;
 			
 			// aapt resource value: 0x7f09005b
 			public const int stretch = 2131296347;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int submenuarrow = 2131296416;
+			// aapt resource value: 0x7f0900a6
+			public const int submenuarrow = 2131296422;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int submit_area = 2131296436;
+			// aapt resource value: 0x7f0900ba
+			public const int submit_area = 2131296442;
 			
 			// aapt resource value: 0x7f090026
 			public const int tabMode = 2131296294;
@@ -7686,17 +11042,17 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090022
 			public const int text2 = 2131296290;
 			
-			// aapt resource value: 0x7f090095
-			public const int textSpacerNoButtons = 2131296405;
+			// aapt resource value: 0x7f09009b
+			public const int textSpacerNoButtons = 2131296411;
 			
-			// aapt resource value: 0x7f090094
-			public const int textSpacerNoTitle = 2131296404;
+			// aapt resource value: 0x7f09009a
+			public const int textSpacerNoTitle = 2131296410;
 			
 			// aapt resource value: 0x7f09005a
 			public const int textStart = 2131296346;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int text_input_password_toggle = 2131296459;
+			// aapt resource value: 0x7f0900d1
+			public const int text_input_password_toggle = 2131296465;
 			
 			// aapt resource value: 0x7f090018
 			public const int textinput_counter = 2131296280;
@@ -7707,29 +11063,35 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09001a
 			public const int textinput_helper_text = 2131296282;
 			
-			// aapt resource value: 0x7f090108
-			public const int time = 2131296520;
+			// aapt resource value: 0x7f090114
+			public const int time = 2131296532;
 			
 			// aapt resource value: 0x7f090023
 			public const int title = 2131296291;
 			
-			// aapt resource value: 0x7f09009c
-			public const int titleDividerNoCustom = 2131296412;
+			// aapt resource value: 0x7f0900a2
+			public const int titleDividerNoCustom = 2131296418;
 			
-			// aapt resource value: 0x7f09009a
-			public const int title_template = 2131296410;
+			// aapt resource value: 0x7f0900a0
+			public const int title_template = 2131296416;
 			
-			// aapt resource value: 0x7f090118
-			public const int toolbar = 2131296536;
+			// aapt resource value: 0x7f09012c
+			public const int toolbar = 2131296556;
 			
 			// aapt resource value: 0x7f090045
 			public const int top = 2131296325;
 			
-			// aapt resource value: 0x7f090099
-			public const int topPanel = 2131296409;
+			// aapt resource value: 0x7f090124
+			public const int topBar = 2131296548;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int touch_outside = 2131296452;
+			// aapt resource value: 0x7f09007b
+			public const int topLeft = 2131296379;
+			
+			// aapt resource value: 0x7f09009f
+			public const int topPanel = 2131296415;
+			
+			// aapt resource value: 0x7f0900ca
+			public const int touch_outside = 2131296458;
 			
 			// aapt resource value: 0x7f09000f
 			public const int transition_current_scene = 2131296271;
@@ -7746,6 +11108,9 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090013
 			public const int transition_transform = 2131296275;
 			
+			// aapt resource value: 0x7f090130
+			public const int @unchecked = 2131296560;
+			
 			// aapt resource value: 0x7f090034
 			public const int uniform = 2131296308;
 			
@@ -7758,14 +11123,17 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f09002d
 			public const int useLogo = 2131296301;
 			
+			// aapt resource value: 0x7f090077
+			public const int vertical = 2131296375;
+			
 			// aapt resource value: 0x7f09001b
 			public const int view_offset_helper = 2131296283;
 			
-			// aapt resource value: 0x7f090119
-			public const int visible = 2131296537;
+			// aapt resource value: 0x7f09012d
+			public const int visible = 2131296557;
 			
-			// aapt resource value: 0x7f0900f0
-			public const int volume_item_container = 2131296496;
+			// aapt resource value: 0x7f0900fc
+			public const int volume_item_container = 2131296508;
 			
 			// aapt resource value: 0x7f090043
 			public const int withText = 2131296323;
@@ -7773,8 +11141,8 @@ namespace Contratista.Android
 			// aapt resource value: 0x7f090035
 			public const int wrap_content = 2131296309;
 			
-			// aapt resource value: 0x7f090084
-			public const int zoomingTarget = 2131296388;
+			// aapt resource value: 0x7f09008a
+			public const int zoomingTarget = 2131296394;
 			
 			static Id()
 			{
@@ -8026,124 +11394,136 @@ namespace Contratista.Android
 			public const int design_text_input_password_icon = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int FlyoutContent = 2130903085;
+			public const int dialogListViewRow = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int mr_cast_dialog = 2130903086;
+			public const int FlyoutContent = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int mr_cast_group_item = 2130903087;
+			public const int formfieldButtonLayout = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int mr_cast_group_volume_item = 2130903088;
+			public const int listViewRow = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int mr_cast_media_metadata = 2130903089;
+			public const int mr_cast_dialog = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int mr_cast_route_item = 2130903090;
+			public const int mr_cast_group_item = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int mr_chooser_dialog = 2130903091;
+			public const int mr_cast_group_volume_item = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int mr_chooser_list_item = 2130903092;
+			public const int mr_cast_media_metadata = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int mr_controller_material_dialog_b = 2130903093;
+			public const int mr_cast_route_item = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int mr_controller_volume_item = 2130903094;
+			public const int mr_chooser_dialog = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int mr_dialog_header_item = 2130903095;
+			public const int mr_chooser_list_item = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int mr_picker_dialog = 2130903096;
+			public const int mr_controller_material_dialog_b = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int mr_picker_route_item = 2130903097;
+			public const int mr_controller_volume_item = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int mr_playback_control = 2130903098;
+			public const int mr_dialog_header_item = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int mr_volume_control = 2130903099;
+			public const int mr_picker_dialog = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int mtrl_layout_snackbar = 2130903100;
+			public const int mr_picker_route_item = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int mtrl_layout_snackbar_include = 2130903101;
+			public const int mr_playback_control = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_action = 2130903102;
+			public const int mr_volume_control = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int notification_action_tombstone = 2130903103;
+			public const int mtrl_layout_snackbar = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int notification_media_action = 2130903104;
+			public const int mtrl_layout_snackbar_include = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int notification_media_cancel_action = 2130903105;
+			public const int notification_action = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int notification_template_big_media = 2130903106;
+			public const int notification_action_tombstone = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int notification_template_big_media_custom = 2130903107;
+			public const int notification_media_action = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int notification_template_big_media_narrow = 2130903108;
+			public const int notification_media_cancel_action = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int notification_template_big_media_narrow_custom = 2130903109;
+			public const int notification_template_big_media = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int notification_template_custom_big = 2130903110;
+			public const int notification_template_big_media_custom = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int notification_template_icon_group = 2130903111;
+			public const int notification_template_big_media_narrow = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int notification_template_lines_media = 2130903112;
+			public const int notification_template_big_media_narrow_custom = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int notification_template_media = 2130903113;
+			public const int notification_template_custom_big = 2130903113;
 			
 			// aapt resource value: 0x7f03004a
-			public const int notification_template_media_custom = 2130903114;
+			public const int notification_template_icon_group = 2130903114;
 			
 			// aapt resource value: 0x7f03004b
-			public const int notification_template_part_chronometer = 2130903115;
+			public const int notification_template_lines_media = 2130903115;
 			
 			// aapt resource value: 0x7f03004c
-			public const int notification_template_part_time = 2130903116;
+			public const int notification_template_media = 2130903116;
 			
 			// aapt resource value: 0x7f03004d
-			public const int RootLayout = 2130903117;
+			public const int notification_template_media_custom = 2130903117;
 			
 			// aapt resource value: 0x7f03004e
-			public const int select_dialog_item_material = 2130903118;
+			public const int notification_template_part_chronometer = 2130903118;
 			
 			// aapt resource value: 0x7f03004f
-			public const int select_dialog_multichoice_material = 2130903119;
+			public const int notification_template_part_time = 2130903119;
 			
 			// aapt resource value: 0x7f030050
-			public const int select_dialog_singlechoice_material = 2130903120;
+			public const int RootLayout = 2130903120;
 			
 			// aapt resource value: 0x7f030051
-			public const int ShellContent = 2130903121;
+			public const int select_dialog_item_material = 2130903121;
 			
 			// aapt resource value: 0x7f030052
-			public const int support_simple_spinner_dropdown_item = 2130903122;
+			public const int select_dialog_multichoice_material = 2130903122;
 			
 			// aapt resource value: 0x7f030053
-			public const int Tabbar = 2130903123;
+			public const int select_dialog_singlechoice_material = 2130903123;
 			
 			// aapt resource value: 0x7f030054
-			public const int Toolbar = 2130903124;
+			public const int ShellContent = 2130903124;
+			
+			// aapt resource value: 0x7f030055
+			public const int signaturepadlayout = 2130903125;
+			
+			// aapt resource value: 0x7f030056
+			public const int support_simple_spinner_dropdown_item = 2130903126;
+			
+			// aapt resource value: 0x7f030057
+			public const int Tabbar = 2130903127;
+			
+			// aapt resource value: 0x7f030058
+			public const int Toolbar = 2130903128;
 			
 			static Layout()
 			{
@@ -8157,6 +11537,30 @@ namespace Contratista.Android
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0a0056
+			public const int SfPdfViewerCancel = 2131361878;
+			
+			// aapt resource value: 0x7f0a004f
+			public const int SfPdfViewerCopy = 2131361871;
+			
+			// aapt resource value: 0x7f0a0050
+			public const int SfPdfViewerHighlight = 2131361872;
+			
+			// aapt resource value: 0x7f0a0054
+			public const int SfPdfViewerHyperlinkMessage = 2131361876;
+			
+			// aapt resource value: 0x7f0a0053
+			public const int SfPdfViewerHyperlinkMessageTitle = 2131361875;
+			
+			// aapt resource value: 0x7f0a0055
+			public const int SfPdfViewerHyperlinkOpen = 2131361877;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int SfPdfViewerStrikethrough = 2131361874;
+			
+			// aapt resource value: 0x7f0a0051
+			public const int SfPdfViewerUnderline = 2131361873;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int abc_action_bar_home_description = 2131361816;
@@ -8391,6 +11795,222 @@ namespace Contratista.Android
 			
 			// aapt resource value: 0x7f0a0033
 			public const int search_menu_title = 2131361843;
+			
+			// aapt resource value: 0x7f0a005d
+			public const int sfpdfviewer_annotationsbackbutton = 2131361885;
+			
+			// aapt resource value: 0x7f0a0066
+			public const int sfpdfviewer_annotationsbutton = 2131361894;
+			
+			// aapt resource value: 0x7f0a007f
+			public const int sfpdfviewer_arrowbackbutton = 2131361919;
+			
+			// aapt resource value: 0x7f0a007c
+			public const int sfpdfviewer_arrowbutton = 2131361916;
+			
+			// aapt resource value: 0x7f0a009b
+			public const int sfpdfviewer_backbutton = 2131361947;
+			
+			// aapt resource value: 0x7f0a006d
+			public const int sfpdfviewer_blackcolorbutton = 2131361901;
+			
+			// aapt resource value: 0x7f0a0065
+			public const int sfpdfviewer_bookmarksbackbutton = 2131361893;
+			
+			// aapt resource value: 0x7f0a008b
+			public const int sfpdfviewer_bookmarksbutton = 2131361931;
+			
+			// aapt resource value: 0x7f0a009c
+			public const int sfpdfviewer_bookmarksclosebutton = 2131361948;
+			
+			// aapt resource value: 0x7f0a0097
+			public const int sfpdfviewer_cancel = 2131361943;
+			
+			// aapt resource value: 0x7f0a0074
+			public const int sfpdfviewer_cancelsearchbutton = 2131361908;
+			
+			// aapt resource value: 0x7f0a0077
+			public const int sfpdfviewer_clearsearchbutton = 2131361911;
+			
+			// aapt resource value: 0x7f0a0062
+			public const int sfpdfviewer_colorbutton = 2131361890;
+			
+			// aapt resource value: 0x7f0a008d
+			public const int sfpdfviewer_continuouspagebutton = 2131361933;
+			
+			// aapt resource value: 0x7f0a0068
+			public const int sfpdfviewer_cyancolorbutton = 2131361896;
+			
+			// aapt resource value: 0x7f0a006e
+			public const int sfpdfviewer_deletebutton = 2131361902;
+			
+			// aapt resource value: 0x7f0a0091
+			public const int sfpdfviewer_done = 2131361937;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int sfpdfviewer_ellipsebackbutton = 2131361921;
+			
+			// aapt resource value: 0x7f0a0079
+			public const int sfpdfviewer_ellipsebutton = 2131361913;
+			
+			// aapt resource value: 0x7f0a005e
+			public const int sfpdfviewer_fontsizebutton = 2131361886;
+			
+			// aapt resource value: 0x7f0a005b
+			public const int sfpdfviewer_freetextbutton = 2131361883;
+			
+			// aapt resource value: 0x7f0a006a
+			public const int sfpdfviewer_greencolorbutton = 2131361898;
+			
+			// aapt resource value: 0x7f0a0082
+			public const int sfpdfviewer_highlightbutton = 2131361922;
+			
+			// aapt resource value: 0x7f0a0086
+			public const int sfpdfviewer_highlighttextbackbutton = 2131361926;
+			
+			// aapt resource value: 0x7f0a0057
+			public const int sfpdfviewer_hinttext = 2131361879;
+			
+			// aapt resource value: 0x7f0a0060
+			public const int sfpdfviewer_inkbackbutton = 2131361888;
+			
+			// aapt resource value: 0x7f0a005a
+			public const int sfpdfviewer_inkbutton = 2131361882;
+			
+			// aapt resource value: 0x7f0a0080
+			public const int sfpdfviewer_linebackbutton = 2131361920;
+			
+			// aapt resource value: 0x7f0a007b
+			public const int sfpdfviewer_linebutton = 2131361915;
+			
+			// aapt resource value: 0x7f0a006c
+			public const int sfpdfviewer_magentacolorbutton = 2131361900;
+			
+			// aapt resource value: 0x7f0a008a
+			public const int sfpdfviewer_moreoptionsbutton = 2131361930;
+			
+			// aapt resource value: 0x7f0a0063
+			public const int sfpdfviewer_nextlevelbookmarksbutton = 2131361891;
+			
+			// aapt resource value: 0x7f0a0067
+			public const int sfpdfviewer_opacitybutton = 2131361895;
+			
+			// aapt resource value: 0x7f0a009e
+			public const int sfpdfviewer_pagedownbutton = 2131361950;
+			
+			// aapt resource value: 0x7f0a009d
+			public const int sfpdfviewer_pageupbutton = 2131361949;
+			
+			// aapt resource value: 0x7f0a007a
+			public const int sfpdfviewer_polygonbutton = 2131361914;
+			
+			// aapt resource value: 0x7f0a0064
+			public const int sfpdfviewer_previouslevelbookmarksbutton = 2131361892;
+			
+			// aapt resource value: 0x7f0a007e
+			public const int sfpdfviewer_rectanglebackbutton = 2131361918;
+			
+			// aapt resource value: 0x7f0a0078
+			public const int sfpdfviewer_rectanglebutton = 2131361912;
+			
+			// aapt resource value: 0x7f0a0069
+			public const int sfpdfviewer_redcolorbutton = 2131361897;
+			
+			// aapt resource value: 0x7f0a0070
+			public const int sfpdfviewer_redobutton = 2131361904;
+			
+			// aapt resource value: 0x7f0a008f
+			public const int sfpdfviewer_redoinkbutton = 2131361935;
+			
+			// aapt resource value: 0x7f0a0071
+			public const int sfpdfviewer_savebutton = 2131361905;
+			
+			// aapt resource value: 0x7f0a0075
+			public const int sfpdfviewer_searchbackbutton = 2131361909;
+			
+			// aapt resource value: 0x7f0a0076
+			public const int sfpdfviewer_searchbarplaceholdertext = 2131361910;
+			
+			// aapt resource value: 0x7f0a0089
+			public const int sfpdfviewer_searchbutton = 2131361929;
+			
+			// aapt resource value: 0x7f0a0072
+			public const int sfpdfviewer_searchnextbutton = 2131361906;
+			
+			// aapt resource value: 0x7f0a0073
+			public const int sfpdfviewer_searchpreviousbutton = 2131361907;
+			
+			// aapt resource value: 0x7f0a007d
+			public const int sfpdfviewer_shapesbackbutton = 2131361917;
+			
+			// aapt resource value: 0x7f0a005c
+			public const int sfpdfviewer_shapesbutton = 2131361884;
+			
+			// aapt resource value: 0x7f0a0058
+			public const int sfpdfviewer_signaturebutton = 2131361880;
+			
+			// aapt resource value: 0x7f0a0099
+			public const int sfpdfviewer_signaturepad_cancel = 2131361945;
+			
+			// aapt resource value: 0x7f0a009a
+			public const int sfpdfviewer_signaturepad_clear = 2131361946;
+			
+			// aapt resource value: 0x7f0a0098
+			public const int sfpdfviewer_signaturepad_done = 2131361944;
+			
+			// aapt resource value: 0x7f0a008e
+			public const int sfpdfviewer_singlepagebutton = 2131361934;
+			
+			// aapt resource value: 0x7f0a0085
+			public const int sfpdfviewer_strikethroughbutton = 2131361925;
+			
+			// aapt resource value: 0x7f0a0088
+			public const int sfpdfviewer_strikethroughtextbackbutton = 2131361928;
+			
+			// aapt resource value: 0x7f0a005f
+			public const int sfpdfviewer_textbackbutton = 2131361887;
+			
+			// aapt resource value: 0x7f0a0084
+			public const int sfpdfviewer_textmarkupsbackbutton = 2131361924;
+			
+			// aapt resource value: 0x7f0a0059
+			public const int sfpdfviewer_textmarkupsbutton = 2131361881;
+			
+			// aapt resource value: 0x7f0a0061
+			public const int sfpdfviewer_thicknessbutton = 2131361889;
+			
+			// aapt resource value: 0x7f0a0094
+			public const int sfpdfviewer_thicknessfivebutton = 2131361940;
+			
+			// aapt resource value: 0x7f0a0096
+			public const int sfpdfviewer_thicknessninebutton = 2131361942;
+			
+			// aapt resource value: 0x7f0a0092
+			public const int sfpdfviewer_thicknessonebutton = 2131361938;
+			
+			// aapt resource value: 0x7f0a0095
+			public const int sfpdfviewer_thicknesssevenbutton = 2131361941;
+			
+			// aapt resource value: 0x7f0a0093
+			public const int sfpdfviewer_thicknesthreebutton = 2131361939;
+			
+			// aapt resource value: 0x7f0a0083
+			public const int sfpdfviewer_underlinebutton = 2131361923;
+			
+			// aapt resource value: 0x7f0a0087
+			public const int sfpdfviewer_underlinetextbackbutton = 2131361927;
+			
+			// aapt resource value: 0x7f0a006f
+			public const int sfpdfviewer_undobutton = 2131361903;
+			
+			// aapt resource value: 0x7f0a0090
+			public const int sfpdfviewer_undoinkbutton = 2131361936;
+			
+			// aapt resource value: 0x7f0a008c
+			public const int sfpdfviewer_viewmodebutton = 2131361932;
+			
+			// aapt resource value: 0x7f0a006b
+			public const int sfpdfviewer_yellowcolorbutton = 2131361899;
 			
 			// aapt resource value: 0x7f0a004d
 			public const int status_bar_notification_info_overflow = 2131361869;
@@ -12257,15 +15877,15 @@ namespace Contratista.Android
 			public const int SearchView_voiceIcon = 12;
 			
 			public static int[] SfBusyIndicator = new int[] {
-					2130772473,
-					2130772474,
-					2130772475,
-					2130772476,
-					2130772477,
-					2130772478,
-					2130772479,
-					2130772480,
-					2130772481};
+					2130772488,
+					2130772489,
+					2130772490,
+					2130772491,
+					2130772492,
+					2130772493,
+					2130772494,
+					2130772495,
+					2130772496};
 			
 			// aapt resource value: 0
 			public const int SfBusyIndicator_busyIndicatorAnimationTypes = 0;
@@ -12293,6 +15913,68 @@ namespace Contratista.Android
 			
 			// aapt resource value: 3
 			public const int SfBusyIndicator_busyIndicatorViewBoxWidth = 3;
+			
+			public static int[] SfRangeSlider = new int[] {
+					2130772473,
+					2130772474,
+					2130772475,
+					2130772476,
+					2130772477,
+					2130772478,
+					2130772479,
+					2130772480,
+					2130772481,
+					2130772482,
+					2130772483,
+					2130772484,
+					2130772485,
+					2130772486,
+					2130772487};
+			
+			// aapt resource value: 7
+			public const int SfRangeSlider_rangeSliderDirectionReversed = 7;
+			
+			// aapt resource value: 13
+			public const int SfRangeSlider_rangeSliderEndValue = 13;
+			
+			// aapt resource value: 0
+			public const int SfRangeSlider_rangeSliderKnobColor = 0;
+			
+			// aapt resource value: 11
+			public const int SfRangeSlider_rangeSliderMaximum = 11;
+			
+			// aapt resource value: 10
+			public const int SfRangeSlider_rangeSliderMinimum = 10;
+			
+			// aapt resource value: 6
+			public const int SfRangeSlider_rangeSliderOrientation = 6;
+			
+			// aapt resource value: 4
+			public const int SfRangeSlider_rangeSliderShowRange = 4;
+			
+			// aapt resource value: 3
+			public const int SfRangeSlider_rangeSliderShowValueLabel = 3;
+			
+			// aapt resource value: 12
+			public const int SfRangeSlider_rangeSliderStartValue = 12;
+			
+			// aapt resource value: 14
+			public const int SfRangeSlider_rangeSliderThumbSize = 14;
+			
+			// aapt resource value: 8
+			public const int SfRangeSlider_rangeSliderTickPlacement = 8;
+			
+			// aapt resource value: 1
+			public const int SfRangeSlider_rangeSliderTrackColor = 1;
+			
+			// aapt resource value: 2
+			public const int SfRangeSlider_rangeSliderTrackSelectionColor = 2;
+			
+			// aapt resource value: 5
+			public const int SfRangeSlider_rangeSliderValue = 5;
+			
+			// aapt resource value: 9
+			public const int SfRangeSlider_rangeSliderValuePlacement = 9;
 			
 			public static int[] SfRotator = new int[] {
 					2130772459,
