@@ -26,6 +26,8 @@ namespace Contratista.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::PCLStorage.Resource.String.ApplicationName = global::Contratista.Android.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::Contratista.Android.Resource.String.Hello;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::Contratista.Android.Resource.Drawable.Avatar1;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::Contratista.Android.Resource.Drawable.Avatar10;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::Contratista.Android.Resource.Drawable.Avatar11;
@@ -11537,6 +11539,12 @@ namespace Contratista.Android
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0a00a0
+			public const int ApplicationName = 2131361952;
+			
+			// aapt resource value: 0x7f0a009f
+			public const int Hello = 2131361951;
 			
 			// aapt resource value: 0x7f0a0056
 			public const int SfPdfViewerCancel = 2131361878;

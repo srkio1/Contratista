@@ -21,6 +21,7 @@ namespace Contratista
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Index : TabbedPage
     {
+        private string TextoBuscador;
         public Index()
         {
             InitializeComponent();
@@ -184,13 +185,25 @@ namespace Contratista
 
         private void Vercontrasena_Pressed(object sender, EventArgs e)
         {
-            contrasenaEntry.IsPassword = false;
+            if (contrasenaEntry.IsPassword = true)
+            {
+                contrasenaEntry.IsPassword = false;
+            }
+            else
+            {
+                contrasenaEntry.IsPassword = true;
+            }
 
         }
 
         private void Vercontrasena_Focused(object sender, FocusEventArgs e)
         {
             
+        }
+        private void Buscador_SearchButtonPressed(object sender, EventArgs e)
+        {
+            TextoBuscador = buscador.Text;
+            Navigation.PushAsync(new Busqueda(TextoBuscador));
         }
     }
 }

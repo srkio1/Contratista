@@ -6,8 +6,10 @@
 
 <ItemGroup>
 <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+<PackageReference Include="PCLStorage" Version="1.0.2" />
 <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="17.3.0.26" />
 <PackageReference Include="Syncfusion.Xamarin.SfRotator" Version="17.3.0.14" />
+<PackageReference Include="Xam.Plugin.Connectivity" Version="3.0.1" />
 <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.1" />
 <PackageReference Include="Xamarin.Essentials" Version="1.3.0" />
 <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
@@ -52,6 +54,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Busqueda.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Empleado\AgregarCatalogo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
