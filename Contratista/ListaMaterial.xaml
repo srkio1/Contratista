@@ -4,7 +4,7 @@
              x:Class="Contratista.ListaMaterial">
     <ContentPage.Content>
         <ListView x:Name="listaMateriales" ItemTapped="ListaMateriales_ItemTapped"
-                  RowHeight="80" BackgroundColor="Transparent">
+                  RowHeight="80" BackgroundColor="Transparent" SeparatorColor="Red">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
