@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:syncfusion="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Vercatalogo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout HorizontalOptions="Center" Padding="5,5,5,5">
+                <StackLayout>
+                    <Label x:Name="TituloTxt" FontSize="Large" HorizontalOptions="Center" />
+                </StackLayout>
+                <StackLayout>
+                    <syncfusion:SfRotator x:Name="rotator" SelectedIndex="2">
+
+                        <syncfusion:SfRotator.ItemTemplate >
+                            <DataTemplate>
+                                <Image  Source="{Binding Image}"/>
+                            </DataTemplate>
+
+
+                        </syncfusion:SfRotator.ItemTemplate>
+
+                    </syncfusion:SfRotator>
+                </StackLayout>
+                <StackLayout>
+                    <Label x:Name="DescripcionTxt" FontSize="Medium" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

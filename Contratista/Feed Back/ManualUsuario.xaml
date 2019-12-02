@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Feed_Back.ManualUsuario"
+             BackgroundColor="#172de2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Editor Text="Aqui va el manual de usuario mediante de videos instructivos"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    IsReadOnly="True"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

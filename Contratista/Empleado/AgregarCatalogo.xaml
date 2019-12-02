@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.AgregarCatalogo"
+             >
+    <ContentPage.Content>
+        <ScrollView >
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nombre: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Entry x:Name="nombreEntry" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Descripcion: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Entry x:Name="descripcionEntry" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 1: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen1Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreimg1" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg1" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg1_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 2: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen2Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreImg2" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg2" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg2_Clicked"/>
+                </StackLayout>
+                <StackLayout>
+                    <Button Text="GUARDAR" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

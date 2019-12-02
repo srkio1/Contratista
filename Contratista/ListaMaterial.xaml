@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.ListaMaterial">
+    
+        <ContentPage.Content>
+        <ListView x:Name="listaMateriales" ItemTapped="ListaMateriales_ItemTapped"
+                  RowHeight="80" BackgroundColor="Transparent" 
+                  HasUnevenRows="True" >
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <ViewCell >
+                        <Frame CornerRadius="5"
+                               HasShadow="True"
+                               Margin="5">
+
+                            <Grid Padding="5,5,5,5" BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"></RowDefinition>
+                                    <RowDefinition Height="20"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="96"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0" Grid.Column="0" Text="{Binding nombre}" LineBreakMode="TailTruncation" FontSize="Medium" TextColor="Black"></Label>
+                                <Label Grid.Row="1" Grid.Column="0" Text="{Binding telefono}" Font="Medium"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                                <Label Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Text="{Binding calificacion}" WidthRequest="42" FontSize="18"  HorizontalOptions="End" TextColor="#FFBF00" VerticalOptions="Center" FontAttributes="Bold"/>
+                                <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Source="star_full" WidthRequest="24" VerticalOptions="Center"/>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
