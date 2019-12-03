@@ -10,7 +10,7 @@
                 <Picker Title="estado" x:Name="estado" SelectedIndexChanged="Estado_SelectedIndexChanged" >
                     
                     <Picker.Items>
-                        <x:String>Activo</x:String>
+                        <x:String>Activa</x:String>
                         <x:String>Inactivo</x:String>
                     </Picker.Items>
                 </Picker>

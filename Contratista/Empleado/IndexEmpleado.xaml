@@ -41,13 +41,13 @@
                 <StackLayout Padding="5, 20, 5, 10">
                     <Label Text="Tienes alguna consulta o sugerencia?" TextColor="Black" HorizontalOptions="Center"/>
                     <Button Text="Contactar soporte" VerticalOptions="End" BackgroundColor="Black" TextColor="White" Clicked="Button_Clicked_1"/>
-                    <Button Text="trabajo empleado" Clicked="Button_Clicked_2"/>
+                   
                 </StackLayout>
             </StackLayout>
         </ScrollView>
         </ContentPage.Content>
     </ContentPage>
-    <ContentPage Title="Trabajos">
+    <!--<ContentPage Title="Trabajos">
         <StackLayout>
             <StackLayout Padding="5, 5, 5, 5" BackgroundColor="White">
                 <StackLayout Orientation="Horizontal">
@@ -80,5 +80,5 @@
                 <BoxView HeightRequest="1" Color="Black"/>
             </StackLayout>
         </StackLayout>
-    </ContentPage>
+    </ContentPage>-->
 </TabbedPage>

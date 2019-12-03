@@ -67,7 +67,7 @@
                             <ViewCell>
                                 <Frame CornerRadius="5"
                                HasShadow="True"
-                               Margin="0,0,0,8">
+                               Margin="5">
                                     <Label Text="{Binding nombre}"
                                           TextColor="Black" FontAttributes="Bold"/>
                                 </Frame>

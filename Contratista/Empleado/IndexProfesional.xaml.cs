@@ -133,5 +133,10 @@ namespace Contratista.Empleado
             Navigation.PushAsync(new ModificarProfesional(IdProfesional, Nombre_Profesional, Apellido_paterno, Apellido_materno, Telefono, Email, Direccion,  Foto,
                         Cedula_identidad, Rubro, Calificacion, Estado, Prioridad, Descripcion, Nit, Curriculum, Usuario , Contrasena));
         }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarCurriculum(IdProfesional, Nombre_Profesional, Email ,Telefono));
+        }
     }
 }

@@ -44,10 +44,7 @@
                         <Label Text="NIT: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
                         <Label x:Name="txtNit" FontSize="Medium" TextColor="Black"/>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                        <Label Text="Productos: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150" VerticalOptions="Center"/>
-                        <Label x:Name="txtProductos" FontSize="Medium" TextColor="Black" VerticalOptions="Center"/>
-                    </StackLayout>
+                    
                     <StackLayout>
                         <Button Text="Modificar informacion" x:Name="modiicar" CornerRadius="5" Clicked="Modiicar_Clicked"/>
                     </StackLayout>
