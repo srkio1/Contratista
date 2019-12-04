@@ -3,46 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contratista.Empleado.ModificarEmpleado">
     <ContentPage.Content>
-        <StackLayout>
+        <ScrollView >
+            <StackLayout>
 
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="Nombre: " FontSize="Medium" TextColor="Black" FontAttributes="Bold"  WidthRequest="150"/>
-                <Entry x:Name="nombreentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="Apellido Paterno: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
-                <Entry x:Name="apellidopEntry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="Apellido Materno: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
-                <Entry x:Name="apellidomEntry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="Telefono: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
-                <Entry x:Name="telefonoentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="Email: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
-                <Entry x:Name="emailentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="Carnet: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
-                <Entry x:Name="carnetentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="estado: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
-                <Entry x:Name="estadoentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Nombre: " FontSize="Medium" TextColor="Black" FontAttributes="Bold"  WidthRequest="150"/>
+                    <Entry x:Name="nombreentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Apellido Paterno: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="apellidopEntry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Apellido Materno: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="apellidomEntry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Telefono: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="telefonoentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Direccion: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="direntry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Carnet: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="carnetentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Rubro: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="rubroentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
 
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="Descripcion: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
-                <Entry x:Name="descripcionentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
-                <Label Text="NIT: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
-                <Entry x:Name="nitentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
 
-        </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="estado: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="estadoentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Descripcion: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="descripcionentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="NIT: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Entry x:Name="nitentry" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+                <StackLayout>
+                    <Button x:Name="guardar" Text="Guardar" Clicked="Guardar_Clicked"/>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

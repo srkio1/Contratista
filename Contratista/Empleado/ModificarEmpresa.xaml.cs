@@ -37,6 +37,7 @@ namespace Contratista.Empleado
            string Usuario, string Contrasena)
 		{
 			InitializeComponent ();
+
             IdEmpresa1 = IdEmpresa;
             Nombre_empresa1 = Nombre_empresa;
             Telefono1 = Telefono;

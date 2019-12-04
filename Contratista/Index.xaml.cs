@@ -88,7 +88,9 @@ namespace Contratista
                                 if (usuarioEntry.Text == item2.usuario)
                                 {
                                     await Navigation.PushAsync(new IndexEmpleado(item2.id_contratista, item2.nombre, item2.apellido_paterno, item2.apellido_materno,
-                                                                                 item2.telefono, item2.rubro, item2.estado, item2.calificacion, item2.foto, item2.descripcion));
+                                                                                 item2.telefono, item2.direccion , item2.foto , item2.cedula_identidad, item2.rubro,
+                                                                                 item2.calificacion, item2.estado, item2.prioridad, item2.descripcion, item2.nit , item2.usuario,
+                                                                                 item2.contrasena));
                                     cargando.IsVisible = false;
                                 }
                                 else

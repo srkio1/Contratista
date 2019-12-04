@@ -33,6 +33,7 @@ namespace Contratista.Empleado
         private string Fundaempresa;
         private string Usuario;
         private string Contrasena;
+
         ObservableCollection<Portafolio_empresa> portafolio_Empresas = new ObservableCollection<Portafolio_empresa>();
         public ObservableCollection<Portafolio_empresa> Portafolios { get { return portafolio_Empresas; } }
         public IndexEmpresa(int id_empresa, string nombre, int telefono, string email, string direccion, string ubicacion_lat, string ubicacion_long, string foto ,int nit,
@@ -65,15 +66,7 @@ namespace Contratista.Empleado
         {
             base.OnAppearing();
             idEntry.Text = IdEmpresa.ToString();
-            //txtNombre.Text = Nombre_empresa;
-            //txtTelefono.Text = Telefono.ToString();
-            //txtEmail.Text = Email;
-            //txtRubro.Text = Rubro;
-            //txtPrioridad.Text = Prioridad.ToString();
-            
-            //txtNit.Text = Nit.ToString();
-            //txtDescripcion.Text = Descripcion;
-            //img_perfil.Source = "http://dmrbolivia.online" + Foto;
+           
         }
         private async void TraerPerfil()
         {
