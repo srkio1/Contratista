@@ -27,7 +27,7 @@ namespace Contratista
 
         int IdProfesional;
         public VerPortafolio(int id_portafolio, string nombre, string imagen_1, string imagen_2, string imagen_3, string imagen_4, string imagen_5, string imagen_6,
-                                 string imagen_7, int id_profesional)
+                                 string imagen_7, int id_profesional )
         {
             InitializeComponent();
 
@@ -50,7 +50,7 @@ namespace Contratista
 
             }
             rotator.ItemsSource = GetDataSource();
-
+           
         }
     }
 }

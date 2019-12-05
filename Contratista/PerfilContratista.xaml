@@ -33,9 +33,7 @@
 
                     </StackLayout>
                 </Frame>
-                <StackLayout Padding="5,10,5,10" VerticalOptions="EndAndExpand">
-                    <Button Text="CONTACTANOS" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200" BackgroundColor="Black" TextColor="White" Padding="0,10,0,10" />
-                </StackLayout>
+               
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

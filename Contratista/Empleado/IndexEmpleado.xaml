@@ -47,38 +47,5 @@
         </ScrollView>
         </ContentPage.Content>
     </ContentPage>
-    <!--<ContentPage Title="Trabajos">
-        <StackLayout>
-            <StackLayout Padding="5, 5, 5, 5" BackgroundColor="White">
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Jorge Cabrera Pereira" FontSize="Large" TextColor="Black"/>
-                    <Image Source="icon_star" HorizontalOptions="EndAndExpand" VerticalOptions="Center" HeightRequest="15" WidthRequest="15"/>
-                    <Label Text="5" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="End " VerticalOptions="Center" TextColor="Black"/>
-                </StackLayout>
-                <Label Text="Reparacion de goteras y cambio de 8 tejas" FontSize="Medium"/>
-                <Label Text="Total 140Bs" FontSize="Medium"/>
-                <BoxView HeightRequest="1" Color="Black"/>
-            </StackLayout>
-            <StackLayout Padding="5, 5, 5, 5" BackgroundColor="White">
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Sonia Mendoza Cardenas" FontSize="Large" TextColor="Black"/>
-                    <Image Source="icon_star" HorizontalOptions="EndAndExpand" VerticalOptions="Center" HeightRequest="15" WidthRequest="15"/>
-                    <Label Text="4" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="End " VerticalOptions="Center" TextColor="Black"/>
-                </StackLayout>
-                <Label Text="Arreglo de cielo falso" FontSize="Medium"/>
-                <Label Text="Total 200Bs" FontSize="Medium"/>
-                <BoxView HeightRequest="1" Color="Black"/>
-            </StackLayout>
-            <StackLayout Padding="5, 5, 5, 5" BackgroundColor="White">
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Diego Aguilar Sandoval" FontSize="Large" TextColor="Black"/>
-                    <Image Source="icon_star" HorizontalOptions="EndAndExpand" VerticalOptions="Center" HeightRequest="15" WidthRequest="15"/>
-                    <Label Text="5" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="End " VerticalOptions="Center" TextColor="Black"/>
-                </StackLayout>
-                <Label Text="Arreglo de grietas en la pared" FontSize="Medium"/>
-                <Label Text="Total 340Bs" FontSize="Medium"/>
-                <BoxView HeightRequest="1" Color="Black"/>
-            </StackLayout>
-        </StackLayout>
-    </ContentPage>-->
+   
 </TabbedPage>
