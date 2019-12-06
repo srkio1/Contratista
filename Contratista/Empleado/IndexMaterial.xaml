@@ -5,7 +5,7 @@
     <ContentPage Title="Datos">
         <ContentPage.Content>
             <ScrollView>
-                <StackLayout Padding="5, 5, 5, 5">
+                <StackLayout Padding="5, 5, 5, 5" x:Name="stkDatos">
                     <StackLayout BackgroundColor="Yellow" HeightRequest="200" Orientation="Horizontal">
                         <Image x:Name="img_perfil" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
@@ -50,34 +50,36 @@
     </ContentPage>
     <ContentPage Title="Productos">
         <ScrollView>
-            <!--<StackLayout Orientation="Vertical">
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="MIS PRODUCTOS" FontSize="Large" HorizontalOptions="Start" FontAttributes="Bold"/>
-                    <Button Text="Agregar" HorizontalOptions="EndAndExpand" VerticalOptions="Start"/>
+            <StackLayout x:Name="stkProductos" Padding="5">
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="MIS PRODUCTOS" FontSize="Large" HorizontalOptions="Start" FontAttributes="Bold"/>
+                        <Button Text="Agregar" HorizontalOptions="EndAndExpand" VerticalOptions="Start"/>
+                    </StackLayout>
                 </StackLayout>
-            </StackLayout>-->
-            <ListView x:Name="listaProducto"  ItemTapped="ListaProducto_ItemTapped"
+                <ListView x:Name="listaProducto"  ItemTapped="ListaProducto_ItemTapped"
                   RowHeight="50" SeparatorVisibility="None" HasUnevenRows="True" BackgroundColor="Transparent">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Frame CornerRadius="5" HasShadow="True" Margin="5,5,5,5">
-                                <StackLayout BackgroundColor="White" Orientation="Vertical">
-                                    <StackLayout Orientation="Horizontal">
-                                        <Image Source="icon_portafolio" VerticalOptions="Center"/>
-                                        <Label Text="{Binding nombre}" HorizontalTextAlignment="Center" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame CornerRadius="5" HasShadow="True" Margin="5,5,5,5">
+                                    <StackLayout BackgroundColor="White" Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="icon_portafolio" VerticalOptions="Center"/>
+                                            <Label Text="{Binding nombre}" HorizontalTextAlignment="Center" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                        </StackLayout>
                                     </StackLayout>
-                                </StackLayout>
-                            </Frame>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
         </ScrollView>
     </ContentPage>
     <ContentPage Title="Promocion">
         <ScrollView>
-            <StackLayout>
+            <StackLayout x:Name="stkPromo" Padding="5">
                 <StackLayout Orientation="Horizontal">
                     <Label Text="MIS PROMOCIONES" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Start"/>
                     <Button Text="AGREGAR" HorizontalOptions="EndAndExpand" VerticalOptions="Center" BackgroundColor="Green" TextColor="White" Clicked="Button_Clicked"/>

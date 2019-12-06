@@ -5,7 +5,7 @@
     <ContentPage Title="Datos">
         <ContentPage.Content>
             <ScrollView>
-                <StackLayout Padding="5, 5, 5, 5">
+                <StackLayout Padding="5, 5, 5, 5" x:Name="stkDatos">
                     <StackLayout BackgroundColor="Yellow" HeightRequest="200" Orientation="Horizontal">
                         <Image x:Name="img_perfil" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
@@ -59,7 +59,7 @@
     </ContentPage>
     <ContentPage Title="Portafolio">
         <ScrollView>
-            <StackLayout Orientation="Vertical" >
+            <StackLayout Orientation="Vertical" x:Name="stkPortafolio" >
                 <StackLayout Orientation="Horizontal" BackgroundColor="White" HeightRequest="100">
                     <Label Text="MIS PORTAFOLIOS" FontSize="Large" HorizontalOptions="Start" FontAttributes="Bold" VerticalOptions="Center" TextColor="Black"/>
                     <Button Text="Agregar" HorizontalOptions="EndAndExpand" VerticalOptions="Start" Clicked="Button_Clicked"/>

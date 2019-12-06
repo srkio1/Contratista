@@ -70,10 +70,8 @@ namespace Contratista.Empleado
             img_perfil.Source = "http://dmrbolivia.online" + foto;
         }
 
-        private async void ListPortafolios_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-           
-        }
+
+       
 
         private async void ListaProducto_ItemTapped(object sender, ItemTappedEventArgs e)
         {

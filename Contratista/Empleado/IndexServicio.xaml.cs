@@ -75,16 +75,17 @@ namespace Contratista.Empleado
             img_perfil.Source = "http://dmrbolivia.online" + foto;
            
         }
-
+        //Este si funciona xD se cree que es por q se genera automaticamente
         protected override void OnAppearing()
         {
+
             base.OnAppearing();
             stkPromoActiva.Children.Clear();
             stkPromoInactiva.Children.Clear();
             GetCatalogo();
             GetPromo();
         }
-
+        
         private async void ListPortafolios_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var detalles = e.Item as Catalogo;
@@ -128,7 +129,7 @@ namespace Contratista.Empleado
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new AgregarCatalogo(IdServicio, Nombre_servicio));
         }
 
         private void Button_Clicked_1(object sender, EventArgs e)

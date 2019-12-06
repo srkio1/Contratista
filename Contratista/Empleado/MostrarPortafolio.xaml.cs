@@ -1,6 +1,10 @@
-﻿using System;
+﻿using Contratista.Datos;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,7 +32,7 @@ namespace Contratista.Empleado
         {
             InitializeComponent();
 
-
+            IdPortafolio = id_portafolio;
 
             List<CustomData> GetDataSource()
             {
@@ -44,6 +48,45 @@ namespace Contratista.Empleado
             }
             rotator.ItemsSource = GetDataSource();
             TituloTxt.Text = nombre;
+        }
+        
+        private async void BtnBorrar_Clicked(object sender, EventArgs e)
+        {
+            var action = await DisplayActionSheet("BORRAR PORTAFOLIO?", null, null, "SI", "NO");
+            switch (action)
+            {
+                case "SI":
+                    try
+                    {
+                        Portafolio_profesional portafolio_Profesional = new Portafolio_profesional()
+                        {
+                            id_portafolio_p = IdPortafolio
+                        };
+
+                        var json = JsonConvert.SerializeObject(portafolio_Profesional);
+                        var content = new StringContent(json, Encoding.UTF8, "application/json");
+                        HttpClient client = new HttpClient();
+                        var result = await client.PostAsync("http://dmrbolivia.online/api_contratistas/portafolios/borrarPortafolioProfesional.php", content);
+
+                        if (result.StatusCode == HttpStatusCode.OK)
+                        {
+                            await DisplayAlert("BORRAR", "Se borro correctamente", "OK");
+                            await Navigation.PopAsync(true);
+                        }
+                        else
+                        {
+                            await DisplayAlert("ERROR", result.StatusCode.ToString(), "OK");
+                            await Navigation.PopAsync();
+                        }
+                    }
+                    catch (Exception err)
+                    {
+                        await DisplayAlert("ERROR", err.ToString(), "OK");
+                    }
+                    break;
+                case "NO":
+                    break;
+            }
         }
     }
 }

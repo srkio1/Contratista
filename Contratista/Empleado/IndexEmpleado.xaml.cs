@@ -65,26 +65,14 @@ namespace Contratista.Empleado
             img_perfil.Source = "http://dmrbolivia.online" + foto;
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            var action = await DisplayActionSheet("Nuevo trabajo", "NO", "SI", "Aceptar trabajo?");
-            switch (action)
-            {
-                case "SI":
-                    await Navigation.PushAsync(new TrabajoEmpleado());
-                    break;
-            }
-        }
+       
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ContactanosContratista());
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new TrabajoEmpleado());
-        }
+      
 
         private void Button_Clicked_3(object sender, EventArgs e)
         {

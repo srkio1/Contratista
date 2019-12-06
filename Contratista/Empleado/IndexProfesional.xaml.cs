@@ -75,6 +75,7 @@ namespace Contratista.Empleado
             img_perfil.Source = "http://dmrbolivia.online" + foto;
             GetInfo();
         }
+      
 
         private async void GetInfo()
         {

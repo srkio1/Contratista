@@ -59,39 +59,34 @@ namespace Contratista.Empleado
             Contrasena = contrasena;
 
            
-            GetInfo();
-            TraerPerfil();
-        }
-        protected async override void OnAppearing()
-        {
-            base.OnAppearing();
-            idEntry.Text = IdEmpresa.ToString();
            
+          
         }
-        private async void TraerPerfil()
-        {
-            HttpClient client = new HttpClient();
-            var response = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/empresas/listaEmpresa.php");
-            var empresas = JsonConvert.DeserializeObject<List<Empresa>>(response);
+        
+        //private async void TraerPerfil()
+        //{
+        //    HttpClient client = new HttpClient();
+        //    var response = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/empresas/listaEmpresa.php");
+        //    var empresas = JsonConvert.DeserializeObject<List<Empresa>>(response);
 
-            foreach (var item in empresas.Distinct())
-            {
-                if (item.id_empresa == IdEmpresa)
+        //    foreach (var item in empresas.Distinct())
+        //    {
+        //        if (item.id_empresa == IdEmpresa)
 
-                {
-                    img_perfil.Source = "http://dmrbolivia.online" + item.foto;
-                    txtNombre.Text = item.nombre;
-                    txtTelefono.Text = item.telefono.ToString();
-                    txtEmail.Text = item.email;
-                    txtRubro.Text = item.rubro;
-                    txtPrioridad.Text = item.prioridad.ToString();
+        //        {
+        //            img_perfil.Source = "http://dmrbolivia.online" + item.foto;
+        //            txtNombre.Text = item.nombre;
+        //            txtTelefono.Text = item.telefono.ToString();
+        //            txtEmail.Text = item.email;
+        //            txtRubro.Text = item.rubro;
+        //            txtPrioridad.Text = item.prioridad.ToString();
 
-                    txtNit.Text = item.nit.ToString();
-                    txtDescripcion.Text = item.descripcion;
-                }
-            }
+        //            txtNit.Text = item.nit.ToString();
+        //            txtDescripcion.Text = item.descripcion;
+        //        }
+        //    }
 
-        }
+        //}
             private async void GetInfo()
         {
 
