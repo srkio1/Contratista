@@ -6,8 +6,9 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <StackLayout>
-                    <Label x:Name="TituloTxt" FontSize="Large" Text="casadegoku"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="TituloTxt" FontSize="Large" HorizontalOptions="StartAndExpand" />
+                    <Button x:Name="btnEditar" Text="EDITAR" HorizontalOptions="End" Clicked="BtnEditar_Clicked"/>
                 </StackLayout>
                 <StackLayout>
                     <syncfusion:SfRotator x:Name="rotator">
@@ -23,7 +24,7 @@
                     </syncfusion:SfRotator>
                 </StackLayout>
                 <StackLayout>
-                    <Label x:Name="DescripcionTxt" FontSize="Medium" Text="casa de goku ubicada plan3000"/>
+                    <Label x:Name="DescripcionTxt" FontSize="Medium" />
                 </StackLayout>
             </StackLayout>
         </ScrollView>

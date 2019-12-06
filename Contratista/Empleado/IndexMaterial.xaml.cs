@@ -145,9 +145,18 @@ namespace Contratista.Empleado
                         txtDesc.TextColor = Color.Black;
                         stk1.Children.Add(txtDesc);
 
+                        Button btnEditar = new Button();
+                        btnEditar.Text = "EDITAR PROMOCION";
+                        btnEditar.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        btnEditar.BackgroundColor = Color.Yellow;
+                        btnEditar.TextColor = Color.Black;
+                        btnEditar.Clicked += async (sender, args) => await Navigation.PushAsync(new EditarPromocionMaterial(item.id_material, item.nombre, item.estado, item.descripcion, item.imagen, item.id_promocion_m));
+                        stk1.Children.Add(btnEditar);
+
                         BoxView bv = new BoxView();
                         bv.HeightRequest = 5;
-                        bv.Color = Color.Gray;
+                        bv.Color = Color.Black;
+                        stk1.Children.Add(bv);
                     }
                 }
 
@@ -179,6 +188,19 @@ namespace Contratista.Empleado
                         txtDesc.FontSize = 15;
                         txtDesc.TextColor = Color.Black;
                         stk2.Children.Add(txtDesc);
+
+                        Button btnEditar = new Button();
+                        btnEditar.Text = "EDITAR PROMOCION";
+                        btnEditar.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        btnEditar.BackgroundColor = Color.Yellow;
+                        btnEditar.TextColor = Color.Black;
+                        btnEditar.Clicked += async (sender, args) => await Navigation.PushAsync(new EditarPromocionMaterial(item.id_material, item.nombre, item.estado, item.descripcion, item.imagen, item.id_promocion_m));
+                        stk2.Children.Add(btnEditar);
+
+                        BoxView bv = new BoxView();
+                        bv.HeightRequest = 5;
+                        bv.Color = Color.Black;
+                        stk2.Children.Add(bv);
                     }
                 }
             }

@@ -101,6 +101,7 @@ namespace Contratista.Empleado
                             imagen_6 = item.imagen_6,
                             imagen_7 = item.imagen_7,
                             id_profesional = item.id_profesional
+                            
                         });
                     }
                 }

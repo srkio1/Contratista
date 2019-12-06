@@ -76,9 +76,19 @@ namespace Contratista
             }
             else
             {
-                listSearch.ItemsSource = Items.Where(x => x.nombre.ToLower().Contains(filter.ToLower()));
+                listSearch.ItemsSource = Items.Where(x => x.rubro.ToLower().Contains(filter.ToLower()) || x.descripcion.ToLower().Contains(filter.ToLower()));
+
             }
             listSearch.EndRefresh();
         }
-	}
+
+        private async void ListSearch_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var detalles = e.Item as Datos.Contratista;
+            await Navigation.PushAsync(new PerfilContratista(detalles.id_contratista, detalles.nombre,
+                                                         detalles.apellido_paterno, detalles.apellido_materno,
+                                                         detalles.telefono, detalles.foto, detalles.rubro,
+                                                         detalles.calificacion, detalles.descripcion));
+        }
+    }
 }

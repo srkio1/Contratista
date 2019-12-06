@@ -73,6 +73,14 @@ namespace Contratista.Empleado
             txtNit.Text = nit.ToString();
             txtDescripcion.Text = descripcion;
             img_perfil.Source = "http://dmrbolivia.online" + foto;
+           
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            stkPromoActiva.Children.Clear();
+            stkPromoInactiva.Children.Clear();
             GetCatalogo();
             GetPromo();
         }
@@ -161,9 +169,18 @@ namespace Contratista.Empleado
                         txtDesc.TextColor = Color.Black;
                         stk1.Children.Add(txtDesc);
 
+                        Button btnEditar = new Button();
+                        btnEditar.Text = "EDITAR PROMOCION";
+                        btnEditar.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        btnEditar.BackgroundColor = Color.Yellow;
+                        btnEditar.TextColor = Color.Black;
+                        btnEditar.Clicked += async (sender, args) => await Navigation.PushAsync(new EditarPromocionServicio(item.id_servicio, item.nombre, item.estado, item.descripcion, item.imagen, item.id_promocion_s));
+                        stk1.Children.Add(btnEditar);
+
                         BoxView bv = new BoxView();
                         bv.HeightRequest = 5;
-                        bv.Color = Color.Gray;
+                        bv.Color = Color.Black;
+                        stk1.Children.Add(bv);
                     }
                 }
 
@@ -195,6 +212,19 @@ namespace Contratista.Empleado
                         txtDesc.FontSize = 15;
                         txtDesc.TextColor = Color.Black;
                         stk2.Children.Add(txtDesc);
+
+                        Button btnEditar = new Button();
+                        btnEditar.Text = "EDITAR PROMOCION";
+                        btnEditar.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        btnEditar.BackgroundColor = Color.Yellow;
+                        btnEditar.TextColor = Color.Black;
+                        btnEditar.Clicked += async (sender, args) => await Navigation.PushAsync(new EditarPromocionServicio(item.id_servicio, item.nombre, item.estado, item.descripcion, item.imagen, item.id_promocion_s));
+                        stk2.Children.Add(btnEditar);
+
+                        BoxView bv = new BoxView();
+                        bv.HeightRequest = 5;
+                        bv.Color = Color.Black;
+                        stk2.Children.Add(bv);
                     }
                 }
             }

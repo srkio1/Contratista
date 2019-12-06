@@ -50,7 +50,8 @@ namespace Contratista
 
             }
             rotator.ItemsSource = GetDataSource();
-           
+            TituloTxt.Text = nombre;
+            
         }
     }
 }

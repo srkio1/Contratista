@@ -8,7 +8,7 @@
         <ScrollView>
             <StackLayout>
                 <StackLayout>
-                    <Label x:Name="TituloTxt" FontSize="Large" Text="casadegoku"/>
+                    <Label x:Name="TituloTxt" FontSize="Large" Text=" "/>
                 </StackLayout>
                 <StackLayout>
                     <syncfusion:SfRotator x:Name="rotator">
@@ -24,7 +24,7 @@
                     </syncfusion:SfRotator>
                 </StackLayout>
                 <StackLayout>
-                    <Label x:Name="DescripcionTxt" FontSize="Medium" Text="casa de goku ubicada plan3000"/>
+                    <Label x:Name="DescripcionTxt" FontSize="Medium" Text=" "/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
