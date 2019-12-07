@@ -16,7 +16,7 @@ namespace Contratista.Datos
             var sub = new AbsoluteLayout();
             splashImage = new Image
             {
-                Source = "icon_app_1.png",
+                Source = "fondoslpash.png",
                 WidthRequest = 200,
                 HeightRequest = 200
             };
