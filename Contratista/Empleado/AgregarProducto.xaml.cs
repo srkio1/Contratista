@@ -14,9 +14,9 @@ using Newtonsoft.Json;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AgregarProducto : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AgregarProducto : ContentPage
+    {
         private MediaFile _mediaFile;
         private string ruta;
         private MediaFile _mediaFile2;
@@ -24,12 +24,12 @@ namespace Contratista.Empleado
         private int Id_Material;
         private string Nombre_Materials;
         private string Fecha;
-        public AgregarProducto (int IdMaterial, string Nombre_material)
-		{
-			InitializeComponent ();
+        public AgregarProducto(int IdMaterial, string Nombre_material)
+        {
+            InitializeComponent();
             Id_Material = IdMaterial;
             Nombre_Materials = Nombre_material;
-            Fecha = DateTime.Today.ToString("dd-MM-yyyy");
+            Fecha = DateTime.Today.ToString("dd-MM-yyyy hh:mm:ss");
         }
 
         private async void AgregarImg1_Clicked(object sender, EventArgs e)

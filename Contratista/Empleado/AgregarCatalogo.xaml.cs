@@ -14,21 +14,23 @@ using Xamarin.Forms.Xaml;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AgregarCatalogo : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AgregarCatalogo : ContentPage
+    {
         private MediaFile _mediaFile;
         private string ruta;
         private MediaFile _mediaFile2;
         private string ruta2;
         private int IdServicio;
         private string Nombre_Servicio;
-        public AgregarCatalogo (int idServicio, string nombre_servicio)
-		{
-			InitializeComponent ();
+        private string Fecha;
+        public AgregarCatalogo(int idServicio, string nombre_servicio)
+        {
+            InitializeComponent();
             IdServicio = idServicio;
             Nombre_Servicio = nombre_servicio;
-		}
+            Fecha = DateTime.Today.ToString("dd-MM-yyyy hh:mm:ss");
+        }
 
         private async void AgregarImg1_Clicked(object sender, EventArgs e)
         {
@@ -48,7 +50,7 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Nombre_Servicio + IdServicio + "_1.jpg"
+                            Name = Fecha + Nombre_Servicio + IdServicio + "_1.jpg"
                         });
 
                         if (_mediaFile == null)
@@ -58,8 +60,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile.GetStream();
                         });
-                        ruta = "/api_contratistas/images/" + Nombre_Servicio + IdServicio + "_1.jpg";
-                        nombreimg1.Text = Nombre_Servicio + IdServicio + "_1.jpg";
+                        ruta = "/api_contratistas/images/" + Fecha + Nombre_Servicio + IdServicio + "_1.jpg";
+                        nombreimg1.Text = Fecha + Nombre_Servicio + IdServicio + "_1.jpg";
                     }
                     catch (Exception err)
                     {
@@ -115,7 +117,7 @@ namespace Contratista.Empleado
                         _mediaFile2 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Nombre_Servicio + IdServicio + "_2.jpg"
+                            Name = Fecha + Nombre_Servicio + IdServicio + "_2.jpg"
                         });
 
                         if (_mediaFile2 == null)
@@ -125,8 +127,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile2.GetStream();
                         });
-                        ruta2 = "/api_contratistas/images/" + Nombre_Servicio + IdServicio + "_2.jpg";
-                        nombreImg2.Text = Nombre_Servicio + IdServicio + "_2.jpg";
+                        ruta2 = "/api_contratistas/images/" + Fecha + Nombre_Servicio + IdServicio + "_2.jpg";
+                        nombreImg2.Text = Fecha + Nombre_Servicio + IdServicio + "_2.jpg";
                     }
                     catch (Exception err)
                     {
@@ -195,12 +197,12 @@ namespace Contratista.Empleado
 
                 if (result1.StatusCode == HttpStatusCode.OK)
                 {
-                    await DisplayAlert("Hey", "Se agrego correctamente", "Posi mi gresan");
+                    await DisplayAlert("Guardar", "Se agrego correctamente", "Ok");
                     await Navigation.PopAsync();
                 }
                 else
                 {
-                    await DisplayAlert("Hey", result.StatusCode.ToString(), "Fale Ferga");
+                    await DisplayAlert("Error", result.StatusCode.ToString(), "No se pudo Guardar", "Ok");
                     await Navigation.PopAsync();
                 }
             }
