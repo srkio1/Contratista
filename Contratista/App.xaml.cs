@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Contratista.Datos;
 using Xamarin.Forms;
 
 namespace Contratista
@@ -14,7 +14,7 @@ namespace Contratista
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTU5NjYxQDMxMzcyZTMzMmUzMFpacTFIMDFDTmw1TWhBL1haUy9FNS81Q0wyVjZjQ29lTDZvRFByTUp2WTg9");
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Index());
+            MainPage = new NavigationPage(new Splashpage());
         }
 
         protected override void OnStart()
