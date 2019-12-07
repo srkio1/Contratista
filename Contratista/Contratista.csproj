@@ -53,6 +53,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="AgregarCalificacion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="AgregarCalificacionEmpresa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="AgregarCalificacionMaterial.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="AgregarCalificacionProfesional.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="AgregarCalificacionServicio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Busqueda.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -80,6 +95,9 @@
     <EmbeddedResource Update="Empleado\EditarCatalogo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Empleado\EditarProducto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Empleado\EditarPromocionMaterial.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -97,6 +115,27 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Empleado\ModificarServicio.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Empleado\VerProductoMaterial.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Feed Back\AgregarFeedBackContratista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Feed Back\AgregarFeedBackEmpresa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Feed Back\AgregarFeedBackMaterial.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Feed Back\AgregarFeedBackProfesional.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Feed Back\AgregarFeedBackServicio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Feed Back\ContactanosCliente.xaml">
+      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Index.xaml">
       <Generator>MSBuild:Compile</Generator>

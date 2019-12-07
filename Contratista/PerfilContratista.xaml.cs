@@ -15,10 +15,14 @@ namespace Contratista
 	{
         private string queryrubro;
         int Numero_telefono = 0;
+        private string NombreC;
+        private int IDContratista;
         public PerfilContratista(int id_contratista, string nombre, string apellido_paterno, string apellido_materno, int telefono, string foto,
                                  string rubro, decimal calificacion, string descripcion)
         {
             InitializeComponent();
+            IDContratista = id_contratista;
+            NombreC = nombre + " " + apellido_paterno + " " + apellido_materno;
             queryrubro = rubro;
             Numero_telefono = telefono;
             nombretxt.Text = nombre + " " + apellido_paterno + " " + apellido_materno;
@@ -27,6 +31,10 @@ namespace Contratista
             txtTelefono.Text = telefono.ToString();
             califtxt.Text = calificacion.ToString();
             rubrotxt.Text = rubro;
+        }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarCalificacion(NombreC, IDContratista));
         }
 
         private async void ImageButton_Clicked(object sender, EventArgs e)

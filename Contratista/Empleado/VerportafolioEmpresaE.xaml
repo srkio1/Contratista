@@ -6,8 +6,9 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="5" >
-                <StackLayout>
-                    <Label x:Name="TituloTxt" FontSize="Large"  HorizontalTextAlignment="Center" TextColor="White"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="TituloTxt" FontSize="Large" HorizontalOptions="StartAndExpand" TextColor="Black"/>
+                    <Button x:Name="btnEditar" Text="BORRAR" HorizontalOptions="End" Clicked="BtnEditar_Clicked"/>
                 </StackLayout>
                 <StackLayout>
                     <syncfusion:SfRotator x:Name="rotator">

@@ -20,12 +20,14 @@ namespace Contratista
         private int IdEmpresa;
         private string Latitud;
         private string Longitud;
+        private string NombreEmpresa;
         ObservableCollection<Portafolio_empresa> portafolios_empresas = new ObservableCollection<Portafolio_empresa>();
         public ObservableCollection<Portafolio_empresa> Portafolio_Empresa { get { return portafolios_empresas; } }
         public PerfilEmpresa(int id_empresa, string nombre, int telefono, string email, string direccion, string ubicacion_lat,
             string ubicacion_long, string foto, string rubro, decimal calificacion, string descripcion)
         {
             InitializeComponent();
+            NombreEmpresa = nombre;
             Numero_telefono = telefono;
             Latitud = ubicacion_lat;
             Longitud = ubicacion_long;
@@ -39,7 +41,10 @@ namespace Contratista
             txtEmail.Text = email;
             GetInfo();
         }
-
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarCalificacionEmpresa(IdEmpresa, NombreEmpresa));
+        }
         private async void GetInfo()
         {
             try

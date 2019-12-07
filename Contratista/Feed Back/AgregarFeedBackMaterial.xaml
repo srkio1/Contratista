@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Feed_Back.AgregarFeedBackMaterial">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Asunto" FontSize="Medium" FontAttributes="Bold" WidthRequest="80" VerticalOptions="Center"/>
+                    <Picker Title="Elija una opcion" x:Name="pickNombre" SelectedIndexChanged="PickNombre_SelectedIndexChanged" TextColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                        <Picker.Items>
+                            <x:String>Error en la aplicacion</x:String>
+                            <x:String>Consulta</x:String>
+                            <x:String>Denunciar contratista</x:String>
+                            <x:String>Problemas con mi informacion</x:String>
+                            <x:String>Comentarios</x:String>
+                            <x:String>Otros</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+                <StackLayout Margin="1">
+                    <Label Text="Descripcion" FontSize="Medium" FontAttributes="Bold" WidthRequest="100"/>
+                    <Editor x:Name="txtDescripcion" Placeholder="Escribir..." HorizontalOptions="FillAndExpand" HeightRequest="400" Margin="5"/>
+                </StackLayout>
+                <StackLayout>
+                    <Button Text="ENVIAR" BackgroundColor="Black" WidthRequest="200" TextColor="White" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

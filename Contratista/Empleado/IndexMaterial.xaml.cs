@@ -56,8 +56,7 @@ namespace Contratista.Empleado
             Usuario = usuario;
             Contrasena = contrasena;
 
-            GetInfo();
-            GetPromo();
+            
             Nombre_material = nombre;
             IdMaterial = id_material;
             txtNombre.Text = nombre;
@@ -108,6 +107,15 @@ namespace Contratista.Empleado
                 Console.Write("EEERRROOOORRR= " + erro);
             }
             listaProducto.ItemsSource = productos.Distinct();
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            productos.Clear();
+            stkPromoActiva.Children.Clear();
+            stkPromoInactiva.Children.Clear();
+            GetInfo();
+            GetPromo();
         }
         private async void GetPromo()
         {
@@ -219,6 +227,21 @@ namespace Contratista.Empleado
         {
             Navigation.PushAsync(new ModificarMaterial(IdMaterial, Nombre_material, Telefono, Email, Direccion, Ubicacion_lat, Ubicacion_long, Foto,
                           Nit, Rubro, Calififacion, Prioridad, Descripcion, Usuario, Contrasena));
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Alert", "Quiere Cerrar Sesion", "Si", "No");
+                if (result) await this.Navigation.PushAsync(new Index());
+            });
+            return true;
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarProducto(IdMaterial, Nombre_material));
         }
     }
 }

@@ -19,6 +19,7 @@ namespace Contratista
         int Numero_telefono = 0;
         private string queryrubro;
         private int idProfesional;
+        private string NombreProfesional;
         ObservableCollection<Portafolio_profesional> portafolio_Profesionals = new ObservableCollection<Portafolio_profesional>();
         public ObservableCollection<Portafolio_profesional> Portafolios { get { return portafolio_Profesionals; } }
         public PerfilProfesional(int id_profesional, string nombre, string apellido_paterno, string apellido_materno, int telefono, string email,
@@ -26,6 +27,7 @@ namespace Contratista
             int nit, string curriculum)
         {
             InitializeComponent();
+            NombreProfesional = nombre + " " + apellido_paterno + " " + apellido_materno;
             Numero_telefono = telefono;
             queryrubro = rubro;
             idProfesional = id_profesional;
@@ -37,6 +39,10 @@ namespace Contratista
             califtxt.Text = calificacion.ToString();
             txtEmail.Text = email;
             GetInfo();
+        }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarCalificacionProfesional(idProfesional, NombreProfesional));
         }
         private async void GetInfo()
         {

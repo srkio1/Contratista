@@ -54,7 +54,7 @@
                 <StackLayout Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
                         <Label Text="MIS PRODUCTOS" FontSize="Large" HorizontalOptions="Start" FontAttributes="Bold"/>
-                        <Button Text="Agregar" HorizontalOptions="EndAndExpand" VerticalOptions="Start"/>
+                        <Button Text="Agregar" HorizontalOptions="EndAndExpand" VerticalOptions="Start" Clicked="Button_Clicked_1"/>
                     </StackLayout>
                 </StackLayout>
                 <ListView x:Name="listaProducto"  ItemTapped="ListaProducto_ItemTapped"

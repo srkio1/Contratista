@@ -22,6 +22,7 @@ namespace Contratista
         private int idMaterial;
         private string Latitud;
         private string Longitud;
+        private string NombreMaterial;
         ObservableCollection<Productos> producto = new ObservableCollection<Productos>();
         public ObservableCollection<Productos> productos { get { return producto; } }
         public PerfilMaterial(int id_material, string nombre, int telefono, string email, string direccion, string ubicacion_lat, string ubicacion_long,
@@ -40,6 +41,7 @@ namespace Contratista
             txtTelefono.Text = telefono.ToString();
             califtxt.Text = calificacion.ToString();
             txtDireccion.Text = direccion;
+            NombreMaterial = nombre;
             GetInfo();
             GetPromo();
         }
@@ -80,6 +82,10 @@ namespace Contratista
             var detalles = e.Item as Productos;
             await Navigation.PushAsync(new VerProducto(detalles.id_producto, detalles.nombre, detalles.descripcion, detalles.imagen_1,
                 detalles.imagen_2, detalles.id_material));
+        }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarCalificacionMaterial(idMaterial, NombreMaterial));
         }
 
         private async void GetPromo()

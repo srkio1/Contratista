@@ -11,6 +11,7 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using System.Collections.ObjectModel;
 using Contratista.Empleado;
+using Contratista.Feed_Back;
 
 namespace Contratista.Empleado
 {
@@ -241,6 +242,20 @@ namespace Contratista.Empleado
         {
             Navigation.PushAsync(new ModificarServicio(IdServicio, Nombre_servicio, Telefono, Email, Direccion, Ubicacion_lat, Ubicacion_long, Foto,
                          Estado, Nit, Rubro, Calififacion, Prioridad, Descripcion, Usuario, Contrasena));
+        }
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Alert", "Quiere Cerrar Sesion", "Si", "No");
+                if (result) await this.Navigation.PushAsync(new Index());
+            });
+            return true;
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarFeedBackServicio(IdServicio));
         }
     }
 }

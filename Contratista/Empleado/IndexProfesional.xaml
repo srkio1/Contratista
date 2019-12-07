@@ -51,7 +51,7 @@
                     </StackLayout>
                     <StackLayout Padding="5, 20, 5, 10" VerticalOptions="EndAndExpand">
                         <Label Text="Tienes alguna consulta o sugerencia?" TextColor="Black" HorizontalOptions="Center"/>
-                        <Button Text="Contactar soporte" VerticalOptions="End" BackgroundColor="Black" TextColor="White"/>
+                        <Button Text="Contactar soporte" VerticalOptions="End" BackgroundColor="Black" TextColor="White" Clicked="Button_Clicked_2"/>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
@@ -73,7 +73,7 @@
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
-                                    <Frame CornerRadius="20"
+                                    <Frame CornerRadius="5"
                                HasShadow="True"
                                Margin="5">
                                         <Label Text="{Binding nombre}"

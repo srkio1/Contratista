@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.EditarProducto">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="5">
+                <StackLayout HorizontalOptions="Fill" Padding="10,10,10,20">
+                    <Label Text="EDITAR PRODUCTO" TextColor="Black" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout Padding="0,10,0,10">
+                    <Label Text="Nombre: " FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="Black"/>
+                    <Entry x:Name="txtNombre" VerticalOptions="Center" HorizontalOptions="FillAndExpand" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Padding="0,10,0,10">
+                    <Label Text="Descripcion: " FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="Black"/>
+                    <Editor x:Name="txtDescripcion" VerticalOptions="Center" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Padding="0,10,0,10">
+                    <Button x:Name="btnEditar" Text="GUARDAR CAMBIOS" HorizontalOptions="Fill" Clicked="BtnEditar_Clicked"/>
+                    <Button x:Name="btnBorrar" Text="BORRAR PRODUCTO" HorizontalOptions="Fill" Clicked="BtnBorrar_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

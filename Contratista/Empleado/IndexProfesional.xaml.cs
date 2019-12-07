@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.Collections.ObjectModel;
+using Contratista.Feed_Back;
 
 namespace Contratista.Empleado
 {
@@ -73,9 +74,14 @@ namespace Contratista.Empleado
             txtDescripcion.Text = descripcion;
             txtCurriculum.Text = curriculum;
             img_perfil.Source = "http://dmrbolivia.online" + foto;
+           
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            portafolio_Profesionals.Clear();
             GetInfo();
         }
-      
 
         private async void GetInfo()
         {
@@ -139,6 +145,20 @@ namespace Contratista.Empleado
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AgregarCurriculum(IdProfesional, Nombre_Profesional, Email ,Telefono));
+        }
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Alert", "Quiere Cerrar Sesion", "Si", "No");
+                if (result) await this.Navigation.PushAsync(new Index());
+            });
+            return true;
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarFeedBackProfesional(IdProfesional));
         }
     }
 }

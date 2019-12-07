@@ -11,6 +11,7 @@ using Contratista.Datos;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Collections.ObjectModel;
+using Contratista.Feed_Back;
 
 namespace Contratista.Empleado
 {
@@ -57,37 +58,44 @@ namespace Contratista.Empleado
             Fundaempresa = fundaempresa;
             Usuario = usuario;
             Contrasena = contrasena;
+            TraerPerfil();
 
-           
-           
-          
+
+
         }
-        
-        //private async void TraerPerfil()
-        //{
-        //    HttpClient client = new HttpClient();
-        //    var response = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/empresas/listaEmpresa.php");
-        //    var empresas = JsonConvert.DeserializeObject<List<Empresa>>(response);
 
-        //    foreach (var item in empresas.Distinct())
-        //    {
-        //        if (item.id_empresa == IdEmpresa)
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            portafolio_Empresas.Clear();
+            GetInfo();
+        }
 
-        //        {
-        //            img_perfil.Source = "http://dmrbolivia.online" + item.foto;
-        //            txtNombre.Text = item.nombre;
-        //            txtTelefono.Text = item.telefono.ToString();
-        //            txtEmail.Text = item.email;
-        //            txtRubro.Text = item.rubro;
-        //            txtPrioridad.Text = item.prioridad.ToString();
+        private async void TraerPerfil()
+        {
+            HttpClient client = new HttpClient();
+            var response = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/empresas/listaEmpresa.php");
+            var empresas = JsonConvert.DeserializeObject<List<Empresa>>(response);
 
-        //            txtNit.Text = item.nit.ToString();
-        //            txtDescripcion.Text = item.descripcion;
-        //        }
-        //    }
+            foreach (var item in empresas.Distinct())
+            {
+                if (item.id_empresa == IdEmpresa)
 
-        //}
-            private async void GetInfo()
+                {
+                    img_perfil.Source = "http://dmrbolivia.online" + item.foto;
+                    txtNombre.Text = item.nombre;
+                    txtTelefono.Text = item.telefono.ToString();
+                    txtEmail.Text = item.email;
+                    txtRubro.Text = item.rubro;
+                    txtPrioridad.Text = item.prioridad.ToString();
+
+                    txtNit.Text = item.nit.ToString();
+                    txtDescripcion.Text = item.descripcion;
+                }
+            }
+
+        }
+        private async void GetInfo()
         {
 
             try
@@ -145,6 +153,21 @@ namespace Contratista.Empleado
         private void Modificar_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ModificarEmpresa(IdEmpresa, Nombre_empresa,Telefono,Email,Direccion,Ubicacion_lat,Ubicacion_long,Foto,Nit, Rubro, Calififacion, Prioridad, Descripcion, Fundaempresa, Usuario, Contrasena ));
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Alert", "Quiere Cerrar Sesion", "Si", "No");
+                if (result) await this.Navigation.PushAsync(new Index());
+            });
+            return true;
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarFeedBackEmpresa(IdEmpresa));
         }
     }
 }

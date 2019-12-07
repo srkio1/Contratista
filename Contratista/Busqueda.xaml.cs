@@ -11,14 +11,14 @@ using Xamarin.Forms.Xaml;
 
 namespace Contratista
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Busqueda : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Busqueda : ContentPage
+    {
         private string TxtBuscado;
         List<Datos.Contratista> Items;
-        public Busqueda ( string TextoBuscador)
-		{
-			InitializeComponent ();
+        public Busqueda(string TextoBuscador)
+        {
+            InitializeComponent();
             TxtBuscado = TextoBuscador;
             sb_search.Text = TextoBuscador;
             InitList();
@@ -45,8 +45,11 @@ namespace Contratista
                         apellido_paterno = item.apellido_paterno,
                         apellido_materno = item.apellido_materno,
                         telefono = item.telefono,
-                        descripcion = item.descripcion,
+                        direccion = item.direccion,
+                        foto = item.foto,
                         rubro = item.rubro,
+                        calificacion = item.calificacion,
+                        descripcion = item.descripcion
                     });
                 }
             }
@@ -54,9 +57,16 @@ namespace Contratista
             {
                 await DisplayAlert("ERROR", err.ToString(), "OK");
             }
-            listSearch.ItemsSource = Items;
-
+            if (TxtBuscado == null)
+            {
+                listSearch.ItemsSource = Items;
+            }
+            else
+            {
+                listSearch.ItemsSource = Items.Where(x => x.rubro.ToLower().Contains(TxtBuscado.ToLower()) || x.descripcion.ToLower().Contains(TxtBuscado.ToLower()));
+            }
         }
+
         void InitSearchBar()
         {
             sb_search.TextChanged += (s, e) => FilterItem(sb_search.Text);
@@ -66,6 +76,7 @@ namespace Contratista
         private void FilterItem(string filter)
         {
             listSearch.BeginRefresh();
+
             if (string.IsNullOrWhiteSpace(filter))
             {
                 listSearch.ItemsSource = Items;
@@ -77,7 +88,6 @@ namespace Contratista
             else
             {
                 listSearch.ItemsSource = Items.Where(x => x.rubro.ToLower().Contains(filter.ToLower()) || x.descripcion.ToLower().Contains(filter.ToLower()));
-
             }
             listSearch.EndRefresh();
         }

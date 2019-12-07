@@ -25,13 +25,15 @@ namespace Contratista
         private int idServicio;
         private string Latitud;
         private string Longitud;
+       private string NombreServicio;
+        
         ObservableCollection<Catalogo> catalogos = new ObservableCollection<Catalogo>();
         public ObservableCollection<Catalogo> Catalogos { get { return catalogos; } }
         public PerfilServicio(int id_servicio, string nombre, int telefono, string email, string direccion, string ubicacion_lat, string ubicacion_long,
             string foto, int nit, string rubro, decimal calificacion, string descripcion)
         {
             InitializeComponent();
-
+            NombreServicio = nombre;
             Latitud = ubicacion_lat;
             Longitud = ubicacion_long;
             queryrubro = rubro;
@@ -47,6 +49,10 @@ namespace Contratista
             txtEmail.Text = email;
             GetCatalogo();
             GetPromo();
+        }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AgregarCalificacionServicio(idServicio, NombreServicio));
         }
 
         private async void GetCatalogo()

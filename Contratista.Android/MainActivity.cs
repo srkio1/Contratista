@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Plugin.CurrentActivity;
 
+
 namespace Contratista.Android
 {
     [Activity(Label = "Contratista", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -26,6 +27,7 @@ namespace Contratista.Android
             Xamarin.Essentials.Platform.Init(this, bundle);
             LoadApplication(new App());
         }
+        
 
     }
 }

@@ -2,6 +2,7 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contratista.Empleado.IndexServicio"
+            NavigationPage.HasBackButton="False"
     xmlns:syncfusion="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms"
             >
 
@@ -50,7 +51,7 @@
                     </StackLayout>
                     <StackLayout Padding="5, 20, 5, 10" VerticalOptions="End">
                         <Label Text="Tienes alguna consulta o sugerencia?" TextColor="Black" HorizontalOptions="Center"/>
-                        <Button Text="Contactar soporte" VerticalOptions="End" BackgroundColor="Black" TextColor="White"/>
+                        <Button Text="Contactar soporte" VerticalOptions="End" BackgroundColor="Black" TextColor="White" Clicked="Button_Clicked_2"/>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
@@ -86,7 +87,7 @@
             </StackLayout>
         </ScrollView>
     </ContentPage>
-    <ContentPage Title="Promocionn">
+    <ContentPage Title="Promocion">
         <ScrollView>
             <StackLayout>
                 <StackLayout Orientation="Horizontal">

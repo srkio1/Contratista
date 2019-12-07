@@ -78,5 +78,14 @@ namespace Contratista.Empleado
         {
             Navigation.PushAsync(new ModificarEmpleado(IdContratista, Nombre , Apellidop , Apellidom , Telefono , Direccion , Foto ,Cedulaidentidad , Rubro , Calififacion , Estadoo , Prioridad , Descripcion , Nit , Usuario , Contrasena));
         }
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Alert", "Quiere Cerrar Sesion", "Si", "No");
+                if (result) await this.Navigation.PushAsync(new Index());
+            });
+            return true;
+        }
     }
 }
