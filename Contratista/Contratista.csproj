@@ -83,6 +83,12 @@
     <EmbeddedResource Update="Empleado\AgregarFormacionAcademica.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Empleado\AgregarPortafolio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Empleado\AgregarPortafolioEmpresa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Empleado\AgregarProducto.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

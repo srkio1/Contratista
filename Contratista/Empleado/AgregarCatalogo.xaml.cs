@@ -14,22 +14,23 @@ using Xamarin.Forms.Xaml;
 
 namespace Contratista.Empleado
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AgregarCatalogo : ContentPage
-    {
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class AgregarCatalogo : ContentPage
+	{
         private MediaFile _mediaFile;
         private string ruta;
         private MediaFile _mediaFile2;
         private string ruta2;
         private int IdServicio;
         private string Nombre_Servicio;
-        private string Fecha;
-        public AgregarCatalogo(int idServicio, string nombre_servicio)
-        {
-            InitializeComponent();
+        static Random _random = new Random();
+        private int NumRand;
+        public AgregarCatalogo (int idServicio, string nombre_servicio)
+		{
+			InitializeComponent ();
             IdServicio = idServicio;
             Nombre_Servicio = nombre_servicio;
-            Fecha = DateTime.Today.ToString("dd-MM-yyyy hh:mm:ss");
+            NumRand = _random.Next(); 
         }
 
         private async void AgregarImg1_Clicked(object sender, EventArgs e)
@@ -50,7 +51,8 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + Nombre_Servicio + IdServicio + "_1.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + Nombre_Servicio + IdServicio + "_1.jpg"
                         });
 
                         if (_mediaFile == null)
@@ -60,8 +62,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile.GetStream();
                         });
-                        ruta = "/api_contratistas/images/" + Fecha + Nombre_Servicio + IdServicio + "_1.jpg";
-                        nombreimg1.Text = Fecha + Nombre_Servicio + IdServicio + "_1.jpg";
+                        ruta = "/api_contratistas/images/" + NumRand + Nombre_Servicio + IdServicio + "_1.jpg";
+                        nombreimg1.Text = NumRand + Nombre_Servicio + IdServicio + "_1.jpg";
                     }
                     catch (Exception err)
                     {
@@ -117,7 +119,8 @@ namespace Contratista.Empleado
                         _mediaFile2 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + Nombre_Servicio + IdServicio + "_2.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + Nombre_Servicio + IdServicio + "_2.jpg"
                         });
 
                         if (_mediaFile2 == null)
@@ -127,8 +130,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile2.GetStream();
                         });
-                        ruta2 = "/api_contratistas/images/" + Fecha + Nombre_Servicio + IdServicio + "_2.jpg";
-                        nombreImg2.Text = Fecha + Nombre_Servicio + IdServicio + "_2.jpg";
+                        ruta2 = "/api_contratistas/images/"+ NumRand + Nombre_Servicio + IdServicio + "_2.jpg";
+                        nombreImg2.Text = NumRand + Nombre_Servicio + IdServicio + "_2.jpg";
                     }
                     catch (Exception err)
                     {
@@ -168,6 +171,7 @@ namespace Contratista.Empleado
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            cargando.IsVisible = true;
             try
             {
                 HttpClient client = new HttpClient();
@@ -197,18 +201,21 @@ namespace Contratista.Empleado
 
                 if (result1.StatusCode == HttpStatusCode.OK)
                 {
-                    await DisplayAlert("Guardar", "Se agrego correctamente", "Ok");
+                    await DisplayAlert("GUARDAR", "El catalogo se agrego correctamente", "OK");
+                    cargando.IsVisible = false;
                     await Navigation.PopAsync();
                 }
                 else
                 {
-                    await DisplayAlert("Error", result.StatusCode.ToString(), "No se pudo Guardar", "Ok");
+                    await DisplayAlert("ERROR", result.StatusCode.ToString(), "OK");
+                    cargando.IsVisible = false;
                     await Navigation.PopAsync();
                 }
             }
             catch (Exception err)
             {
                 await DisplayAlert("ERROR", err.ToString(), "OK");
+                cargando.IsVisible = false;
             }
         }
     }

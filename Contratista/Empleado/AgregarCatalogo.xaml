@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contratista.Empleado.AgregarCatalogo"
-             >
+             xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms">
     <ContentPage.Content>
         <ScrollView >
             <StackLayout>
@@ -30,6 +30,14 @@
                     </StackLayout>
                     <Button x:Name="agregarImg2" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg2_Clicked"/>
                 </StackLayout>
+                <busyindicator:SfBusyIndicator
+                        AnimationType="Rectangle"
+                        HorizontalOptions="Center"
+                        IsVisible="False"
+                        Title="Cargando"
+                        ViewBoxWidth="80"
+                        ViewBoxHeight="80"
+                        x:Name="cargando"/>
                 <StackLayout>
                     <Button Text="GUARDAR" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"/>
                 </StackLayout>

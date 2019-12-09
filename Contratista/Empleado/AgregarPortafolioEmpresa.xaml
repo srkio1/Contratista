@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Contratista.Empleado.AgregarPortafolioEmpresa">
+             x:Class="Contratista.Empleado.AgregarPortafolioEmpresa"
+             xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
@@ -64,6 +65,16 @@
                         <Label x:Name="nombreImg7" TextColor="Black"/>
                     </StackLayout>
                     <Button x:Name="agregarImg7" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg7_Clicked"/>
+                </StackLayout>
+                <StackLayout>
+                    <busyindicator:SfBusyIndicator
+                        AnimationType="Rectangle"
+                        HorizontalOptions="Center"
+                        IsVisible="False"
+                        Title="Cargando"
+                        ViewBoxWidth="80"
+                        ViewBoxHeight="80"
+                        x:Name="cargando"/>
                 </StackLayout>
                 <StackLayout>
                     <Button Text="GUARDAR" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"/>

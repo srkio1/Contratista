@@ -14,9 +14,9 @@ using System.Net;
 
 namespace Contratista.Empleado
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AgregarPortafolioEmpresa : ContentPage
-    {
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class AgregarPortafolioEmpresa : ContentPage
+	{
         private MediaFile _mediaFile;
         private string ruta;
         private MediaFile _mediaFile2;
@@ -34,14 +34,15 @@ namespace Contratista.Empleado
 
         private int IdEmpresa;
         private string nombre_empresa;
-        private string Fecha;
+        static Random _random = new Random();
+        private int NumRand;
         public AgregarPortafolioEmpresa(int id_empresa, string nombre_empresas)
         {
 
             InitializeComponent();
             IdEmpresa = id_empresa;
             nombre_empresa = nombre_empresas;
-            Fecha = DateTime.Today.ToString("dd-MM-yyyy hh:mm:ss");
+            NumRand = _random.Next();
         }
 
         private async void AgregarImg1_Clicked(object sender, EventArgs e)
@@ -62,7 +63,8 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + nombre_empresa + IdEmpresa + "_1.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + nombre_empresa + IdEmpresa + "_1.jpg"
                         });
 
                         if (_mediaFile == null)
@@ -72,8 +74,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile.GetStream();
                         });
-                        ruta = "/api_contratistas/images/" + Fecha + nombre_empresa + IdEmpresa + "_1.jpg";
-                        nombreimg1.Text = Fecha + nombre_empresa + IdEmpresa + "_1.jpg";
+                        ruta = "/api_contratistas/images/" + NumRand + nombre_empresa + IdEmpresa + "_1.jpg";
+                        nombreimg1.Text = NumRand + nombre_empresa + IdEmpresa + "_1.jpg";
                     }
                     catch (Exception err)
                     {
@@ -129,7 +131,8 @@ namespace Contratista.Empleado
                         _mediaFile2 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + nombre_empresa + IdEmpresa + "_2.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + nombre_empresa + IdEmpresa + "_2.jpg"
                         });
 
                         if (_mediaFile2 == null)
@@ -139,8 +142,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile2.GetStream();
                         });
-                        ruta2 = "/api_contratistas/images/" + Fecha + nombre_empresa + IdEmpresa + "_2.jpg";
-                        nombreImg2.Text = Fecha + nombre_empresa + IdEmpresa + "_2.jpg";
+                        ruta2 = "/api_contratistas/images/" + NumRand + nombre_empresa + IdEmpresa + "_2.jpg";
+                        nombreImg2.Text = NumRand + nombre_empresa + IdEmpresa + "_2.jpg";
 
                     }
                     catch (Exception err)
@@ -197,7 +200,8 @@ namespace Contratista.Empleado
                         _mediaFile3 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + nombre_empresa + IdEmpresa + "_3.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + nombre_empresa + IdEmpresa + "_3.jpg"
                         });
 
                         if (_mediaFile3 == null)
@@ -207,8 +211,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile3.GetStream();
                         });
-                        ruta3 = "/api_contratistas/images/" + Fecha + nombre_empresa + IdEmpresa + "_3.jpg";
-                        nombreImg3.Text = Fecha + nombre_empresa + IdEmpresa + "_3.jpg";
+                        ruta3 = "/api_contratistas/images/" + NumRand + nombre_empresa + IdEmpresa + "_3.jpg";
+                        nombreImg3.Text = NumRand + nombre_empresa + IdEmpresa + "_3.jpg";
 
                     }
                     catch (Exception err)
@@ -266,7 +270,8 @@ namespace Contratista.Empleado
                         _mediaFile4 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + nombre_empresa + IdEmpresa + "_4.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + nombre_empresa + IdEmpresa + "_4.jpg"
                         });
 
                         if (_mediaFile4 == null)
@@ -276,8 +281,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile4.GetStream();
                         });
-                        ruta4 = "/api_contratistas/images/" + Fecha + nombre_empresa + IdEmpresa + "_4.jpg";
-                        nombreImg4.Text = Fecha + nombre_empresa + IdEmpresa + "_4.jpg";
+                        ruta4 = "/api_contratistas/images/" + NumRand + nombre_empresa + IdEmpresa + "_4.jpg";
+                        nombreImg4.Text = NumRand + nombre_empresa + IdEmpresa + "_4.jpg";
                     }
                     catch (Exception err)
                     {
@@ -334,7 +339,8 @@ namespace Contratista.Empleado
                         _mediaFile5 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + nombre_empresa + IdEmpresa + "_5.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + nombre_empresa + IdEmpresa + "_5.jpg"
                         });
 
                         if (_mediaFile5 == null)
@@ -344,8 +350,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile5.GetStream();
                         });
-                        ruta5 = "/api_contratistas/images/" + Fecha + nombre_empresa + IdEmpresa + "_5.jpg";
-                        nombreImg5.Text = Fecha + nombre_empresa + IdEmpresa + "_5.jpg";
+                        ruta5 = "/api_contratistas/images/" + NumRand + nombre_empresa + IdEmpresa + "_5.jpg";
+                        nombreImg5.Text = NumRand + nombre_empresa + IdEmpresa + "_5.jpg";
 
                     }
                     catch (Exception err)
@@ -403,7 +409,8 @@ namespace Contratista.Empleado
                         _mediaFile6 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + nombre_empresa + IdEmpresa + "_6.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + nombre_empresa + IdEmpresa + "_6.jpg"
                         });
 
                         if (_mediaFile6 == null)
@@ -414,8 +421,8 @@ namespace Contratista.Empleado
                             return _mediaFile6.GetStream();
                         });
 
-                        ruta6 = "/api_contratistas/images/" + Fecha + nombre_empresa + IdEmpresa + "_6.jpg";
-                        nombreImg6.Text = Fecha + nombre_empresa + IdEmpresa + "_6.jpg";
+                        ruta6 = "/api_contratistas/images/" + NumRand + nombre_empresa + IdEmpresa + "_6.jpg";
+                        nombreImg6.Text = NumRand + nombre_empresa + IdEmpresa + "_6.jpg";
 
                     }
                     catch (Exception err)
@@ -473,7 +480,8 @@ namespace Contratista.Empleado
                         _mediaFile7 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Fecha + nombre_empresa + IdEmpresa + "_7.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + nombre_empresa + IdEmpresa + "_7.jpg"
                         });
 
                         if (_mediaFile7 == null)
@@ -483,8 +491,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile7.GetStream();
                         });
-                        ruta7 = "/api_contratistas/images/" + Fecha + nombre_empresa + IdEmpresa + "_7.jpg";
-                        nombreImg7.Text = Fecha + nombre_empresa + IdEmpresa + "_7.jpg";
+                        ruta7 = "/api_contratistas/images/" + NumRand + nombre_empresa + IdEmpresa + "_7.jpg";
+                        nombreImg7.Text = NumRand + nombre_empresa + IdEmpresa + "_7.jpg";
                     }
                     catch (Exception err)
                     {
@@ -525,6 +533,7 @@ namespace Contratista.Empleado
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            cargando.IsVisible = true;
             try
             {
                 HttpClient client = new HttpClient();
@@ -593,18 +602,21 @@ namespace Contratista.Empleado
 
                 if (result1.StatusCode == HttpStatusCode.OK)
                 {
-                    await DisplayAlert("Guardar", "Se agrego correctamente", "Ok");
+                    await DisplayAlert("GUARDAR", "Se agrego el portafolio correctamente", "OK");
+                    cargando.IsVisible = false;
                     await Navigation.PopAsync();
                 }
                 else
                 {
-                    await DisplayAlert("Error", result.StatusCode.ToString(), "No se pudo Guardar");
+                    await DisplayAlert("ERROR", result.StatusCode.ToString(), "OK");
+                    cargando.IsVisible = false;
                     await Navigation.PopAsync();
                 }
             }
             catch (Exception err)
             {
                 await DisplayAlert("ERROR", err.ToString(), "OK");
+                cargando.IsVisible = false;
             }
         }
     }
