@@ -59,9 +59,6 @@ namespace Contratista.Empleado
             Usuario = usuario;
             Contrasena = contrasena;
             TraerPerfil();
-
-
-
         }
 
         protected override void OnAppearing()
@@ -69,6 +66,7 @@ namespace Contratista.Empleado
             base.OnAppearing();
             portafolio_Empresas.Clear();
             GetInfo();
+            TraerPerfil();
         }
 
         private async void TraerPerfil()
@@ -97,7 +95,6 @@ namespace Contratista.Empleado
         }
         private async void GetInfo()
         {
-
             try
             {
                 HttpClient client = new HttpClient();
@@ -123,10 +120,6 @@ namespace Contratista.Empleado
                         });
                     }
                 }
-
-
-
-
             }
 
             catch (Exception erro)

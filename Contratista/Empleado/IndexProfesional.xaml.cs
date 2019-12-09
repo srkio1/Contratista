@@ -64,28 +64,47 @@ namespace Contratista.Empleado
 
             IdProfesional = id_profesional;
             Nombre_Profesional = nombre;
-            txtNombre.Text = nombre + " " + apellido_paterno + " " + apellido_materno;
-            txtTelefono.Text = telefono.ToString();
-            txtEmail.Text = email;
-            txtRubro.Text = rubro;
-            txtEstado.Text = estado;
-            txtPrioridad.Text = prioridad.ToString();
-            txtNit.Text = nit.ToString();
-            txtDescripcion.Text = descripcion;
-            txtCurriculum.Text = curriculum;
-            img_perfil.Source = "http://dmrbolivia.online" + foto;
-           
         }
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            GetDatos();
             portafolio_Profesionals.Clear();
             GetInfo();
         }
+        private async void GetDatos()
+        {
+            try
+            {
+                HttpClient client = new HttpClient();
+                var response = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/profesionales/listaProfesional.php");
+                var profesionales = JsonConvert.DeserializeObject<List<Profesional>>(response);
 
+                foreach (var item in profesionales.Distinct())
+                {
+                    if (item.id_profesional == IdProfesional)
+                    {
+                        txtNombre.Text = item.nombre + " " + item.apellido_paterno + " " + item.apellido_materno;
+                        txtTelefono.Text = item.telefono.ToString();
+                        txtEmail.Text = item.email;
+                        txtRubro.Text = item.rubro;
+                        txtEstado.Text = item.estado;
+                        txtPrioridad.Text = item.prioridad.ToString();
+                        txtNit.Text = item.nit.ToString();
+                        txtDescripcion.Text = item.descripcion;
+                        txtCurriculum.Text = item.curriculum;
+                        img_perfil.Source = "http://dmrbolivia.online" + item.foto;
+                    }
+                }
+            }
+
+            catch (Exception erro)
+            {
+                Console.Write("EEERRROOOORRR= " + erro);
+            }
+        }
         private async void GetInfo()
         {
-
             try
             {
                 HttpClient client = new HttpClient();
@@ -112,10 +131,6 @@ namespace Contratista.Empleado
                         });
                     }
                 }
-
-
-
-
             }
 
             catch (Exception erro)

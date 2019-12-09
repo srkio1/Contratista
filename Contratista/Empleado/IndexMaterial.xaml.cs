@@ -55,22 +55,20 @@ namespace Contratista.Empleado
             Descripcion = descripcion;
             Usuario = usuario;
             Contrasena = contrasena;
-
             
             Nombre_material = nombre;
             IdMaterial = id_material;
-            txtNombre.Text = nombre;
-            txtTelefono.Text = telefono.ToString();
-            txtEmail.Text = email;
-            txtRubro.Text = rubro;
-            txtPrioridad.Text = prioridad.ToString();
-            txtDescripcion.Text = descripcion;
-            txtNit.Text = nit.ToString();
-            img_perfil.Source = "http://dmrbolivia.online" + foto;
+            
         }
-
-
-       
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            productos.Clear();
+            stkPromoActiva.Children.Clear();
+            stkPromoInactiva.Children.Clear();
+            GetInfo();
+            GetPromo();
+        }
 
         private async void ListaProducto_ItemTapped(object sender, ItemTappedEventArgs e)
         {
@@ -80,6 +78,33 @@ namespace Contratista.Empleado
         }
         private async void GetInfo()
         {
+            try
+            {
+                HttpClient client = new HttpClient();
+                var response = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/materiales/listaMaterial.php");
+                var materials = JsonConvert.DeserializeObject<List<Material>>(response);
+
+                foreach (var item in materials.Distinct())
+                {
+                    if (item.id_material == IdMaterial)
+                    {
+                        txtNombre.Text = item.nombre;
+                        txtTelefono.Text = item.telefono.ToString();
+                        txtEmail.Text = item.email;
+                        txtRubro.Text = item.rubro;
+                        txtPrioridad.Text = item.prioridad.ToString();
+                        txtDescripcion.Text = item.descripcion;
+                        txtNit.Text = item.nit.ToString();
+                        img_perfil.Source = "http://dmrbolivia.online" + item.foto;
+                    }
+                }
+            }
+
+            catch (Exception erro)
+            {
+                Console.Write("EEERRROOOORRR= " + erro);
+            }
+
             try
             {
                 HttpClient client = new HttpClient();
@@ -108,15 +133,7 @@ namespace Contratista.Empleado
             }
             listaProducto.ItemsSource = productos.Distinct();
         }
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            productos.Clear();
-            stkPromoActiva.Children.Clear();
-            stkPromoInactiva.Children.Clear();
-            GetInfo();
-            GetPromo();
-        }
+        
         private async void GetPromo()
         {
             try

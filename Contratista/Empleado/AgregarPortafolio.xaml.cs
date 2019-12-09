@@ -62,7 +62,7 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + nombre_profesional + IdProfesional + "_1.jpg"
                         });
 
@@ -130,7 +130,7 @@ namespace Contratista.Empleado
                         _mediaFile2 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + nombre_profesional + IdProfesional + "_2.jpg"
                         });
 
@@ -199,7 +199,7 @@ namespace Contratista.Empleado
                         _mediaFile3 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + nombre_profesional + IdProfesional + "_3.jpg"
                         });
 
@@ -269,7 +269,7 @@ namespace Contratista.Empleado
                         _mediaFile4 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + nombre_profesional + IdProfesional + "_4.jpg"
                         });
 
@@ -338,7 +338,7 @@ namespace Contratista.Empleado
                         _mediaFile5 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + nombre_profesional + IdProfesional + "_5.jpg"
                         });
 
@@ -408,7 +408,7 @@ namespace Contratista.Empleado
                         _mediaFile6 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + nombre_profesional + IdProfesional + "_6.jpg"
                         });
 
@@ -479,7 +479,7 @@ namespace Contratista.Empleado
                         _mediaFile7 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + nombre_profesional + IdProfesional + "_7.jpg"
                         });
 

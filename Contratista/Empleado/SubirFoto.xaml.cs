@@ -14,9 +14,9 @@ using Contratista.Datos;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SubirFoto : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class SubirFoto : ContentPage
+    {
         private MediaFile _mediaFile;
         int imgPicked;
         private int Idportafolio;
@@ -59,7 +59,7 @@ namespace Contratista.Empleado
 
                 _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                 {
-                    SaveToAlbum = true,
+                    PhotoSize = PhotoSize.Small,
                     Name = "test.jpg"
                 });
 

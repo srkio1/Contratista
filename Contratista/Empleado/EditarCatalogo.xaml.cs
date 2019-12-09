@@ -13,17 +13,17 @@ using Xamarin.Forms.Xaml;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class EditarCatalogo : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class EditarCatalogo : ContentPage
+    {
         private int IDCatalogo;
         private string IMG1;
         private string IMG2;
         private int IDServicio;
 
-		public EditarCatalogo (int IdCatalogo, string Nombre, string Imagen1, string Imagen2, string Descripcion, int IdServicio)
-		{
-			InitializeComponent ();
+        public EditarCatalogo(int IdCatalogo, string Nombre, string Imagen1, string Imagen2, string Descripcion, int IdServicio)
+        {
+            InitializeComponent();
             IDCatalogo = IdCatalogo;
             IMG1 = Imagen1;
             IMG2 = Imagen2;
@@ -31,7 +31,7 @@ namespace Contratista.Empleado
 
             txtNombre.Text = Nombre;
             txtDescripcion.Text = Descripcion;
-		}
+        }
 
         private async void BtnEditar_Clicked(object sender, EventArgs e)
         {

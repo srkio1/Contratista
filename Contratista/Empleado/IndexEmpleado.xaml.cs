@@ -7,12 +7,15 @@ using Contratista.Datos;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Contratista.Feed_Back;
+using System.Collections.ObjectModel;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class IndexEmpleado : TabbedPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class IndexEmpleado : TabbedPage
+    {
         private int IdContratista;
         private string Nombre;
         private string Apellidop;
@@ -30,8 +33,8 @@ namespace Contratista.Empleado
         private string Usuario;
         private string Contrasena;
 
-        public IndexEmpleado(int id_contratista, string nombre, string apellido_paterno, string apeliido_materno, int telefono, string direccion, string foto , string cedulaidentidad, string rubro,
-                             decimal calificacion, string estado, int prioridad,  string descripcion , int nit, string usuario, string contrasena)
+        public IndexEmpleado(int id_contratista, string nombre, string apellido_paterno, string apeliido_materno, int telefono, string direccion, string foto, string cedulaidentidad, string rubro,
+                             decimal calificacion, string estado, int prioridad, string descripcion, int nit, string usuario, string contrasena)
         {
             InitializeComponent();
 
@@ -51,32 +54,50 @@ namespace Contratista.Empleado
             Nit = nit;
             Usuario = usuario;
             Contrasena = contrasena;
-
-
-
-
-            idEntry.Text = id_contratista.ToString();
-            txtNombre.Text = nombre + " " + apellido_paterno + " " + apeliido_materno;
-            txtTelefono.Text = telefono.ToString();
-            txtRubro.Text = rubro;
-            txtEstado.Text = estado;
-            txtCalificacion.Text = calificacion.ToString();
-            txtDescripcion.Text = descripcion;
-            img_perfil.Source = "http://dmrbolivia.online" + foto;
         }
 
-       
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            GetInfo();
+        }
 
+        private async void GetInfo()
+        {
+            try
+            {
+                HttpClient client = new HttpClient();
+                var response = await client.GetStringAsync("http://dmrbolivia.online/api_contratistas/contratistas/listaContratista.php");
+                var contratistas = JsonConvert.DeserializeObject<List<Datos.Contratista>>(response);
+
+                foreach (var item in contratistas.Distinct())
+                {
+                    if (item.id_contratista == IdContratista)
+                    {
+                        txtNombre.Text = item.nombre;
+                        txtTelefono.Text = item.telefono.ToString();
+                        txtRubro.Text = item.rubro;
+                        txtDescripcion.Text = item.descripcion;
+                        txtCalificacion.Text = item.calificacion.ToString();
+                        txtEstado.Text = item.estado;
+                        img_perfil.Source = "http://dmrbolivia.online" + item.foto;
+                    }
+                }
+            }
+            catch (Exception erro)
+            {
+                await DisplayAlert("ERROR", erro.ToString(), "OK");
+            }
+
+        }
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ContactanosContratista());
         }
 
-      
-
         private void Button_Clicked_3(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ModificarEmpleado(IdContratista, Nombre , Apellidop , Apellidom , Telefono , Direccion , Foto ,Cedulaidentidad , Rubro , Calififacion , Estadoo , Prioridad , Descripcion , Nit , Usuario , Contrasena));
+            Navigation.PushAsync(new ModificarEmpleado(IdContratista, Nombre, Apellidop, Apellidom, Telefono, Direccion, Foto, Cedulaidentidad, Rubro, Calififacion, Estadoo, Prioridad, Descripcion, Nit, Usuario, Contrasena));
         }
         protected override bool OnBackButtonPressed()
         {

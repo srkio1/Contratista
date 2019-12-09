@@ -14,9 +14,9 @@ using Xamarin.Forms.Xaml;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AgregarCatalogo : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AgregarCatalogo : ContentPage
+    {
         private MediaFile _mediaFile;
         private string ruta;
         private MediaFile _mediaFile2;
@@ -25,12 +25,12 @@ namespace Contratista.Empleado
         private string Nombre_Servicio;
         static Random _random = new Random();
         private int NumRand;
-        public AgregarCatalogo (int idServicio, string nombre_servicio)
-		{
-			InitializeComponent ();
+        public AgregarCatalogo(int idServicio, string nombre_servicio)
+        {
+            InitializeComponent();
             IdServicio = idServicio;
             Nombre_Servicio = nombre_servicio;
-            NumRand = _random.Next(); 
+            NumRand = _random.Next();
         }
 
         private async void AgregarImg1_Clicked(object sender, EventArgs e)
@@ -51,7 +51,7 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + Nombre_Servicio + IdServicio + "_1.jpg"
                         });
 
@@ -119,7 +119,7 @@ namespace Contratista.Empleado
                         _mediaFile2 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + Nombre_Servicio + IdServicio + "_2.jpg"
                         });
 
@@ -130,7 +130,7 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile2.GetStream();
                         });
-                        ruta2 = "/api_contratistas/images/"+ NumRand + Nombre_Servicio + IdServicio + "_2.jpg";
+                        ruta2 = "/api_contratistas/images/" + NumRand + Nombre_Servicio + IdServicio + "_2.jpg";
                         nombreImg2.Text = NumRand + Nombre_Servicio + IdServicio + "_2.jpg";
                     }
                     catch (Exception err)

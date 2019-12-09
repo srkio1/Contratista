@@ -9,9 +9,9 @@ using Xamarin.Forms.Xaml;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class EditarPortafolio : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class EditarPortafolio : ContentPage
+    {
         int IdPortafolio;
         string NombreP;
         string Imagen_1P;

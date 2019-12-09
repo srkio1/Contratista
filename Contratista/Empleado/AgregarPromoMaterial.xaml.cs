@@ -15,18 +15,18 @@ using Xamarin.Forms.Xaml;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AgregarPromoMaterial : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AgregarPromoMaterial : ContentPage
+    {
         private MediaFile _mediaFile;
         private string ruta;
         private int IdMaterial;
         private string Nombre_material;
         static Random _random = new Random();
         private int NumRand;
-        public AgregarPromoMaterial ( int id_material , string nombre_material)
-		{
-			InitializeComponent ();
+        public AgregarPromoMaterial(int id_material, string nombre_material)
+        {
+            InitializeComponent();
             NumRand = _random.Next();
             Nombre_material = nombre_material;
             IdMaterial = id_material;
@@ -50,7 +50,7 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + Nombre_material + IdMaterial + "_1.jpg"
                         });
 

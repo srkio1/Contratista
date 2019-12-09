@@ -14,9 +14,9 @@ using Newtonsoft.Json;
 
 namespace Contratista.Empleado
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AgregarProducto : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AgregarProducto : ContentPage
+    {
         private MediaFile _mediaFile;
         private string ruta;
         private MediaFile _mediaFile2;
@@ -25,9 +25,9 @@ namespace Contratista.Empleado
         private string Nombre_Materials;
         static Random _random = new Random();
         private int NumRand;
-        public AgregarProducto (int IdMaterial, string Nombre_material)
-		{
-			InitializeComponent ();
+        public AgregarProducto(int IdMaterial, string Nombre_material)
+        {
+            InitializeComponent();
             Id_Material = IdMaterial;
             Nombre_Materials = Nombre_material;
             NumRand = _random.Next();
@@ -51,7 +51,7 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + Nombre_Materials + Id_Material + "_1.jpg"
                         });
 
@@ -119,7 +119,7 @@ namespace Contratista.Empleado
                         _mediaFile2 = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            PhotoSize = PhotoSize.Medium,
+                            PhotoSize = PhotoSize.Small,
                             Name = NumRand + Nombre_Materials + Id_Material + "_2.jpg"
                         });
 
