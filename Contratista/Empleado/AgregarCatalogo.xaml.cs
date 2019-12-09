@@ -25,6 +25,10 @@ namespace Contratista.Empleado
         private string Nombre_Servicio;
         static Random _random = new Random();
         private int NumRand;
+
+        private string NombreValidar;
+        private int IdServicioValidar;
+
         public AgregarCatalogo(int idServicio, string nombre_servicio)
         {
             InitializeComponent();
@@ -171,10 +175,19 @@ namespace Contratista.Empleado
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            NombreValidar = nombreEntry.Text;
+            IdServicioValidar = IdServicio;
             cargando.IsVisible = true;
             try
             {
-                HttpClient client = new HttpClient();
+                if (IdServicioValidar != 0)
+                {
+                    if (NombreValidar != null)
+                    {
+                        if (_mediaFile != null || _mediaFile2 != null)
+                        {
+
+                            HttpClient client = new HttpClient();
                 var content = new MultipartFormDataContent();
                 content.Add(new StreamContent(_mediaFile.GetStream()),
                     "\"file\"",
@@ -210,6 +223,24 @@ namespace Contratista.Empleado
                     await DisplayAlert("ERROR", result.StatusCode.ToString(), "OK");
                     cargando.IsVisible = false;
                     await Navigation.PopAsync();
+                }
+            }
+                        else
+                        {
+                            await DisplayAlert("ERROR", "Se requiere cargar 2 fotos como minimo", "OK");
+                            cargando.IsVisible = false;
+                        }
+                    }
+                    else
+                    {
+                        await DisplayAlert("ERROR", "Es necesario introducir un Nombre", "OK");
+                        cargando.IsVisible = false;
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("ERROR", "Algo salio mal, intentelo nuevamente", "OK");
+                    cargando.IsVisible = false;
                 }
             }
             catch (Exception err)
