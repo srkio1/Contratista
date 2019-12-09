@@ -21,11 +21,14 @@ namespace Contratista.Empleado
         private string ruta;
         private int IdServicio;
         private string Nombre_Servicio;
+        static Random _random = new Random();
+        private int NumRand;
         public AgregarPromoServicio(int id_servicio, string nombre_servicio)
         {
+            InitializeComponent();
+            NumRand = _random.Next();
             IdServicio = id_servicio;
             Nombre_Servicio = nombre_servicio;
-            InitializeComponent();
         }
 
         private void Estado_SelectedIndexChanged(object sender, EventArgs e)
@@ -56,7 +59,8 @@ namespace Contratista.Empleado
                         _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                         {
                             SaveToAlbum = true,
-                            Name = Nombre_Servicio + IdServicio + "_1.jpg"
+                            PhotoSize = PhotoSize.Medium,
+                            Name = NumRand + Nombre_Servicio + IdServicio + "_1.jpg"
                         });
 
                         if (_mediaFile == null)
@@ -66,8 +70,8 @@ namespace Contratista.Empleado
                         {
                             return _mediaFile.GetStream();
                         });
-                        ruta = "/api_contratistas/images/" + Nombre_Servicio + IdServicio + "_1.jpg";
-                        nombreimg1.Text = Nombre_Servicio + IdServicio + "_1.jpg";
+                        ruta = "/api_contratistas/images/" + NumRand + Nombre_Servicio + IdServicio + "_1.jpg";
+                        nombreimg1.Text = NumRand + Nombre_Servicio + IdServicio + "_1.jpg";
                     }
                     catch (Exception err)
                     {
@@ -107,9 +111,9 @@ namespace Contratista.Empleado
 
         private async void Guardar_Clicked(object sender, EventArgs e)
         {
+            cargando.IsVisible = true;
             try
             {
-
                 HttpClient client = new HttpClient();
                 var content = new MultipartFormDataContent();
                 content.Add(new StreamContent(_mediaFile.GetStream()),
@@ -133,12 +137,14 @@ namespace Contratista.Empleado
 
                 if (result1.StatusCode == HttpStatusCode.OK)
                 {
-                    await DisplayAlert("Hey", "Se agrego correctamente", "Posi mi gresan");
+                    await DisplayAlert("GUARDAR", "Se agrego la promocion correctamente", "OK");
+                    cargando.IsVisible = false;
                     await Navigation.PopAsync();
                 }
                 else
                 {
-                    await DisplayAlert("Hey", result.StatusCode.ToString(), "Fale Ferga");
+                    await DisplayAlert("ERROR", result.StatusCode.ToString(), "OK");
+                    cargando.IsVisible = false;
                     await Navigation.PopAsync();
                 }
 
@@ -146,6 +152,7 @@ namespace Contratista.Empleado
             catch (Exception err)
             {
                 await DisplayAlert("ERROR", err.ToString(), "OK");
+                cargando.IsVisible = false;
             }
 
         }
