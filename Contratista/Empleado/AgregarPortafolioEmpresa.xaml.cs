@@ -36,6 +36,7 @@ namespace Contratista.Empleado
 
         private string NombreValidar;
         private int IdEmpresaValidar;
+
         private int IdEmpresa;
         private string nombre_empresa;
         static Random _random = new Random();

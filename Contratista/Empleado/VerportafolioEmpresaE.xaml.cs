@@ -70,27 +70,26 @@ namespace Contratista.Empleado
                 List<CustomData> list = new List<CustomData>();
                 list.Add(new CustomData("http://dmrbolivia.online" + IMG1));
                 list.Add(new CustomData("http://dmrbolivia.online" + IMG2));
-                if (IMG3 != null)
+                if (IMG3.Length > 0)
                 {
                     list.Add(new CustomData("http://dmrbolivia.online" + IMG3));
                 }
-                if (IMG4 != null)
+                if (IMG4.Length > 0)
                 {
                     list.Add(new CustomData("http://dmrbolivia.online" + IMG4));
                 }
-                if (IMG5 != null)
+                if (IMG5.Length > 0)
                 {
                     list.Add(new CustomData("http://dmrbolivia.online" + IMG5));
                 }
-                if (IMG6 != null)
+                if (IMG6.Length > 0)
                 {
                     list.Add(new CustomData("http://dmrbolivia.online" + IMG6));
                 }
-                if (IMG7 != null)
+                if (IMG7.Length > 0)
                 {
                     list.Add(new CustomData("http://dmrbolivia.online" + IMG7));
                 }
-
                 return list;
             }
             rotator.ItemsSource = GetDataSource();

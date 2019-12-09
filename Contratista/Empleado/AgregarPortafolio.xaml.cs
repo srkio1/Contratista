@@ -32,6 +32,9 @@ namespace Contratista.Empleado
         private MediaFile _mediaFile7;
         private string ruta7;
 
+        private string NombreValidar;
+        private int IdProfesionalValidar;
+
         private int IdProfesional;
         private string nombre_profesional;
         static Random _random = new Random();
@@ -532,87 +535,119 @@ namespace Contratista.Empleado
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            NombreValidar = nombreEntry.Text;
+            IdProfesionalValidar = IdProfesional;
+
             cargando.IsVisible = true;
             try
             {
-                HttpClient client = new HttpClient();
-                var content = new MultipartFormDataContent();
-                content.Add(new StreamContent(_mediaFile.GetStream()),
-                    "\"file\"",
-                    $"\"{_mediaFile.Path}\"");
-                var result = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content);
-
-                var content2 = new MultipartFormDataContent();
-                content2.Add(new StreamContent(_mediaFile2.GetStream()),
-                    "\"file\"",
-                    $"\"{_mediaFile2.Path}\"");
-                var result2 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content2);
-
-                var content3 = new MultipartFormDataContent();
-                if (_mediaFile3 != null)
-                    content3.Add(new StreamContent(_mediaFile3.GetStream()),
-                        "\"file\"",
-                        $"\"{_mediaFile3.Path}\"");
-                var result3 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content3);
-
-                var content4 = new MultipartFormDataContent();
-                if (_mediaFile4 != null)
-                    content4.Add(new StreamContent(_mediaFile4.GetStream()),
-                        "\"file\"",
-                        $"\"{_mediaFile4.Path}\"");
-                var result4 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content4);
-
-                var content5 = new MultipartFormDataContent();
-                if (_mediaFile5 != null)
-                    content5.Add(new StreamContent(_mediaFile5.GetStream()),
-                        "\"file\"",
-                        $"\"{_mediaFile5.Path}\"");
-                var result5 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content5);
-
-                var content6 = new MultipartFormDataContent();
-                if (_mediaFile6 != null)
-                    content6.Add(new StreamContent(_mediaFile6.GetStream()),
-                        "\"file\"",
-                        $"\"{_mediaFile6.Path}\"");
-                var result6 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content6);
-
-                var content7 = new MultipartFormDataContent();
-                if (_mediaFile7 != null)
-                    content7.Add(new StreamContent(_mediaFile7.GetStream()),
-                        "\"file\"",
-                        $"\"{_mediaFile7.Path}\"");
-                var result7 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content7);
-
-                Portafolio_profesional portafolio_Profesional = new Portafolio_profesional()
+                if (IdProfesionalValidar != 0)
                 {
-                    nombre = nombreEntry.Text,
-                    imagen_1 = ruta,
-                    imagen_2 = ruta2,
-                    imagen_3 = ruta3,
-                    imagen_4 = ruta4,
-                    imagen_5 = ruta5,
-                    imagen_6 = ruta6,
-                    imagen_7 = ruta7,
-                    id_profesional = IdProfesional
-                };
+                    if (NombreValidar != null)
+                    {
+                        if (_mediaFile != null || _mediaFile2 != null)
+                        {
 
-                var json = JsonConvert.SerializeObject(portafolio_Profesional);
-                var content1 = new StringContent(json, Encoding.UTF8, "application/json");
-                var result1 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/portafolios/agregarPortafolio_profesional.php", content1);
+                            HttpClient client = new HttpClient();
+                            var content = new MultipartFormDataContent();
+                            content.Add(new StreamContent(_mediaFile.GetStream()),
+                                "\"file\"",
+                                $"\"{_mediaFile.Path}\"");
+                            var result = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content);
 
-                if (result1.StatusCode == HttpStatusCode.OK)
-                {
-                    await DisplayAlert("GUARDAR", "El portafolio se agrego correctamente", "OK");
-                    cargando.IsVisible = false;
-                    await Navigation.PopAsync();
+                            var content2 = new MultipartFormDataContent();
+                            content2.Add(new StreamContent(_mediaFile2.GetStream()),
+                                "\"file\"",
+                                $"\"{_mediaFile2.Path}\"");
+                            var result2 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content2);
+
+                            var content3 = new MultipartFormDataContent();
+                            if (_mediaFile3 != null)
+                                content3.Add(new StreamContent(_mediaFile3.GetStream()),
+                                    "\"file\"",
+                                    $"\"{_mediaFile3.Path}\"");
+                            var result3 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content3);
+
+                            var content4 = new MultipartFormDataContent();
+                            if (_mediaFile4 != null)
+                                content4.Add(new StreamContent(_mediaFile4.GetStream()),
+                                    "\"file\"",
+                                    $"\"{_mediaFile4.Path}\"");
+                            var result4 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content4);
+
+                            var content5 = new MultipartFormDataContent();
+                            if (_mediaFile5 != null)
+                                content5.Add(new StreamContent(_mediaFile5.GetStream()),
+                                    "\"file\"",
+                                    $"\"{_mediaFile5.Path}\"");
+                            var result5 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content5);
+
+                            var content6 = new MultipartFormDataContent();
+                            if (_mediaFile6 != null)
+                                content6.Add(new StreamContent(_mediaFile6.GetStream()),
+                                    "\"file\"",
+                                    $"\"{_mediaFile6.Path}\"");
+                            var result6 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content6);
+
+                            var content7 = new MultipartFormDataContent();
+                            if (_mediaFile7 != null)
+                                content7.Add(new StreamContent(_mediaFile7.GetStream()),
+                                    "\"file\"",
+                                    $"\"{_mediaFile7.Path}\"");
+                            var result7 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/subirImagen.php", content7);
+
+                            Portafolio_profesional portafolio_Profesional = new Portafolio_profesional()
+                            {
+                                nombre = nombreEntry.Text,
+                                imagen_1 = ruta,
+                                imagen_2 = ruta2,
+                                imagen_3 = ruta3,
+                                imagen_4 = ruta4,
+                                imagen_5 = ruta5,
+                                imagen_6 = ruta6,
+                                imagen_7 = ruta7,
+                                id_profesional = IdProfesional
+                            };
+
+                            var json = JsonConvert.SerializeObject(portafolio_Profesional);
+                            var content1 = new StringContent(json, Encoding.UTF8, "application/json");
+                            var result1 = await client.PostAsync("http://dmrbolivia.online/api_contratistas/portafolios/agregarPortafolio_profesional.php", content1);
+
+                            if (result1.StatusCode == HttpStatusCode.OK)
+                            {
+                                await DisplayAlert("GUARDAR", "El portafolio se agrego correctamente", "OK");
+                                cargando.IsVisible = false;
+                                await Navigation.PopAsync();
+                            }
+                            else
+                            {
+                                await DisplayAlert("ERROR", result.StatusCode.ToString(), "OK");
+                                cargando.IsVisible = false;
+                                await Navigation.PopAsync();
+                            }
+
+                        }
+                        else
+                        {
+                            await DisplayAlert("ERROR", "Se requiere cargar 2 fotos como minimo", "OK");
+                            cargando.IsVisible = false;
+                        }
+                    }
+                    else
+                    {
+                        await DisplayAlert("ERROR", "Es necesario introducir un Nombre", "OK");
+                        cargando.IsVisible = false;
+                    }
                 }
                 else
                 {
-                    await DisplayAlert("ERROR", result.StatusCode.ToString(), "OK");
+                    await DisplayAlert("ERROR", "Algo salio mal, intentelo nuevamente", "OK");
                     cargando.IsVisible = false;
-                    await Navigation.PopAsync();
                 }
             }
+
+
+
             catch (Exception err)
             {
                 await DisplayAlert("ERROR", err.ToString(), "OK");
