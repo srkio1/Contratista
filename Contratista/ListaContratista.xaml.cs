@@ -98,6 +98,13 @@ namespace Contratista
                 var usuarios = JsonConvert.DeserializeObject<List<Datos.Contratista>>(result);
                 listaContratistas.ItemsSource = usuarios;
             }
+            else if (queryrubro == "Operador")
+            {
+                var url_contratista = new Uri("http://dmrbolivia.online/api_contratistas/contratistas/querys/listaOperador.php");
+                string result = await client.GetStringAsync(url_contratista);
+                var usuarios = JsonConvert.DeserializeObject<List<Datos.Contratista>>(result);
+                listaContratistas.ItemsSource = usuarios;
+            }
         }
 
         private async void ListaContratistas_ItemTapped_1(object sender, ItemTappedEventArgs e)

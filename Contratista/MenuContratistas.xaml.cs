@@ -9,9 +9,9 @@ using Xamarin.Forms.Xaml;
 
 namespace Contratista
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MenuContratistas : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MenuContratistas : ContentPage
+    {
         private string rubro;
         public MenuContratistas()
         {
@@ -126,6 +126,18 @@ namespace Contratista
         private void TapGestureRecognizer_Tapped_9(object sender, EventArgs e)
         {
             rubro = "Vidriero";
+            Navigation.PushAsync(new ListaContratista(rubro));
+        }
+
+        private void BtnOperador_Clicked(object sender, EventArgs e)
+        {
+            rubro = "Operador";
+            Navigation.PushAsync(new ListaContratista(rubro));
+        }
+
+        private void TapGestureRecognizer_Tapped_10(object sender, EventArgs e)
+        {
+            rubro = "Operador";
             Navigation.PushAsync(new ListaContratista(rubro));
         }
     }

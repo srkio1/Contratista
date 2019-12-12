@@ -25,6 +25,7 @@
                                      Source="icon_contactanos"
                                      HorizontalOptions="CenterAndExpand"
                                      VerticalOptions="CenterAndExpand"
+                                 BackgroundColor="White"
                                      CornerRadius="10"
                                      Aspect="Fill"
                                      Clicked="BtnContactanos_Clicked"/>
@@ -36,6 +37,7 @@
                     </StackLayout.GestureRecognizers>
                     <ImageButton x:Name="btnManual"
                                      Source="icon_manual"
+                                 BackgroundColor="White"
                                      HorizontalOptions="CenterAndExpand"
                                      VerticalOptions="CenterAndExpand"
                                      Aspect="Fill"
@@ -48,7 +50,10 @@
                         <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
                     </StackLayout.GestureRecognizers>
                     <ImageButton x:Name="btnInfoApp"
-                                     Source="icon_app_1"
+                                     Source="fondoslpash"
+                                 BackgroundColor="White"
+                                     HeightRequest="58"
+                                     WidthRequest="58"
                                      HorizontalOptions="CenterAndExpand"
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
@@ -62,6 +67,7 @@
                     <ImageButton x:Name="btnTerminos"
                                      Source="icon_terminosycondiciones"
                                      HorizontalOptions="CenterAndExpand"
+                                 BackgroundColor="White"
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnTerminos_Clicked"/>

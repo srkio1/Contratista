@@ -17,6 +17,7 @@
                         <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
                     </Grid.RowDefinitions>
                     <StackLayout Grid.Row="0" Grid.Column="0" Margin="1" BackgroundColor="#FFC500" x:Name="stk_albanil" 
                                  BindingContext="{x:Reference stk_albanil}"
@@ -30,7 +31,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnAlbanil_Clicked"/>
-                        <Label Text="ALBAÑIL" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="ALBAÑIL" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                     <StackLayout Grid.Row="0" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
                         <StackLayout.GestureRecognizers>
@@ -42,7 +43,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnPlomero_Clicked"/>
-                        <Label Text="PLOMERO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="PLOMERO" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                     <StackLayout Grid.Row="1" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
                         <StackLayout.GestureRecognizers>
@@ -54,7 +55,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnSoldador_Clicked"/>
-                        <Label Text="SOLDADOR" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="SOLDADOR" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                     <StackLayout Grid.Row="1" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
                         <StackLayout.GestureRecognizers>
@@ -66,7 +67,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                          Clicked="BtnElectricista_Clicked"/>
-                        <Label Text="ELECTRICISTA" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="ELECTRICISTA" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                     <StackLayout Grid.Row="2" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
                         <StackLayout.GestureRecognizers>
@@ -78,7 +79,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnCarpintero_Clicked"/>
-                        <Label Text="CARPINTERO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="CARPINTERO" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                     <StackLayout Grid.Row="2" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
                         <StackLayout.GestureRecognizers>
@@ -90,7 +91,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnPintor_Clicked"/>
-                        <Label Text="PINTOR" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="PINTOR" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                     <StackLayout Grid.Row="3" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
                         <StackLayout.GestureRecognizers>
@@ -102,7 +103,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnAireAcondicionado_Clicked"/>
-                        <Label Text="AIRE ACONDICIONADO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="AIRE ACONDICIONADO" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                     <StackLayout Grid.Row="3" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
                         <StackLayout.GestureRecognizers>
@@ -114,7 +115,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnCerrajero_Clicked"/>
-                        <Label Text="CERRAJERO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="CERRAJERO" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
 
                     </StackLayout>
                     <StackLayout Grid.Row="4" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
@@ -127,7 +128,7 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnJardinero_Clicked"/>
-                        <Label Text="JARDINERO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="JARDINERO" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                     <StackLayout Grid.Row="4" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
                         <StackLayout.GestureRecognizers>
@@ -139,7 +140,19 @@
                                      VerticalOptions="CenterAndExpand"
                                      CornerRadius="10"
                                      Clicked="BtnVidriero_Clicked"/>
-                        <Label Text="VIDRIERO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="VIDRIERO" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="5" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_10"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnOperador"
+                                     Source="icon_operador"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                     Clicked="BtnOperador_Clicked"/>
+                        <Label Text="OPERADOR DE MAQUINARIA PESADA" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     </StackLayout>
                 </Grid>
             </StackLayout>
