@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Publicidad"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             xmlns:res="clr-namespace:PanCardView.Resources;assembly=PanCardView"
+             xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"> 
+
+    <StackLayout>
+        <cards:CoverFlowView x:Name="carousel1" PositionShiftValue="145" IsCyclical="True">
+            <x:Arguments>
+                <proc:BaseCoverFlowFrontViewProcessor ScaleFactor="0.75" OpacityFactor="0.25" />
+                <proc:BaseCoverFlowBackViewProcessor  ScaleFactor="0.75" OpacityFactor="0.25" />
+            </x:Arguments>
+            <cards:CoverFlowView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView>
+                        <Frame 
+                        Margin="80"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Fill"
+                        HeightRequest="150"
+                        WidthRequest="150"
+                        Padding="0" 
+                        HasShadow="false"
+                        IsClippedToBounds="true"
+                        CornerRadius="10"
+                        BackgroundColor="LightSeaGreen">
+                            <Image Source="{Binding Image}" Aspect="AspectFit"/>
+                        </Frame>
+                    </ContentView>
+                </DataTemplate>
+            </cards:CoverFlowView.ItemTemplate>
+            <controls:LeftArrowControl/>
+            <controls:RightArrowControl/>
+            <controls:IndicatorsControl/>
+        </cards:CoverFlowView>
+    </StackLayout>
+</ContentPage>

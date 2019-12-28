@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.MenuMateriales">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#000000" VerticalOptions="FillAndExpand">
+                <Grid x:Name="mainGrid" BackgroundColor="White" ColumnSpacing="1" VerticalOptions="FillAndExpand" RowSpacing="1" Padding="1,1,1,1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0" Grid.Column="0" Margin="1" BackgroundColor="#666666" x:Name="stk_ferreteria" 
+                                 BindingContext="{x:Reference stk_ferreteria}"
+                                 HeightRequest="{Binding Path=Width}">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnFerreteria"
+                                         Source="icon_ferreteria"
+                                         HorizontalOptions="CenterAndExpand"
+                                         VerticalOptions="CenterAndExpand"
+                                         Aspect="AspectFill"
+                                         CornerRadius="10"
+                                         Clicked="BtnFerreteria_Clicked"/>
+                        </StackLayout>
+                        <Label Text="FERRETERIAS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnBarracas"
+                                     Source="icon_barraca"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnBarracas_Clicked"/>
+                        </StackLayout>
+                        <Label Text="BARRACAS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="0" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnCemento"
+                                     Source="icon_cemento"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnCemento_Clicked"/>
+                        </StackLayout>
+                        <Label Text="CEMENTO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="1" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnAridos"
+                                     Source="icon_aridos"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnAridos_Clicked"/>
+                        </StackLayout>
+                        <Label Text="AGREGADOS/ARIDOS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="0" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnVidrieria"
+                                     Source="icon_vidrieria"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnVidrieria_Clicked"/>
+                        </StackLayout>
+                        <Label Text="VIDRIERIA" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="1" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnCeramica"
+                                     Source="icon_ceramica"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnCeramica_Clicked"/>
+                        </StackLayout>
+                        <Label Text="CERAMICA" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="3" Grid.Column="0" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_6"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnLadrillo"
+                                     Source="icon_ladrillo"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnLadrillo_Clicked"/>
+                        </StackLayout>
+                        <Label Text="LADRILLOS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="3" Grid.Column="1" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_10"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnAcero"
+                                     Source="icon_acero"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnAcero_Clicked"/>
+                        </StackLayout>
+                        <Label Text="ACERO Y CALAMINAS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="4" Grid.Column="0" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_7"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnPretensados"
+                                     Source="icon_pretensados"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnPretensados_Clicked"/>
+                        </StackLayout>
+                        <Label Text="PRETENSADOS Y PREMODELADOS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="4" Grid.Column="1" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_8"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnTuberias"
+                                     Source="icon_tuberias"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnTuberias_Clicked"/>
+                        </StackLayout>
+                        <Label Text="TUBERIAS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="5" Grid.Column="0" Margin="1" BackgroundColor="#666666">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_9"/>
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout HeightRequest="48" WidthRequest="48" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton x:Name="btnCables"
+                                     Source="icon_cables"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                         Clicked="BtnCables_Clicked"/>
+                        </StackLayout>
+                        <Label Text="CABLES" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

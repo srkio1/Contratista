@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.AgregarCurriculum">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nombre: " FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Entry x:Name="txtNombre" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Fecha nacimiento: " FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Entry x:Name="txtFechaNac" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Telefono: " FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Entry x:Name="txtTelefono" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Email: " FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Entry x:Name="txtEmail" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="FORMACION ACADEMICA" FontAttributes="Bold" FontSize="Large"/>
+                        <Button x:Name="agregarFormacionAcademica" Text="AGREGAR" HorizontalOptions="End" Clicked="AgregarFormacionAcademica_Clicked"/>
+                    </StackLayout>
+                    <StackLayout x:Name="stkAcademica"/>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="EXPERIENCIA LABORAL" FontAttributes="Bold" FontSize="Large"/>
+                        <Button x:Name="agregarExperienciaLaboral" Text="AGERGAR" HorizontalOptions="End" Clicked="AgregarExperienciaLaboral_Clicked"/>
+                    </StackLayout>
+                    <StackLayout x:Name="stkLaboral"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

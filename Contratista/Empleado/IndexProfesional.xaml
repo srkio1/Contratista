@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.IndexProfesional">
+    <ContentPage Title="Datos">
+        <ContentPage.Content>
+            <ScrollView>
+                <StackLayout Padding="5, 5, 5, 5" x:Name="stkDatos">
+                    <StackLayout BackgroundColor="Yellow" HeightRequest="200" Orientation="Horizontal">
+                        <Image x:Name="img_perfil" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="Nombre: " FontSize="Medium" TextColor="Black" FontAttributes="Bold"  WidthRequest="150"/>
+                        <Label x:Name="txtNombre" FontSize="Medium" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="Telefono: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                        <Label x:Name="txtTelefono" FontSize="Medium" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="Email: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                        <Label x:Name="txtEmail" FontSize="Medium" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="Rubro: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                        <Label x:Name="txtRubro" FontSize="Medium" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="Estado: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                        <Label x:Name="txtEstado" FontSize="Medium" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="Prioridad: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                        <Label x:Name="txtPrioridad" FontSize="Medium" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="Descripcion: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                        <Label x:Name="txtDescripcion" FontSize="Medium" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="NIT: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                        <Label x:Name="txtNit" FontSize="Medium" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                        <Label Text="Curriculum: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150" VerticalOptions="Center"/>
+                        <Label x:Name="txtCurriculum" FontSize="Medium" TextColor="Black" VerticalOptions="Center"/>
+                        <Button Text="Ver" VerticalOptions="Center" Clicked="Button_Clicked_1"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Button Text="Modificar informacion" x:Name="Modificar" Clicked="Modificar_Clicked" CornerRadius="5"/>
+                    </StackLayout>
+                    <StackLayout Padding="5, 20, 5, 10" VerticalOptions="EndAndExpand">
+                        <Label Text="Tienes alguna consulta o sugerencia?" TextColor="Black" HorizontalOptions="Center"/>
+                        <Button Text="Contactar soporte" VerticalOptions="End" BackgroundColor="Black" TextColor="White" Clicked="Button_Clicked_2"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="Portafolio">
+        <ScrollView>
+            <StackLayout Orientation="Vertical" x:Name="stkPortafolio" >
+                <StackLayout Orientation="Horizontal" BackgroundColor="White" HeightRequest="100">
+                    <Label Text="MIS PORTAFOLIOS" FontSize="Large" HorizontalOptions="Start" FontAttributes="Bold" VerticalOptions="Center" TextColor="Black"/>
+                    <Button Text="Agregar" HorizontalOptions="EndAndExpand" VerticalOptions="Start" Clicked="Button_Clicked"/>
+                </StackLayout>
+                <StackLayout x:Name="stkListaPortafolio">
+                    <ListView x:Name="listPortafolios" RowHeight="50"
+                              ItemTapped="OnItemSelected" BackgroundColor="Transparent"
+                              SeparatorVisibility="None"
+                              HasUnevenRows="True"
+                              >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Frame CornerRadius="5"
+                               HasShadow="True"
+                               Margin="5">
+                                        <Label Text="{Binding nombre}"
+                                          TextColor="Black" FontAttributes="Bold"/>
+                                    </Frame>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

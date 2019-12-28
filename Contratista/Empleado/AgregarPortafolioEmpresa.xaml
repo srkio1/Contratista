@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Empleado.AgregarPortafolioEmpresa"
+             xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nombre: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Entry x:Name="nombreEntry" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 1: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen1Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreimg1" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg1" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg1_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 2: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen2Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreImg2" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg2" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg2_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 3: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen3Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreImg3" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg3" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg3_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 4: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen4Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreImg4" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg4" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg4_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 5: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen5Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreImg5" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg5" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg5_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 6: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen6Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreImg6" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg6" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg6_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Imagen 7: " HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <StackLayout>
+                        <Image x:Name="imagen7Entry" HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
+                        <Label x:Name="nombreImg7" TextColor="Black"/>
+                    </StackLayout>
+                    <Button x:Name="agregarImg7" Text="AGREGAR IMAGEN" HeightRequest="50" VerticalOptions="Center" Clicked="AgregarImg7_Clicked"/>
+                </StackLayout>
+                <StackLayout>
+                    <busyindicator:SfBusyIndicator
+                        AnimationType="Rectangle"
+                        HorizontalOptions="Center"
+                        IsVisible="False"
+                        Title="Cargando"
+                        ViewBoxWidth="80"
+                        ViewBoxHeight="80"
+                        x:Name="cargando"/>
+                </StackLayout>
+                <StackLayout>
+                    <Button Text="GUARDAR" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+                    <Label x:Name="txt1" FontSize="Medium"/>
+                    <Label x:Name="txt2" FontSize="Medium"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

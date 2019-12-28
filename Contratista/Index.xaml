@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contratista.Index"
+            xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+            xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             xmlns:res="clr-namespace:PanCardView.Resources;assembly=PanCardView"
+             xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+            BarBackgroundColor="Black"
+            BarTextColor="White"
+            NavigationPage.HasNavigationBar="False">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="CATEGORIAS" Icon="ic_action_developer_board.png">
+        <ScrollView>
+            <StackLayout BackgroundColor="#000000">
+                <StackLayout HorizontalOptions="Fill" HeightRequest="60" BackgroundColor="Black">
+                    <Label Text="SELECCIONA UNA CATEGORIA" FontSize="Large" VerticalOptions="CenterAndExpand" TextColor="White"  HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" Padding="0,0,0,5">
+                    <SearchBar x:Name="buscador" Placeholder="Buscar..." VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="White" SearchButtonPressed="Buscador_SearchButtonPressed"/>
+                </StackLayout>
+                <StackLayout x:Name="stkScroll" VerticalOptions="Fill">
+                    <cards:CoverFlowView x:Name="carousel1" PositionShiftValue="75" IsCyclical="True" IsAutoNavigatingAnimationEnabled="True"
+                                         SlideShowDuration="3000">
+                        <x:Arguments>
+                            <proc:BaseCoverFlowFrontViewProcessor ScaleFactor="0.75" OpacityFactor="0.25" />
+                            <proc:BaseCoverFlowBackViewProcessor  ScaleFactor="0.75" OpacityFactor="0.25" />
+                        </x:Arguments>
+                        <cards:CoverFlowView.ItemTemplate>
+                            <DataTemplate>
+                                <ContentView>
+                                    <Frame 
+                                        Margin="20"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Fill"
+                                        HeightRequest="150"
+                                        WidthRequest="150"
+                                        Padding="0" 
+                                        HasShadow="false"
+                                        IsClippedToBounds="true"
+                                        CornerRadius="10"
+                                        BackgroundColor="White">    
+                                        <Image Source="{Binding Image}" Aspect="AspectFit"/>
+                                    </Frame>
+                                </ContentView>
+                            </DataTemplate>
+                        </cards:CoverFlowView.ItemTemplate>
+                    </cards:CoverFlowView>
+                    
+                </StackLayout>
+                <Grid  BackgroundColor="White" ColumnSpacing="1" RowSpacing="1" VerticalOptions="FillAndExpand" Padding="1,1,1,1" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0" Grid.Column="0" Margin="1" BackgroundColor="#FFC500" x:Name="stkContratista"
+                        BindingContext="{x:Reference stkContratista}"
+                                 HeightRequest="{Binding Path=Width}">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIalbanil"
+                                     Source="icon_contratistas"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"
+                                     Aspect="Fill"
+                                     Clicked="BtnIalbanil_Clicked"/>
+                        <Label Text="CONTRATISTAS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIpintor"
+                                     Source="icon_profesional"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     Aspect="Fill"
+                                     CornerRadius="10"/>
+                        <Label Text="PROFESIONALES" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIplomero"
+                                     Source="icon_servicios"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"/>
+                        <Label Text="SERVICIOS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIcarpintero"
+                                     Source="icon_material"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"/>
+                        <Label Text="MATERIAL" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Grid.Column="0" Margin="1" BackgroundColor="#FFC500">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton x:Name="btnIcontratista"
+                                     Source="icon_empresas"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"/>
+                        <Label Text="EMPRESAS" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>                    
+                        <StackLayout Grid.Row="2" Grid.Column="1" Margin="1" BackgroundColor="#FFC500">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"/>
+                            </StackLayout.GestureRecognizers>
+                            <ImageButton x:Name="btnInfo"
+                                     Source="icon_info"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     CornerRadius="10"/>
+                            <Label Text="INFO" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        </StackLayout>
+                    
+                </Grid>
+                <Button x:Name="btnPublicidad" Text="PUBLICIDAD" Clicked="BtnPublicidad_Clicked" IsVisible="False"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+   
+    <ContentPage Title="INICIAR SESION">
+        <ScrollView>
+            <StackLayout VerticalOptions="Center">
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                    <StackLayout Orientation="Vertical" >
+                        <Entry x:Name="usuarioEntry" Placeholder="Usuario" WidthRequest="300" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Entry x:Name="contrasenaEntry" Placeholder="Contraseña" WidthRequest="300" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+                <busyindicator:SfBusyIndicator
+                        AnimationType="DoubleCircle"
+                        HorizontalOptions="Center"
+                        IsVisible="False"
+                        Title="Cargando"
+                        ViewBoxWidth="80"
+                        ViewBoxHeight="80"
+                        x:Name="cargando"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button x:Name="btnIngresar" Text="Ingresar" WidthRequest="120" HorizontalOptions="Center" Clicked="BtnIngresar_Clicked"/>
+                    <Button x:Name="btnContactarSoporte" Text="Olvide mi contrasena" WidthRequest="120" HorizontalOptions="Center" Clicked="BtnContactarSoporte_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            NavigationPage.HasBackButton="False"
+             x:Class="Contratista.Empleado.IndexEmpresa">
+    <ContentPage Title="Datos">
+        <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="5, 5, 5, 5" x:Name="stkDatos">
+                <Label x:Name="idEntry" IsVisible="False"/>
+                <StackLayout BackgroundColor="Yellow" HeightRequest="200" Orientation="Horizontal">
+                    <Image x:Name="img_perfil" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Nombre: " FontSize="Medium" TextColor="Black" FontAttributes="Bold"  WidthRequest="150"/>
+                    <Label x:Name="txtNombre" FontSize="Medium" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Telefono: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Label x:Name="txtTelefono" FontSize="Medium" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Email: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Label x:Name="txtEmail" FontSize="Medium" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Rubro: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Label x:Name="txtRubro" FontSize="Medium" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Prioridad: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Label x:Name="txtPrioridad" FontSize="Medium" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="Descripcion: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Label x:Name="txtDescripcion" FontSize="Medium" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="5, 5, 5, 5">
+                    <Label Text="NIT: " FontSize="Medium" TextColor="Black" FontAttributes="Bold" WidthRequest="150"/>
+                    <Label x:Name="txtNit" FontSize="Medium" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout>
+                    <Button Text="Modificar informacion" x:Name="modificar" Clicked="Modificar_Clicked"/>
+                </StackLayout>
+                <StackLayout Padding="5, 20, 5, 10" VerticalOptions="End">
+                    <Label Text="Tienes alguna consulta o sugerencia?" TextColor="Black" HorizontalOptions="Center"/>
+                    <Button Text="Contactar soporte" VerticalOptions="End" BackgroundColor="Black" TextColor="White" Clicked="Button_Clicked_1"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+<ContentPage Title="Portafolio">
+    <ScrollView>
+        <StackLayout x:Name="stkPortafolio">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="MIS PORTAFOLIOS" FontSize="Large" HorizontalOptions="Start"/>
+                <Button Text="Agregar" HorizontalOptions="EndAndExpand" VerticalOptions="Start" Clicked="Button_Clicked"/>
+            </StackLayout>
+            <StackLayout x:Name="stkListaPortafolio" BackgroundColor="WhiteSmoke">
+                <ListView x:Name="listPortafolios" RowHeight="50"
+                              ItemTapped="ListPortafolios_ItemTapped"  BackgroundColor="Transparent"
+                              SeparatorVisibility="None"
+                              HasUnevenRows="True"
+                              >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame CornerRadius="5"
+                               HasShadow="True"
+                               Margin="5">
+                                    <Label Text="{Binding nombre}"
+                                          TextColor="Black" FontAttributes="Bold"/>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+    </ContentPage>
+</TabbedPage>
