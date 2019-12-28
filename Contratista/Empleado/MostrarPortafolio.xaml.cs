@@ -107,7 +107,7 @@ namespace Contratista.Empleado
                     }
                     catch (Exception err)
                     {
-                        await DisplayAlert("Error", "Algo salio mal, intentalo de nuevo", "OK");
+                        await DisplayAlert("Error", "Algo salio mal, Intentalo de nuevo", "OK");
                         ReportesLogs reportesLogs = new ReportesLogs()
                         {
                             descripcion = err.ToString(),
