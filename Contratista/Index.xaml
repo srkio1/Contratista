@@ -47,7 +47,7 @@
                             </DataTemplate>
                         </cards:CoverFlowView.ItemTemplate>
                     </cards:CoverFlowView>
-                    
+                    <!--comentario-->
                 </StackLayout>
                 <Grid  BackgroundColor="White" ColumnSpacing="1" RowSpacing="1" VerticalOptions="FillAndExpand" Padding="1,1,1,1" >
                     <Grid.ColumnDefinitions>
